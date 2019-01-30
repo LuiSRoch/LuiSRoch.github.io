@@ -47,15 +47,14 @@ permalink: /collaboration/
 <h2> Contact </h2>
 
 If you are interested in working with me, fill out the form or send an email to my-email[at]gmail.com.
-<br />
-
+<br/>
 <html>
 <head>
 <style> 
 textarea {
-  width: 80%;
+  width: 70%;
   height: 100px;
-  padding: 8px 15px;
+  padding: 7px 14px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -70,8 +69,9 @@ textarea {
 <br/>
     <div id='formview'>
       <form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
-        <input type="email" name="email" placeholder="Your email address" /><br/>
-        <textarea>Your message
+        <input type="email" name="email" placeholder="Your email address" />
+        <br/>
+        <textarea placeholder="Your Message">
         </textarea>
         <input type="hidden" name="_subject" value="request" />
         <input type="text" name="_gotcha" style="display:none" />
