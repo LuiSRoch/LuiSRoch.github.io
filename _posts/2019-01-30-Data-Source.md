@@ -61,4 +61,19 @@ title:  "Data & Tools"
 
 <h1 class="section-front-header-module__title">Other</h1>
 
-    Under Construction
+    <time class="hub-timestamp" itemprop="dateModified" datetime="2019-01-30T14:35:13.137Z" data-locale="en" data-status="">
+            
+        <script class="hub-timestamp__format" type="application/json">
+            {"year":"numeric","month":"long","day":"numeric","hour":"numeric","minute":"numeric","timeZoneName":"short"}
+        </script>
+        <noscript>January 30, 2019, 9:35 AM EST</noscript>
+    
+        </time>
+    
+        </article>
+    
+        <article id="custombox-premium-europe-1" class="story-package-module__story story-ad page-ad" data-position="custombox1">
+            <script class="params" type="application/json">{"pageId":"premium-europe","position":"custombox1","dimensions":{"all":[[5,4],[1,1]]},"type":"custombox","targeting":{"position":"custombox1","page":"premium-europe","edition":"europe"},"containerId":"custombox-premium-europe-1"}</script>
+        </article>
+    
+            </div>
