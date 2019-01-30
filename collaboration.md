@@ -52,11 +52,11 @@ If you are interested in working with me, fill out the form or send an email to 
 <head>
 <style> 
 textarea {
-  width: 70%;
-  height: 100px;
-  padding: 7px 14px;
+  width: 60%;
+  height: 90px;
+  padding: 6px 12px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f8;
   font-size: 12px;
@@ -69,12 +69,11 @@ textarea {
 <br/>
     <div id='formview'>
       <form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
-        <input type="email" name="email" placeholder="Your email address" />
+        <input type="email" name="email" placeholder="Your email address">
         <br/>
-        <textarea placeholder="Your Message">
-        </textarea>
-        <input type="hidden" name="_subject" value="request" />
-        <input type="text" name="_gotcha" style="display:none" />
-          <button type="submit">Send</button>
+        <textarea type="message" placeholder="Your Message" /></textarea>
+          <input type="hidden" name="_subject" value="request" />
+            <input type="text" name="_gotcha" style="display:none" />
+              <button type="submit">Send</button>
       </form>
     </div>
