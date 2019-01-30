@@ -53,14 +53,14 @@ If you are interested in working with me, fill out the form or send an email to 
 <head>
 <style> 
 textarea {
-  width: 100%;
-  height: 80px;
-  padding: 6px 10px;
+  width: 80%;
+  height: 100px;
+  padding: 8px 15px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f8;
-  font-size: 11px;
+  font-size: 12px;
   resize: none;
 }
 </style>
@@ -71,6 +71,7 @@ textarea {
     <div id='formview'>
       <form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
         <input type="email" name="email" placeholder="Your email address" />
+        
         <textarea name="message" placeholder="Your message">
         </textarea>
         <input type="hidden" name="_subject" value="request" />
