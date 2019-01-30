@@ -49,6 +49,11 @@ permalink: /collaboration/
 If you are interested in working with me, fill out the form or send an email to my-email[at]gmail.com.
 <br /><br />
 
+<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <form class="form-horizontal" style="margin-top:1em;margin-bottom:1em;" action="/search">
+  </form>
+</div>
+
 <div class="col-1-2">
     <div id='formview'>
       <form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
