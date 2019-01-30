@@ -71,9 +71,8 @@ textarea {
       <form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
         <input type="email" name="email" placeholder="Your email address">
         <br/>
-        <textarea type="message" name="message" placeholder="Your Message"></textarea>
-          <input type="hidden" name="_subject" value="request" />
-            <input type="text" name="_gotcha" style="display:none" />
+        <textarea type="message" placeholder="Your Message"></textarea>
+          <input type="hidden" name="_subject" value="request">
               <button type="submit">Send</button>
       </form>
     </div>
