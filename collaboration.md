@@ -48,12 +48,16 @@ permalink: /collaboration/
 If you are interested in working with me, fill out the form or send an email to my-email[at]gmail.com.
 <br /><br />
 
-<form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
-  <input type="email" name="email" placeholder="Your email address">
-  <textarea name="message" placeholder="Your message">
-  </textarea>
-  <input type="hidden" name="_subject" value="request" />
-  <input type="text" name="_gotcha" style="display:none" />
-  <button type="submit">Send
-  </button>
-</form>
+<div class="col-1-3">
+  <small class="code-label">Contact</small>
+    <div id='formview'>
+      <form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
+        <input type="email" name="email" placeholder="Your email address" />
+        <textarea name="message" placeholder="Your message">
+        </textarea>
+        <input type="hidden" name="_subject" value="request" />
+        <input type="text" name="_gotcha" style="display:none" />
+          <button type="submit">Send</button>
+      </form>
+    </div>
+</div>
