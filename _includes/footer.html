@@ -5,7 +5,6 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col col-1">
-      <h2 class="footer-heading">{{ site.title | escape }}</h2>
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
@@ -17,11 +16,7 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-1">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-
-      <div class="social-links">
+      <div class="social-links" footer-col-1>
         {%- include social.html -%}
       </div>
     </div>
