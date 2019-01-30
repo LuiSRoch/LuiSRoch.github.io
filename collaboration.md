@@ -10,7 +10,6 @@ permalink: /collaboration/
 
     <div class="site">
       <header class="site-header">
-    </div>
 
 <!-- site-header -->
    <div class="page-content">
@@ -44,15 +43,22 @@ permalink: /collaboration/
   </div>
 </div>
 -->
+
 <h2> Contact </h2>
 
 If you are interested in working with me, fill out the form or send an email to my-email[at]gmail.com.
 <br /><br />
 
-<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <form class="form-horizontal" style="margin-top:1em;margin-bottom:1em;" action="/search">
-  </form>
-</div>
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
 
 <div class="col-1-2">
     <div id='formview'>
