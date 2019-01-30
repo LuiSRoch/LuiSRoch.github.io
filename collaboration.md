@@ -73,6 +73,7 @@ textarea {
         <br/>
         <textarea type="message" placeholder="Your Message"></textarea>
           <input type="hidden" name="_subject" value="request">
-              <button type="submit">Send</button>
+          <input type="text" name="_gotcha" style="display:none">
+          <button type="submit">Send</button>
       </form>
     </div>
