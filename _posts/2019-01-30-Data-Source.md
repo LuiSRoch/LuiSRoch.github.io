@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Data & Tools"
-date:   2019-01-29 13:47:31 +0100
-categories: jekyll update
 ---
 <iframe style="border: 1px solid #333333; overflow: hidden; width: 190px; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="250" width="320" frameborder="0" scrolling="no"></iframe>
 -----------------------
