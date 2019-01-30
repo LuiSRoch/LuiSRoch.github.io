@@ -2,7 +2,7 @@ title: Data Reporting Analyst
 email: your-email@domain.com
 description: > # this means to ignore newlines until "twitter_username:"
   Data feeds - News - Tools for Tech - Finance & Economics
-
+github_username: LuisFRoch
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -41,6 +41,7 @@ minima:
 # - about.md
 
 # Build settings
+markdown: kramdown
 theme: minima
 
 plugins:
