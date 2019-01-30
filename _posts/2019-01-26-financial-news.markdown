@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Financial News"
-date:   2019-01-26 13:47:31 +0100
-categories: jekyll update
 ---
 
 <div class="navi-markets-bar">
