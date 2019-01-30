@@ -10,6 +10,7 @@ permalink: /collaboration/
 
     <div class="site">
       <header class="site-header">
+    </div>
 
 <!-- site-header -->
    <div class="page-content">
@@ -48,8 +49,7 @@ permalink: /collaboration/
 If you are interested in working with me, fill out the form or send an email to my-email[at]gmail.com.
 <br /><br />
 
-<div class="col-1-3">
-  <small class="code-label">Contact</small>
+<div class="col-1-2">
     <div id='formview'>
       <form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
         <input type="email" name="email" placeholder="Your email address" />
