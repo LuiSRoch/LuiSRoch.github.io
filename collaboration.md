@@ -48,7 +48,7 @@ permalink: /collaboration/
 
 If you are interested in working with me, fill out the form or send an email to my-email[at]gmail.com.
 <br /><br />
------
+---------------------
 <!DOCTYPE html>
 <html>
 <head>
@@ -76,7 +76,7 @@ textarea {
 
 </body>
 </html>
------
+---------------------
 <br/>
 <div class="col-1-2">
     <div id='formview'>
