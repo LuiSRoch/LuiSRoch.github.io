@@ -49,7 +49,7 @@ permalink: /collaboration/
 If you are interested in working with me, fill out the form or send an email to my-email[at]gmail.com.
 <br /><br />
 
-textarea {
+input[type=text] {
   width: 100%;
   height: 150px;
   padding: 12px 20px;
