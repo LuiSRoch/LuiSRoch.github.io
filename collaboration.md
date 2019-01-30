@@ -48,8 +48,12 @@ permalink: /collaboration/
 
 If you are interested in working with me, fill out the form or send an email to my-email[at]gmail.com.
 <br /><br />
-
-input[type=text] {
+-----
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+textarea {
   width: 100%;
   height: 150px;
   padding: 12px 20px;
@@ -57,9 +61,23 @@ input[type=text] {
   border: 2px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f8;
+  font-size: 16px;
   resize: none;
 }
+</style>
+</head>
+<body>
 
+<p><strong>Tip:</strong> Use the resize property to prevent textareas from being resized (disable the "grabber" in the bottom right corner):</p>
+
+<form>
+  <textarea>Some text...</textarea>
+</form>
+
+</body>
+</html>
+-----
+<br/>
 <div class="col-1-2">
     <div id='formview'>
       <form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
