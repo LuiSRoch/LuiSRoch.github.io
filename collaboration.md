@@ -14,8 +14,8 @@ permalink: /collaboration/
 <!-- site-header -->
    <div class="page-content">
 
-    I work on interpretable data analysis and reporting, which is the union of statistics and visualization
-	using a combination of tools; from Python & SQL to Tableau.
+    I work on interpretable data analysis and reporting, which is a combination of data mining, 
+    statistics and visualization using a combination of tools; from Python & SQL to Tableau.
 	<br />
 
    </div>
