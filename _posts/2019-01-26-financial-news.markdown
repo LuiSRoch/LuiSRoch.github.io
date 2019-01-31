@@ -90,7 +90,7 @@ title:  "Financial News"
 
         </time>
 
-        
+       
 
         <article class="story-package-module__story" data-id="PM1SAI6S972A01" data-type="article"  data-updated-at="2019-01-28T15:27:54.966Z">
 
@@ -118,6 +118,10 @@ title:  "Financial News"
 
         <article class="story-package-module__story" data-id="PM1EJT6JTSE801" data-type="article"  data-updated-at="2019-01-28T15:00:33.686Z">
 
+------------------------------------------------- 
+
+<section class="story-package-module" id="hub_story_package" data-theme="" data-variation="4_up_deks">
+
         <section class="story-package-module__story__eyebrow">
             <a href="/markets" class="story-package-module__story__eyebrow-link">
                 Markets
@@ -139,5 +143,5 @@ title:  "Financial News"
         </time>
 
         </article>
-   
+   </section>
  </div>
