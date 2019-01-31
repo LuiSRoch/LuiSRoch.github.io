@@ -71,21 +71,6 @@ title:  "Financial News"
         
 <div class="navi-breaking-news" data-home="true" data-regions="global europe" data-show-on-target-page="true" data-intent="breaking-news" data-state="breaking-news"></div>
 
-            <div class="thirdparty-embed">
-                <div class="thirdparty-embed__container">
-                    <iframe
-                        src="https://www.bloomberg.com/europe"
-                        allowfullscreen="true"
-                        frameborder="0"
-                        scrolling="no"
-                        width="100%"
-
-                        height="250"
-                        data-embed-id="https://www.bloomberg.com/europe">
-                    </iframe>
-                </div>
-            </div>
-
    
         
 		<h1 class="story-package-module__story__headline">
