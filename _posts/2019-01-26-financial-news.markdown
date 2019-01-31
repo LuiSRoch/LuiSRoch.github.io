@@ -69,10 +69,12 @@ title:  "Financial News"
             Economics
         </section>
         
-<div class="navi-breaking-news" data-home="true" data-regions="global europe" data-show-on-target-page="true" data-intent="breaking-news" data-state="breaking-news"></div>
+<section class="story-package-module" id="hub_story_package" data-theme="" data-variation="4_up_deks">
+            
+            
+            <div class="story-package-module__stories">
 
-   
-        
+
 		<h1 class="story-package-module__story__headline">
             <a href="/news/articles/2019-01-28/draghi-blames-trade-global-uncertainties-for-euro-area-s-woes?srnd=economics-vp" class="story-package-module__story__headline-link" onclick="">
                 Draghi Doesn't See Need for More Stimulus to Combat Growth Woes
@@ -137,3 +139,5 @@ title:  "Financial News"
         </time>
 
         </article>
+        
+ </div>
