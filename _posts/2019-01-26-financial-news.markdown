@@ -18,7 +18,7 @@ title:  "Financial News"
             </div>
         </div>
     </div>
-</div>
+
 
 <h1 class="section-front-header-module__title">Markets</h1>
 
