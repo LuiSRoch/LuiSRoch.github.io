@@ -30,12 +30,11 @@ title:  "Financial News"
                         frameborder="0"
                         scrolling="no"
                         width="100%"
-
                         height="100"
                         data-embed-id="https://www.bloomberg.com/markets/components/data-drawer?linksType=tout&showTabs=true">
 										</iframe>
                 </div>
-            </div>
+ </div>
 
 <section class="embed-module" id="sector_performance" data-variation="">
 
@@ -47,7 +46,6 @@ title:  "Financial News"
                         frameborder="0"
                         scrolling="no"
                         width="100%"
-
                         height="250"
                         data-embed-id="https://www.bloomberg.com/markets/components/sectors">
                     </iframe>
@@ -71,7 +69,7 @@ title:  "Financial News"
             Economics
         </section>
         
-        <section class="embed-module" data-variation="">
+<div class="navi-breaking-news" data-home="true" data-regions="global europe" data-show-on-target-page="true" data-intent="breaking-news" data-state="breaking-news"></div>
 
             <div class="thirdparty-embed">
                 <div class="thirdparty-embed__container">
