@@ -2,10 +2,21 @@
 layout: post
 title:  "Data & Tools"
 ---
+
+
+<div class="projects-wrapper">
+
+    <div class="proj-box-format">
+
 <iframe style="border: 1px solid #333333; overflow: hidden; width: 200px; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="250" width="320" frameborder="0" scrolling="yes" align="left"></iframe>
 
+</div>
+    <div class="proj-box-format">
 
 <iframe src="https://sslecal2.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,timezone&countries=37,72,22,17,10,35,43,56,12,4,5&calType=week&timeZone=8&lang=1" width="350" height=245" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" align="right"></iframe>
+</div>
+
+</div>
 -----------------------
 <br/>
 <div class="col-xs-12" id="fred-homepage-bluebox" style="padding-left: 0; padding-right: 0;">
