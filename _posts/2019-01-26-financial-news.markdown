@@ -30,7 +30,6 @@ title:  "Financial News"
                         frameborder="0"
                         scrolling="no"
                         width="100%"
-
                         height="100"
                         data-embed-id="https://www.bloomberg.com/markets/components/data-drawer?linksType=tout&showTabs=true">
 										</iframe>
@@ -47,7 +46,6 @@ title:  "Financial News"
                         frameborder="0"
                         scrolling="no"
                         width="100%"
-
                         height="250"
                         data-embed-id="https://www.bloomberg.com/markets/components/sectors">
                     </iframe>
@@ -68,8 +66,23 @@ title:  "Financial News"
 <h2 class="section-front-header-module__title">Daily News</h2>
 
 			  <section class="story-package-module__story__eyebrow">
-            economics
+            Economics
         </section>
+        
+             <div class="thirdparty-embed">
+                <div class="thirdparty-embed__container">
+                    <iframe
+                        src="https://www.bloomberg.com/europe"
+                        allowfullscreen="true"
+                        frameborder="0"
+                        scrolling="no"
+                        width="100%"
+                        height="250"
+                        data-embed-id="https://www.bloomberg.com/europe">
+                    </iframe>
+                </div>
+            </div>
+        
 		<h1 class="story-package-module__story__headline">
             <a href="/news/articles/2019-01-28/draghi-blames-trade-global-uncertainties-for-euro-area-s-woes?srnd=economics-vp" class="story-package-module__story__headline-link" onclick="">
                 Draghi Doesn't See Need for More Stimulus to Combat Growth Woes
