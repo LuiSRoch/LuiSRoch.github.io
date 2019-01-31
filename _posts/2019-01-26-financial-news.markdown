@@ -71,7 +71,7 @@ title:  "Financial News"
             Economics
         </section>
         
-        <section class="embed-module" id="sector_performance" data-variation="">
+        <section class="embed-module" data-variation="">
 
             <div class="thirdparty-embed">
                 <div class="thirdparty-embed__container">
