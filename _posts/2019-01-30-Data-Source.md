@@ -3,6 +3,8 @@ layout: post
 title:  "Data & Tools"
 ---
 
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Data provided by <a href="https://fred.stlouisfed.org/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Federal Reserver Bank of St. Louis</a></span></div>
+
 <div class="proj-box-format">
   <div class="col-xs-12" id="fred-homepage-bluebox" style="padding-left: 0; padding-right: 0;">
     <div class="col-xs-12" style="padding-left: 0; padding-right: 0;">
@@ -21,7 +23,7 @@ title:  "Data & Tools"
     </div>
 </div>
 <br /> 
-<iframe style="border: 1px solid #333333; overflow: hidden; width: 190px; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="250" width="320" frameborder="0" scrolling="yes"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Data provided by <a href="https://fred.stlouisfed.org/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Federal Reserver Bank of St. Louis</a></span></div><iframe src="https://sslecal2.forexprostools.com columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,calType=week=8" width="500" height="245" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" align="right"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 11px;color: #333333;text-decoration: none;">Real Time Economic Calendar provided by <a href="https://www.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Investing.com</a></span></div>
+<iframe style="border: 1px solid #333333; overflow: hidden; width: 190px; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="250" width="320" frameborder="0" scrolling="yes"></iframe><iframe src="https://sslecal2.forexprostools.com columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,calType=week=8" width="500" height="245" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" align="right"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 11px;color: #333333;text-decoration: none;">Real Time Economic Calendar provided by <a href="https://www.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Investing.com</a></span></div>
 
 </div>
 <hr>
