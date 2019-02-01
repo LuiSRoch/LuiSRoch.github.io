@@ -11,7 +11,7 @@ title:  "Data & Tools"
         <div class="col-xs-12 col-sm-4 col-sm-push-8 text-right" style="padding-right: 1em;"></div>
         <div class="col-xs-12" style="padding-left: 0; padding-right: 0;">
             <div id="fred-homepage-description" class="hidden-xs col-sm-12 text-center" align="right">
-              <a href="https://fred.stlouisfed.org/tags/series" align="right"><strong>528,000</strong> US and international time series</a> from <a href="https://fred.stlouisfed.org/sources" align="right"><strong>87</strong> sources</a>.
+              <a href="https://fred.stlouisfed.org/tags/series" align="right"><strong>528,000</strong> US and international time series</a> from <a href="https://fred.stlouisfed.org/sources" align="right"><strong>87</strong> sources</a>
             </div>
         </div>
         <div class="col-xs-12 col-sm-10 col-sm-offset-1" align="right">
