@@ -21,22 +21,13 @@ title:  "Data & Tools"
               <a href="https://fred.stlouisfed.org/tags/series"><strong>528,000</strong> US and international time series</a> from <a href="https://fred.stlouisfed.org/sources"><strong>87</strong> sources</a>.
             </div>
         </div>
-<meta name="keywords" content="economic data, economic charts, Excel, GDP, CPI, PPI, IP, M1, M2, M3, MZM, Federal Funds Rate, Gross Domestic Product, Consumer Price Index, Producer Price Index, Industrial Production, Interest Rates, Inflation, Exchange Rates, Imports, Exports, Reserves, Money Stock, Employment, Population, Banks Loans, Economic Data, FRED, St. Louis Fed, Federal Reserve">
-<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <form class="form-horizontal" style="margin-top:1em;margin-bottom:1em;" action="/search">
-          <div class="input-group input-group-lg">
-            <input name="st" type="text" class="form-control" placeholder="Search FRED data e.g., gdp, inflation, unemployment" />
-              <a class="input-group-btn">
-                    <button type="submit" class="btn btn-default" style="background-color:#687f9f;color:white">
-                      <i class="fa fa Search">
-                        <div class="input-group-lg" href="https://fred.stlouisfed.org/search?st=">Search
-                        </div>
-                      </i>
-                    </button>
-              </a>
-          </div>
-        </form>
-</div>
+
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+           <form action="https://fred.stlouisfed.org/search?st=&404-search-button=Search" method="GET">
+              <input type="text" id="search" name="st" placeholder="Search FRED data e.g., gdp, inflation, unemployment">
+                <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
+            </form>
+        </div>
     </div>
 </div>
 
@@ -44,21 +35,6 @@ title:  "Data & Tools"
 ----------------------
 
 <br />
-
-<a class="input-group-btn" href="https://fred.stlouisfed.org/search=">Search
-</a>
-
-<div class="error-container">
-<h1>Looking for Something?</h1>
-<p class="large">We're sorry, the page you were looking for cannot be found. Please feel free
-    to <a href="https://research.stlouisfed.org/contactus/">contact us</a> if the problem persists.</p>
-<p class="large">Searching may help find what are you looking for. If all else fails, you can head <a href="/">Home</a></p>
-<form action="/search" id="search-form-404">
-    <label for="search-text">Search for:</label><br>
-    <input type="text" name="st" id="search-text" size="50" class="form-control"> <input type="submit" class="btn btn-default" value="Search" id="404-search-button" name="404-search-button">
-</form>
-</div>
-
 
 <h1 class="section-front-header-module__title">Supply Chain</h1>
 
