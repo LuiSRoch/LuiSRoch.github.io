@@ -6,7 +6,7 @@ title:  "Data & Tools"
   <div class="proj-box-format">
 <iframe style="border: 1px solid #333333; overflow: hidden; width: 190px; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="250" width="320" frameborder="0" scrolling="yes"></iframe>
 
-<iframe src="https://sslecal2.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,timezone&countries=37,72,22,17,10,35,43,56,12,4,5&calType=week&timeZone=8&lang=1" width="500" height="345" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" align="right"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Real Time Economic Calendar provided by <a href="https://www.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Investing.com</a>.</span></div>
+<iframe src="https://sslecal2.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,timezone&countries=37,72,22,17,10,35,43,56,12,4,5&calType=week&timeZone=8&lang=1" width="500" height="245" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" align="right"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Real Time Economic Calendar provided by <a href="https://www.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Investing.com</a>.</span></div>
 
   </div>
 
@@ -21,19 +21,18 @@ title:  "Data & Tools"
               <a href="https://fred.stlouisfed.org/tags/series"><strong>528,000</strong> US and international time series</a> from <a href="https://fred.stlouisfed.org/sources"><strong>87</strong> sources</a>.
             </div>
         </div>
-
+<meta http-equiv="Refresh" content="1; url=https://fred.stlouisfed.org/">
 <div class="col-xs-12 col-sm-10 col-sm-offset-1">
       <form class="form-horizontal" style="margin-top:1em;margin-bottom:1em;" action="/search">
           <div class="input-group input-group-lg">
-            <input name="st" type="text" class="form-control" placeholder="Search FRED data e.g., gdp, inflation, unemployment">
+            <input name="st" type="text" class="form-control" placeholder="Search FRED data e.g., gdp, inflation, unemployment">==$0
               <a class="input-group-btn">
                     <button type="submit" class="btn btn-default" style="background-color:#687f9f;color:white">
-                      <i class="Search">
+                      <i class="Search">==$0
                         <div class="input-group-lg" href="https://fred.stlouisfed.org/search?st=">Search
                         </div>
-                      </i>
-                    </button>
-            </a>
+                      </i></button>
+              </a>
           </div>
         </form>
 </div>
