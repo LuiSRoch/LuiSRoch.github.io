@@ -24,13 +24,6 @@ title:  "Data & Tools"
 <iframe style="border: 1px solid #333333; overflow: hidden; width: 190px; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="250" width="320" frameborder="0" scrolling="yes"></iframe><iframe src="https://sslecal2.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,timezone&countries=37,72,22,17,10,35,43,56,12,4,5&calType=week&timeZone=8&lang=1" width="500" height="245" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" align="right"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Real Time Economic Calendar provided by <a href="https://www.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Investing.com</a>.</span></div>
 
 </div>
-<br />
-
------------------------------------
-
-<iframe src="https://sslecal2.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,timezone&countries=37,72,22,17,10,35,43,56,12,4,5&calType=week&timeZone=8&lang=1" width="500" height="245" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" align="right"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Real Time Economic Calendar provided by <a href="https://www.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Investing.com</a>.</span></div>
-
-----------------------
 
 <br />
 
