@@ -27,11 +27,10 @@ title:  "Data & Tools"
           <div class="input-group input-group-lg">
             <input name="st" type="text" class="form-control" placeholder="Search FRED data e.g., gdp, inflation, unemployment">==
               <a class="input-group-btn">
-                    <button type="submit" class="btn btn-default" style="background-color:#687f9f;color:white">
-                      <i class="Search">==
+                    <button type="submit" class="btn btn-default" style="background-color:#687f9f;color:white"><i class="Search"></i></button>
                         <div class="input-group-lg" href="https://fred.stlouisfed.org/search?st=">Search
                         </div>
-                      </i></button>
+  
               </a>
           </div>
         </form>
