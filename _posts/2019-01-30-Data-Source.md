@@ -6,6 +6,7 @@ title:  "Data & Tools"
   <div class="proj-box-format">
 <iframe style="border: 1px solid #333333; overflow: hidden; width: 190px; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="250" width="320" frameborder="0" scrolling="yes"></iframe>
 
+<iframe src="https://fred.stlouisfed.org/tags/series" height="65" width="430" align="right">
 
 <div class="col-xs-12" id="fred-homepage-bluebox" style="padding-left: 0; padding-right: 0;">
     <div class="col-xs-12" style="padding-left: 0; padding-right: 0;">
@@ -25,6 +26,9 @@ title:  "Data & Tools"
         </div>
     </div>
 </div>
+
+</iframe>
+
 
  </div>
 <br />
