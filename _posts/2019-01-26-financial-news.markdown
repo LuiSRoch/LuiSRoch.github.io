@@ -64,7 +64,6 @@ title:  "Financial News"
         <article class="story-package-module__story" data-id="PM1OZ66JIJUW01" data-type="article"  data-updated-at="2019-01-28T15:28:51.706Z">
 
 <h2 class="section-front-header-module__title">Daily News</h2>
-<meta http-equiv="Refresh" content="5; url=https://www.bloomberg.com/europe">
 
 			  <section class="story-package-module__story__eyebrow">
             Economics
