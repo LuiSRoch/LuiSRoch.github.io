@@ -6,8 +6,8 @@ title:  "Financial News"
 <div class="navi-markets-bar">
 	<h1 class="section-front-header-module__title">Quick Links</h1>
 
-            <a class="navi-quick-links__link" href="https://markets.ft.com/data/commodities">Commodities </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/stocks">Stocks </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/rates-bonds">Rates & Bonds </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/currencies">Currencies </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/stocks/futures">Futures </a> I <a class="navi-quick-links__link" href="/markets/economics">Economics </a> I <a class="navi-quick-links__link" href="/markets/fixed-income">Fixed Income </a> I <a class="navi-quick-links__link" href="https://www.nasdaq.com/etfs">ETFs </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/sectors">Sectors </a>
-
+            <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/commodities">Commodities </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/stocks">Stocks </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/rates-bonds">Rates & Bonds </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/currencies">Currencies </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/stocks/futures">Futures </a> I <a class="navi-quick-links__link" href="https://www.newyorkfed.org/research/global_economy/globalindicators.html">Economics </a> I <a class="navi-quick-links__link" href="https://business.nasdaq.com/intel/indexes/fixed-income/index.html">Fixed Income </a> I <a class="navi-quick-links__link" href="https://www.wsj.com/market-data/mutualfunds-etfs">ETFs </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/sectors">Sectors </a>
+            
     <div class="navi-data-strip">
         <button class="navi-data-strip__play-pause-button is-playing" value="Play/Pause Toggle" alt="Play/Pause Toggle" aria-describedby="play-pause-button-description"></button>
         <span id="play-pause-button-description" style="display:none;">Press this button to toggle pause/play states.</span>
@@ -18,7 +18,7 @@ title:  "Financial News"
             </div>
         </div>
     </div>
-</div>
+
 
 <h1 class="section-front-header-module__title">Markets</h1>
 
