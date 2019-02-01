@@ -4,18 +4,16 @@ title:  "Data & Tools"
 ---
 
   <div class="proj-box-format">
+  
 <iframe style="border: 1px solid #333333; overflow: hidden; width: 190px; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="250" width="320" frameborder="0" scrolling="yes"></iframe>
-
 <div class="col-xs-12" id="fred-homepage-bluebox" style="padding-left: 0; padding-right: 0;" align="right">
     <div class="col-xs-12" style="padding-left: 0; padding-right: 0;">
         <div class="col-xs-12 col-sm-4 col-sm-push-8 text-right" style="padding-right: 1em;"></div>
-
         <div class="col-xs-12" style="padding-left: 0; padding-right: 0;">
             <div id="fred-homepage-description" class="hidden-xs col-sm-12 text-center" align="right">
               <a href="https://fred.stlouisfed.org/tags/series" align="right"><strong>528,000</strong> US and international time series</a> from <a href="https://fred.stlouisfed.org/sources" align="right"><strong>87</strong> sources</a>.
             </div>
         </div>
-
         <div class="col-xs-12 col-sm-10 col-sm-offset-1" align="right">
            <form action="https://fred.stlouisfed.org/search?st=&404-search-button=Search" method="GET" align="right">
               <input type="text" id="search" name="st" placeholder="Search FRED data e.g., gdp, inflation, unemployment">
