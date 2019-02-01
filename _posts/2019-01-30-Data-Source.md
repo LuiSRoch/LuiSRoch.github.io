@@ -21,11 +21,11 @@ title:  "Data & Tools"
               <a href="https://fred.stlouisfed.org/tags/series"><strong>528,000</strong> US and international time series</a> from <a href="https://fred.stlouisfed.org/sources"><strong>87</strong> sources</a>.
             </div>
         </div>
-
+<meta name="keywords" content="economic data, economic charts, Excel, GDP, CPI, PPI, IP, M1, M2, M3, MZM, Federal Funds Rate, Gross Domestic Product, Consumer Price Index, Producer Price Index, Industrial Production, Interest Rates, Inflation, Exchange Rates, Imports, Exports, Reserves, Money Stock, Employment, Population, Banks Loans, Economic Data, FRED, St. Louis Fed, Federal Reserve">
 <div class="col-xs-12 col-sm-10 col-sm-offset-1">
       <form class="form-horizontal" style="margin-top:1em;margin-bottom:1em;" action="/search">
           <div class="input-group input-group-lg">
-            <input name="st" type="text" class="form-control" placeholder="Search FRED data e.g., gdp, inflation, unemployment">==
+            <input name="st" type="text" class="form-control" placeholder="Search FRED data e.g., gdp, inflation, unemployment">
               <a class="input-group-btn">
                     <button type="submit" class="btn btn-default" style="background-color:#687f9f;color:white"><i class="Search"></i></button>
                         <div class="input-group-lg" href="https://fred.stlouisfed.org/search?st=">Search
