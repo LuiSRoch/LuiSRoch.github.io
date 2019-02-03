@@ -8,5 +8,3 @@ I work on data analysis and governance, which is the union of statistics and dat
 My experience 
 
 Additional text: Data mining, exploration machine learning using Python or other tools
-
-You can find the source code for Minima at GitHub:
