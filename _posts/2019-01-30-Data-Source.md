@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data & Tools"
-description: "Refreshed Daily from Source"
+description: "Refreshed Daily from Sources"
 ---
 
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Data provided by <a href="https://fred.stlouisfed.org/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Federal Reserve Bank of St. Louis</a></span></div>
