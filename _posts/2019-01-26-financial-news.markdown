@@ -65,7 +65,8 @@ title:  "Financial News"
 
 
 <h2 class="section-front-header-module__title">Daily News</h2>
-
+<div style="overflow: auto; width:450px; height:250px;">
+  
 <meta http-equiv="Refresh" content="5; url=https://www.bloomberg.com/europe">
 			  <section class="story-package-module__story__eyebrow">
             Economics
@@ -91,8 +92,6 @@ title:  "Financial News"
         <noscript>January 28, 2019, 10:28 AM EST</noscript>
 
         </time>
-
-       
 
         <article class="story-package-module__story" data-id="PM1SAI6S972A01" data-type="article"  data-updated-at="2019-01-28T15:27:54.966Z">
 
@@ -146,4 +145,5 @@ title:  "Financial News"
 
         </article>
    </section>
+  </div>
  </div>
