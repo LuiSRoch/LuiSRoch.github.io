@@ -145,5 +145,5 @@ title:  "Financial News"
 
         </article>
    </section>
-</div>
+
  </div>
