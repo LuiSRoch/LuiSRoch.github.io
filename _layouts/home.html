@@ -12,7 +12,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
       <h3>*Refreshed Daily from Sources*</h3>
-        <h5>Updated: </h5> <script> new Date();document.getElementById("datetime").innerHTML = dt.toLocaleString();</script>
+        All data/links was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
