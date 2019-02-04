@@ -65,7 +65,7 @@ title:  "Financial News"
 
 
 <h2 class="section-front-header-module__title">Daily News</h2>
-<div style="overflow: auto; width:480px; height:250px;">
+<div style="overflow: auto; width:450px; height:250px;">
   
 <meta http-equiv="Refresh" content="5; url=https://www.bloomberg.com/europe">
 			  <section class="story-package-module__story__eyebrow">
@@ -145,5 +145,5 @@ title:  "Financial News"
 
         </article>
    </section>
-
+</div>
  </div>
