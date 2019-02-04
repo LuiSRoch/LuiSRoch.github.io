@@ -63,7 +63,7 @@ title:  "Financial News"
 
         <article class="story-package-module__story" data-id="PM1OZ66JIJUW01" data-type="article"  data-updated-at="2019-01-28T15:28:51.706Z">
         
-        <div style="overflow: auto; width:450px; height:250px;">
+        <div style="overflow: auto; width:550px; height:250px;">
 
 <h2 class="section-front-header-module__title">Daily News</h2>
 
@@ -141,5 +141,5 @@ title:  "Financial News"
         </time>
 
         </article>
-   </div>
+
  </div>
