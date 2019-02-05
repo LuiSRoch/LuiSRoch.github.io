@@ -13,14 +13,11 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
       <h3>*Automatically Update from Sources*</h3>
       <p> Data/Links last updated
-  {{ "today" | date: "%Y-%m-%d" }} </p>
         <p id="demo"></p>
-
-<script>
-var d = new Date();
-document.getElementById("demo").innerHTML = d;
-</script>
-        
+          <script>
+            var d = new Date();
+            document.getElementById("demo").innerHTML = d;
+          </script>
       <br />
     <ul class="post-list">
       {%- for post in site.posts -%}
