@@ -60,7 +60,7 @@ title:  "Financial News"
 <!-- 
 rssfeed_url = new Array(); 
 rssfeed_url[0]="http://feeds.reuters.com/reuters/companyNews"; rssfeed_url[1]="http://ir.nasdaq.com/rss/news-releases.xml?items=15";  
-rssfeed_frame_width="750"; 
+rssfeed_frame_width="100%"; 
 rssfeed_frame_height="260"; 
 rssfeed_scroll="off"; 
 rssfeed_scroll_step="15"; 
