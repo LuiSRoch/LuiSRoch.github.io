@@ -54,7 +54,7 @@ title:  "Financial News"
 
         </section>
         
-<h2 class="section-front-header-module__title">Daily News</h2>
+<h3 class="section-front-header-module__title">Daily News</h3>
   
 <!-- start sw-rss-feed code --> 
 <script type="text/javascript"> 
