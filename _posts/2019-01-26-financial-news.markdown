@@ -8,17 +8,17 @@ title:  "Financial News"
 
             <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/commodities/" target="external">Commodities </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/stocks">Stocks </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/rates-bonds">Rates & Bonds </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/currencies">Currencies </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/stocks/futures">Futures </a> I <a class="navi-quick-links__link" href="https://www.newyorkfed.org/research/global_economy/globalindicators.html">Economics </a> I <a class="navi-quick-links__link" href="https://business.nasdaq.com/intel/indexes/fixed-income/index.html">Fixed Income </a> I <a class="navi-quick-links__link" href="https://www.wsj.com/market-data/mutualfunds-etfs">ETFs </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/sectors">Sectors </a>
 
-    <div class="navi-data-strip">
+      <div class="navi-data-strip">
         <button class="navi-data-strip__play-pause-button is-playing" value="Play/Pause Toggle" alt="Play/Pause Toggle" aria-describedby="play-pause-button-description"></button>
         <span id="play-pause-button-description" style="display:none;">Press this button to toggle pause/play states.</span>
-        <div class="navi-data-strip__ticker-viewport">
-			<div class="navi-data-strip__ticker-viewport-inner">
-				<ul class="navi-data-strip__tickers-list-first"></ul>
-                <ul class="navi-data-strip__tickers-list-second"></ul>
-            </div>
-        </div>
-    </div>
-
+         <div class="navi-data-strip__ticker-viewport">
+			     <div class="navi-data-strip__ticker-viewport-inner">
+				    <ul class="navi-data-strip__tickers-list-first"></ul>
+              <ul class="navi-data-strip__tickers-list-second"></ul>
+           </div>
+          </div>
+         </div>
+</div>
 
 <h1 class="section-front-header-module__title">Markets</h1>
 
@@ -36,7 +36,7 @@ title:  "Financial News"
                 </div>
  </div>
 
-<section class="embed-module" id="sector_performance" data-variation="">
+      <section class="embed-module" id="sector_performance" data-variation="">
 
             <div class="thirdparty-embed">
                 <div class="thirdparty-embed__container">
