@@ -62,91 +62,51 @@ title:  "Financial News"
 
 
         <article class="story-package-module__story" data-id="PM1OZ66JIJUW01" data-type="article"  data-updated-at="2019-01-28T15:28:51.706Z">
-
-<object type="html" data="https://www.bloomberg.com/europe">
-</object>
-
-<div style="overflow: auto; width:450px; height:250px;">
-
+        
 <h2 class="section-front-header-module__title">Daily News</h2>
   
-<meta http-equiv="Refresh" content="5; url=https://www.bloomberg.com/europe">
-			  <section class="story-package-module__story__eyebrow">
-            Economics
-        </section>
-        
-<section class="story-package-module" id="hub_story_package" data-theme="" data-variation="4_up_deks">
-            
-            
-            <div class="story-package-module__stories">
-
-
-		<h1 class="story-package-module__story__headline">
-            <a href="/news/articles/2019-01-28/draghi-blames-trade-global-uncertainties-for-euro-area-s-woes?srnd=economics-vp" class="story-package-module__story__headline-link" onclick="">
-                Draghi Doesn't See Need for More Stimulus to Combat Growth Woes
-            </a>
-        </h1>
-
-        <time class="hub-timestamp" itemprop="dateModified" datetime="2019-01-28T15:28:51.706Z" data-locale="en" data-status="">
-
-        <script class="hub-timestamp__format" type="application/json">
-            {"year":"numeric","month":"long","day":"numeric","hour":"numeric","minute":"numeric","timeZoneName":"short"}
-        </script>
-        <noscript>January 28, 2019, 10:28 AM EST</noscript>
-
-        </time>
-
-        <article class="story-package-module__story" data-id="PM1SAI6S972A01" data-type="article"  data-updated-at="2019-01-28T15:27:54.966Z">
-
-        <section class="story-package-module__story__eyebrow">
-            <a href="/markets" class="story-package-module__story__eyebrow-link">
-                Markets
-            </a>
-        </section>
-		<h1 class="story-package-module__story__headline">
-            <a href="/news/articles/2019-01-28/zimbabwe-central-bank-to-allow-dollar-trading-from-feb-1?srnd=economics-vp" class="story-package-module__story__headline-link" onclick="">
-                Zimbabwe Central Bank to Allow Dollar Trading From Feb. 1
-            </a>
-        </h1>
-
-        <time class="hub-timestamp" itemprop="dateModified" datetime="2019-01-28T15:27:54.966Z" data-locale="en" data-status="">
-
-        <script class="hub-timestamp__format" type="application/json">
-            {"year":"numeric","month":"long","day":"numeric","hour":"numeric","minute":"numeric","timeZoneName":"short"}
-        </script>
-        <noscript>January 28, 2019, 10:27 AM EST</noscript>
-
-        </time>
-
-        </article>
-
-        <article class="story-package-module__story" data-id="PM1EJT6JTSE801" data-type="article"  data-updated-at="2019-01-28T15:00:33.686Z">
-
-------------------------------------------------- 
-
-<section class="story-package-module" id="hub_story_package" data-theme="" data-variation="4_up_deks">
-
-        <section class="story-package-module__story__eyebrow">
-            <a href="/markets" class="story-package-module__story__eyebrow-link">
-                Markets
-            </a>
-        </section>
-    <h1 class="story-package-module__story__headline">
-            <a href="/news/articles/2019-01-28/greece-prepares-to-offer-bond-joining-periphery-euro-area-rush?srnd=economics-vp" class="story-package-module__story__headline-link" onclick="">
-                Sovereign Trio May Offer Wide Risk Range to Euro Bond Investors
-            </a>
-        </h1>
-
-        <time class="hub-timestamp" itemprop="dateModified" datetime="2019-01-28T15:00:33.686Z" data-locale="en" data-status="">
-
-        <script class="hub-timestamp__format" type="application/json">
-            {"year":"numeric","month":"long","day":"numeric","hour":"numeric","minute":"numeric","timeZoneName":"short"}
-        </script>
-        <noscript>January 28, 2019, 10:00 AM EST</noscript>
-
-        </time>
-
-        </article>
-   </section>
-
- </div>
+<!-- start sw-rss-feed code -->
+<script type="text/javascript">
+<!--
+rssfeed_url = new Array();
+rssfeed_url[0]="http://feeds.reuters.com/reuters/companyNews"; rssfeed_url[1]="http://ir.nasdaq.com/rss/news-releases.xml?items=15";  
+rssfeed_frame_width="750";
+rssfeed_frame_height="260";
+rssfeed_scroll="off";
+rssfeed_scroll_step="15";
+rssfeed_scroll_bar="on";
+rssfeed_target="_blank";
+rssfeed_font_size="12";
+rssfeed_font_face="";
+rssfeed_border="on";
+rssfeed_css_url="";
+rssfeed_title="on";
+rssfeed_title_name="Reuters and Nasdaq News Releases";
+rssfeed_title_bgcolor="#3366ff";
+rssfeed_title_color="#fff";
+rssfeed_title_bgimage="";
+rssfeed_footer="off";
+rssfeed_footer_name="rss feed";
+rssfeed_footer_bgcolor="#fff";
+rssfeed_footer_color="#333";
+rssfeed_footer_bgimage="";
+rssfeed_item_title_length="50";
+rssfeed_item_title_color="#666";
+rssfeed_item_bgcolor="#fff";
+rssfeed_item_bgimage="";
+rssfeed_item_border_bottom="on";
+rssfeed_item_source_icon="off";
+rssfeed_item_date="off";
+rssfeed_item_description="on";
+rssfeed_item_description_length="120";
+rssfeed_item_description_color="#666";
+rssfeed_item_description_link_color="#333";
+rssfeed_item_description_tag="off";
+rssfeed_no_items="0";
+rssfeed_cache = "4ebaa9525b50451883e7a03cfdf17157";
+//-->
+</script>
+<script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script>
+<!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. -->
+<div style="color:#ccc;font-size:10px; text-align:right; width:750px;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;">Surfing Waves</a></div>
+<!-- end sw-rss-feed code -->
