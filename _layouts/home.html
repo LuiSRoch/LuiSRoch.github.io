@@ -13,25 +13,14 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
       <h3>*Automatically Update from Sources*</h3>
       <p> Data/Links last updated
-  {{ "today" | date: "%Y-%m-%d" }} <script>
-                  function startTime() {
-                   var today = new Date();
-                   var h = today.getHours();
-                   var m = today.getMinutes();
-                   m = checkTime(m);
-                  document.getElementById('txt').innerHTML =
-                  h + ":" + m;
-                   var t = setTimeout(startTime, 500);
-                  }
-                  function checkTime(i) {
-                  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-                  return i;
-                  }
-              </script>
-                <body onload="startTime()">
-                <div id="txt"></div>
-              </body>
-        </p>
+  {{ "today" | date: "%Y-%m-%d" }} </p>
+        <p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+        
       <br />
     <ul class="post-list">
       {%- for post in site.posts -%}
