@@ -3,7 +3,6 @@ layout: post
 title:  "Financial News"
 ---
 
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
 <div class="navi-markets-bar">
 	<h1 class="section-front-header-module__title">Quick Links</h1>
 
@@ -53,9 +52,9 @@ title:  "Financial News"
             </div>
 
         </section>
-        
+
 <h3 class="section-front-header-module__title">Daily News</h3>
-  
+
 <!-- start sw-rss-feed code --> 
 <script type="text/javascript"> 
 <!-- 
