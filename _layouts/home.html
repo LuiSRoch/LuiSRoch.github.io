@@ -12,7 +12,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
       <h3>*Automatically Update from Sources*</h3>
-       Data/Links was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}
+       Data/Links was last updated at {{ "today" | date: "%Y-%m-%d %H:%M" }}
         <script>
                   function startTime() {
                    var today = new Date();
