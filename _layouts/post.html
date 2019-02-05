@@ -6,7 +6,29 @@ layout: default
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
       <h3>Refreshed Daily from Sources</h3>
-        <h3>Data/Links was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}</h3>
+                Data/Links last updated
+      <script>
+      function startTime() {
+        var today = new Date();
+        var y = today.getFullYear();
+        var mm = today.getUTCMonth();
+        var d = today.getUTCDate();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        m = checkTime(m);
+        document.getElementById('txt').innerHTML =
+        y + "-" + mm + "-" + d + "  @  " + h + ":" + m;
+        var t = setTimeout(startTime, 500);
+        }
+          function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+        }
+        </script>
+          <body onload="startTime()">
+          <div id="txt"></div>
+
+        </body>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
