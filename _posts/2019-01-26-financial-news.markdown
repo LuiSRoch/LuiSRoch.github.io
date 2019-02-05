@@ -2,7 +2,7 @@
 layout: post
 title:  "Financial News"
 ---
-
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
 <div class="navi-markets-bar">
 	<h1 class="section-front-header-module__title">Quick Links</h1>
 
@@ -10,19 +10,18 @@ title:  "Financial News"
             
     <div class="navi-data-strip">
         <button class="navi-data-strip__play-pause-button is-playing" value="Play/Pause Toggle" alt="Play/Pause Toggle" aria-describedby="play-pause-button-description"></button>
-        <span id="play-pause-button-description" style="display:none;">Press this button to toggle pause/play states.</span>
-        <div class="navi-data-strip__ticker-viewport">
-			<div class="navi-data-strip__ticker-viewport-inner">
-				<ul class="navi-data-strip__tickers-list-first"></ul>
-                <ul class="navi-data-strip__tickers-list-second"></ul>
+         <span id="play-pause-button-description" style="display:none;">Press this button to toggle pause/play states.</span>
+           <div class="navi-data-strip__ticker-viewport">
+			      <div class="navi-data-strip__ticker-viewport-inner">
+				     <ul class="navi-data-strip__tickers-list-first"></ul>
+              <ul class="navi-data-strip__tickers-list-second"></ul>
             </div>
-        </div>
+           </div>
     </div>
-
+ </div>
 
 <h1 class="section-front-header-module__title">Markets</h1>
-
-<div class="thirdparty-embed">
+  <div class="thirdparty-embed">
                 <div class="thirdparty-embed__container">
                     <iframe
                         src="https://www.bloomberg.com/markets/components/data-drawer?linksType=tout&showTabs=true"
@@ -34,7 +33,7 @@ title:  "Financial News"
                         data-embed-id="https://www.bloomberg.com/markets/components/data-drawer?linksType=tout&showTabs=true">
 										</iframe>
                 </div>
- </div>
+  </div>
 
 <section class="embed-module" id="sector_performance" data-variation="">
 
