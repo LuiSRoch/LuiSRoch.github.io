@@ -13,7 +13,7 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
       <h3>*Automatically Update from Sources*</h3>
        Data/Links was last updated at {{ "today" | date: "%Y-%m-%d %H:%M" }}
-        <script>
+              <script>
                   function startTime() {
                    var today = new Date();
                    var h = today.getHours();
@@ -28,6 +28,9 @@ layout: default
                   return i;
                   }
               </script>
+                <body onload="startTime()">
+                <div id="txt"></div>
+              </body>
       <br />
     <ul class="post-list">
       {%- for post in site.posts -%}
