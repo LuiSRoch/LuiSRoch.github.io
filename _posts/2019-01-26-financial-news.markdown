@@ -2,7 +2,7 @@
 layout: post
 title:  "Financial News"
 ---
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
 <div class="navi-markets-bar">
 	<h1 class="section-front-header-module__title">Quick Links</h1>
 
@@ -35,7 +35,7 @@ title:  "Financial News"
                 </div>
   </div>
 
-<section class="embed-module" id="sector_performance" data-variation="">
+       <section class="embed-module" id="sector_performance" data-variation="">
 
             <div class="thirdparty-embed">
                 <div class="thirdparty-embed__container">
