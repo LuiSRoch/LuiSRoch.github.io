@@ -12,25 +12,28 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
       <h3>*Automatically Update from Sources*</h3>
-      <p> Data/Links last updated
+       Data/Links last updated
           <script>
-            function startTime() {
-            var today = new Date();
-            var y = today.getFullYear();
-            var mm = today.getMonth();
-            var d = today.getDate();
-            var h = today.getHours();
-            var m = today.getMinutes();
-            m = checkTime(m);
-            document.getElementById('txt').innerHTML =
-            y + "-" + mm + "-" + d + "  @  " + h + ":" + m;
-            var t = setTimeout(startTime, 500);
-            }
-            function checkTime(i) {
-            if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-            return i;
-            }
-          </script>
+      function startTime() {
+        var today = new Date();
+        var y = today.getFullYear();
+        var mm = today.getMonth();
+        var d = today.getDate();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        m = checkTime(m);
+        document.getElementById('txt').innerHTML =
+        y + "-" + mm + "-" + d + "  @  " + h + ":" + m;
+        var t = setTimeout(startTime, 500);
+        }
+          function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+        }
+        </script>
+         <body onload="startTime()">
+          <div id="txt"></div>
+         </body>
       <br />
     <ul class="post-list">
       {%- for post in site.posts -%}
