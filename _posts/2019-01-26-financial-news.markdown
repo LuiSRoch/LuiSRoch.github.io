@@ -3,6 +3,7 @@ layout: post
 title:  "Financial News"
 ---
 
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
 <div class="navi-markets-bar">
 	<h1 class="section-front-header-module__title">Quick Links</h1>
 
@@ -21,8 +22,7 @@ title:  "Financial News"
 </div>
 
 <h1 class="section-front-header-module__title">Markets</h1>
-
-<div class="thirdparty-embed">
+ <div class="thirdparty-embed">
                 <div class="thirdparty-embed__container">
                     <iframe
                         src="https://www.bloomberg.com/markets/components/data-drawer?linksType=tout&showTabs=true"
