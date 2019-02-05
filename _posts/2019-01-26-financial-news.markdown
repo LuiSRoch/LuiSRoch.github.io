@@ -21,7 +21,8 @@ title:  "Financial News"
  </div>
 
 <h1 class="section-front-header-module__title">Markets</h1>
-  <div class="thirdparty-embed">
+
+<div class="thirdparty-embed">
                 <div class="thirdparty-embed__container">
                     <iframe
                         src="https://www.bloomberg.com/markets/components/data-drawer?linksType=tout&showTabs=true"
@@ -29,13 +30,14 @@ title:  "Financial News"
                         frameborder="0"
                         scrolling="no"
                         width="100%"
+
                         height="100"
                         data-embed-id="https://www.bloomberg.com/markets/components/data-drawer?linksType=tout&showTabs=true">
 										</iframe>
                 </div>
-  </div>
+            </div>
 
-       <section class="embed-module" id="sector_performance" data-variation="">
+<section class="embed-module" id="sector_performance" data-variation="">
 
             <div class="thirdparty-embed">
                 <div class="thirdparty-embed__container">
@@ -45,6 +47,7 @@ title:  "Financial News"
                         frameborder="0"
                         scrolling="no"
                         width="100%"
+
                         height="250"
                         data-embed-id="https://www.bloomberg.com/markets/components/sectors">
                     </iframe>
@@ -52,7 +55,7 @@ title:  "Financial News"
             </div>
 
         </section>
-  
+
 <h3 class="section-front-header-module__title">Daily News</h3>
 
 <!-- start sw-rss-feed code --> 
