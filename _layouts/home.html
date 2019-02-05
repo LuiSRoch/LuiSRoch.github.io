@@ -13,17 +13,17 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
       <h3>*Automatically Update from Sources*</h3>
        Data/Links last updated
-          <script>
+         <script>
       function startTime() {
         var today = new Date();
+        var mm = today.getUTCMonth();
+        var d = today.getUTCDate();
         var y = today.getFullYear();
-        var mm = today.getMonth();
-        var d = today.getDate();
         var h = today.getHours();
         var m = today.getMinutes();
         m = checkTime(m);
         document.getElementById('txt').innerHTML =
-        y + "-" + mm + "-" + d + "  @  " + h + ":" + m;
+        mm + "-" + d + "," + y + "  @  " + h + ":" + m;
         var t = setTimeout(startTime, 500);
         }
           function checkTime(i) {
@@ -31,9 +31,8 @@ layout: default
           return i;
         }
         </script>
-         <body onload="startTime()">
+          <body onload="startTime()">
           <div id="txt"></div>
-         </body>
       <br />
     <ul class="post-list">
       {%- for post in site.posts -%}
