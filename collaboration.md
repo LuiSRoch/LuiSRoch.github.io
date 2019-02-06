@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Collaboration
+title: Contact Me
 subtitle: Collaborate on data analysis for finance or supply chain
 permalink: /collaboration/
 ---
