@@ -14,7 +14,7 @@ permalink: /collaboration/
 <!-- site-header -->
    <div class="page-content">
 
-    I work on interpretable data analysis and reporting, which is a combination of data mining, 
+    I work on interpretable data analysis and visualization, which is a combination of data mining, 
     statistics and visualization using a combination of tools; from Python & SQL to Tableau.
 	<br />
 
@@ -44,9 +44,9 @@ permalink: /collaboration/
 </div>
 -->
 
-<h2> Contact </h2>
+<h4> Contact </h4>
 
-If you are interested in working with me, fill out the form or send an email to my-email[at]gmail.com.
+If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
 <br/>
 <html>
 <head>
