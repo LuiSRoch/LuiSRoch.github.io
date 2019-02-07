@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Financial News"
+title:  "Financial and Business"
 ---
 
 <div class="navi-markets-bar">
