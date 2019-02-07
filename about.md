@@ -18,5 +18,5 @@ product shortages, AML/KYC information as well as sentivities and PnL data broke
 
 The common denomimator binding my experience is that I work with business units and leverage soft-
 ware tools to streamline processes. In 2018 I moved from New York to Paris where i'm exploring the labor
-market while continuing to engage with programmers, data scientists, database administrators and machine
-learning experts in search of innovative approaches to data mining and visualization.
+market while continuing to engage with programmers, data scientists, database administrators and 
+machine learning experts in search of innovative approaches to data mining and visualization.
