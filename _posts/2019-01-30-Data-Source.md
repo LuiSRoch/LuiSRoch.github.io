@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data & Tools"
+title:  "Data"
 description: "Refreshed Daily from Sources"
 ---
 
