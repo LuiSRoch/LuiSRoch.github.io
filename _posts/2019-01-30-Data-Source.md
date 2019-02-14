@@ -15,6 +15,7 @@ description: "Refreshed Daily from Sources"
             <div id="fred-homepage-description" class="hidden-xs col-sm-12 text-center">
               <a href="https://fred.stlouisfed.org/tags/series"><strong>528,000</strong> US and international time series</a> from <a href="https://fred.stlouisfed.org/sources"><strong>87</strong> sources</a>
             </div>
+          <hr>
         </div>
         <div class="col-xs-12 col-sm-10 col-sm-offset-1">
            <form action="https://fred.stlouisfed.org/search?st=&404-search-button=Search" method="GET">
