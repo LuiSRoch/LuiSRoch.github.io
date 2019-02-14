@@ -18,7 +18,7 @@ title:  "Financial and Business"
            </div>
     </div>
  </div>
-
+<hr>
 <h1 class="section-front-header-module__title">Markets</h1>
 
 <div class="thirdparty-embed">
@@ -54,7 +54,7 @@ title:  "Financial and Business"
             </div>
 
         </section>
-
+<hr>
 <h3 class="section-front-header-module__title">Daily News</h3>
 
 <!-- start sw-rss-feed code --> 
