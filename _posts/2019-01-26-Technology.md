@@ -9,7 +9,7 @@ title: Technology
 <!-- 
 rssfeed_url = new Array(); 
 rssfeed_url[0]="http://feeds.feedburner.com/FeaturedBlogPosts-DataScienceCentral?format=xml";  
-rssfeed_frame_width="530"; rssfeed_frame_height="260"; rssfeed_scroll="off"; rssfeed_scroll_step="6"; rssfeed_scroll_bar="on"; 
+rssfeed_frame_width="100%"; rssfeed_frame_height="260"; rssfeed_scroll="off"; rssfeed_scroll_step="6"; rssfeed_scroll_bar="on"; 
 rssfeed_target="_blank"; rssfeed_font_size="12"; rssfeed_font_face=""; rssfeed_border="on"; rssfeed_css_url=""; rssfeed_title="on"; 
 rssfeed_title_name=""; rssfeed_title_bgcolor="#3366ff"; rssfeed_title_color="#fff"; rssfeed_title_bgimage=""; rssfeed_footer="off"; 
 rssfeed_footer_name="rss feed"; rssfeed_footer_bgcolor="#fff"; rssfeed_footer_color="#333"; rssfeed_footer_bgimage=""; 
@@ -28,7 +28,7 @@ rssfeed_item_description_tag="off"; rssfeed_no_items="0"; rssfeed_cache = "5c1a4
 <!-- 
 rssfeed_url = new Array(); 
 rssfeed_url[0]="http://feeds.feedburner.com/ResourcesDiscussions-DataScienceCentral?format=xml";  
-rssfeed_frame_width="530"; rssfeed_frame_height="260"; rssfeed_scroll="off"; rssfeed_scroll_step="6"; rssfeed_scroll_bar="on"; rssfeed_target="_blank"; 
+rssfeed_frame_width="100%"; rssfeed_frame_height="260"; rssfeed_scroll="off"; rssfeed_scroll_step="6"; rssfeed_scroll_bar="on"; rssfeed_target="_blank"; 
 rssfeed_font_size="12"; rssfeed_font_face=""; rssfeed_border="on"; rssfeed_css_url=""; rssfeed_title="on"; rssfeed_title_name=""; 
 rssfeed_title_bgcolor="#3366ff"; rssfeed_title_color="#fff"; rssfeed_title_bgimage=""; rssfeed_footer="off"; rssfeed_footer_name="rss feed"; 
 rssfeed_footer_bgcolor="#fff"; rssfeed_footer_color="#333"; rssfeed_footer_bgimage=""; rssfeed_item_title_length="100"; rssfeed_item_title_color="#666"; 
