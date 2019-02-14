@@ -5,9 +5,7 @@ title: Technology
 
 <h1 class="section-front-header-module__title">News</h1>
 <!-- start sw-rss-feed code --> 
-<script type="text/javascript"> 
-<!-- start sw-rss-feed code --> 
-<script type="text/javascript"> 
+<script type="text/javascript">
 <!-- 
 rssfeed_url = new Array(); 
 rssfeed_url[0]="http://feeds.feedburner.com/FeaturedBlogPosts-DataScienceCentral?format=xml"; rssfeed_url[1]="http://feeds.dzone.com/big-data";  
