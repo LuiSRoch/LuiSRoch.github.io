@@ -12,33 +12,34 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
         Data, Posts and Links last updated :
-    ######
   <p id="date"></p>
-<script>
-document.getElementById("date").innerHTML = Date();
-</script>
+  <script>
+    document.getElementById("date").innerHTML = 
+      y + "-" + mm + "-" + d + "  @  " + h + ":" + m;
+    Date();
+  </script>
   ######
   
-      <script>
-      function startTime() {
-        var today = new Date();
-        var y = today.getFullYear();
-        var mm = today.getUTCMonth();
-        var d = today.getUTCDate();
-        var h = today.getHours();
-        var m = today.getMinutes();
-        m = checkTime(m);
-        document.getElementById('txt').innerHTML =
-        y + "-" + mm + "-" + d + "  @  " + h + ":" + m;
-        var t = setTimeout(startTime, 500);
-        }
-          function checkTime(i) {
-          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-          return i;
-        }
-        </script>
-          <body onload="startTime()">
-          <div id="txt"></div>
+######      <script>
+######      function startTime() {
+######        var today = new Date();
+######        var y = today.getFullYear();
+######        var mm = today.getUTCMonth();
+######        var d = today.getUTCDate();
+######        var h = today.getHours();
+######        var m = today.getMinutes();
+######        m = checkTime(m);
+######        document.getElementById('txt').innerHTML =
+######        y + "-" + mm + "-" + d + "  @  " + h + ":" + m;
+######        var t = setTimeout(startTime, 500);
+######        }
+######          function checkTime(i) {
+######          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+######          return i;
+######        }
+######        </script>
+######          <body onload="startTime()">
+######          <div id="txt"></div>
 
         </body>
       <br />
