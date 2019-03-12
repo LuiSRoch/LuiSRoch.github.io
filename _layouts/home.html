@@ -12,12 +12,10 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
        Data, Posts and Links last updated :
-  ######
+  
   <p id="date"></p>
 <script>
-document.getElementById("date").innerHTML = 
-  y + "-" + mm + "-" + d + "  @  " + h + ":" + m;
-  #Date();
+document.getElementById("date").innerHTML = "  @  " + Date();
 </script>
   
 ######         <script>
