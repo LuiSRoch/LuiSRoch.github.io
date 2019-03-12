@@ -1,6 +1,6 @@
 title: Data Science for Analytics
 email: your-email@domain.com
-description: Data feeds - News - Tools for Tech - Finance & Business>
+description: Data feeds - News - Tools for Tech - Finance & Business> # this means to ignore newlines until "twitter_username:"
 show_description: true # set to true to show excerpts on the homepage
 
 # Minima date format
