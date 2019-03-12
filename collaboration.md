@@ -14,8 +14,9 @@ permalink: /collaboration/
 <!-- site-header -->
    <div class="page-content">
 
-    I work on interpretable data analysis and visualization, which is a combination of data mining, 
-    statistics and visualization using a combination of tools; from Python & SQL to Tableau.
+    I work with data science to provide analytics and visualizations on real estate, financial industry, 
+    and supply chain. I'm interested in combining data mining, statistics and visualizations using a combination
+    of tools; from Python & SQL to Scala to Tableau to plotly-dash.
 	<br />
 
    </div>
