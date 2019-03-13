@@ -35,10 +35,6 @@ description: "Refreshed Daily from Sources"
 </div>
 <hr>
 <br />
-
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<iframe style="border: 1px solid #333333; overflow: hidden; width: 100%; height: 245px;" src="https://www.sec.gov/rss/data" height="245" width="100%" frameborder="0" scrolling="yes"></iframe>
-
 <h1 class="section-front-header-module__title">Supply Chain</h1>
 
     Under Construction
