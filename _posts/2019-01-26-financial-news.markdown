@@ -4,6 +4,308 @@ title:  "Financial and Business"
 ---
 
 <div class="navi-markets-bar">
+            <div class="navi-data-strip">
+                <button class="navi-data-strip__play-pause-button is-playing" value="Play/Pause Toggle" aria-label="Play/Pause Toggle" aria-describedby="play-pause-button-description"></button>
+                <span id="play-pause-button-description" style="display:none;">Press this button to toggle pause/play states.</span>
+                <div class="navi-data-strip__ticker-viewport">
+                    <div class="navi-data-strip__ticker-viewport-inner">
+                        <ul class="navi-data-strip__tickers-list-first animate-tickers-left" style="left: -1117.7843017578125px"><li class="navi-data-strip__ticker">
+            <a href="/quote/SP1:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">S&amp;P 500 Futures</div>
+                <div class="navi-data-strip__ticker-market-price">2793.60</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-3.600</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.13%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/DM1:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">Dow Jones Futures</div>
+                <div class="navi-data-strip__ticker-market-price">25544</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-45</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.18%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/SX5E:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">Euro Stoxx 50 Pr</div>
+                <div class="navi-data-strip__ticker-market-price">3303.95</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.490</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.01%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/UKX:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">FTSE 100</div>
+                <div class="navi-data-strip__ticker-market-price">7151.15</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+20.530</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.29%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/DAX:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">DAX INDEX</div>
+                <div class="navi-data-strip__ticker-market-price">11524.17</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-19.310</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.17%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/NKY:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">NIKKEI 225</div>
+                <div class="navi-data-strip__ticker-market-price">21290.24</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-213.450</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.99%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/SHCOMP:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">SHANGHAI SE COMPOSITE</div>
+                <div class="navi-data-strip__ticker-market-price">3026.95</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-33.356</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-1.09%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/SPX:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">S&amp;P 500</div>
+                <div class="navi-data-strip__ticker-market-price">2791.52</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+8.220</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.30%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/RTY:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">RUSSELL 2000 INDEX</div>
+                <div class="navi-data-strip__ticker-market-price">1549.84</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.96</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.06%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/DXY:CUR" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">DOLLAR INDEX SPOT</div>
+                <div class="navi-data-strip__ticker-market-price">97.00</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.062</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.06%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/USDJPY:CUR" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">USD-JPY X-RATE</div>
+                <div class="navi-data-strip__ticker-market-price">111.36</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--neutral"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--neutral">+0</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--neutral">+0%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/EURUSD:CUR" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">EUR-USD</div>
+                <div class="navi-data-strip__ticker-market-price">1.13</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.000</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.01%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/XAU:CUR" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">Gold Spot   $/Oz</div>
+                <div class="navi-data-strip__ticker-market-price">1304.90</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+3.32</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.26%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/USGG10YR:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">US 10-Year Bond Yield</div>
+                <div class="navi-data-strip__ticker-market-price">2.616</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.014</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.554%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/USGG2YR:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">US 2 Year Yield</div>
+                <div class="navi-data-strip__ticker-market-price">2.46</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.012</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.50%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/LEGATRUU:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">Bloomberg Barclays Global Aggregate Bond Index</div>
+                <div class="navi-data-strip__ticker-market-price">484.47</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+1.070</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.22%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/CL1:COM" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">WTI Future</div>
+                <div class="navi-data-strip__ticker-market-price">57.22</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.350</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.62%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/CO1:COM" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">BRENT Future</div>
+                <div class="navi-data-strip__ticker-market-price">66.94</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.270</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.40%</div>
+            </a>
+        </li></ul>
+                        <ul class="navi-data-strip__tickers-list-second animate-tickers-left" style="left: -1117.7843017578125px"><li class="navi-data-strip__ticker">
+            <a href="/quote/SP1:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">S&amp;P 500 Futures</div>
+                <div class="navi-data-strip__ticker-market-price">2793.60</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-3.600</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.13%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/DM1:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">Dow Jones Futures</div>
+                <div class="navi-data-strip__ticker-market-price">25544</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-45</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.18%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/SX5E:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">Euro Stoxx 50 Pr</div>
+                <div class="navi-data-strip__ticker-market-price">3303.95</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.490</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.01%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/UKX:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">FTSE 100</div>
+                <div class="navi-data-strip__ticker-market-price">7151.15</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+20.530</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.29%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/DAX:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">DAX INDEX</div>
+                <div class="navi-data-strip__ticker-market-price">11524.17</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-19.310</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.17%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/NKY:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">NIKKEI 225</div>
+                <div class="navi-data-strip__ticker-market-price">21290.24</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-213.450</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.99%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/SHCOMP:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">SHANGHAI SE COMPOSITE</div>
+                <div class="navi-data-strip__ticker-market-price">3026.95</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-33.356</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-1.09%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/SPX:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">S&amp;P 500</div>
+                <div class="navi-data-strip__ticker-market-price">2791.52</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+8.220</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.30%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/RTY:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">RUSSELL 2000 INDEX</div>
+                <div class="navi-data-strip__ticker-market-price">1549.84</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.96</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.06%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/DXY:CUR" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">DOLLAR INDEX SPOT</div>
+                <div class="navi-data-strip__ticker-market-price">97.00</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.062</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.06%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/USDJPY:CUR" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">USD-JPY X-RATE</div>
+                <div class="navi-data-strip__ticker-market-price">111.36</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--neutral"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--neutral">+0</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--neutral">+0%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/EURUSD:CUR" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">EUR-USD</div>
+                <div class="navi-data-strip__ticker-market-price">1.13</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--negative"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.000</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--negative">-0.01%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/XAU:CUR" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">Gold Spot   $/Oz</div>
+                <div class="navi-data-strip__ticker-market-price">1304.90</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+3.32</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.26%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/USGG10YR:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">US 10-Year Bond Yield</div>
+                <div class="navi-data-strip__ticker-market-price">2.616</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.014</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.554%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/USGG2YR:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">US 2 Year Yield</div>
+                <div class="navi-data-strip__ticker-market-price">2.46</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.012</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.50%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/LEGATRUU:IND" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">Bloomberg Barclays Global Aggregate Bond Index</div>
+                <div class="navi-data-strip__ticker-market-price">484.47</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+1.070</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.22%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/CL1:COM" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">WTI Future</div>
+                <div class="navi-data-strip__ticker-market-price">57.22</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.350</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.62%</div>
+            </a>
+        </li><li class="navi-data-strip__ticker">
+            <a href="/quote/CO1:COM" class="navi-data-strip__ticker-link">
+                <div class="navi-data-strip__ticker-label">BRENT Future</div>
+                <div class="navi-data-strip__ticker-market-price">66.94</div>
+                <div class="navi-data-strip__ticker-direction navi-data-strip__ticker-direction--positive"></div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.270</div>
+                <div class="navi-data-strip__ticker-value navi-data-strip__ticker-value--positive">+0.40%</div>
+            </a>
+        </li></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<div class="navi-markets-bar">
 	<h1 class="section-front-header-module__title">Quick Links</h1>
 
             <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/commodities">Commodities </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/stocks">Stocks </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/rates-bonds">Rates & Bonds </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/currencies">Currencies </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/stocks/futures">Futures </a> I <a class="navi-quick-links__link" href="https://www.newyorkfed.org/research/global_economy/globalindicators.html">Economics </a> I <a class="navi-quick-links__link" href="https://business.nasdaq.com/intel/indexes/fixed-income/index.html">Fixed Income </a> I <a class="navi-quick-links__link" href="https://www.wsj.com/market-data/mutualfunds-etfs">ETFs </a> I <a class="navi-quick-links__link" href="https://www.bloomberg.com/markets/sectors">Sectors </a>
