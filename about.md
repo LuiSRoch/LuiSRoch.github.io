@@ -11,7 +11,7 @@ and quantify large amounts of data.
 
 As an economist by training, I realized that one of the aspects for transmitting insightful information has to do
 more with attitude and interest than skill and background. The desire to contribute to data-driven decision-making
-gave me aspiration to self-learn, and thus the opportunity to work in supply chain, edu-
+gave me aspiration to self-learn, and thus the opportunity to work in supply chain, edu
 cation and banking connecting subject matter expert's ideas to the improvement of data visualization
 and governance. In the course of that work, I developed dashboards and tables displaying inventory levels, 
 product shortages, AML/KYC information as well as sensitivities and PnL data broken by portfolio.
