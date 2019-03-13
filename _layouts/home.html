@@ -11,14 +11,12 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
 
-<iframe height="25" scrolling="no" src="https://www.dailyforex.com/forex-widget/widget/29394" style="width: 600px; height:25px; display: block;border:0px;overflow:hidden;" width="600">
+  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  <iframe height="25" scrolling="no" src="https://www.dailyforex.com/forex-widget/widget/29394" style="width: 600px; height:25px; display: block;border:0px;overflow:hidden;" width="600">
   </iframe>
   <span style="position:relative;display:block;text-align:center;color:#999999;width:600px;font-family:verdana,sans-serif;font-size:10px;"
         </span>
-
   <br />
-  
-  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
         Data, Posts and Links last updated :
   <br />
   <p id="date"></p>
