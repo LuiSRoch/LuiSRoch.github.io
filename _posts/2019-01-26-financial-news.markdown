@@ -61,7 +61,7 @@ title:  "Financial and Business"
 <script type="text/javascript"> 
 <!-- 
 rssfeed_url = new Array(); 
-rssfeed_url[0]="http://feeds.reuters.com/reuters/businessNews"; rssfeed_url[1]="http://ir.nasdaq.com/rss/news-releases.xml?items=15";  
+rssfeed_url[0]="http://feeds.reuters.com/reuters/businessNews"; rssfeed_url[1]="http://articlefeeds.nasdaq.com/nasdaq/categories?category=Business";  
 rssfeed_frame_width="100%"; 
 rssfeed_frame_height="260"; 
 rssfeed_scroll="off"; 
