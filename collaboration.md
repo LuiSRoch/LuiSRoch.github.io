@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact Me
-subtitle: Collaborate on data analysis for finance or supply chain
+subtitle: Collaborate with me on data analysis for finance, supply chain or real estate
 permalink: /collaboration/
 ---
 <html lang="en">
