@@ -124,7 +124,7 @@ rssfeed_url[0]="http://feeds.reuters.com/reuters/businessNews"; rssfeed_url[1]="
 rssfeed_frame_width="100%"; 
 rssfeed_frame_height="260"; 
 rssfeed_scroll="on"; 
-rssfeed_scroll_step="6"; 
+rssfeed_scroll_step="off"; 
 rssfeed_scroll_bar="on"; 
 rssfeed_target="_blank"; 
 rssfeed_font_size="18"; 
