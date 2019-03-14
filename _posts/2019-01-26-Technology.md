@@ -56,7 +56,7 @@ rssfeed_cache = "1c1581a0d115d4b73242152a213ae7fc";
 <!-- 
 rssfeed_url = new Array(); 
 rssfeed_url[0]="http://feeds.dzone.com/ai";  
-rssfeed_frame_width="230"; 
+rssfeed_frame_width="100%"; 
 rssfeed_frame_height="260"; 
 rssfeed_scroll="off"; 
 rssfeed_scroll_step="6"; 
