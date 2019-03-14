@@ -1,0 +1,80 @@
+---
+layout: page
+title: Experiments and Visualizations
+subtitle: Collaborate with data visualization tips
+permalink: /collaboration/
+---
+<html lang="en">
+
+  <body>
+
+    <div class="site">
+      <header class="site-header">
+
+<!-- site-header -->
+   <div class="page-content">
+
+    I work with data science to provide analytics and visualizations on real estate, financial industry, 
+    and supply chain. I'm interested in combining data mining, statistics and visualizations using a combination
+    of tools; from Python & SQL to Scala to Tableau to plotly-dash.
+	<br />
+
+   </div>
+
+<!--
+<h2> Customers </h2>
+
+<div class="projects">
+  <div class="grid no-gutters">
+
+    <div class="unit half">
+      <div class="project">
+        <h4 class="project-title"><a href="https://www.certace.com/" target="_blank">certace</a></h4>
+        <p><img src="/assets/img/certace.png" width='800'></p>
+      </div>
+    </div>
+
+    <div class="unit half">
+      <div class="project">
+        <h4 class="project-title"><a href="http://alphacruncher.com/" target='_blank'>alphacruncher</a></h4>
+        <p><img src="/assets/img/alphacruncher.svg" width='800'></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+-->
+
+<h4> Contact </h4>
+
+If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
+<br/>
+<html>
+<head>
+<style> 
+textarea {
+  width: 50%;
+  height: 90px;
+  padding: 6px 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  background-color: #f8f8f8;
+  font-size: 12px;
+  resize: none;
+}
+</style>
+</head>
+</html>
+
+<br/>
+    <div id='formview'>
+      <form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
+        <input type="email" name="email" placeholder="Your email address">
+        <br/>
+        <textarea type="message" placeholder="Your Message"></textarea>
+          <input type="hidden" name="_subject" value="request">
+          <input type="text" name="_gotcha" style="display:none">
+          <button type="submit">Send</button>
+      </form>
+    </div>
