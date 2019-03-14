@@ -3,10 +3,12 @@ email: your-email@domain.com
 description: Data feeds - News - Tools for Tech - Finance & Business> # this means to ignore newlines until "twitter_username:"
 show_description: true # set to true to show excerpts on the homepage
 
+```yaml
 header_pages:
   - About Me.md
   - Contact Me.md
   - Experiments & Visualizations.md
+```
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
