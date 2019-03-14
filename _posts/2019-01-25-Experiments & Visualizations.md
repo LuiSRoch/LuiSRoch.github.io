@@ -2,7 +2,6 @@
 layout: page
 title: Experiments and Visualizations
 subtitle: Collaborate with data visualization tips
-permalink: /collaboration/
 ---
 <html lang="en">
 
