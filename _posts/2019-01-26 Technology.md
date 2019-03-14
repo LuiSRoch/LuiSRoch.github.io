@@ -47,7 +47,7 @@ rssfeed_cache = "4ebaa9525b50451883e7a03cfdf17157";
 </script> 
 <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
 <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
-<div style="color:#ccc;font-size:10px; text-align:right; width:750px;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;">Surfing Waves</a></div> 
+<div style="color:#ccc;font-size:10px; text-align:right; width:750px;"><a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;"></a></div> 
 <!-- end sw-rss-feed code -->
 <br />
 
@@ -67,7 +67,7 @@ rssfeed_item_description_link_color="#333"; rssfeed_item_description_tag="off"; 
 </script> 
 <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
 <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
-<div style="color:#ccc;font-size:10px; text-align:right; width:650px;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;">Surfing Waves</a></div> 
+<div style="color:#ccc;font-size:10px; text-align:right; width:650px;"><a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;"></a></div> 
 <!-- end sw-rss-feed code -->
 
 <h1 class="section-front-header-module__title">Tools & Links</h1>
