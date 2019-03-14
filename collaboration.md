@@ -26,14 +26,13 @@ permalink: /collaboration/
 
 <div class="projects">
   <div class="grid no-gutters">
-
     <div class="unit half">
       <div class="project">
         <h4 class="project-title"><a href="https://www.certace.com/" target="_blank">certace</a></h4>
         <p><img src="/assets/img/certace.png" width='800'></p>
       </div>
     </div>
-
+    
     <div class="unit half">
       <div class="project">
         <h4 class="project-title"><a href="http://alphacruncher.com/" target='_blank'>alphacruncher</a></h4>
