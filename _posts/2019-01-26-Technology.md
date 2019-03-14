@@ -12,7 +12,7 @@ rssfeed_url[0]="http://feeds.feedburner.com/FeaturedBlogPosts-DataScienceCentral
 rssfeed_frame_width="100%"; 
 rssfeed_frame_height="260"; 
 rssfeed_scroll="on"; 
-rssfeed_scroll_step="6"; 
+rssfeed_scroll_step="off"; 
 rssfeed_scroll_bar="on"; 
 rssfeed_target="_blank"; 
 rssfeed_font_size="18"; 
@@ -35,7 +35,7 @@ rssfeed_item_bgcolor="#fff";
 rssfeed_item_bgimage=""; 
 rssfeed_item_border_bottom="on"; 
 rssfeed_item_source_icon="off"; 
-rssfeed_item_date="off"; 
+rssfeed_item_date="on"; 
 rssfeed_item_description="on"; 
 rssfeed_item_description_length="120"; 
 rssfeed_item_description_color="#666"; 
@@ -96,6 +96,8 @@ rssfeed_cache = "6b2f216bd93dcd64e4acae06be6e267a";
 <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
 <div style="color:#ccc;font-size:10px; text-align:right; width:230px;"><a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;"></a></div> 
 <!-- end sw-rss-feed code -->
+
+<br />
 
 <h1 class="section-front-header-module__title">Tools & Links</h1>
 
