@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Experiments and Visualizations
-subtitle: Collaborate with data visualization tips
 ---
 <html lang="en">
 
