@@ -1,5 +1,9 @@
 <?php
 
+$mail->SMTPAuth();
+$mail->SMTPSecure='ssl';
+$mail->Host='smtp.gmail.com';
+$mail->Port='465';
 $to ='gugolwifi@gmail.com';
  
 if($_POST) {
