@@ -80,14 +80,24 @@ textarea {
 
 <br />
 
-<div id='formview'>
-      <form action="mailto: gugolwifi@gmail.com" method="POST" enctype="text/plain">
-        <input type="email" name="email" placeholder="Your email address">
-        <br/>
-        <textarea type="message" placeholder="Your Message"></textarea>
-          <input type="hidden" name="_subject" value="request">
-          <input type="text" name="_gotcha" style="display:none">
-          <input type="reset" value="Reset">
-          <button type="submit">Send</button>
-      </form>
-    </div>
+<?php
+return [
+    'subject' => [
+        'prefix' => '[Contact Form]'
+    ],
+    'emails' => [
+        'to'   => 'gugolwifi@gmail.com',
+        'from' => 'Your email here'
+    ],
+    'messages' => [
+        'error'   => 'There was an error sending your message, please try again later.',
+        'success' => 'Your message has been sent successfully.'
+    ],
+    'fields' => [
+        'name'     => 'Name',
+        'email'    => 'Email',
+        'subject'  => 'Subject',
+        'message'  => 'Message',
+        'btn-send' => 'Send'
+    ]
+];
