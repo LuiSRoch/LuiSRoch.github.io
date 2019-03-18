@@ -81,24 +81,54 @@ textarea {
 
 <br />
 
-<?php
-return [
-    'subject' => [
-        'prefix' => '[Contact Form]'
-    ],
-    'emails' => [
-        'to'   => 'gugolwifi@gmail.com',
-        'from' => 'Your email here'
-    ],
-    'messages' => [
-        'error'   => 'There was an error sending your message, please try again later.',
-        'success' => 'Your message has been sent successfully.'
-    ],
-    'fields' => [
-        'name'     => 'Name',
-        'email'    => 'Email',
-        'subject'  => 'Subject',
-        'message'  => 'Message',
-        'btn-send' => 'Send'
-    ]
-];
+div.elem-group {
+  margin: 40px 0;
+}
+
+label {
+  display: block;
+  font-family: 'Aleo';
+  padding-bottom: 4px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  width: 500px;
+  padding: 8px;
+}
+
+textarea {
+  height: 250px;
+}
+
+button {
+  height: 50px;
+  background: green;
+  color: white;
+  border: 2px solid darkgreen;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid black;
+}
+
+<form action="contact.php" method="post">
+  <div class="elem-group">
+    <label for="email">Your E-mail</label>
+    <input type="email" id="email" name="visitor_email" placeholder="You@something.com" required>
+  </div>
+  <div class="elem-group">
+    <label for="message">Tell me about your project</label>
+    <textarea id="message" name="visitor_message" placeholder="Your Message Here." required></textarea>
+  </div>
+  <button type="submit">Send Message</button>
+</form>
