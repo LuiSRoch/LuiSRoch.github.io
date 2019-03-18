@@ -80,11 +80,15 @@ textarea {
 
 <br />
 
-<?php
- 
-if($_POST) {
+<html>
+  <head>
+    <style>
+      
+      <?php
+      if($_POST) {
     $visitor_name = "";
     $visitor_email = "";
+    $email_title = "";
     $visitor_message = "";
      
     if(isset($_POST['visitor_name'])) {
@@ -94,6 +98,14 @@ if($_POST) {
     if(isset($_POST['visitor_email'])) {
         $visitor_email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['visitor_email']);
         $visitor_email = filter_var($visitor_email, FILTER_VALIDATE_EMAIL);
+    }
+     
+    if(isset($_POST['email_title'])) {
+        $email_title = filter_var($_POST['email_title'], FILTER_SANITIZE_STRING);
+    }
+     
+    if(isset($_POST['concerned_department'])) {
+        $concerned_department = filter_var($_POST['concerned_department'], FILTER_SANITIZE_STRING);
     }
      
     if(isset($_POST['visitor_message'])) {
@@ -108,64 +120,57 @@ if($_POST) {
     .'Content-type: text/html; charset=utf-8' . "\r\n"
     .'From: ' . $visitor_email . "\r\n";
      
-    if(mail($recipient, $visitor_message, $headers)) {
-        echo "<p>Thank you for contacting me, $visitor_name. You will get a reply within 24 hours.</p>";
+    if(mail($recipient, $email_title, $visitor_message, $headers)) {
+        echo "<p>Thank you for contacting us, $visitor_name. You will get a reply within 24 hours.</p>";
     } else {
         echo '<p>We are sorry but the email did not go through.</p>';
     }
-     
-} else {
+    } else {
     echo '<p>Something went wrong</p>';
-}
- 
-?>
-
-<html>
-  <head>
-    <style>
+    }
+    ?>
+      
       div.elem-group {
-  margin: 40px 0;
-}
+      margin: 40px 0;
+      }
+      label {
+      display: block;
+      font-family: 'Aleo';
+      padding-bottom: 4px;
+      font-size: 1.25em;
+    }
 
-label {
-  display: block;
-  font-family: 'Aleo';
-  padding-bottom: 4px;
-  font-size: 1.25em;
-}
+      input, select, textarea {
+      border-radius: 2px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-size: 1.25em;
+      font-family: 'Aleo';
+      width: 500px;
+      padding: 8px;
+    }
 
-input, select, textarea {
-  border-radius: 2px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  font-size: 1.25em;
-  font-family: 'Aleo';
-  width: 500px;
-  padding: 8px;
-}
+      textarea {
+      height: 250px;
+    }
 
-textarea {
-  height: 250px;
-}
+      button {
+      height: 50px;
+      background: green;
+      color: white;
+      border: 2px solid darkgreen;
+      font-size: 1.25em;
+      font-family: 'Aleo';
+      border-radius: 4px;
+      cursor: pointer;
+    }
 
-button {
-  height: 50px;
-  background: green;
-  color: white;
-  border: 2px solid darkgreen;
-  font-size: 1.25em;
-  font-family: 'Aleo';
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  border: 2px solid black;
-}
-</style>
-</head>
-</html>
-
+      button:hover {
+      border: 2px solid black;
+    }
+    </style>
+    </head>
+    </html>
 
 <form action="contact.php" method="post">
   <div class="elem-group">
