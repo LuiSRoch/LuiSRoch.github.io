@@ -79,3 +79,16 @@ textarea {
       </form>
     </div>
 
+<br />
+
+<div id='formview'>
+      <form action="mailto: gugolwifi@gmail.com" method="POST" enctype="text/plain">
+        <input type="email" name="email" placeholder="Your email address">
+        <br/>
+        <textarea type="message" placeholder="Your Message"></textarea>
+          <input type="hidden" name="_subject" value="request">
+          <input type="text" name="_gotcha" style="display:none">
+          <input type="reset" value="Reset">
+          <button type="submit">Send</button>
+      </form>
+    </div>
