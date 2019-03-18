@@ -172,7 +172,7 @@ textarea {
     </head>
     </html>
 
-<form action="contact.php" method="post">
+<form action="https://luisfroch.github.io/gugolwifi@gmail.com" method="post">
   <div class="elem-group">
     <label for="name">Your Name</label>
     <input type="text" id="name" name="visitor_name" placeholder="Enter your name" required>
