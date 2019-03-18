@@ -5,8 +5,6 @@ if($_POST) {
     $visitor_email = "";
     $visitor_message = "";
     
-    $to="gugolwifi@gmail.com';
-     
     if(isset($_POST['visitor_name'])) {
         $visitor_name = filter_var($_POST['visitor_name'], FILTER_SANITIZE_STRING);
     }
@@ -21,7 +19,7 @@ if($_POST) {
     }
     
     else {
-        $recipient = "gugolwifi@gmail.com";
+        $recipient = 'gugolwifi@gmail.com';
     }
      
     $headers  = 'MIME-Version: 1.0' . "\r\n"
