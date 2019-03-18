@@ -138,7 +138,7 @@ button:hover {
   </div>
   <div class="elem-group">
     <label for="title">Subject</label>
-    <input type="text" id="title" name="email_title" required placeholder="Idea for a project, help...?" pattern=[A-Za-z0-9\s]{8,60} required>
+    <input type="text" id="title" name="email_title" required placeholder="Idea for a project, help...?" required>
   </div>
   <div class="elem-group">
     <label for="message">Write a brief overview</label>
