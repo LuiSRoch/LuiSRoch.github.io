@@ -1,5 +1,7 @@
 <?php
  
+$to ='gugolwifi@gmail.com';
+
 if($_POST) {
     $visitor_name = "";
     $visitor_email = "";
