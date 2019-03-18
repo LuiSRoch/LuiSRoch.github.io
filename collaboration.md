@@ -130,14 +130,19 @@ button:hover {
 <form action="contact.php" method="post">
   <div class="elem-group">
     <label for="name">Your Name</label>
-    <input type="text" id="name" name="visitor_name" placeholder="Enter your name here" pattern=[A-Z\sa-z]{3,20} required>
+    <input type="text" id="name" name="visitor_name" placeholder="Enter your name" pattern=[A-Z\sa-z]{3,20} required>
   </div>
   <div class="elem-group">
-    <label for="email">Your E-mail</label>
-    <input type="email" id="email" name="visitor_email" placeholder="You@something.com" required>
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="visitor_email" placeholder="you@email.com" required>
   </div>
   <div class="elem-group">
-    <textarea id="message" name="visitor_message" placeholder="Your Message Here." required></textarea>
+    <label for="title">Subject</label>
+    <input type="text" id="title" name="email_title" required placeholder="Idea for a project, help...?" pattern=[A-Za-z0-9\s]{8,60}>
   </div>
-  <button type="submit">Send</button>
+  <div class="elem-group">
+    <label for="message">Write a brief overview</label>
+    <textarea id="message" name="visitor_message" placeholder="Your Message" required></textarea>
+  </div>
+  <button type="submit">Send Message</button>
 </form>
