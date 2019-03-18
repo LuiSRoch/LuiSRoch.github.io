@@ -133,8 +133,7 @@ button:hover {
     <input type="email" id="email" name="visitor_email" placeholder="You@something.com" required>
   </div>
   <div class="elem-group">
-    <label for="message">Tell me about your project</label>
     <textarea id="message" name="visitor_message" placeholder="Your Message Here." required></textarea>
   </div>
-  <button type="submit">Send Message</button>
+  <button type="submit">Send</button>
 </form>
