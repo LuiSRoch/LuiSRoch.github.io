@@ -53,7 +53,7 @@ If you are interested in sharing ideas and working together, please fill out the
 <head>
 <style> 
 textarea {
-  width: 50%;
+  width: 80%;
   height: 90px;
   padding: 6px 12px;
   box-sizing: border-box;
@@ -69,7 +69,7 @@ textarea {
 
 <br/>
     <div id='formview'>
-      <form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
+      <form action="https://formspree.io/gugolwifi@gmail.com" method="POST" class="cform">
         <input type="email" name="email" placeholder="Your email address">
         <br/>
         <textarea type="message" placeholder="Your Message"></textarea>
