@@ -68,7 +68,7 @@ textarea {
 
 <br/>
     <div id='formview'>
-      <form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
+      <form action="https://formspree.io/gugolwifi@gmail.com" method="POST" class="cform">
         <input type="email" name="email" placeholder="Your email address">
         <br/>
         <textarea type="message" placeholder="Your Message"></textarea>
