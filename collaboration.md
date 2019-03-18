@@ -170,7 +170,7 @@ textarea {
 </html>
 
 
-<form action="https://luisfroch.github.io/gugolwifi@gmail.com" method="post">
+<form action="https://mail.google.com/gugolwifi@gmail.com" method="post">
   <div class="elem-group">
     <label for="name">Your Name</label>
     <input type="text" id="name" name="visitor_name" placeholder="Enter your name" required>
