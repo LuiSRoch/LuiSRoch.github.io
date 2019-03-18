@@ -20,7 +20,7 @@ if($_POST) {
     
     else {
         #$recipient = "https://mail.google.com/mail/u/1/gugolwifi@gmail.com";
-        $to ='gugolwifi@gmail.com';
+        $to ="gugolwifi@gmail.com";
     }
      
     $headers  = 'MIME-Version: 1.0' . "\r\n"
