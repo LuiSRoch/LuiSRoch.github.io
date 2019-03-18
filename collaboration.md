@@ -69,7 +69,7 @@ textarea {
 
 <br/>
     <div id='formview'>
-      <form action="https://formspree.io/gugolwifi@gmail.com" method="POST" class="cform">
+      <form action="https://formspree.io/gugolwifi@gmail.com" method="POST">
         <input type="email" name="email" placeholder="Your email address">
         <br/>
         <textarea type="message" placeholder="Your Message"></textarea>
@@ -126,24 +126,3 @@ textarea {
   </style>
  </head>
 </html>
-
-
-<form action="contact.php" method="post">
-  <div class="elem-group">
-    <label for="name">Your Name</label>
-    <input type="text" id="name" name="visitor_name" placeholder="Enter your name" required>
-  </div>
-  <div class="elem-group">
-    <label for="email">Your Email</label>
-    <input type="email" id="email" name="visitor_email" placeholder="you@email.com" required>
-  </div>
-  <div class="elem-group">
-    <label for="title">Subject</label>
-    <input type="text" id="title" name="email_title" required placeholder="Idea for a project, help...?" required>
-  </div>
-  <div class="elem-group">
-    <label for="message">Write a brief overview</label>
-    <textarea id="message" name="visitor_message" placeholder="Your Message" required></textarea>
-  </div>
-  <button type="submit">Send Message</button>
-</form>
