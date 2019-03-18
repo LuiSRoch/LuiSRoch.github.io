@@ -129,7 +129,11 @@ button:hover {
 
 <form action="contact.php" method="post">
   <div class="elem-group">
-    <label for="email">Your E-mail</label>
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="visitor_name" placeholder="Enter your name here" pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+  <div class="elem-group">
+    <label for="email">Your Email</label>
     <input type="email" id="email" name="visitor_email" placeholder="You@something.com" required>
   </div>
   <div class="elem-group">
