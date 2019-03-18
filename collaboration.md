@@ -80,8 +80,10 @@ textarea {
     </div>
 
 <br />
-
-div.elem-group {
+<html>
+  <head>
+    <style>
+      div.elem-group {
   margin: 40px 0;
 }
 
@@ -120,6 +122,10 @@ button {
 button:hover {
   border: 2px solid black;
 }
+</style>
+</head>
+</html>
+
 
 <form action="contact.php" method="post">
   <div class="elem-group">
