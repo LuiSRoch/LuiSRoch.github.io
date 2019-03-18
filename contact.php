@@ -19,14 +19,14 @@ if($_POST) {
     }
     
     else {
-        $recipient = 'gugolwifi@gmail.com';
+        $to = 'gugolwifi@gmail.com';
     }
      
     $headers  = 'MIME-Version: 1.0' . "\r\n"
     .'Content-type: text/html; charset=utf-8' . "\r\n"
     .'From: ' . $visitor_email . "\r\n";
      
-    if(mail($recipient, $email_title, $visitor_message, $headers)) {
+    if(mail($to, $email_title, $visitor_message, $headers)) {
         echo "<p>Thank you for contacting me, $visitor_name. You will get a reply within 24 hours.</p>";
     } else {
         echo '<p>We are sorry but the email did not go through.</p>';
