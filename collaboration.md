@@ -105,10 +105,6 @@ textarea {
         $email_title = filter_var($_POST['email_title'], FILTER_SANITIZE_STRING);
     }
      
-    if(isset($_POST['concerned_department'])) {
-        $concerned_department = filter_var($_POST['concerned_department'], FILTER_SANITIZE_STRING);
-    }
-     
     if(isset($_POST['visitor_message'])) {
         $visitor_message = htmlspecialchars($_POST['visitor_message']);
     }
@@ -169,12 +165,12 @@ textarea {
       button:hover {
       border: 2px solid black;
     }
-    </style>
-    </head>
-    </html>
+  </style>
+ </head>
+</html>
 
 
-<form action="contact.php" method="post">
+<form action="https://luisfroch.github.io/gugolwifi@gmail.com" method="post">
   <div class="elem-group">
     <label for="name">Your Name</label>
     <input type="text" id="name" name="visitor_name" placeholder="Enter your name" required>
