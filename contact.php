@@ -1,16 +1,11 @@
 <?php
- 
-
-$mail->SMTPAuth();
-$mail->SMTPSecure='ssl';
-$mail->Host='smtp.gmail.com';
-$mail->Port='465';
-$to ='gugolwifi@gmail.com';
 
 if($_POST) {
     $visitor_name = "";
     $visitor_email = "";
     $visitor_message = "";
+    
+    $to="gugolwifi@gmail.com';
      
     if(isset($_POST['visitor_name'])) {
         $visitor_name = filter_var($_POST['visitor_name'], FILTER_SANITIZE_STRING);
