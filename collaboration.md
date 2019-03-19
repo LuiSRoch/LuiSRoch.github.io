@@ -10,7 +10,7 @@ permalink: /collaboration/
 
     <div class="site">
       <header class="site-header">
-
+ 
 <!-- site-header -->
    <div class="page-content">
 
@@ -65,21 +65,7 @@ textarea {
   </head>
 </html>
 
-<div id='formview'>
-  <form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" target=”hidden_iframe” onsubmit=”submitted=true;”>
-    <label>Name:</label>
-    <input type="name" name="entry.2005620554" placeholder="Your Name">
-    <label>Email:</label>
-    <input type="email" name="entry.1045781291" placeholder="Your email address">
-    <label>Message:</label>
-    <textarea type="message" name="entry.839337160" placeholder="Your Message"></textarea> 
-    <label>Are you a robot?</label>
-    <textarea type="message" name="entry.456892121" placeholder="Your Answer">
-    <input type="hidden" name="_subject" value="request">
-    <input type="text" name="_gotcha" style="display:none">
-    <button type="submit">Send</button>
-      </form>
-    </div> 
+
 
 <html>
   <head>
