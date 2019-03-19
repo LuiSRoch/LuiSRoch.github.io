@@ -72,7 +72,7 @@ textarea {
   <textarea name="message" placeholder="Your message"></textarea>
   <input type="hidden" name="entry.839337160" value="request" />
   <input type="text" name="_gotcha" style="display:none" />
-  <textarea type="message" name="entry.456892121" placeholder="Your Answer">
+  <textarea type="message" name="entry.456892121" placeholder="Are you a robot?">
   <button type="submit">Send</button>
 </form>
 
