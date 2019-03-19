@@ -98,7 +98,7 @@ onload="if(submitted) {window.location='thankyou.html';}"></iframe>
       box-sizing: border-box;
       font-size: 1.25em;
       font-family: 'Aleo';
-      width: 500px;
+      width: 100%;
       padding: 8px;
     }
 
