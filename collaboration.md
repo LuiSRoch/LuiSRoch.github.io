@@ -78,6 +78,8 @@ textarea {
     <label>Message:</label>
     <textarea type="message" name="entry.839337160" placeholder="Your Message"></textarea>
     <label>Are you a robot?</label>
+    <input type="hidden" name="_subject" value="request">
+    <input type="text" name="_gotcha" style="display:none">
     <textarea type="message" name="entry.456892121" placeholder="Your Answer"></textarea>
     <input type="hidden" name="_subject" value="request">
     <input type="text" name="_gotcha" style="display:none">
