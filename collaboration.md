@@ -79,8 +79,8 @@ textarea {
     <input type="text" name="_gotcha" style="display:none">
     <label>Are you a robot?</label>
     <input type="text" name="entry.456892121" placeholder="Your Answer">
-    <input type="hidden" name="_subject" value="request">
-    <input type="text" name="_gotcha" style="display:none">
+    #<input type="hidden" name="_subject" value="request">
+    #<input type="text" name="_gotcha" style="display:none">
     <button type="submit">Send</button>
   </form>
 </div>
