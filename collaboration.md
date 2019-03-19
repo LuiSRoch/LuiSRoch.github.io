@@ -68,12 +68,10 @@ textarea {
 </html>
 
 <form method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" target=”hidden_iframe” onsubmit=”submitted=true;” class="cform">
-  <label>Email:</label>
   <input type="email" name="entry.1045781291" placeholder="Your email address">
   <textarea name="message" placeholder="Your message"></textarea>
   <input type="hidden" name="entry.839337160" value="request" />
   <input type="text" name="_gotcha" style="display:none" />
-  <label>Are you a robot?</label>
   <textarea type="message" name="entry.456892121" placeholder="Your Answer">
   <button type="submit">Send</button>
 </form>
