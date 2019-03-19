@@ -71,13 +71,13 @@ textarea {
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
 onload="if(submitted) {window.location='thankyou.html';}"></iframe>
 <form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
+  <input type="text" name="name" placeholder="Your Name">
   <input type="email" name="email" placeholder="Your email address">
   <textarea name="message" placeholder="Your message"></textarea>
   <input type="hidden" name="_subject" value="request" />
   <input type="text" name="_gotcha" style="display:none" />
   <button type="submit">Send</button>
 </form>
-
 
 <html>
   <head>
