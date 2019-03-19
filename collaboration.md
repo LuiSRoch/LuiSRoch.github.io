@@ -68,8 +68,6 @@ textarea {
 </html>
 
 <form method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" target=”hidden_iframe” onsubmit=”submitted=true;” class="cform">
-  <label>Name:</label>
-  <input type="name" name="entry.2005620554" placeholder="Your Name">
   <label>Email:</label>
   <input type="email" name="entry.1045781291" placeholder="Your email address">
   <textarea name="message" placeholder="Your message"></textarea>
