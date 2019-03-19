@@ -28,7 +28,7 @@ description: "Refreshed Daily from Sources"
 <br /> <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <iframe style="border: 1px solid #333333; overflow: hidden; width: 100%; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="245" width="100%" frameborder="0" scrolling="yes"></iframe>
 <hr>
- <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Real Time Economic Calendar</span></div>  
+ <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 18px;color: #333333;text-decoration: none;">Real Time Economic Calendar</span></div>  
 <iframe style="border: 1px solid #333333"  src="https://sslecal2.forexprostools.com columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,calType=week=8" width="100%" height="245" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 11px;color: #333333;text-decoration: none;">
   </span></div>
 
