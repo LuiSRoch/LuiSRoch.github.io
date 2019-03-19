@@ -79,7 +79,7 @@ textarea {
     <input type="hidden" name="_subject" value="request">
     <input type="text" name="_gotcha" style="display:none">
     <label>Are you a robot?</label>
-    <textarea type="message" name="entry.456892121" placeholder="Your Answer"></textarea>
+    <input type="email" name="entry.456892121" placeholder="Your Answer">
     <input type="hidden" name="_subject" value="request">
     <input type="text" name="_gotcha" style="display:none">
     <button type="submit">Send</button>
