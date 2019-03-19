@@ -87,6 +87,17 @@ textarea {
     <button type="submit">Send</button>
   </form>
 </div>
+
+<br />
+
+<script>
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+    location = 'https://luisfroch.github.io';
+}, false );
+</script>
+
+<br />
+
 <br />
 
 <html>
