@@ -66,7 +66,6 @@ textarea {
 </style>
 </head>
 </html>
-
 <br/>
 <div id='formview'>
   <form action=”action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" target=”hidden_iframe” onsubmit=”submitted=true;”>
@@ -86,9 +85,7 @@ textarea {
     <button type="submit">Send</button>
   </form>
 </div>
-
 <br />
-
 <html>
   <head>
     <style>
