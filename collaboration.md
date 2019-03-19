@@ -69,7 +69,8 @@ textarea {
 
 <br/>
 <div id='formview'>
-  <form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" id="mG61Hd">
+  <script type=”text/javascript”>var submitted=false;</script> <iframe name=”hidden_iframe” id=”hidden_iframe” style=”display:none;” onload=”if(submitted) {window.location=’https://luisfroch.github.io‘;}”></iframe>
+  <form action=”action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" target=”hidden_iframe” onsubmit=”submitted=true;”>
     <label>Name:</label>
     <input type="name" name="entry.2005620554" placeholder="Your Name">
     <label>Email:</label>
@@ -127,7 +128,7 @@ textarea {
       font-family: 'Aleo';
       border-radius: 4px;
       cursor: pointer;
-    }#<form action="https://formspree.io/gugolwifi@gmail.com" method="POST"> #<form action="mailto:?to=gugolwifi@gmail.com" method="POST" enctype="multipart/form-data">
+    }#<form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" id="mG61Hd">
 
       button:hover {
       border: 2px solid black;
