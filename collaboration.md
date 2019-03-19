@@ -68,7 +68,7 @@ textarea {
 
 <br/>
 <div id='formview'>
-  <form action="mailto:gugolwifi@gmail.com" method="POST" enctype="multipart/form-data">
+  <form action="mailto:?to=gugolwifi@gmail.com" method="POST" enctype="multipart/form-data">
     <input type="email" name="email" placeholder="Your email address">
     <br/>
     <textarea type="message" placeholder="Your Message"></textarea>
