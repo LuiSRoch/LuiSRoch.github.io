@@ -46,7 +46,7 @@ permalink: /collaboration/
 <h4> Contact </h4>
 
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
-
+<br />
 <html>
 <head>
 <style> 
