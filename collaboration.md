@@ -68,7 +68,8 @@ textarea {
 
 <br/>
 <div id='formview'>
-  <script type=”text/javascript”>var submitted=false;</script> <iframe name=”hidden_iframe” id=”hidden_iframe” style=”display:none;” onload=”if(submitted) {window.location="https://luisfroch.github.io";}”></iframe><form action=”action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" target=”hidden_iframe” onsubmit=”submitted=true;”>
+  <script type=”text/javascript”>var submitted=false;</script> <iframe name=”hidden_iframe” id=”hidden_iframe” style=”display:none;” onload=”if(submitted) {window.location="https://luisfroch.github.io";}”></iframe>
+  <form action=”action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" target=”hidden_iframe” onsubmit=”submitted=true;”>
     <label>Name:</label>
     <input type="name" name="entry.2005620554" placeholder="Your Name">
     <label>Email:</label>
@@ -82,7 +83,7 @@ textarea {
     <input type="text" name="entry.456892121" placeholder="Your Answer">
     <input type="hidden" name="_subject" value="request">
     <input type="text" name="_gotcha" style="display:none">
-    <button type="submit">Send</button> 
+    <button type="submit">Send</button>
   </form>
 </div>
 
