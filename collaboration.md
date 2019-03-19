@@ -68,10 +68,14 @@ textarea {
 
 <br/>
 <div id='formview'>
-  <form action="mailto:?to=gugolwifi@gmail.com" method="POST" enctype="multipart/form-data">
-    <input type="email" name="email" placeholder="Your email address">
+  <form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" id="mG61Hd">
+    <label>Name:</label>
+    <input type="name" name="entry.2005620554" placeholder="Your Name">
+    <label>Email:</label>
+    <input type="email" name="entry.1045781291" placeholder="Your email address">
     <br/>
-    <textarea type="message" placeholder="Your Message"></textarea>
+    <label>Message:</label>
+    <textarea type="message" name="entry.839337160" placeholder="Your Message"></textarea>
     <input type="hidden" name="_subject" value="request">
     <input type="text" name="_gotcha" style="display:none">
     <button type="submit">Send</button>
@@ -121,7 +125,7 @@ textarea {
 
       button:hover {
       border: 2px solid black;
-    } #<form action="https://formspree.io/gugolwifi@gmail.com" method="POST">
+    } #<form action="https://formspree.io/gugolwifi@gmail.com" method="POST">#<form action="mailto:?to=gugolwifi@gmail.com" method="POST" enctype="multipart/form-data">
     </style>
     </head>
     </html>
