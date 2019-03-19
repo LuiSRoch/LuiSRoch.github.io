@@ -19,7 +19,7 @@ permalink: /collaboration/
     of tools; from Python & SQL to Scala to Tableau to plotly-dash.
 
    </div>
-<br />
+
 <!--
 <h2> Customers </h2>
 
@@ -46,7 +46,7 @@ permalink: /collaboration/
 <h4> Contact </h4>
 
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
-<br/>
+
 <html>
 <head>
 <style> 
@@ -75,8 +75,8 @@ textarea {
     <textarea type="message" name="entry.839337160" placeholder="Your Message"></textarea> 
     <label>Are you a robot?</label>
     <textarea type="message" name="entry.456892121" placeholder="Your Answer">
-    <input type="hidden" name="_subject" value="request" />
-    <input type="text" name="_gotcha" style="display:none" />
+    <input type="hidden" name="_subject" value="request">
+    <input type="text" name="_gotcha" style="display:none">
     <button type="submit">Send</button>
       </form>
     </div> 
