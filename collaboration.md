@@ -76,7 +76,7 @@ onload="if(submitted) {window.location='thankyou.html';}"></iframe>
   <textarea name="message" placeholder="Your message"></textarea>
   <input type="hidden" name="_subject" value="request" />
   <input type="text" name="_gotcha" style="display:none" />
-  <input type="radio" name="A robot?" value="Yes" value="No"> Are you a robot?<br>
+  <input type="text" name="entry.456892121" placeholder="Are you a robot?"><br>
   <input type="radio" name="A robot?" value="No"> No<br>
   <input type="radio" name="A robot?" value="Maybe"> Maybe
 </form>
