@@ -66,7 +66,10 @@ textarea {
 </style>
 </head>
 </html>
-
+<br />
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+onload="if(submitted) {window.location='thankyou.html';}"></iframe>
 <form method="POST" action="https://formspree.io/gugolwifi@gmail.com" class="cform">
   <input type="email" name="email" placeholder="Your email address">
   <textarea name="message" placeholder="Your message"></textarea>
