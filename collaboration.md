@@ -69,7 +69,6 @@ textarea {
 
 <br/>
     <div id='formview'>
-      #<form action="https://formspree.io/gugolwifi@gmail.com" method="POST">
       <form mailto:"gugolwifi@gmail.com" method="POST'>
         <input type="email" name="email" placeholder="Your email address">
         <br/>
@@ -119,7 +118,7 @@ textarea {
       font-family: 'Aleo';
       border-radius: 4px;
       cursor: pointer;
-    }
+    }#<form action="https://formspree.io/gugolwifi@gmail.com" method="POST">
 
       button:hover {
       border: 2px solid black;
