@@ -17,10 +17,9 @@ permalink: /collaboration/
     I work with data science to provide analytics and visualizations on real estate, financial industry, 
     and supply chain. I'm interested in combining data mining, statistics and visualizations using a combination
     of tools; from Python & SQL to Scala to Tableau to plotly-dash.
-	<br />
 
    </div>
-
+<br />
 <!--
 <h2> Customers </h2>
 
@@ -65,7 +64,6 @@ textarea {
   </style>
   </head>
 </html>
-<br/>
 
 <div id='formview'>
   <form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" target=”hidden_iframe” onsubmit=”submitted=true;”>
@@ -81,9 +79,8 @@ textarea {
     <input type="text" name="_gotcha" style="display:none" />
     <button type="submit">Send</button>
       </form>
-    </div>
-  
-<br />
+    </div> 
+
 <html>
   <head>
     <style>
