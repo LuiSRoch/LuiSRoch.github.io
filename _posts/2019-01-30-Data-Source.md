@@ -40,7 +40,7 @@ description: "Refreshed Daily from Sources"
 
 <h1 class="app-title"><span>World Bank Open Data</span></h1>
 <h2 class="app-description"><span>Free and open access to global development data</span></h2>
-<div class="search-bar multiSelector"><div class="selector-box"><div class="scroll-box"><input type="text" autocapitalize="off" autocomplete="off" autocorrect="off" id="selector" placeholder="Search data e.g. GDP, population, Indonesia" spellcheck="false" tabindex="0" value="" class=""></div></div><button class=""></button><div class="dropdownBox"><div class="control"><button class="close button secondary">Close</button></div><p><span>Browse by</span><a class="country" href="/country"><span>Country</span></a><span>or</span><a href="/indicator"><span>Indicator</span></a></p></div></div>
+<div class="search-bar multiSelector"><div class="selector-box"><div class="scroll-box"><input type="text" autocapitalize="off" autocomplete="off" autocorrect="off" id="selector" placeholder="Search data e.g. GDP, population, Indonesia" spellcheck="false" tabindex="0" value="" class=""></div></div><button class=""></button><div class="dropdownBox"><div class="control"><button class="close button secondary">Close</button></div><p><span>Browse by </span><a class="country" href="https://data.worldbank.org/country"><span>Country </span></a><span>or</span><a href="https://data.worldbank.org/indicator"><span> Indicator</span></a></p></div></div>
 
 <br />
 <hr>
