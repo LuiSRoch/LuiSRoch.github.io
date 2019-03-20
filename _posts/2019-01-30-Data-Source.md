@@ -45,7 +45,7 @@ description: "Refreshed Daily from Sources"
 <h5 class="app-description"><span>Free and open access to global development data</span></h5>
 
 <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-  <form action="https://fred.stlouisfed.org/search?st=&404-search-button=Search" method="GET">
+  <form action="https://data.worldbank.org/search?st=&404-search-button=Search" method="GET">
     <input type="text" id="search" name="st" placeholder="Explore, gdp, inflation, unemployment">
     <button type="submit" id="submit" style="background-color:#687f9f;color:white"> Search </button>
   </form>
