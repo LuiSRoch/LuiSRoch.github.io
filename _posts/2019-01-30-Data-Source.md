@@ -51,7 +51,7 @@ description: "Refreshed Daily from Sources"
 
 <hr>
 
-<iframe src="https://data.worldbank.org/share/widget?end=2013&indicators=EN.ATM.CO2E.KT&locations=1W&start=1960&view=chart" width='100%' height='245' frameBorder='0' scrolling="Yes" ></iframe>
+<iframe src="https://data.worldbank.org/share/widget?end=2013&indicators=EN.ATM.CO2E.KT&locations=1W&start=1960&view=chart" width='100%' height='450' frameBorder='0' scrolling="Yes" ></iframe>
 <hr>
 
 <br /> 
