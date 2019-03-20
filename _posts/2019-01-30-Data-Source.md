@@ -4,6 +4,12 @@ title:  "Data"
 description: "Refreshed Daily from Sources"
 ---
 
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 16px;color: #333333;text-decoration: none;">Real Time Economic Calendar</span></div>    
+<iframe style="border: 1px solid #333333"  src="https://sslecal2.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,calType=week=7&lang=1" width="100%" height="245" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span></div>
+</div>
+<br />
+<hr>
+
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Data provided by <a href="https://fred.stlouisfed.org/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Federal Reserve Bank of St. Louis</a></span></div>
 <hr>
 
@@ -27,14 +33,9 @@ description: "Refreshed Daily from Sources"
   <hr>
 <br /> <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <iframe style="border: 1px solid #333333; overflow: hidden; width: 100%; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="245" width="100%" frameborder="0" scrolling="yes"></iframe>
-<hr>
   <br />
-<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 16px;color: #333333;text-decoration: none;">Real Time Economic Calendar</span></div>    
-<iframe style="border: 1px solid #333333"  src="https://sslecal2.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,calType=week=7&lang=1" width="100%" height="245" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span></div>
-</div>
-<br />
-<hr>
 
+<hr>
 <h1 class="app-title"><span>World Bank Open Data</span></h1>
 <h4 class="app-description"><span>Free and open access to global development data</span></h4>
 
