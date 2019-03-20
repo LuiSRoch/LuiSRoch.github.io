@@ -5,6 +5,7 @@
 <br />
 <h1 class="section-front-header-module__title">Tableau Visualizations</h1>  
   <body>
+<head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 div.scrollmenu {
