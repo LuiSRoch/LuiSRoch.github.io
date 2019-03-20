@@ -38,7 +38,9 @@ description: "Refreshed Daily from Sources"
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Data provided by <a href="https://fred.stlouisfed.org/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Federal Reserve Bank of St. Louis</a></span></div>
 <hr>
 
-<<div class="search-bar multiSelector"><div class="selector-box"><div class="scroll-box"><input type="text" autocapitalize="off" autocomplete="off" autocorrect="off" id="selector" placeholder="Search data e.g. GDP, population, Indonesia" spellcheck="false" tabindex="0" value="" class=""></div></div><button class=""></button><div class="dropdownBox"><div class="control"><button class="close button secondary">Close</button></div><p><span>Browse by</span><a class="country" href="/country"><span>Country</span></a><span>or</span><a href="/indicator"><span>Indicator</span></a></p></div></div>
+<h1 class="app-title"><span>World Bank Open Data</span></h1>
+<h2 class="app-description"><span>Free and open access to global development data</span></h2>
+<div class="search-bar multiSelector"><div class="selector-box"><div class="scroll-box"><input type="text" autocapitalize="off" autocomplete="off" autocorrect="off" id="selector" placeholder="Search data e.g. GDP, population, Indonesia" spellcheck="false" tabindex="0" value="" class=""></div></div><button class=""></button><div class="dropdownBox"><div class="control"><button class="close button secondary">Close</button></div><p><span>Browse by</span><a class="country" href="/country"><span>Country</span></a><span>or</span><a href="/indicator"><span>Indicator</span></a></p></div></div>
 
 <br />
 <hr>
