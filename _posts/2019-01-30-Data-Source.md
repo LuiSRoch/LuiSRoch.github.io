@@ -38,23 +38,8 @@ description: "Refreshed Daily from Sources"
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Data provided by <a href="https://fred.stlouisfed.org/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Federal Reserve Bank of St. Louis</a></span></div>
 <hr>
 
-<div class="proj-box-format">
-  <div class="col-xs-12" id="fred-homepage-bluebox" style="padding-left: 0; padding-right: 0;">
-    <div class="col-xs-12" style="padding-left: 0; padding-right: 0;">
-        <div class="col-xs-12 col-sm-4 col-sm-push-8 text-right" style="padding-right: 1em;"></div>
-        <div class="col-xs-12" style="padding-left: 0; padding-right: 0;">
-            <div id="fred-homepage-description" class="hidden-xs col-sm-12 text-center">
-              <a href="https://fred.stlouisfed.org/tags/series"><strong>528,000</strong> US and international time series</a> from <a href="https://fred.stlouisfed.org/sources"><strong>87</strong> sources</a>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-           <form action="https://fred.stlouisfed.org/search?st=&404-search-button=Search" method="GET">
-              <input type="text" id="search" name="st" placeholder="Search FRED data e.g., gdp, inflation, unemployment">
-                <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
-            </form>
-        </div>
-    </div>
-</div>
+<div class="search-bar multiSelector" data-reactid="137"><div class="selector-box" data-reactid="138"><div class="scroll-box" data-reactid="139"><input type="text" autocapitalize="off" autocomplete="off" autocorrect="off" id="selector" placeholder="Search data e.g. GDP, population, Indonesia" spellcheck="false" tabindex="0" value="" class="" data-reactid="140"></div></div><button class="" data-reactid="141"></button><div class="dropdownBox" data-reactid="142"><div class="control" data-reactid="143"><button class="close button secondary" data-reactid="144">Close</button></div><p data-reactid="145"><span data-reactid="146">Browse by</span><a class="country" href="/country" data-reactid="147"><span data-reactid="148">Country</span></a><span data-reactid="149">or</span><a href="/indicator" data-reactid="150"><span data-reactid="151">Indicator</span></a></p></div></div>
+
 <br />
 <hr>
 <h1 class="section-front-header-module__title">Supply Chain</h1>
