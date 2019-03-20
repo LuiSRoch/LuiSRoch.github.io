@@ -36,7 +36,7 @@ description: "Refreshed Daily from Sources"
 <hr>
 
 <h1 class="app-title"><span>World Bank Open Data</span></h1>
-<h2 class="app-description"><span>Free and open access to global development data</span></h2>
+<h5 class="app-description"><span>Free and open access to global development data</span></h5>
 <div class="search-bar multiSelector">
   <div class="selector-box">
     <div class="scroll-box">
