@@ -46,8 +46,7 @@ description: "Refreshed Daily from Sources"
     <input type="text" id="search" name="st" placeholder="Search FRED data e.g., gdp, inflation, unemployment">
     <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
   </form>
-
-<p data-reactid=""><span data-reactid="">Browse by</span><a class="country" href="https://data.worldbank.org/country" data-reactid=""><span data-reactid=""> Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator</span></a></p>
+  <p data-reactid=""><span data-reactid="">Browse by</span><a class="country" href="https://data.worldbank.org/country" data-reactid=""><span data-reactid=""> Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator</span></a></p>
 </div>
 
 <br />
