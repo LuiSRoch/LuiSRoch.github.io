@@ -34,7 +34,7 @@ description: "Refreshed Daily from Sources"
 
 <br />
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <iframe style="border: 1px solid #333333; overflow: hidden; width: 100%; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="245" width="100%" frameborder="0" scrolling="yes"></iframe>
+  <iframe style="border: 1px solid #333333; overflow: hidden; width: 100%; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="450" width="100%" frameborder="0" scrolling="yes"></iframe>
 <hr>
 <br />
 
