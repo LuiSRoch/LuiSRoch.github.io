@@ -5,7 +5,7 @@
 <h1 class="section-front-header-module__title">Tableau Visualizations</h1>  
   <body>
   .module {
-  background-image: url(https://public.tableau.com/javascripts/api/viz_v1.js);
+  background-image: url();
 }
   const el = document.querySelector("#module");
 
