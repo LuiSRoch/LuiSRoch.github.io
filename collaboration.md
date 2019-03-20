@@ -14,9 +14,11 @@ permalink: /collaboration/
 <!-- site-header -->
    <div class="page-content">
 
-    I work with data science to provide analytics and visualizations on real estate, financial industry, 
-    and supply chain. I'm interested in combining data mining, statistics and visualizations using a combination
-    of tools; from Python & SQL to Scala to Tableau to plotly-dash.
+    I work with data science methods to provide analytics and visualizations on financial and economic information,
+    real estate, and supply chain. I'm mainly interested in exploring producer prices, inflation, business cycles, financial
+    markets using a combination of tools: Excel, Python, SQL and Tableau to provide statistics and visualizations.
+    I have a couple of projects (agricultural commodity market prices control using AI and creating a data lake) that I would
+    like to start making progress on.
 
    </div>
 
@@ -43,8 +45,6 @@ permalink: /collaboration/
   </div>
 </div>
 -->
-
-<h4> Contact </h4>
 
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
 <br/>
