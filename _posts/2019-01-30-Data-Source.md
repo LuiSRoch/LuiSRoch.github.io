@@ -35,8 +35,10 @@ description: "Refreshed Daily from Sources"
 
 </div>
 <hr>
-
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<iframe style="border: 1px solid #333333; overflow: hidden; width: 100%; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="245" width="100%" frameborder="0" scrolling="yes"></iframe>
 <br />
+<hr>
 <h1 class="section-front-header-module__title">Supply Chain</h1>
 
     Under Construction
