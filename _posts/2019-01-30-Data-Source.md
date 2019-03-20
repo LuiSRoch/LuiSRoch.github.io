@@ -33,11 +33,11 @@ description: "Refreshed Daily from Sources"
 <iframe style="border: 1px solid #333333"  src="https://sslecal2.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,calType=week=7&lang=1" width="100%" height="245" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span></div>
 </div>
 <br />
-
-<hr>
-<div class="search-bar multiSelector" data-reactid="137"><div class="selector-box" data-reactid="138"><div class="scroll-box" data-reactid="139"><input type="text" autocapitalize="off" autocomplete="off" autocorrect="off" id="selector" placeholder="Search data e.g. GDP, population, Indonesia" spellcheck="false" tabindex="0" value="" class="" data-reactid="140"></div></div><button class="" data-reactid="141"></button><div class="dropdownBox" data-reactid="142"><div class="control" data-reactid="143"><button class="close button secondary" data-reactid="144">Close</button></div><p data-reactid="145"><span data-reactid="146">Browse by</span><a class="country" href="/country" data-reactid="147"><span data-reactid="148">Country</span></a><span data-reactid="149">or</span><a href="/indicator" data-reactid="150"><span data-reactid="151">Indicator</span></a></p></div></div>
 <hr>
 
+<div class="search-bar multiSelector"><div class="selector-box"><div class="scroll-box"><input type="text" autocapitalize="off" autocomplete="off" autocorrect="off" id="selector" placeholder="Search data e.g. GDP, population, Indonesia" spellcheck="false" tabindex="0" value="" class=""></div></div><button class=""></button><div class="dropdownBox"><div class="control"><button class="close button secondary">Close</button></div><p><span>Browse by</span><a class="country" href="/country"><span>Country</span></a><span>or</span><a href="/indicator"><span>Indicator</span></a></p></div></div>
+
+<hr>
   <br /> 
 <h1 class="section-front-header-module__title">Supply Chain</h1>
 
