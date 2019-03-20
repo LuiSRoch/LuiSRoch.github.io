@@ -4,16 +4,15 @@ title:  "Data"
 description: "Refreshed Daily from Sources"
 ---
 
- <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 16px;color: #333333;text-decoration: none;">Real Time Economic Calendar</span></div>  
-<iframe style="border: 1px solid #333333"  src="https://sslecal2.forexprostools.com columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,calType=week=8" width="100%" height="245" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 11px;color: #333333;text-decoration: none;">
-  </span></div>
-
-</div>
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">
+  <span style="font-size: 16px;color: #333333;text-decoration: none;">Real Time Economic Calendar</span>
+</div>    
+<iframe style="border: 1px solid #333333"  src="https://sslecal2.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,calType=week=7&lang=1" width="100%" height="245" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span></div>
+<br />
 <hr>
 
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Data provided by <a href="https://fred.stlouisfed.org/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Federal Reserve Bank of St. Louis</a></span></div>
-<hr>
-
+<br />
 <div class="proj-box-format">
   <div class="col-xs-12" id="fred-homepage-bluebox" style="padding-left: 0; padding-right: 0;">
     <div class="col-xs-12" style="padding-left: 0; padding-right: 0;">
@@ -32,17 +31,14 @@ description: "Refreshed Daily from Sources"
     </div>
 </div>
   <hr>
-<br /> <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<iframe style="border: 1px solid #333333; overflow: hidden; width: 100%; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="245" width="100%" frameborder="0" scrolling="yes"></iframe>
-<hr>
+<br />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <iframe style="border: 1px solid #333333; overflow: hidden; width: 100%; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="245" width="100%" frameborder="0" scrolling="yes"></iframe>
   <br />
   
 <hr>
-<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Data provided by <a href="https://fred.stlouisfed.org/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Federal Reserve Bank of St. Louis</a></span></div>
-<hr>
-
-<h1 class="app-title"><span>World Bank Open Data</span></h1>
-<h5 class="app-description"><span>Free and open access to global development data</span></h5>
+<h2 class="app-title"><span>World Bank Open Data</span></h2>
+<h4 class="app-description"><span>Free and open access to global development data</span></h4>
 
 <div class="col-xs-15 col-sm-13 col-sm-offset-2">
   <form action="https://databank.worldbank.org/data/databases/page/1/orderby/popularity/direction/desc?qterm=&404-search-button=Search" method="GET">
@@ -52,8 +48,8 @@ description: "Refreshed Daily from Sources"
   <h5 data-reactid=""><span data-reactid="">Browse by</span><a class="country" href="https://data.worldbank.org/country" data-reactid=""><span data-reactid=""> Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator</span></a></h5>
 </div>
 
-<br />
 <hr>
+  <br /> 
 <h1 class="section-front-header-module__title">Supply Chain</h1>
 
     Under Construction
@@ -65,5 +61,4 @@ description: "Refreshed Daily from Sources"
     Under Construction
     
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;"><a href="git@github.com:LuisFRoch/Excel-Tools.git" rel="nofollow" target="_blank" style="font-size: 14px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Excel Macros to help with daily workload... More...</a></span></div>
-
 
