@@ -41,26 +41,13 @@ description: "Refreshed Daily from Sources"
 <h1 class="app-title"><span>World Bank Open Data</span></h1>
 <h5 class="app-description"><span>Free and open access to global development data</span></h5>
 
-<div class="col-lg-7">
-  <div class="input-group extend-margin">
-    <input type="text" class="form-control" placeholder="Type keywords to filter database names" aria-describedby="search-icon" id="inpSearch" onkeypress="return ValidateAlphaNumericData(event, this)" maxlength="40" onfocus="clearField(this)">
-    <span class="input-group-addon" id="search-icon">
-      <i class="fa fa-search">
-      </i>
-    </span>
-  </div>
-</div>
-
-<div class="search-bar multiSelector">
-  <div class="selector-box">
-    <div class="scroll-box">
-      <input type="text" autocapitalize="off" autocomplete="off" autocorrect="off" class="focus" data-react-id="" id="selector" placeholder="Search data e.g. GDP, population, Indonesia" spellcheck="false" tabindex="0" value="" class="">
-    </div>
-  </div>
-  <button class=""></button>
-  <div class="dropdownBox">
-    <div class="control"><button class="close button secondary">Close</button>
-    </div>
+<<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+           <form action="https://fred.stlouisfed.org/search?st=&404-search-button=Search" method="GET">
+              <input type="text" id="search" name="st" placeholder="Search FRED data e.g., gdp, inflation, unemployment">
+                <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
+            </form>
+        </div>
+        
     <p data-reactid=""><span data-reactid="">Browse by</span><a class="country" href="https://data.worldbank.org/country" data-reactid=""><span data-reactid=""> Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator</span></a></p>
   </div>
 </div>
