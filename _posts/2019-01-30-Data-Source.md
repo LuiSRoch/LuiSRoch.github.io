@@ -40,11 +40,10 @@ description: "Refreshed Daily from Sources"
 
 <div class="col-xs-12 col-sm-10 col-sm-offset-1">
   <form action="https://fred.stlouisfed.org/search?st=&404-search-button=Search" method="GET">
-    <input type="text" id="search" name="st" placeholder="Search FRED data e.g., gdp, inflation, unemployment">
-    <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
+    <input type="text" id="search" name="st" placeholder="Explore, gdp, inflation, unemployment">
+    <button type="submit" id="submit" style="background-color:#687f9f;color:white"> Search </button>
   </form>
-
-<p data-reactid=""><span data-reactid="">Browse by</span><a class="country" href="https://data.worldbank.org/country" data-reactid=""><span data-reactid=""> Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator</span></a></p>
+  <p data-reactid=""><span data-reactid="">Browse by</span><a class="country" href="https://data.worldbank.org/country" data-reactid=""><span data-reactid=""> Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator</span></a></p>
 </div>
 
 <hr>
