@@ -38,8 +38,9 @@ description: "Refreshed Daily from Sources"
 <hr>
 <br />
 
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">World Bank Open Data</a></span></div>
 <h3 class="app-title"><span>World Bank Open Data</span></h3>
-<h4 class="app-description"><span>Free and open access to global development data</span></h4>
+<h5 class="app-description"><span>Free and open access to global development data</span></h5>
 
 <div class="col-xs-15 col-sm-13 col-sm-offset-2">
   <form action="https://databank.worldbank.org/data/databases/page/1/orderby/popularity/direction/desc?qterm=&404-search-button=Search" method="GET">
