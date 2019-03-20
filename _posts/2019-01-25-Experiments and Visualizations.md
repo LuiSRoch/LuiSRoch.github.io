@@ -1,6 +1,6 @@
 <h1 class="section-front-header-module__title">Python Visualizations</h1>
 
-
+<hr>
 <br />
 <h1 class="section-front-header-module__title">Tableau Visualizations</h1>  
   <body>
