@@ -46,7 +46,10 @@ description: "Refreshed Daily from Sources"
   <button class=""></button>
   <div class="dropdownBox">
     <div class="control"><button class="close button secondary">Close</button>
-    </div><p><span>Browse by </span><a class="country" href="https://data.worldbank.org/country"><span>Country </span></a><span>or</span><a href="https://data.worldbank.org/indicator"><span> Indicator</span></a></p></div></div>
+    </div>
+    <p data-reactid=""><span data-reactid="">Browse by</span><a class="country" href="https://data.worldbank.org/country" data-reactid=""><span data-reactid="">Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator</span></a></p>
+  </div>
+</div>
 
 <hr>
   <br /> 
