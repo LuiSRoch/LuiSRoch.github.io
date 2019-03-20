@@ -10,6 +10,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
+<h4 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h4>
   <p>
     What is Data Wrangling and Analytics?
     ...It's a source of financial, economic and supply chain data from reputable sources.
