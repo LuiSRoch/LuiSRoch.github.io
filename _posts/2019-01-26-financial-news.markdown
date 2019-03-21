@@ -100,4 +100,14 @@ rssfeed_cache = "c0d58c994414e002f4a7f44109c832df";
 //--> 
 </script> 
 <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
-
+<hr>
+<br />
+<div class="block-content">
+		        <ul>
+		            		                <li><a href="/Subjects/Stress-Testing/Stress-testing-to-evolve-to-keep-pace-with-changing-risks">Stress testing to evolve to keep pace with changing risks </a></li>
+		            		                <li><a href="/Subjects/Capital/Delays-and-high-failure-rates-hit-FRTB-implementation">Delays and high failure rates hit FRTB implementation</a></li>
+		            		                <li><a href="/Subjects/Reporting-and-Governance/Are-onsite-regulators-the-best-way-to-drive-behavioural-change-within-banks">Are onsite regulators the best way to drive behavioural change within banks? </a></li>
+		            		                <li><a href="/Subjects/Financial-Markets/Preparations-for-benchmark-reforms-need-prioritisation">Preparations for benchmark reforms need prioritisation </a></li>
+		            		                <li class="last"><a href="/Subjects/Regulatory-Relations/A-regulatory-race-to-the-bottom">A regulatory race to the bottom? </a></li>
+		            		        </ul>
+	       </div>
