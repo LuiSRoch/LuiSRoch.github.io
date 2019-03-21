@@ -102,7 +102,9 @@ rssfeed_cache = "c0d58c994414e002f4a7f44109c832df";
 <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
 <hr>
 <br />
-<div class="block-content">
+<div class="block-type-most-viewed">
+	        <div class="block-header"><h3>Most Viewed</h3></div>
+	        <div class="block-content">
 		        <ul>
 		            		                <li><a href="/Subjects/Stress-Testing/Stress-testing-to-evolve-to-keep-pace-with-changing-risks">Stress testing to evolve to keep pace with changing risks </a></li>
 		            		                <li><a href="/Subjects/Capital/Delays-and-high-failure-rates-hit-FRTB-implementation">Delays and high failure rates hit FRTB implementation</a></li>
@@ -111,3 +113,4 @@ rssfeed_cache = "c0d58c994414e002f4a7f44109c832df";
 		            		                <li class="last"><a href="/Subjects/Regulatory-Relations/A-regulatory-race-to-the-bottom">A regulatory race to the bottom? </a></li>
 		            		        </ul>
 	       </div>
+	    </div>
