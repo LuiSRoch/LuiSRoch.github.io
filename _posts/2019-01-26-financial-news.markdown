@@ -141,7 +141,8 @@ rssfeed_item_description_tag="off";
 rssfeed_no_items="0"; 
 rssfeed_cache = "27e7b36b2553f0ddbf7d765dc124c29a"; 
 //--> 
-</script>  
+</script>
+<br />
 <!-- start sw-rss-feed code --> 
 <script type="text/javascript"> 
 <!-- 
@@ -182,7 +183,8 @@ rssfeed_item_description_tag="off";
 rssfeed_no_items="0"; 
 rssfeed_cache = "b4d2474960f3328bc305507cc2a375cd"; 
 //--> 
-</script> 
+</script>
+<br />
 <!-- start sw-rss-feed code --> 
 <script type="text/javascript"> 
 <!-- 
