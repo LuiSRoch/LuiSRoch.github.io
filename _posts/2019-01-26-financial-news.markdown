@@ -98,9 +98,9 @@ rssfeed_no_items="0";
 rssfeed_cache = "c0d58c994414e002f4a7f44109c832df"; 
 //--> 
 </script> 
-
 <hr>
 <br />
+<h4 class="section-front-header-module__title">Regulation and OTC</h4>
 <!-- start sw-rss-feed code --> 
 <script type="text/javascript"> 
 <!-- 
@@ -141,8 +141,7 @@ rssfeed_item_description_tag="off";
 rssfeed_no_items="0"; 
 rssfeed_cache = "27e7b36b2553f0ddbf7d765dc124c29a"; 
 //--> 
-</script> 
-</script> 
+</script>  
 <!-- start sw-rss-feed code --> 
 <script type="text/javascript"> 
 <!-- 
