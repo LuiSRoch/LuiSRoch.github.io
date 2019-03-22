@@ -21,20 +21,20 @@ title:  "Financial and Business"
 <hr>
 <h1 class="section-front-header-module__title">Markets</h1>
 
-<div class="thirdparty-embed">
-                <div class="thirdparty-embed__container">
-                    <iframe
-                        src="https://www.bloomberg.com/markets/components/data-drawer?linksType=tout&showTabs=true"
-                        allowfullscreen="true"
-                        frameborder="0"
-                        scrolling="no"
-                        width="100%"
-
-                        height="100"
-                        data-embed-id="https://www.bloomberg.com/markets/components/data-drawer?linksType=tout&showTabs=true">
-										</iframe>
-                </div>
-            </div>
+<div class="proj-box-format">
+  <div class="thirdparty-embed">
+    <div class="thirdparty-embed__container">
+      <iframe src="https://www.bloomberg.com/markets/components/data-drawer?linksType=tout&showTabs=true"
+              allowfullscreen="true"
+              frameborder="0"
+              scrolling="no"
+              width="100%"
+              height="100"
+              data-embed-id="https://www.bloomberg.com/markets/components/data-drawer?linksType=tout&showTabs=true">
+      </iframe>
+    </div>
+  </div>
+</div
 
 <section class="embed-module" id="sector_performance" data-variation="">
 
