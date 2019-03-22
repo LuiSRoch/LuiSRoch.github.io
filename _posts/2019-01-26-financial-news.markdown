@@ -20,8 +20,6 @@ title:  "Financial and Business"
 </div>
 <hr>
 <h1 class="section-front-header-module__title">Markets</h1>
-
-<div class="proj-box-format">
   <div class="thirdparty-embed">
     <div class="thirdparty-embed__container">
       <iframe src="https://www.bloomberg.com/markets/components/data-drawer?linksType=tout&showTabs=true"
@@ -34,7 +32,6 @@ title:  "Financial and Business"
       </iframe>
     </div>
   </div>
-</div>
 
 <section class="embed-module" id="sector_performance" data-variation="">
 
