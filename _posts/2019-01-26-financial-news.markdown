@@ -34,7 +34,7 @@ title:  "Financial and Business"
       </iframe>
     </div>
   </div>
-</div
+</div>
 
 <section class="embed-module" id="sector_performance" data-variation="">
 
