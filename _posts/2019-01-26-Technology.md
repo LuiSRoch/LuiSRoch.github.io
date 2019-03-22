@@ -102,7 +102,6 @@ rssfeed_cache = "f7cb0087a81723f50619134489fc46cb";
 <h1 class="section-front-header-module__title">Tools & Links</h1>
 
 <hr>
-Under Construction
 
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;"><a href="https://gym.openai.com/" rel="nofollow" target="_blank" style="font-size: 14px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Comparing reinforcement learning algorithms with Open AI GYM</a></span></div>
 <br />
