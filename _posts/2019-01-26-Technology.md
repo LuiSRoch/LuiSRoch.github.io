@@ -107,4 +107,6 @@ rssfeed_cache = "f7cb0087a81723f50619134489fc46cb";
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;"><a href="http://shogun-toolbox.org/" rel="nofollow" target="_blank" style="font-size: 14px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Shogun machine learning library</a></span></div>
 <br />
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;"><a href="https://spark.apache.org/docs/1.1.0/mllib-guide.html" rel="nofollow" target="_blank" style="font-size: 14px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Spark machine Learning Library</a></span></div>
+<br />
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;"><a href="https://www.h2o.ai/" rel="nofollow" target="_blank" style="font-size: 14px;color: #06529D; font-weight: bold;" class="underline_link" align="right">h2o Machine Learning and AI platform</a></span></div>
 <hr>
