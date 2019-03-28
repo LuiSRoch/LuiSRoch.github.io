@@ -1,5 +1,11 @@
 
 <h1 class="section-front-header-module__title">Python Visualizations</h1>
+<div>
+<h5 class="section-front-header-module__title">Predicting S&P500 Close</h5>  
+  <body>
+  <img src="SP500 Mean Close.png" alt="S&P 500 Close" width="500" height="333">
+</body>
+</div>
 
 <hr>
 <br />
