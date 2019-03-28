@@ -1,6 +1,11 @@
 <h1 class="section-front-header-module__title">Python Visualizations</h1>
 
-  <a href="git@github.com:LuisFRoch/Explore_iPy_Samples.git" rel="nofollow" target="_blank" style="font-size: 16px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Predicting S&P500 Close.</a>
+<a href="git@github.com:LuisFRoch/Explore_iPy_Samples.git" rel="nofollow" target="_blank" style="font-size: 16px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Predicting S&P500 Close.</a>
+
+<h5 class="sub-header">
+  A series of forecasting and machine learning experiments aimed at forecasting S&P Close daily and monthly values.
+</h5>
+
 <div>
 <body>
   <iframe width="100%" height="800" frameborder="0" scrolling="yes" src="//plot.ly/~mini_geek/76.embed"></iframe>
