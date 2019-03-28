@@ -1,12 +1,13 @@
 
 <h1 class="section-front-header-module__title">Python Visualizations</h1>
 <div>
-<h5 class="section-front-header-module__title">Predicting S&P500 Close</h5>  
+  <a href="luisfroch.github.io/_posts/2019-01-26-Experiments and Visualizations.md" rel="nofollow" target="_blank" style="font-size: 16px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Predicting S&P500 Close.</a></span></div>
   <body>
-  <img src="Explore_iPy_Samples/_images/SP500 Mean Close.png" alt="S&P 500 Close" width="500" height="333">
+  <iframe width="100%" height="800" frameborder="0" scrolling="yes" src="//plot.ly/~mini_geek/76.embed"></iframe>
 </body>
 </div>
 
+<br />
 <hr>
 <br />
 <div>
