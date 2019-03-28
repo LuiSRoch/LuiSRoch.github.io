@@ -3,7 +3,7 @@
 <div>
 <h5 class="section-front-header-module__title">Predicting S&P500 Close</h5>  
   <body>
-  <img src="Explore_iPy_Samples/_images/SP500 Mean Close.png" alt="S&P 500 Close" width="500" height="333">
+  <img src="https://github.com/LuisFRoch/Explore_iPy_Samples/tree/GreaseMonkeyTech-Mis_Sample/_images/SP500 Mean Close.png" alt="S&P 500 Close" width="500" height="333">
 </body>
 </div>
 
