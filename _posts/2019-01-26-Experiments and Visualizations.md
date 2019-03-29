@@ -1,6 +1,6 @@
 
 <h1 class="section-front-header-module__title">Python Visualizations</h1>
-<a href="https://github.com/LuisFRoch/Explore_iPy_Samples/blob/GreaseMonkeyTech-Mis_Sample/SPClose.ipynb" rel="nofollow" target="_blank" style="font-size: 16px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Predicting S&P500 Close. Part 1 here.</a>
+<a href="https://nbviewer.jupyter.org/github/LuisFRoch/Explore_iPy_Samples/blob/GreaseMonkeyTech-Mis_Sample/SPClose.ipynb" rel="nofollow" target="_blank" style="font-size: 16px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Predicting S&P500 Close. Part 1 here.</a>
 
 <h5 class="sub-header">
   A series of forecasting and machine learning experiments aimed at forecasting S&P Close daily and monthly values.
