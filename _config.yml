@@ -2,6 +2,12 @@ title: Data Wrangling and Analytics
 email: your-email@domain.com
 description: Data feeds - News - Tools for Tech - Finance & Business> # this means to ignore newlines until "twitter_username:"
 show_description: true # set to true to show excerpts on the homepage
+languages: ["en", "fr"]
+exclude_from_localizations: ["assets", "CNAME"]
+defaultLang: en
+languageNames:
+  en: English
+  fr: Français
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
