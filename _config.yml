@@ -4,7 +4,7 @@ description: Data feeds - News - Tools for Tech - Finance & Business> # this mea
 show_description: true # set to true to show excerpts on the homepage
 languages: ["en", "fr"]
 exclude_from_localizations: ["assets", "CNAME"]
-defaultLang: en
+language_default: "en"
 languageNames:
   en: English
   fr: Français
