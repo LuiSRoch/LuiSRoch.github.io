@@ -5,6 +5,14 @@
 
   <body>
 
+    <script>
+    var lang = navigator.language || navigator.userLanguage;
+    if (lang.indexOf('de') == 0)
+        window.location = '/de/';
+    else
+        window.location = '/en/';
+</script>
+    
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
