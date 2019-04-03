@@ -11,6 +11,28 @@ layout: default
       <option  data-content='<span class="flag-icon flag-icon-fr"></span> Français'>Français</option>
     </select>
   </div>
+  
+<li class="dropdown language-selector">
+  Language:  
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
+    <img src="assets/images/flag-us.png" />
+  </a>
+  <ul class="dropdown-menu pull-right">
+    <li class="active">
+      <a href="#">
+        <img src="assets/images/flag-us.png" />
+        <span>English</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img src="assets/images/flag-fr.png" />
+        <span>Français</span>
+      </a>
+    </li>
+  </ul>
+</li>
+  
   {%- endif -%}
   
   {{ content }}
