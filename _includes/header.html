@@ -26,6 +26,14 @@
             {%- if my_page.title -%}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
+          
+        <div class="wrapper">
+          <select class="selectpicker" data-width="fit">
+            <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+            <option data-content='<span class="flag-icon flag-icon-fr"></span> Français'>Français</option>
+          </select>
+        </div>
+        
           {%- endfor -%}
         </div>
       </nav>
