@@ -5,6 +5,12 @@ layout: default
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
+  <div class=wrapper>
+    <select class="selectpicker" data-width="fit">
+      <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+      <option  data-content='<span class="flag-icon flag-icon-fr"></span> Español'>Français</option>
+    </select>
+  </div>
   {%- endif -%}
   
   {{ content }}
