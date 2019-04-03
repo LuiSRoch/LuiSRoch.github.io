@@ -8,22 +8,20 @@
 layout: home
 <html lang="{{ site.lang }}">
 ---
-  
+ <! Doctype html> 
 <body>
 
 <a href="#eng" data-reload>English</a>
 <a href="#fr" data-reload>Français</a>
-  
-<select class="selectpicker" data-width="fit">
-  <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
-  <option data-content='<span class="flag-icon flag-icon-fr"></span> Français'>Français</option>
-</select>
 
 <p id="hi">
   Welcome!
 </p>
 
 <script>
+  # Define language reload-anchros
+  var datareload =  document.querySelectorAll("[data-reload]");
+  # Language translations
   var language={
     eng: {
       welcome: "Welcome!"
@@ -33,12 +31,23 @@ layout: home
   }
   };
   
+  # Define language via window hash
   if (window.location.hash) {
     if (window.location.hash === "#fr") {
       hi.textContent = language.fr.welcome;
   }
   }
 
+  # define language reload onclick iliteration
+  
+  for (i = 0; i <= datareload.length; i++){
+    datareload[i].onclick = function(){
+      location.reload(true);
+    };
+  }
+  
 </script>
 
 </body>
+
+</html>
