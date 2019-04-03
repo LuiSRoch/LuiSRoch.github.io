@@ -2,7 +2,6 @@
 layout: page
 title: About Me
 permalink: /about/
-permalink: /apropos-fr/
 ---
 
 I'm Luis Rocha, a financial professional since 2012, but extracting and analyzing data since 2007.
