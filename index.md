@@ -34,7 +34,7 @@ layout: home
   if (window.location.hash) {
     if (window.location.hash === "#fr") {
       hi.textContent = language.fr.welcome;
-  }
+      }
   }
 
   # define language reload onclick iliteration
