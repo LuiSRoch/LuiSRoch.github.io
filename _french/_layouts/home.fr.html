@@ -1,1 +1,67 @@
+---
+layout: default
+---
 
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+
+      What is Data Wrangling and Analytics?
+    ...It's a source of financial, economic and supply chain data from reputable sources.
+    ...It's a source of news for finance (including regulatory and best practices) and technology.
+    ...It's a source of tools (Excel Macros, Python code, AI and Machine Learning) and links to technical answers.
+    ...It's a source of personal experiments and data visualizations for data science.
+  <br />
+    <br />
+    <p>
+      My connection to the subject derives mainly from experience in banking and deep interest in technology.
+      I am currently a member of an AI Group in Paris (Artificial Intelligence), where we discuss business best practices,
+      inside the "black box" (mathematical computations) as well as ethics and AI's impact on society and labor force.
+      I've been involved in all things data since 2007, and I am interested in sharing knowledge while making easier 
+      day to day tasks in the work place.
+    </p>
+
+  
+  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+       Data and Links last updated :
+  <br />
+  <p id="date"></p>
+<script>
+  document.getElementById("date").innerHTML = Date();
+</script>
+  
+  <br />
+  
+  <div class="proj-box-format">
+    <iframe height="25" scrolling="no" src="https://www.dailyforex.com/forex-widget/widget/29571" style="width: 100%; height:25px; display: block;border:0px;overflow:hidden;" width="100%">
+    </iframe>
+    <span style="position:relative;display:block;text-align:center;color:#333333;width:100%;font-family:Tahoma,sans-serif;font-size:10px;"></span>
+  </div>
+  
+  <br />
+  
+          <body onload="startTime()">
+          <div id="txt"></div>
+  <br />
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+</div>
