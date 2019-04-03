@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: Apropos Moi
 permalink: /apropos-fr/
 permalink: /about-us/
 ---
