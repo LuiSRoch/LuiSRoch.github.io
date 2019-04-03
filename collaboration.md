@@ -2,7 +2,6 @@
 layout: page
 title: Contact Me
 permalink: /collaboration/
-permalink: /collaboration.fr/
 ---
 <html lang="en">
 
