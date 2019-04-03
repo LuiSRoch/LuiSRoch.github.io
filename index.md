@@ -14,7 +14,7 @@ layout: home
 <a href="#fr" data-reload>Français</a>
 
 <p id="hi">
-
+  Welcome!
 </p>
 
 <script>
