@@ -20,13 +20,14 @@ layout: home
 <script>
   # Define language reload-anchros
   var datareload =  document.querySelectorAll("[data-reload]");
+  
   # Language translations
   var language={
     eng: {
       welcome: "Welcome!"
   },
     fr: {
-      welcome: "Bievenue !"
+      welcome: "Bienvenue !"
   }
   };
   
@@ -39,10 +40,10 @@ layout: home
 
   # define language reload onclick iliteration
   
-  for (i = 0; i <= datareload.length; i++){
-    datareload[i].onclick = function(){
+  for (i = 0; i <= datareload.length; i++)  {
+    datareload[i].onclick = function()  {
       location.reload(true);
-    };
+      };
   }
   
 </script>
