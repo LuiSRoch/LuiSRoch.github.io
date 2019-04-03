@@ -1,11 +1,4 @@
 <header class="site-header">
-  
-  <div class="wrapper">
-    <select class="selectpicker" data-width="fit">
-      <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
-      <option data-content='<span class="flag-icon flag-icon-fr"></span> Français'>Français</option>
-    </select>
-  </div>
 
   <div class="wrapper">
     
@@ -17,6 +10,14 @@
     
     {%- if titles_size > 0 -%}
       <nav class="site-nav">
+        
+        <div class="wrapper">
+          <select class="selectpicker" data-width="fit">
+            <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+            <option data-content='<span class="flag-icon flag-icon-fr"></span> Français'>Français</option>
+          </select>
+        </div>
+        
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
