@@ -7,6 +7,15 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
   
+          
+        <div class="wrapper">
+          <select class="selectpicker" data-width="fit">
+            <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+            <option data-content='<span class="flag-icon flag-icon-fr"></span> Français'>Français</option>
+          </select>
+        </div>
+        
+  
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
