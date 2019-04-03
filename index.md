@@ -8,7 +8,6 @@
 layout: home
 <html lang="{{ site.lang }}">
 ---
-
 <body>
 
 <a href="#eng" data-reload>English</a>
@@ -21,13 +20,14 @@ layout: home
 <script>
   # Define language reload-anchros
   var datareload =  document.querySelectorAll("[data-reload]");
+  
   # Language translations
   var language={
     eng: {
       welcome: "Welcome!"
   },
     fr: {
-      welcome: "Bievenue !"
+      welcome: "Bienvenue !"
   }
   };
   
@@ -35,15 +35,15 @@ layout: home
   if (window.location.hash) {
     if (window.location.hash === "#fr") {
       hi.textContent = language.fr.welcome;
-  }
+      }
   }
 
   # define language reload onclick iliteration
   
-  for (i = 0; i <= datareload.length; i++){
-    datareload[i].onclick = function(){
+  for (i = 0; i <= datareload.length; i++)  {
+    datareload[i].onclick = function()  {
       location.reload(true);
-    };
+      };
   }
   
 </script>
