@@ -8,7 +8,7 @@
 layout: home
 <html lang="{{ site.lang }}">
 ---
- <! Doctype html> 
+
 <body>
 
 <a href="#eng" data-reload>English</a>
@@ -49,5 +49,3 @@ layout: home
 </script>
 
 </body>
-
-</html>
