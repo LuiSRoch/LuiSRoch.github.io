@@ -4,7 +4,7 @@ title: Technology
 ---
 
 <h1 class="section-front-header-module__title">News</h1>
-
+<div>
 <!-- start sw-rss-feed code --> 
 <script type="text/javascript"> 
 <!-- 
@@ -94,7 +94,7 @@ rssfeed_cache = "f7cb0087a81723f50619134489fc46cb";
 </script> 
 <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
 <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
-<div style="color:#fff;font-size:10px; text-align:right; width:230px;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#fff;">Surfing Waves</a></div> 
+<div style="color:#fff;font-size:10px; text-align:right; width:100%;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#fff;">Surfing Waves</a></div> 
 <!-- end sw-rss-feed code -->
 
 <br />
