@@ -6,12 +6,13 @@ layout: default
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   
-  <p class="codepen" data-height="265" data-theme-id="0" data-default-tab="html" data-user="brapastor" data-slug-hash="BWyomB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Bootstrap Language selector">
-  <span>See the Pen <a href="https://codepen.io/brapastor/pen/BWyomB/">
-  Bootstrap Language selector</a> by Brayan Pastor (<a href="https://codepen.io/brapastor">@brapastor</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+  <div class="lang">
+  <ul>
+    <li><a class="FR" href="{{ site.base-url }}{{ postFR.url }}">FR</a></li>
+    <li><a class="EN" href="{{ site.base-url }}{{ postEN.url }}">EN</a></li>
+    <li><a class="CH" href="{{ site.base-url }}{{ postCH.url }}">CH</a></li>
+  </ul>
+</div>
   
   {%- endif -%}
   
