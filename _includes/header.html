@@ -13,8 +13,7 @@
       </select>
     </div>
     {%- if titles_size > 0 -%}
-    
-{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
