@@ -4,22 +4,24 @@ title: Contact Me
 permalink: /collaboration/
 ---
 <html lang="en">
-    <body>
+   <body>
+     <div class="site">
+       <header class="site-header"> 
 
-    <div class="site">
-      <header class="site-header">
 <!-- site-header -->
-   <div class="page-content">
+         <div class="page-content">
     I work with data science methods to provide analytics and visualizations on financial and economic information,
     real estate, and supply chain. I'm mainly interested in exploring producer prices, inflation, business cycles, financial
     markets using a combination of tools: Excel, Python, SQL and Tableau to provide statistics and visualizations.
     I have a couple of projects (agricultural commodity market price control using AI and creating a data lake) that I would
     like to start making progress on.
-	<br />
+	      <br />
    
-   </div>
-</div>
+        </div>
+   
+
 <!--
+      </div>
 <h2> Customers </h2>
 
 <div class="projects">
