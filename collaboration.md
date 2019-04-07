@@ -4,9 +4,6 @@ title: Contact Me
 permalink: /collaboration/
 ---
 <html lang="en">
- 
-<!-- site-header -->
-   <div class="page-content">
 
     I work with data science methods to provide analytics and visualizations on financial and economic information,
     real estate, and supply chain. I'm mainly interested in exploring producer prices, inflation, business cycles, financial
@@ -14,9 +11,7 @@ permalink: /collaboration/
     I have a couple of projects (agricultural commodity market price control using AI and creating a data lake) that I would
     like to start making progress on.
 
-   </div>
-
-<!--
+<br />
 <h2> Customers </h2>
 
 <div class="projects">
