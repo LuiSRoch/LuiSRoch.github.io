@@ -3,7 +3,7 @@ layout: page
 title: About Me
 permalink: /about/
 ---
-
+<html lang="en">
 I'm Luis Rocha, a financial professional since 2012, but extracting and analyzing data since 2007.
 I became a business intelligence analyst by taking my quantitative and analytical skills and retooling 
 them; learning to code in Excel VBA, SQL, Python, and studying advanced statistics to manage 
