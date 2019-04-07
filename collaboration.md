@@ -3,7 +3,7 @@ layout: page
 title: Contact Me
 permalink: /collaboration/
 ---
-<html lang="en">*
+<html lang="en">
    <body>
      <div class="site">
 <!-- site-header -->
