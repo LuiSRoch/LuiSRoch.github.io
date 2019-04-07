@@ -3,7 +3,11 @@ layout: page
 title: Contact Me
 permalink: /collaboration/
 ---
-<html lang="en">
+<html lang="en">*
+   <body>
+
+    <div class="site">
+      <header class="site-header"> 
 <!-- site-header -->
    <div class="page-content">
     I work with data science methods to provide analytics and visualizations on financial and economic information,
@@ -13,6 +17,7 @@ permalink: /collaboration/
     like to start making progress on.
 	<br />
    
+   </div>
    </div>
 
 <!--
