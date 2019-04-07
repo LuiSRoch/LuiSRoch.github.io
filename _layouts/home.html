@@ -5,13 +5,12 @@ layout: default
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
-  <div align="right">
-    <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12 idioma">
-      <select name="idioma" id="idioma">
-        <option value ="en" data-input="en" >English</option>
-        <option value ="fr" data-input="fr">Français</option>
-      </select>
-    </div>
+  
+  <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12 idioma" align="right">
+    <select name="language" id="language">
+      <option value ="en" data-input="en" >English</option>
+      <option value ="fr" data-input="fr">Français</option>
+    </select>
   </div>
     
   {%- endif -%}
