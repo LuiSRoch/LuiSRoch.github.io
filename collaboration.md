@@ -21,7 +21,7 @@ permalink: /collaboration/
    
 
 <!--
-      </div>
+
 <h2> Customers </h2>
 
 <div class="projects">
