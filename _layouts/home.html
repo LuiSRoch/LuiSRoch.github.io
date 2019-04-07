@@ -6,13 +6,12 @@ layout: default
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   
-  <div class="lang">
-  <ul>
-    <li><a class="FR" href="{{ site.base-url }}{{ postFR.url }}">FR</a></li>
-    <li><a class="EN" href="{{ site.base-url }}{{ postEN.url }}">EN</a></li>
-    <li><a class="CH" href="{{ site.base-url }}{{ postCH.url }}">CH</a></li>
-  </ul>
-</div>
+  <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12 idioma">
+    <select name="idioma" id="idioma">
+      <option value ="es" data-input="en" >English</option>
+      <option value ="fr" data-input="fr">Français</option>
+    </select>
+  </div>
   
   {%- endif -%}
   
