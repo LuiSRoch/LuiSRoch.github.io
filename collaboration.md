@@ -6,7 +6,6 @@ permalink: /collaboration/
 <html lang="en">*
    <body>
      <div class="site">
-
 <!-- site-header -->
          <div class="page-content">
     I work with data science methods to provide analytics and visualizations on financial and economic information,
@@ -17,8 +16,6 @@ permalink: /collaboration/
 	      <br />
    
         </div>
-   
-
 <!--
 
 <h2> Customers </h2>
@@ -42,7 +39,6 @@ permalink: /collaboration/
   </div>
 </div>
 -->
-
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
 <br />
 <html>
