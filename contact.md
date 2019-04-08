@@ -18,5 +18,4 @@ If you are interested in sharing ideas and working together, please fill out the
 <script type="text/javascript">var submitted=false;</script>
     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"     
 onload="if(submitted) {window.location='https://luisfroch.github.io/';}"></iframe>
-      <form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/viewform?embedded=true" method="post" target="hidden_iframe" onsubmit="submitted=true;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/viewform?embedded=true" width="640" height="891" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/viewform?embedded=true" method="post" target="hidden_iframe" onsubmit="submitted=true;">
