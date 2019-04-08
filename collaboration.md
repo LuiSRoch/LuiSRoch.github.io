@@ -14,8 +14,6 @@ like to start making progress on.
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
 <br />
 
-<html>
-	  
     <style>
 		
 		textarea {
@@ -70,8 +68,8 @@ If you are interested in sharing ideas and working together, please fill out the
 	    border: 2px solid black;
     	}
     
-    </style>
-    <body>
+    </style> 
+   <body>
     
    <div>
 <script type="text/javascript">var submitted=false;</script>
@@ -86,5 +84,4 @@ If you are interested in sharing ideas and working together, please fill out the
   </form>
     </div>
 
-    </body>
-</html>
+   </body>
