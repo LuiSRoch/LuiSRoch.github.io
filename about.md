@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
+permalink_fr: /french/apropos/
 ---
 <html lang="en">
 </html>
