@@ -5,20 +5,18 @@ permalink: /collaboration/
 ---
 <html lang="en">
 </html>
-#   <body>
-#     <div class="site">
-       <!-- site-header -->
-       <div class="page-content">
+#<body>
+  #<div class="site">
+  <!-- site-header -->
+  <div class="page-content">
     I work with data science methods to provide analytics and visualizations on financial and economic information,
     real estate, and supply chain. I'm mainly interested in exploring producer prices, inflation, business cycles, financial
     markets using a combination of tools: Excel, Python, SQL and Tableau to provide statistics and visualizations.
     I have a couple of projects (agricultural commodity market price control using AI and creating a data lake) that I would
     like to start making progress on.
 	      <br />
-       </div>
-<!--
-
-<h2> Customers </h2>
+  </div>
+  <!--
 
 <div class="projects">
   <div class="grid no-gutters">
