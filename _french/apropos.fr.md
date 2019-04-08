@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Apropos Moi
-permalink: /apropos-fr/
+permalink: /french/apropos-fr/
 ---
 <html lang="fr">
 Je suis Luis Rocha, dans la finance depuis 2012 et jouant avec les données depuis 2007 (extraction, compilation, analyse). Je suis devenu Business Analyst en mettant à profit mes connaissances techniques et quantitatives ainsi que mes compétences analytiques ; en perfectionnant mon utilisation d’Excel VBA, SQL, Python ; et en étudiant les statistiques avancées. Tout cela me permet de gérer et de quantifier un grand nombre de données.
