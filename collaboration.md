@@ -4,7 +4,7 @@ title: Contact Me
 permalink: /collaboration/
 ---
 <html lang="en">
-   <body>
+
      <div class="site">
 <!-- site-header -->
        <div class="page-content">
