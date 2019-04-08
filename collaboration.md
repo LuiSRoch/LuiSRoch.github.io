@@ -4,21 +4,16 @@ title: Contact Me
 permalink: /collaboration/
 ---
 <html lang="en">
-
-     <div class="site">
-<!-- site-header -->
-       <div class="page-content">
+  <div class="page-content">
     I work with data science methods to provide analytics and visualizations on financial and economic information,
     real estate, and supply chain. I'm mainly interested in exploring producer prices, inflation, business cycles, financial
     markets using a combination of tools: Excel, Python, SQL and Tableau to provide statistics and visualizations.
     I have a couple of projects (agricultural commodity market price control using AI and creating a data lake) that I would
     like to start making progress on.
 	      <br />
-       </div>
-<!--
+  </div>
 
 <h2> Customers </h2>
-
 <div class="projects">
   <div class="grid no-gutters">
     <div class="unit half">
@@ -36,25 +31,23 @@ permalink: /collaboration/
   </div>
 </div>
 
--->
-
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
 <br />
 <html>
-<head>
-<style> 
-textarea {
-  width: 50%;
-  height: 90px;
-  padding: 6px 12px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 1px;
-  background-color: #f8f8f8;
-  font-size: 12px;
-  resize: none;
-}
-  </style>
+  <head>
+    <style> 
+      textarea {
+      width: 50%;
+      height: 90px;
+      padding: 6px 12px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 1px;
+      background-color: #f8f8f8;
+      font-size: 12px;
+      resize: none;
+      }
+    </style>
   </head>
 </html>
 <br />
@@ -75,7 +68,6 @@ onload="if(submitted) {window.location='https://luisfroch.github.io' ;}"></ifram
 <html>
   <head>
     <style>
-      
       div.elem-group {
       margin: 40px 0;
       }
@@ -84,8 +76,7 @@ onload="if(submitted) {window.location='https://luisfroch.github.io' ;}"></ifram
       font-family: 'Aleo';
       padding-bottom: 4px;
       font-size: 1.25em;
-    }
-
+      }
       input, select, textarea {
       border-radius: 2px;
       border: 1px solid #ccc;
@@ -94,12 +85,10 @@ onload="if(submitted) {window.location='https://luisfroch.github.io' ;}"></ifram
       font-family: 'Aleo';
       width: 100%;
       padding: 8px;
-    }
-
+      }
       textarea {
       height: 250px;
-    }
-
+      }
       button {
       height: 50px;
       background: green;
@@ -109,11 +98,11 @@ onload="if(submitted) {window.location='https://luisfroch.github.io' ;}"></ifram
       font-family: 'Aleo';
       border-radius: 4px;
       cursor: pointer;
-    }
-
+      }
       button:hover {
       border: 2px solid black;
-    } #  <form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" id="mG61Hd">
-    </style>
-    </head>
+      } #  <form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" id="mG61Hd">
+      </style>
+      </head>
     </html>
+</html>
