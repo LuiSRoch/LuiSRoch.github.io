@@ -16,6 +16,7 @@ If you are interested in sharing ideas and working together, please fill out the
 
 <div class="main">
   
+  <script type="text/javascript">var submitted=false;</script>
   <form method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" class="cform" target="hidden_iframe" onsubmit="submitted=true;">
   <input type="text" name="entry.2005620554" placeholder="Your Name" /><br><br>
   <input type="email" name="entry.1045781291" placeholder="Your email address" /><br><br>
