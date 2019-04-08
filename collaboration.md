@@ -62,12 +62,11 @@ If you are interested in sharing ideas and working together, please fill out the
   font-family: 'Aleo';
   border-radius: 4px;
   cursor: pointer;
-  }
-  
-  #<form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse"
+  }#<form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse"
   target="_self"
   method="POST"
   id="mG61Hd">
+  
   button:hover {
   border: 2px solid black;
   }
