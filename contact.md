@@ -15,6 +15,4 @@ like to start making progress on.
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
 <br />
 
-<script type="text/javascript">var submitted=false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"     
-onload="if(submitted) {window.location='https://luisfroch.github.io/';}"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/viewform?embedded=true" width="640" height="890" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/viewform?embedded=true" width="640" height="890" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
