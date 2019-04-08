@@ -3,8 +3,6 @@ layout: page
 title: Contact Me
 permalink: /collaboration/
 ---
-<html lang="en">
-</html>
 
 I work with data science methods to provide analytics and visualizations on financial and economic information,
 real estate, and supply chain. I'm mainly interested in exploring producer prices, inflation, business cycles, financial
@@ -14,7 +12,7 @@ like to start making progress on.
 <br />
 
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
-<br/>
+<br />
 
 <html>
   <style>
@@ -75,7 +73,7 @@ If you are interested in sharing ideas and working together, please fill out the
   }
   
   </style>
-  </body>
+  <body>
   
   <div>
   <script type="text/javascript">var submitted=false;</script>
