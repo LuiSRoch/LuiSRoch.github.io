@@ -6,20 +6,20 @@
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     <br />
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    <a class="active" href="#">{{ site.languageNames[site.lang] }}</a>
+    {% for lang in site.languageNames %}
+    {% if lang[0] == site.lang %} {% continue %} {% endif %}
+    {% if page.namespace %}
+    <a href="{% tl {{ page.namespace }} {{ lang[0] }} %}">{{ lang[1] }}</a>
+    {% else %}
+    <a href="{{ site.baseurl_root }}/{{ lang[0] }}/">{{ lang[1] }}</a>
+    {% endif %}
+    {% endfor %}
     <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12 idioma" align="right">
       <select name="language" id="language">
         <option value ="en" data-input="en" >English</option>
         <option value ="fr" data-input="fr"><a href="" hreflang="fr">Français</a></option>
       </select>
-      <a class="active" href="#">{{ site.languageNames[site.lang] }}</a>
-        {% for lang in site.languageNames %}
-        {% if lang[0] == site.lang %} {% continue %} {% endif %}
-        {% if page.namespace %}
-        <a href="{% tl {{ page.namespace }} {{ lang[0] }} %}">{{ lang[1] }}</a>
-        {% else %}
-        <a href="{{ site.baseurl_root }}/{{ lang[0] }}/">{{ lang[1] }}</a>
-        {% endif %}
-        {% endfor %}
     </div>
     {%- if titles_size > 0 -%}
     
