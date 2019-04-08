@@ -73,7 +73,7 @@ If you are interested in sharing ideas and working together, please fill out the
   }
   
   </style>
-  </body>
+  <body>
   
   <div>
   <script type="text/javascript">var submitted=false;</script>
