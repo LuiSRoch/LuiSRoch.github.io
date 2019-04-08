@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contactez Moi
-subtitle: Collaborate with me on data analysis for finance, supply chain or real estate
 permalink: /collaboration.fr/
 ---
 <html lang="fr">
