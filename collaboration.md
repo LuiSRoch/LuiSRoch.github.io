@@ -16,6 +16,7 @@ If you are interested in sharing ideas and working together, please fill out the
 
 <html>
   <style>
+    
     textarea {
     width: 80%;
     height: 90px;
@@ -27,49 +28,46 @@ If you are interested in sharing ideas and working together, please fill out the
     font-size: 12px;
     resize: none;
     }
-
-  div.elem-group {
-  margin: 40px 0;
-  }
+    
+    div.elem-group {
+    margin: 40px 0;
+    }
   
-  label {
-  display: block;
-  font-family: 'Aleo';
-  padding-bottom: 4px;
-  font-size: 1.25em;
-  }
+    label {
+    display: block;
+    font-family: 'Aleo';
+    padding-bottom: 4px;
+    font-size: 1.25em;
+    }
   
-  input, select, textarea {
-  border-radius: 2px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  font-size: 1.25em;
-  font-family: 'Aleo';
-  width: 100%;
-  padding: 8px;
-  }
+    input, select, textarea {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    width: 100%;
+    padding: 8px;
+    }
   
-  textarea {
-  height: 250px;
-  }
+    textarea {
+    height: 250px;
+    }
   
-  button {
-  height: 50px;
-  background: green;
-  color: white;
-  border: 2px solid darkgreen;
-  font-size: 1.25em;
-  font-family: 'Aleo';
-  border-radius: 4px;
-  cursor: pointer;
-  }#<form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse"
-  target="_self"
-  method="POST"
-  id="mG61Hd">
+    button {
+    height: 50px;
+    background: green;
+    color: white;
+    border: 2px solid darkgreen;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    border-radius: 4px;
+    cursor: pointer;
+    }#<form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse"target="_self" method="POST" id="mG61Hd">
   
-  button:hover {
-  border: 2px solid black;
-  }
+    button:hover {
+    border: 2px solid black;
+    }
   
   </style>
   <body>
