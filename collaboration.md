@@ -4,10 +4,8 @@ title: Contact Me
 permalink: /collaboration/
 ---
 <html lang="en">
+</html>
 
-<div class="site">
-  <header class="site-header">
-    <div class="page-content">
 I work with data science methods to provide analytics and visualizations on financial and economic information,
 real estate, and supply chain. I'm mainly interested in exploring producer prices, inflation, business cycles, financial
 markets using a combination of tools: Excel, Python, SQL and Tableau to provide statistics and visualizations.
@@ -20,7 +18,7 @@ If you are interested in sharing ideas and working together, please fill out the
 <br/>
 
 <html>
-  <head>
+
     <style>
       textarea {
       width: 80%;
@@ -34,8 +32,6 @@ If you are interested in sharing ideas and working together, please fill out the
       resize: none;
       }
     </style>
-  </head>
-<br />
   
 <body>
   <div>
@@ -54,7 +50,7 @@ If you are interested in sharing ideas and working together, please fill out the
 </body>
 
 <html>
-  <head>
+
     <style>
       
       div.elem-group {
@@ -98,6 +94,5 @@ If you are interested in sharing ideas and working together, please fill out the
       }
       
       </style>
-      </head>
 
 </html>
