@@ -5,14 +5,12 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     <br />
-    
     <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12 idioma" align="right">
       <select name="language" id="language">
         <option value ="en" data-input="en">English</option>
         <option value ="fr" data-input="fr"><a href="" hreflang="fr">Français</a></option>
       </select>
     </div>
-    
     {%- if titles_size > 0 -%}
     
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
