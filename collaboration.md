@@ -3,8 +3,6 @@ layout: page
 title: Contact Me
 permalink: /collaboration/
 ---
-<html lang="en">
-</html>
 
 I work with data science methods to provide analytics and visualizations on financial and economic information,
 real estate, and supply chain. I'm mainly interested in exploring producer prices, inflation, business cycles, financial
