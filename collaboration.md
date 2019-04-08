@@ -23,7 +23,6 @@ If you are interested in sharing ideas and working together, please fill out the
   <input type="hidden" name="_subject" value="request" />
   <input type="text" name="_gotcha" style="display:none" />
   <input type="text" name="entry.456892121" placeholder="Are you a robot?" /><br><br>
-  <input onclick="window.location.href = 'https://luisfroch.github.io';" type="submit" value="Submit request" />
   <button type="submit">Send</button>
 </form>
   
