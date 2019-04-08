@@ -35,20 +35,23 @@ If you are interested in sharing ideas and working together, please fill out the
       }
     </style>
   </head>
-
 <br />
-<script type="text/javascript">var submitted=false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
-onload="if(submitted) {window.location='https://luisfroch.github.io' ;}"></iframe>
-<form method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" class="cform" target="hidden_iframe" onsubmit="submitted=true;" />
-<input type="text" name="entry.2005620554" placeholder="Your Name" />
-<input type="email" name="entry.1045781291" placeholder="Your email address" />
-<textarea name="entry.839337160" placeholder="Your message" /></textarea>
-<input type="hidden" name="_subject" value="request" />
-<input type="text" name="_gotcha" style="display:none" />
-<input type="text" name="entry.456892121" placeholder="Are you a robot?" /><br />
-<button type="submit">Send</button>
-</form>
+  
+<body>
+  <div>
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"onload="if(submitted) {window.location='https://luisfroch.github.io' ;}"></iframe>
+    <form method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" class="cform" target="hidden_iframe" onsubmit="submitted=true;" />
+    <input type="text" name="entry.2005620554" placeholder="Your Name" />
+    <input type="email" name="entry.1045781291" placeholder="Your email address" />
+    <textarea name="entry.839337160" placeholder="Your message" /></textarea>
+  <input type="hidden" name="_subject" value="request" />
+  <input type="text" name="_gotcha" style="display:none" />
+  <input type="text" name="entry.456892121" placeholder="Are you a robot?" /><br />
+  <button type="submit">Send</button>
+  </form>
+  <div>
+</body>
 
 <html>
   <head>
