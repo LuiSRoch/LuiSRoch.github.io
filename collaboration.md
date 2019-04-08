@@ -16,6 +16,7 @@ I have a couple of projects (agricultural commodity market price control using A
 like to start making progress on.
       </div>
 <br />
+    </div>
 <!--
 -->
 
@@ -39,8 +40,8 @@ If you are interested in sharing ideas and working together, please fill out the
     </style>
   </head>
 </html>
-<br />
 
+<br />
 <script type="text/javascript">var submitted=false;</script>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
 onload="if(submitted) {window.location='https://luisfroch.github.io' ;}"></iframe>
@@ -57,14 +58,17 @@ onload="if(submitted) {window.location='https://luisfroch.github.io' ;}"></ifram
 <html>
   <head>
     <style>
+      
       div.elem-group {
       margin: 40px 0;
+      
       }
       label {
       display: block;
       font-family: 'Aleo';
       padding-bottom: 4px;
       font-size: 1.25em;
+      
       }
       input, select, textarea {
       border-radius: 2px;
@@ -74,9 +78,11 @@ onload="if(submitted) {window.location='https://luisfroch.github.io' ;}"></ifram
       font-family: 'Aleo';
       width: 100%;
       padding: 8px;
+      
       }
       textarea {
       height: 250px;
+      
       }
       button {
       height: 50px;
@@ -87,6 +93,7 @@ onload="if(submitted) {window.location='https://luisfroch.github.io' ;}"></ifram
       font-family: 'Aleo';
       border-radius: 4px;
       cursor: pointer;
+      
       }#<form action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" target="_self" method="POST" id="mG61Hd">
       button:hover {
       border: 2px solid black;
