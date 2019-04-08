@@ -39,7 +39,6 @@ If you are interested in sharing ideas and working together, please fill out the
       }
     </style>
   </head>
-</html>
 
 <br />
 <script type="text/javascript">var submitted=false;</script>
@@ -101,5 +100,5 @@ onload="if(submitted) {window.location='https://luisfroch.github.io' ;}"></ifram
       
       </style>
       </head>
-      </html>
+
 </html>
