@@ -4,7 +4,6 @@ title: Contact-Me
 permalink: /Contact/
 ---
 <html lang="en">
-</html>
 
 I work with data science methods to provide analytics and visualizations on financial and economic information,
 real estate, and supply chain. I'm mainly interested in exploring producer prices, inflation, business cycles, financial
@@ -17,3 +16,4 @@ If you are interested in sharing ideas and working together, please fill out the
 <br />
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/viewform?embedded=true" width="640" height="891" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</html>
