@@ -5,14 +5,13 @@ permalink: /collaboration/
 ---
 <html lang="en">
 </html>
-<div class="page-content">
+
   I work with data science methods to provide analytics and visualizations on financial and economic information,
   real estate, and supply chain. I'm mainly interested in exploring producer prices, inflation, business cycles, financial
   markets using a combination of tools: Excel, Python, SQL and Tableau to provide statistics and visualizations.
   I have a couple of projects (agricultural commodity market price control using AI and creating a data lake) that I would
   like to start making progress on.
   <br />
-</div>
 
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
 <br />
@@ -45,7 +44,7 @@ onload="if(submitted) {window.location='https://luisfroch.github.io' ;}"></ifram
   <textarea name="entry.839337160" placeholder="Your message"></textarea>
   <input type="hidden" name="_subject" value="request" />
   <input type="text" name="_gotcha" style="display:none" />
-  <input type="text" name="entry.456892121" placeholder="Are you a robot?"><br>
+  <input type="text" name="entry.456892121" placeholder="Are you a robot?"><br />
   <button type="submit">Send</button>
 </form>
 
