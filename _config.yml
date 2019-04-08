@@ -8,7 +8,9 @@ language_default: "en"
 languageNames:
   en: English
   fr: Français
-
+collections:
+  faq:
+    output: true
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
