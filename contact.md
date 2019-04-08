@@ -15,3 +15,21 @@ like to start making progress on.
   
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
 <br />
+
+<html>
+  <head>
+    <style> 
+      textarea {
+      width: 80%;
+      height: 90px;
+      padding: 6px 12px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 1px;
+      background-color: #f8f8f8;
+      font-size: 12px;
+      resize: none;
+      }
+    </style>
+  </head>
+</html>
