@@ -11,7 +11,6 @@ real estate, and supply chain. I'm mainly interested in exploring producer price
 markets using a combination of tools: Excel, Python, SQL and Tableau to provide statistics and visualizations.
 I have a couple of projects (agricultural commodity market price control using AI and creating a data lake) that I would
 like to start making progress on.
-      </div>
 <br />
 
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
