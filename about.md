@@ -4,6 +4,7 @@ title: About Me
 permalink: /about/
 ---
 <html lang="en">
+</html>
 I'm Luis Rocha, a financial professional since 2012, but extracting and analyzing data since 2007.
 I became a business intelligence analyst by taking my quantitative and analytical skills and retooling 
 them; learning to code in Excel VBA, SQL, Python, and studying advanced statistics to manage 
@@ -20,4 +21,3 @@ techniques to streamline visualizations.
 In 2018 I moved from New York to Paris where I'm exploring the labor market in search of opportunities while continuing 
 to engage with programmers, data scientists, database administrators and machine learning experts in search of innovative 
 approaches to data mining and visualization.
-</html>
