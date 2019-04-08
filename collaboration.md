@@ -7,7 +7,6 @@ permalink: /collaboration/
 
 <div class="site">
   <header class="site-header">
-<!-- site-header -->
     <div class="page-content">
 I work with data science methods to provide analytics and visualizations on financial and economic information,
 real estate, and supply chain. I'm mainly interested in exploring producer prices, inflation, business cycles, financial
@@ -16,9 +15,6 @@ I have a couple of projects (agricultural commodity market price control using A
 like to start making progress on.
       </div>
 <br />
-    </div>
-<!--
--->
 
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
 <br/>
