@@ -92,6 +92,5 @@ If you are interested in sharing ideas and working together, please fill out the
       }
       
       </style>
-      </head>
 
 </html>
