@@ -13,7 +13,6 @@ permalink: /collaboration/
 	      <br />
   </div>
 
-<h2> Customers </h2>
 <div class="projects">
   <div class="grid no-gutters">
     <div class="unit half">
@@ -33,6 +32,7 @@ permalink: /collaboration/
 
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
 <br />
+
 <html>
   <head>
     <style> 
