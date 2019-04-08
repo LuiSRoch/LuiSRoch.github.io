@@ -13,7 +13,8 @@ like to start making progress on.
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
 <br />
 
-<style>
+<div>
+  <style>
     
     textarea {
     width: 80%;
@@ -68,8 +69,6 @@ If you are interested in sharing ideas and working together, please fill out the
     }
   
   </style>
-  
-<div class="main">
   
   <form method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/formResponse" class="cform" target="hidden_iframe" onsubmit="submitted=true;">
   <input type="text" name="entry.2005620554" placeholder="Your Name" /><br><br>
