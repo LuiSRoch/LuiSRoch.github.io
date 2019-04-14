@@ -8,6 +8,16 @@ layout: default
   <a href="" hreflang="fr">Français</a>  
   {%- endif -%}
   
+  {{ if .IsTranslated }}
+<ul class="nav-list">
+    {{ range .Translations }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+    </li>
+    {{ end}}
+</ul>
+{{ end }}
+  
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
