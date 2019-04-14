@@ -5,13 +5,10 @@ show_description: true # set to true to show excerpts on the homepage
 languages: ["en", "fr"]
 exclude_from_localizations: ["javascript", "images", "css"]
 language_default: "en"
-languageNames:
-  en: English
-  fr: Français
-languages:
-  supported:
-    - en
-    - fr
+fr:
+    about:
+      name: "À propos"
+      url: "/apropos/"
 collections:
   faq:
     output: true
