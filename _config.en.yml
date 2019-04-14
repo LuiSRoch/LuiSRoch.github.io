@@ -8,6 +8,10 @@ language_default: "en"
 languageNames:
   en: English
   fr: Français
+languages:
+  supported:
+    - en
+    - fr
 collections:
   faq:
     output: true
