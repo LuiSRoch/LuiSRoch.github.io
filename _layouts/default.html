@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  
   {{ if .IsTranslated }}
 <ul class="nav-list">
     {{ range .Translations }}
@@ -9,6 +10,7 @@
     {{ end}}
 </ul>
 {{ end }}
+  
 <meta name="viewport" content="width=device-width">
   
   {%- include head.html -%}
