@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Apropos Moi
-permalink: /_french/apropos-fr/
+lang: fr
+lang-ref: apropos.fr
+permalink: /french/apropos-fr/
 ---
 <html lang="fr">
   <a href="" hreflang="fr">Français</a>
