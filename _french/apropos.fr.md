@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Apropos Moi
-lang: fr
+language: fr
 lang-ref: apropos.fr
 permalink: /french/apropos-fr/
 ---
