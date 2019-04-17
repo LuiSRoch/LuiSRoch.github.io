@@ -6,8 +6,8 @@
     <a class="site-title" href="{{ site.baseurl }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
     <br />
     
+    {%- if page_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -42,7 +42,7 @@
         {%- endfor -%}
       </div>
     </nav>
-    
+   {%- endif -%}
   </div>
     
 </header>
