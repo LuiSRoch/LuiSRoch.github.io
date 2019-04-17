@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Technology"
+title: "Les Numériques: IA - Blockchain - Base de données BIG DATA"
 lang: fr
 ---
 
