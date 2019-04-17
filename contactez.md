@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Contactez Moi"
-ref: /contact/
-permalink: /_french/Collaboration.fr/
+ref: contactez
+#permalink: /french/Collaboration.fr/
 lang: fr
 ---
 
