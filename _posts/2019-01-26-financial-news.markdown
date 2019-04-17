@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Financial and Business"
+lang: en
 ---
 
 <div class="navi-markets-bar">
