@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Data"
+title:  "La source de données"
 description: "Refreshed Daily from Sources"
-ref: 2019-01-30-Data-Source
+#ref: 2019-01-30-Data-Source
+permalink: 2019-01-30-La source de données
 lag: fr
 ---
 
