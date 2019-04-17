@@ -1,12 +1,12 @@
 ---
 layout: default
-ref: home
 lang: en
 ---
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1> 
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {% assign posts=site.posts | where:"lang", page.lang %}
   {%- endif -%}
   
   {{ content }}
