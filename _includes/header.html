@@ -14,7 +14,6 @@
       {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
     </div>
     
-    {%- if page_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -34,7 +33,7 @@
         {% endfor %}
       </div>
     </nav>
-   {%- endif -%}
+
   </div>
     
 </header>
