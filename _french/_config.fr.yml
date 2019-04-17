@@ -1,14 +1,20 @@
-title: Data Wrangling and Analytics
+# Site settings
+title:
+  en: Data Wrangling and Analytics
+  fr: Data Wrangling et Analytics
 email: your-email@domain.com
-description: Data feeds - News - Tools for Tech - Finance & Business> # this means to ignore newlines until "twitter_username:"
+description:
+  en: Data feeds - News - Tools for Tech - Finance & Business> # this means to ignore newlines until "twitter_username:"
+  fr: Flux de données - Actualités - Outils pour les technologies - Finance et Business 
 show_description: true # set to true to show excerpts on the homepage
 languages: ["en", "fr"]
-exclude_from_localizations: ["assets", "CNAME"]
-language_default: "en"
-languageNames:
-  en: English
-  fr: Français
-
+exclude_from_localizations: ["javascript", "images", "css"]
+index:
+  en:
+  fr: accueil.html
+feed:
+  en: /feed.xml
+  fr: /flux.xml
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
@@ -19,15 +25,8 @@ minima:
     twitter: jekyllrb
     github:  LuisFRoch
     rss: rss
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
     # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
+
     # telegram: jekyll
     # googleplus: +jekyll
     # microdotblog: jekyll
