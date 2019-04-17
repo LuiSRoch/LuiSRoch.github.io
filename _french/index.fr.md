@@ -1,1 +1,5 @@
-<html lang="fr">
+---
+layout: default
+ref: index
+lang: fr
+---
