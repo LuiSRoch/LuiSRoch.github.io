@@ -4,14 +4,9 @@ description: Data feeds - News - Tools for Tech - Finance & Business> # this mea
 show_description: true # set to true to show excerpts on the homepage
 languages: ["en", "fr"]
 exclude_from_localizations: ["javascript", "images", "css"]
-language_default: "en"
-fr:
-    about:
-      name: "À propos"
-      url: "/apropos/"
-collections:
-  faq:
-    output: true
+index:
+  en:
+  fr: accueil.html
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
