@@ -11,7 +11,7 @@ languages: ["en", "fr"]
 exclude_from_localizations: ["javascript", "images", "css"]
 index:
   en:
-  fr: /_french/accueil.html
+  fr: accueil.html
 feed:
   en: /feed.xml
   fr: /flux.xml
