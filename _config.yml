@@ -1,7 +1,5 @@
 # Site settings
-title:
-  en: Data Wrangling and Analytics
-  fr: Data Wrangling et Analytics
+title: Data Wrangling and Analytics
 email: your-email@domain.com
 description:
   en: Data feeds - News - Tools for Tech - Finance & Business> # this means to ignore newlines until "twitter_username:"
@@ -11,7 +9,7 @@ languages: ["en", "fr"]
 exclude_from_localizations: ["javascript", "images", "css"]
 index:
   en:
-  fr: accueil.html
+  fr: /_french/accueil.html
 feed:
   en: /feed.xml
   fr: /flux.xml
