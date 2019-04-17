@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Technology
+title: "Technology"
 lang: en
 ---
 
