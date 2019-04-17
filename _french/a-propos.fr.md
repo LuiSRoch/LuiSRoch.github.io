@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Apropos Moi
+title: À propos Moi
 ref: about
 lang-ref: fr
 permalink: /french/a-propos/
