@@ -1,8 +1,8 @@
 ---
 layout: page
 title: À propos Moi
-ref: about
-permalink: a-propos
+ref: a-propos
+#permalink: a-propos
 lang: fr
 ---
 
