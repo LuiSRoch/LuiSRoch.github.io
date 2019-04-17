@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact-Me
+permalink: /contact/
 lang: en
 ---
 <html lang="en">
