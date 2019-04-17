@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Technology
+title: "Technology"
+lang: fr
 ---
 
 <h1 class="section-front-header-module__title">News</h1>
