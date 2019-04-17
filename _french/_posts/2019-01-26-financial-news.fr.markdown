@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Finances et affaires"
+ref: financial-news
 lang: fr
 ---
 
