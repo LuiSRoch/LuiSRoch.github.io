@@ -1,22 +1,26 @@
 ---
-By default, content added below the "---" mark will appear in the home page
-between the top bar and the list of recent posts.
-To change the home page layout, edit the _layouts/home.html file.
-See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
+ref: index
+lang: en
 ---
-<html lang="{{ site.lang }}">
-  <body>
-    <header>
-      <a class="active" href="#">{{ site.languageNames[site.lang] }}</a>
-      {% for lang in site.languageNames %}
-      {% if lang[0] == site.lang %} {% continue %} {% endif %}
-      {% if page.namespace %}
-      <a href="{% tl {{ page.namespace }} {{ lang[0] }}%}">{{ lang[1] }}</a>
-      {% else %}
-      <a href="{{ site.baseurl_root }}/{{ lang[0] }}/">{{ lang[1] }}</a>
-      {% endif %}
-      {% endfor %}
-    </header>
-  </body>
-</html>
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% for post in posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
