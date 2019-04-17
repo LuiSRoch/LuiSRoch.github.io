@@ -2,6 +2,7 @@
 layout: page
 title: Contact-Me
 permalink: /contact/
+ref: contact
 lang: en
 ---
 <html lang="en">
