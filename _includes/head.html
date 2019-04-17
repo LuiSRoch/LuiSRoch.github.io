@@ -11,7 +11,7 @@
   {%- endif -%}
   
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.md','' | prepend: site.baseurl | prepend: site.url }}">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
   <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
