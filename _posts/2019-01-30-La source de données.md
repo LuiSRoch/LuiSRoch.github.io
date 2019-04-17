@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post.fr
 title: "La source de données"
 ref: 2019-01-30-La source de données
 #permalink: 2019-01-30-La source de données
