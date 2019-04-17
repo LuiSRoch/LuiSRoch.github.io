@@ -1,5 +1,6 @@
 ---
-
+layout: post
+title: Experiments and Visualizations
 lang: en
 ---
 
