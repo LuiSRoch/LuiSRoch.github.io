@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
-ref: about
+#ref: about
 lang: en
 ---
 
