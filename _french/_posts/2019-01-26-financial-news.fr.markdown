@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Finances et affaires"
-ref: financial-news
+#ref: financial-news
+permalink: /_french/_posts/Finances et affaires/
 lang: fr
 ---
 
