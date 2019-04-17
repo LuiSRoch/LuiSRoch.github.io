@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: home
 #ref: home
-#lang: en
+lang: en
 ---
 
 <div class="home">
