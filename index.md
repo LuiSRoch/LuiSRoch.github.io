@@ -1,7 +1,7 @@
 ---
 layout: default
-ref: index
-lang: en
+#ref: index
+#lang: en
 ---
 
 <div class="home">
