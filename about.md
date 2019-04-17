@@ -2,7 +2,8 @@
 layout: page
 title: About Me
 permalink: /about/
-permalink_fr: /french/apropos/
+ref: about
+lang: en
 ---
 <html lang="en">
 </html>
