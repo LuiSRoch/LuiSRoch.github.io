@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Financial and Business"
+title:  "Finances et affaires"
 lang: fr
 ---
 
