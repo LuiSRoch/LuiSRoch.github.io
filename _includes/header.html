@@ -6,15 +6,8 @@
     <a class="site-title" href="{{ site.baseurl }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
     <br />
     
-    <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12 lang" align="right">
-      <select name="lang" id="lang">
-        <option value ="en" data-input="en">English</option>
-        <option value ="fr" data-input="fr"><a href="" hreflang="fr">Français</a></option>
-      </select>
-    </div>
-    
+    {%- if page_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -49,7 +42,7 @@
         {%- endfor -%}
       </div>
     </nav>
-    
+   {%- endif -%}
   </div>
     
 </header>
