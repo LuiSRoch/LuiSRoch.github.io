@@ -1,6 +1,7 @@
 # Site settings
 title:
-  Data Wrangling and Analytics
+  en: Data Wrangling and Analytics
+  fr: Data Wrangling et Analytics
 email: your-email@domain.com
 description:
   en: Data feeds - News - Tools for Tech - Finance & Business> # this means to ignore newlines until "twitter_username:"
