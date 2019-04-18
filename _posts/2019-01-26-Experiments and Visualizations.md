@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Experiments and Visualizations"
+description: "Refreshed Daily from Sources"
+lang: en
+---
 
 <h1 class="section-front-header-module__title">Python Visualizations</h1>
 <a href="https://nbviewer.jupyter.org/github/LuisFRoch/Explore_iPy_Samples/blob/7fe7a74e886796bc6c449328ea2574631ef94176/SPClose.ipynb" rel="nofollow" target="_blank" style="font-size: 16px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Predicting S&P500 Close. Part 1 here.</a>
