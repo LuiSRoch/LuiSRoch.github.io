@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Experiments and Visualizations"
-description: "Refreshed Daily from Sources"
+#description: "Refreshed Daily from Sources"
 lang: en
 ---
 
