@@ -23,4 +23,4 @@ techniques to streamline visualizations.
 
 In 2018 I moved from New York to Paris where I'm exploring the labor market in search of opportunities while continuing 
 to engage with programmers, data scientists, database administrators and machine learning experts in search of innovative 
-approaches to data mining and visualization.
+approaches to data mining and visualizations.
