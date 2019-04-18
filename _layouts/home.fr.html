@@ -9,7 +9,7 @@ lang: fr
   
   {{ content }}
 
-  {%- if site.postsfr.size > 0 -%}
+  {%- if site.posts.size > 0 -%}
 
     Qu’est ce que le Data Wrangling et Analytics?
     ...C'est un lieu de rassemblement de données financières, économiques et afférentes à la supply chain, agrégées à partir de sources sûres.
@@ -47,7 +47,7 @@ lang: fr
           <div id="txt"></div>
   <br />
     <ul class="post-list">
-      {%- for post in site.postsfr -%}
+      {%- for post in site.posts -%}
 
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
