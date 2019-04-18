@@ -1,5 +1,5 @@
 ---
 layout: home
-ref: indexs
+ref: indx
 lang: en
 ---
