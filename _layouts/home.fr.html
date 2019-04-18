@@ -27,7 +27,7 @@ lang: fr
     </p>
 
   
-  <h2 class="post-list-heading">{{ page.list_title | default: "Postsfr" }}</h2>
+  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
        Data and Links last updated :
   <br />
   <p id="date"></p>
@@ -49,15 +49,15 @@ lang: fr
           <div id="txt"></div>
   <br />
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for posts in site.posts -%}
 
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+          <a class="post-link" href="{{ posts.url | relative_url }}">
+            {{ posts.title | escape }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          {{ posts.excerpt }}
         {%- endif -%}
       </li>
       {%- endfor -%}
