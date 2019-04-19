@@ -1,6 +1,5 @@
 ---
-layout: defaults
-lang: fr
+layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -9,23 +8,8 @@ lang: fr
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
 
-      <h3>Refreshed Daily from Sources</h3>
-          <body onload="startTime()">
-          <div id="txt"></div>
-        </body> <br />
-    <p class="post-meta">
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
-      {%- endif -%}</p>
-  </header>
-
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
