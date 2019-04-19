@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "La source de données"
-description: "Refreshed Daily from Sources"
-#ref: 2019-01-30-Data-Source
-permalink: 2019-01-30-La source de données
-lag: fr
+#description: "Refreshed Daily from Sources"
+ref: 2019-01-30-La source de données
+#permalink: 2019-01-30-La source de données
+categories: jekyll update
+lang: fr
 ---
 
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">
