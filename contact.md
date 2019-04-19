@@ -14,8 +14,5 @@ like to start making progress on.
 <br />
 If you are interested in sharing ideas and working together, please fill out the form and I'll get back to you right away!
 <br />
-<html>
-  <div>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/viewform?embedded=true" width=100% height="890" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-  </div>
-</html>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwvX_F7xEhD3hq3rT9qF_B0_E8LAsREGq7IQ44h0mbFW7hkw/viewform?embedded=true" width="100%" height="846" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
