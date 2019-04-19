@@ -48,15 +48,15 @@ lang: fr
           <div id="txt"></div>
   <br />
     <ul class="post-list">
-      {%- for posts in site.postsfr -%}
+      {%- for post in site.post -%}
 
         <h3>
           <a class="post-link" href="{{ posts.url | relative_url }}">
-            {{ posts.title | escape }}
+            {{ post.title | escape }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ posts.excerpt }}
+          {{ post.excerpt }}
         {%- endif -%}
       </li>
       {%- endfor -%}
