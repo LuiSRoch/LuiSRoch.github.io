@@ -1,8 +1,10 @@
 ---
-layout: postsfr
+layout: post
 title:  "La source de données"
 #description: "Refreshed Daily from Sources"
-ref: 2019-01-30-La source de données
+#ref: 2019-01-30-La source de données
+ref: Data
+date:   2019-01-30
 categories: jekyll update
 lang: fr
 ---
