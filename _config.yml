@@ -4,10 +4,10 @@ title:
   fr: Data Wrangling et Analytics
 email: your-email@domain.com
 description:
-  en: Data feeds - News - Tools for Tech - Finance & Business> # this means to ignore newlines until "twitter_username:"
+  en: Data feeds - News - Tools for Tech - Finance & Business # this means to ignore newlines until "twitter_username:"
   fr: Flux de données - Actualités - Outils pour les technologies - Finance et Business 
 show_description: true # set to true to show excerpts on the homepage
-exclude_from_localizations: ["javascript", "images", "css"]
+#exclude_from_localizations: ["javascript", "images", "css"]
 index:
   en:
   fr: accueil.html
