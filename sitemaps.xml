@@ -9,7 +9,7 @@ lang: fr
     {% if post.id contains "404" %}{% else %}
       <url>
         <loc>{{site.base}}{{ post.url }}</loc>
-        {% assign versions=site.posts | where:"ref", post.ref %}
+        {% assign versions=site.postsfr | where:"ref", post.ref %}
         {% for version in versions %}
           <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
         {% endfor %}
