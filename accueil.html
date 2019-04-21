@@ -3,3 +3,23 @@ layout: defaults
 ref: index
 lang: fr
 ---
+<div class="home.fr">
+
+  <h1 class="page-heading">Articles</h1>
+
+  <ul class="post-list">
+    {% assign posts=site.postsfr | where:"lang", page.lang %}
+    {% for post in postsfr %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ postsfr.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">suivre le <a href="{{ "/flux.xml" | prepend: site.baseurl }}">flux RSS</a></p>
+
+</div>
