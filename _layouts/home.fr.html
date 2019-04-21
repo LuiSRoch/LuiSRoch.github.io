@@ -48,10 +48,10 @@ lang: fr
           <div id="txt"></div>
   <br />
     <ul class="post-list">
-      {%- for post in site.postsfr -%}
+      {%- for post in site.posts -%}
 
         <h3>
-          <a class="post-link" href="{{ postsfr.url | relative_url }}">
+          <a class="post-link" href="{{ posts.url | relative_url }}">
             <meta http-equiv="Refresh" content="0; url=https://luisfroch.github.io/2019-01-30-données.md" />
             {{ post.title | escape }}
           </a>
