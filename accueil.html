@@ -5,8 +5,6 @@ lang: fr
 ---
 <div class="home">
 
-  <html lang="{{ page.lang }}">
-
   <body>
     
     <div class="page-content">
@@ -75,9 +73,10 @@ lang: fr
             
       </div>
     </div>
-    {% include footer.html %}
+
   </body>
-  
+
+</div>
   
   <ul class="post-list">
     {% assign posts=site.postsfr | where:"lang", page.lang %}
@@ -94,5 +93,3 @@ lang: fr
   </ul>
 
 </div>
-      
-</html>
