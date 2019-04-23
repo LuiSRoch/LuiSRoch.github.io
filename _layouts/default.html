@@ -3,19 +3,19 @@
   
 <meta name="viewport" content="width=device-width">
   
-  {%- include head.html -%}
+  {% include head.html %}
 
   <body>
-    
-    {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
+    {% include header.html %}
+
+    <main class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
 
-    {%- include footer.html -%}
+    {% include footer.html %}
 
   </body>
 
