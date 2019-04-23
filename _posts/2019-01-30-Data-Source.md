@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Data"
-description: "Refreshed Daily from Sources"
 lang: en
 ---
 
