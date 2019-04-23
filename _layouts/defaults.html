@@ -49,16 +49,16 @@
           <div id="txt"></div>
         <br />
           
-          <div class="home.fr">
+          <div class="home">
             
             <ul class="posts-list">
-              {% assign posts=site.postsfr | where:"lang", page.lang %}
-              {% for post in postsfr %}
+              {% assign posts=site.posts | where:"lang", page.lang %}
+              {% for post in posts %}
               
               <li>
                 <span class="posts-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                 <h2>
-                  <a class="posts-link" href="{{ postsfr.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                  <a class="posts-link" href="{{ posts.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h2>
               </li>
               
