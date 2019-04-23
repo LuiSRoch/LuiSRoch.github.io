@@ -7,14 +7,14 @@ lang: fr
 
   <ul class="post-list">
     {% assign posts=site.postsfr | where:"lang", page.lang %}
-    {% for post in posts %}
+    {% for post in postsfr %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ postsfr.url | prepend: site.baseurl }}">{{ post.title }}</a>
           <a href="{{ site.base-url }}{{ postfr.url }}" class="{{ post.lang }} title="View in {{page.lang}}">{{ page.lang }}</a>
-                                                                                                            </h2>
+        </h2>
       </li>
     {% endfor %}
   </ul>
