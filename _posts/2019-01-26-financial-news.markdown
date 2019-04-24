@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Financial and Business"
-# lang: en
+lang: en
 ---
 
 <div class="navi-markets-bar">
@@ -100,7 +100,7 @@ rssfeed_cache = "c0d58c994414e002f4a7f44109c832df";
 <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
 <div style="color:#ccc;font-size:10px; text-align:right; width:100%px;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;">Surfing Waves</a></div>
 <!-- end sw-rss-feed code -->
-<hr>
+<hr><br />
 <h4 class="section-front-header-module__title">Regulation and OTC</h4>
 <!-- start sw-rss-feed code --> 
 <script type="text/javascript"> 
