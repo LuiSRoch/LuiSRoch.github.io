@@ -2,7 +2,7 @@
 layout: page
 title: Contact-Me
 permalink: /contact/
-# ref: contact
+ref: contact
 lang: en
 ---
 
