@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Financial and Business"
+ref: financial-news
 lang: en
 ---
 
