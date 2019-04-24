@@ -2,8 +2,7 @@
 layout: page
 title: Contact-Me
 permalink: /contact/
-ref: contact
-lang: en
+# ref: contact
 ---
 
 I work with data science methods to provide analytics and visualizations on financial and economic information,
