@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Financial and Business"
-# lang: en
+lang: en
 ---
 
 <div class="navi-markets-bar">
@@ -53,7 +53,7 @@ title:  "Financial and Business"
             </div>
 
         </section>
-<hr>
+<hr><br />
 <h3 class="section-front-header-module__title">Daily News</h3>
 
 <!-- start sw-rss-feed code --> 
