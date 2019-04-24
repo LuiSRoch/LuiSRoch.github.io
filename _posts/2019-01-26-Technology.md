@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Technology"
+ref: Technology
 lang: en
 ---
 
@@ -50,7 +51,7 @@ rssfeed_cache = "1c1581a0d115d4b73242152a213ae7fc";
 <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
 
 <!-- end sw-rss-feed code -->
-<br />
+<hr><br />
 
 <!-- start sw-rss-feed code --> 
 <script type="text/javascript"> 
@@ -99,7 +100,7 @@ rssfeed_cache = "f7cb0087a81723f50619134489fc46cb";
 <div style="color:#fff;font-size:10px; text-align:right; width:100%;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#fff;">Surfing Waves</a></div> 
 <!-- end sw-rss-feed code -->
 
-<br />
+<hr><br />
 
 <h1 class="section-front-header-module__title">Tools & Links</h1>
 
