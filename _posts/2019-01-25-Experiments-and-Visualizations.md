@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Experiments and Visualizations
+title: "Experiments and Visualizations"
+ref: Experiments-and-Visualizations
 lang: en
 ---
 
