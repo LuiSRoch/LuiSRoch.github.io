@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Experiments and Visualizations"
-#description: "Refreshed Daily from Sources"
-# lang: en
+title: "Experiments and Visualizations"
+ref: Experiments-and-Visualizations
+lang: en
 ---
 
 <h1 class="section-front-header-module__title">Python Visualizations</h1>
