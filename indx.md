@@ -1,7 +1,7 @@
 ---
-layout: defaults
-ref: indx
-lang: fr
+#layout: defaults
+#ref: indx
+#lang: fr
 ---
 <div class="home">
 
