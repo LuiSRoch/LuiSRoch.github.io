@@ -38,46 +38,6 @@ lang: fr
         </div>
         <br />
 
----
-layout: default
-ref: index
-lang: fr
----
-
-      <br />
-        <div>
-    Qu’est ce que le Data Wrangling et Analytics?
-    ...C'est un lieu de rassemblement de données financières, économiques et afférentes à la supply chain, agrégées à partir de sources sûres.
-    ...C’est également un lieu d’informations sur la finance (régulations et bonnes pratiques inclues) et sur la technologie.
-    ...C’est un lieu de partage d’outils (Excel, Macros, Python code, IA et Machine Learning) et de liens vers des réponses techniques.
-    ...Enfin, c’est un lieu d’expérimentations personnelles et de visualisations sur les data sciences.
-          <br />
-          <br />
-          <p>
-      Ma connexion avec ces sujets provient de mes expériences dans le secteur bancaire et de mon intérêt croissant pour les technologies.
-      Je suis impliqué dans tout ce qui concerne les data depuis 2007, et je suis intéressé par le partage de connaissances et de savoirs, permettant notamment de rendre le quotidien du travail plus facile.
-      Je suis actuellement membre d’un groupe d’échanges sur l’intelligence artificielle dans lequel nous discutons de pratiques d’entreprises, de ce qu’il y a à l’intérieur de la « boîte noire » (calculs mathématiques) tout autant que d’éthique et des impacts de l’IA sur la société et le marché du travail.
-          </p>
-        </div>
-        
-        <h2 class="post-list-heading">{{ page.list_title | default: "Articles" }}</h2>
-       Dernière mise à jour des données et des liens :
-        <br />
-        
-        <p id="date"></p>
-        
-        <script>
-          document.getElementById("date").innerHTML = Date();
-        </script>
-        <br />
-        
-        <div class="proj-box-format">
-          <iframe height="25" scrolling="no" src="https://www.dailyforex.com/forex-widget/widget/29571" style="width: 100%; height:25px; display: block;border:0px;overflow:hidden;" width="100%">
-          </iframe>
-          <span style="position:relative;display:block;text-align:center;color:#333333;width:100%;font-family:Tahoma,sans-serif;font-size:10px;"></span>
-        </div>
-        <br />
-
             <ul>
               {% for post in posts %}
               <li><a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }} title="View in {{page.lang}}">{{ page.lang }}</a></li>
