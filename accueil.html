@@ -37,3 +37,9 @@ lang: fr
           <span style="position:relative;display:block;text-align:center;color:#333333;width:100%;font-family:Tahoma,sans-serif;font-size:10px;"></span>
         </div>
         <br />
+
+            <ul>
+              {% for post in posts %}
+              <li><a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }} title="View in {{page.lang}}">{{ page.lang }}</a></li>
+              {% endfor %}
+            </ul>
