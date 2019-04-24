@@ -2,7 +2,7 @@
 layout: post
 title:  "Experiments and Visualizations"
 #description: "Refreshed Daily from Sources"
-lang: en
+# lang: en
 ---
 
 <h1 class="section-front-header-module__title">Python Visualizations</h1>
