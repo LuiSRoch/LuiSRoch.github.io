@@ -49,6 +49,19 @@ lang: en
           <body onload="startTime()">
           <div id="txt"></div>
   <br />
+
+
+<ul class="post-list">
+  {% assign posts=site.posts | where:"lang", page.lang %}
+  {% for post in posts %}
+  <li>
+    <h3>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h3>
+  </li>
+  {% endfor %}
+</ul>
+                                                                        
     <ul class="post-list">
       {%- for post in site.posts -%}
 
