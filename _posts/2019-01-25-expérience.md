@@ -15,7 +15,7 @@ lang: fr
 
 <div>
 <body>
-  <iframe width="100%" height="800" frameborder="0" scrolling="yes" src="//plot.ly/~mini_geek/76.embed"></iframe>
+  <iframe width="100%" height="800" frameborder="0" scrolling="yes" src="//plot.ly/~mini_geek/106.embed"></iframe>
 </body>
 </div>
 
