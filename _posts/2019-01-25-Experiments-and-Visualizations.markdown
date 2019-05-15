@@ -15,7 +15,7 @@ lang: en
 
 <div>
 <body>
-  <iframe content="width=device-width" height="800" frameborder="0" width="100%" scrolling="yes" src="//plot.ly/~mini_geek/76.embed"></iframe>
+  <iframe content="width=device-width" height="800" frameborder="0" width="100%" scrolling="yes" src="//plot.ly/~mini_geek/106.embed"></iframe>
 </body>
 </div>
 
