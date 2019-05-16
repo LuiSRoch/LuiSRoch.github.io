@@ -5,6 +5,13 @@ ref: technologie
 lang: fr
 ---
 
+<div>
+<body>
+  <iframe width="100%" height="800" frameborder="0" scrolling="yes" src="//plot.ly/~mini_geek/108.embed"></iframe>
+</body>
+</div>
+<hr>
+
 <h1 class="section-front-header-module__title">News</h1>
 
 <!-- start sw-rss-feed code --> 
