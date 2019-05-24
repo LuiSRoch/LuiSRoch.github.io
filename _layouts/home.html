@@ -52,11 +52,11 @@ lang: en
 
 
 <ul class="post-list">
-  <iframe width="100%" height="800" frameborder="0" scrolling="yes" src="https://user-images.githubusercontent.com/29665541/58316654-54489780-7e14-11e9-9755-23381d7337e6.gif"></iframe>
   {% assign posts=site.posts | where:"lang", page.lang %}
   {% for post in posts %}
   <li>
     <h3>
+      <iframe width="100%" height="800" frameborder="0" scrolling="yes" src="https://user-images.githubusercontent.com/29665541/58316654-54489780-7e14-11e9-9755-23381d7337e6.gif"></iframe>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h3>
   </li>
