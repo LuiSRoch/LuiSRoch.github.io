@@ -8,7 +8,7 @@ lang: en
 <h1 class="section-front-header-module__title">Python Visualizations</h1>
 <br />
 <div>
-  <iframe width="100%" height="400" frameborder="0" scrolling="yes" src="https://user-images.githubusercontent.com/29665541/58336994-20399a80-7e45-11e9-8e3d-f45712861e77.gif"></iframe>
+  <iframe width="100%" height="400" frameborder="0" scrolling="yes" src="https://user-images.githubusercontent.com/29665541/58632664-865f6b00-82e6-11e9-8a29-bfb9e0414676.gif"></iframe>
 </div>
 <br />
 
