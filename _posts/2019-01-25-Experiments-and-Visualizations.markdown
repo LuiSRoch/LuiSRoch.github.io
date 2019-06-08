@@ -8,14 +8,12 @@ lang: en
 <h1 class="section-front-header-module__title">Python Visualizations</h1>
 <br />
 <div>
-  <iframe width="100%" height="400" frameborder="0" scrolling="yes" src="https://user-images.githubusercontent.com/29665541/58636120-e0186300-82ef-11e9-8993-fc6802fc816a.gif"></iframe>
+  <iframe width="100%" height="400" frameborder="0" src="https://user-images.githubusercontent.com/29665541/59149511-063bb280-8a16-11e9-9db7-8c42de02c221.gif"></iframe>
 </div>
 <br />
 
 <div>
-<body>
-  <iframe content="width=device-width" height="800" frameborder="0" width="100%" scrolling="yes" src="//plot.ly/~mini_geek/106.embed"></iframe>
-</body>
+  <iframe width="100%" height="800" frameborder="0" scrolling="yes" src="//plot.ly/~mini_geek/106.embed"></iframe>
 </div>
 <br />
 
