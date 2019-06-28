@@ -8,7 +8,7 @@ lang: en
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">
   <span style="font-size: 16px;color: #333333;text-decoration: none;">Real Time Economic Calendar</span>
 </div>    
-<iframe style="border: 1px solid #333333" scrolling="yes" src="https://sslecal2.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_credit,_confidenceIndex&features=datepicker,calType=week=7&lang=1" width="100%" height="245" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span></div>
+<iframe style="border: 1px solid #333333" scrolling="yes" src="https://global-premium.econoday.com/byweek.asp?cust=global-premium" width="100%" height="450" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span></div>
 <hr>
 <br />
 
