@@ -63,6 +63,6 @@ lang: en
 <br />
 <h1 class="section-front-header-module__title">Other Tools & DataSets</h1>
 
-    Under Construction
+    Under Construction, though the link below provides a couple examples.
     
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;"><a href="https://github.com/LuisFRoch/Excel-Tools/tree/master/_Excel-Files" rel="nofollow" target="_blank" style="font-size: 14px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Excel Macros to help with daily workload...More...</a></span></div>
