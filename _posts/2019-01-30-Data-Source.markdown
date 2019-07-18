@@ -5,6 +5,9 @@ ref: Data-Source
 lang: en
 ---
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
+
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">
   <span style="font-size: 16px;color: #333333;text-decoration: none;">Real Time Economic Calendar</span>
 </div>    
@@ -61,6 +64,8 @@ lang: en
         </div>
 <iframe scrolling="yes" src="https://www.fincen.gov/fcn/Reports/SARStats?href=https://www.fincen.gov/reports/sar-stats" width="100%" height="650" frameborder="0" style="border: 1px solid #333333" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span>
 <hr>
+
+<div class="fb-page" data-href="https://www.fincen.gov/reports/sar-stats" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
 
 <br /> 
 <h1 class="section-front-header-module__title">Supply Chain</h1>
