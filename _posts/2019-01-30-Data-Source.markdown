@@ -62,7 +62,7 @@ lang: en
                 <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
             </form>
         </div>
-<iframe style="border: 1px solid #333333" scrolling="yes" src="https://www.fincen.gov/fcn/Reports/SARStats" width="100%" height="650" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span></div>
+<iframe scrolling="yes" src="https://www.fincen.gov/fcn/Reports/SARStats" width="100%" height="650" frameborder="0" style="border: 1px solid #333333" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span>
 <hr>
 
 <br /> 
