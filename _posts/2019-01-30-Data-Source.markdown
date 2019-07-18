@@ -59,11 +59,8 @@ lang: en
                 <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
             </form>
         </div>
-<iframe style="border: 1px solid #333333" scrolling="yes" src="https://www.fincen.gov/reports/sar-stats" width="100%" height="650" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span></div>
+<iframe style="border: 1px solid #333333" scrolling="yes" src="https://www.fincen.gov/reports/sar-stats&output=embed" width="100%" height="650" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span></div>
 <hr>
-
-<object type="html" data="https://www.fincen.gov/reports/sar-stats" width="100%" height="650" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0">
-</object>
 
 <br /> 
 <h1 class="section-front-header-module__title">Supply Chain</h1>
