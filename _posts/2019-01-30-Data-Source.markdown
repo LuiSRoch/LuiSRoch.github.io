@@ -55,10 +55,6 @@ lang: en
 <hr>
 
 <br />
-<script src="x-frame-bypass.js" type="module"></script>
-
-<iframe target="https://www.fincen.gov" onload="onIframeLoad(arguments)" src="https://www.fincen.gov/reports/sar-stats" href="https://www.fincen.gov/fcn/Reports/SARStats" style="width: 100%;border: 0;" title="SAR Stats" height="509"></iframe>
-
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a href="https://www.fincen.gov/" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Financial Crimes Enforcement Network</a></span></div>
 <div class="col-xs-12 col-sm-10 col-sm-offset-1">
            <form action="https://www.fincen.gov/search/node?keys=&404-search-button=Search" method="GET">
