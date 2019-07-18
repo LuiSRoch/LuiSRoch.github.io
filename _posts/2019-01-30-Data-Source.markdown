@@ -56,7 +56,7 @@ lang: en
 
 <br />
 <script src="x-frame-bypass.js" type="module"></script>
-
+<link rel="revision" href="/reports/sar-stats" />
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a href="https://www.fincen.gov/" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Financial Crimes Enforcement Network</a></span></div>
 <div class="col-xs-12 col-sm-10 col-sm-offset-1">
            <form action="https://www.fincen.gov/search/node?keys=&404-search-button=Search" method="GET">
@@ -66,8 +66,6 @@ lang: en
         </div>
 <iframe is="x-frame-bypass" scrolling="yes" src="https://www.fincen.gov/fcn/Reports/SARStats?href=https://www.fincen.gov/reports/sar-stats" width="100%" height="650" frameborder="0" style="border: 1px solid #333333" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span>
 <hr>
-
-<div data-href="https://www.fincen.gov/reports/sar-stats" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
 
 <br /> 
 <h1 class="section-front-header-module__title">Supply Chain</h1>
