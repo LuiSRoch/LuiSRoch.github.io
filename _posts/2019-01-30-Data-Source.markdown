@@ -57,17 +57,16 @@ lang: en
 <br />
 <script src="x-frame-bypass.js" type="module"></script>
 
+<iframe onload="onIframeLoad(arguments)" src="https://www.fincen.gov/reports/sar-stats" href="https://www.fincen.gov/fcn/Reports/SARStats" style="width: 100%;border: 0;" title="SAR Stats" height="509"></iframe>
+
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a href="https://www.fincen.gov/" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Financial Crimes Enforcement Network</a></span></div>
-
-<iframe onload="onIframeLoad(arguments)" src="/fcn/Reports/SARStats" href="https://www.fincen.gov/fcn/Reports/SARStats" style="width: 100%;border: 0;" title="SAR Stats" height="509"></iframe>
-
 <div class="col-xs-12 col-sm-10 col-sm-offset-1">
            <form action="https://www.fincen.gov/search/node?keys=&404-search-button=Search" method="GET">
               <input type="text" id="search" name="keys" placeholder="Search FINCEN data e.g., SARS, fraud, insurance">
                 <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
             </form>
         </div>
-<iframe is="x-frame-bypass" scrolling="yes" src="https://www.fincen.gov/fcn/Reports/SARStats?href=https://www.fincen.gov/reports/sar-stats" width="100%" height="650" frameborder="0" style="border: 1px solid #333333" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span>
+<iframe target="https://www.fincen.gov/fcn/Reports/SARStats" is="x-frame-bypass" scrolling="yes" src="https://www.fincen.gov/fcn/Reports/SARStats?href=https://www.fincen.gov/reports/sar-stats" width="100%" height="650" frameborder="0" style="border: 1px solid #333333" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span>
 <hr>
 
 <br /> 
