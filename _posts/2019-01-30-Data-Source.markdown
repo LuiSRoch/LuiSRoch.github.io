@@ -48,8 +48,42 @@ lang: en
   </form>
 </div>
 
-<div>
-<body>
+<html lang="en" class=""><head class="">
+	<title>SAR Stats</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link href="https://www.fincen.gov/fcn/Reports/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://www.fincen.gov/fcn/Reports/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://www.fincen.gov/fcn/Reports/assets/js/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://www.fincen.gov/fcn/Reports/assets/js/datatables/jquery.dataTables.css" rel="stylesheet" type="text/css">
+    <link href="https://www.fincen.gov/fcn/Reports/assets/css/select2.min.css" rel="stylesheet" type="text/css">
+	<link href="https://www.fincen.gov/fcn/Reports/assets/css/styles.css" rel="stylesheet" type="text/css">
+	<link href="https://www.fincen.gov/fcn/Reports/assets/css/styles_small.css" rel="stylesheet" media="all and (max-width: 1200px)">
+
+	<link href="https://www.fincen.gov/fcn/Reports/assets/css/fincenCSS.css" rel="STYLESHEET" type="text/css" title="main">
+
+	<link href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
+	<!--[if lt IE 10]>
+	<style>     /* IE 8 and below use SWF files, so we will make the background images invisible for them */
+	#formButtonCsv, #formButtonPdf {
+		display: none !important;
+	}
+    
+    #downloadcsv, #downloadpdf {
+        display: inline-block !important;
+    }
+	</style>
+	<![endif]-->
+
+	<noscript>This web page can be viewed better with javascript enabled.</noscript>
+<style type="text/css"></style><style id="__web-inspector-hide-shortcut-style__" type="text/css">
+.__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after
+{
+    visibility: hidden !important;
+}
+</style></head>
+<body class="">
 
 <div id="main">
 	<div id="formInputsHeader">
@@ -273,7 +307,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 																	<option value="9000004">Money Services Business (MSB)</option>
 																	<option value="9000005">Securities/Futures</option>
 																	<option value="999">Other</option>
-															</select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" style="max-height: 32px; overflow: auto;"><ul class="select2-selection__rendered"><li class="select2-selection__choice" title="Depository Institution"><span class="select2-selection__choice__remove" role="presentation">×</span>Depository Institution</li><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="" id="formInstitution_input" style="width: 0.75em;"><label for="formInstitution_input" style="display:none">Select items to filter</label><span class="multi-arrow" role="presentation"><b role="presentation" style="display: none;"></b></span></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+															</select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" style="max-height: 32px; overflow: auto;"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="[Select items to filter]" id="formInstitution_input" style="width: 334px;"><label for="formInstitution_input" style="display:none">Select items to filter</label><span class="multi-arrow" role="presentation"><b role="presentation" style=""></b></span></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
 			</div>
 
             <div id="formSectionYear" class="formSection">
@@ -379,7 +413,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
                                                     <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201906">June</option>
                                                     <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201907">July</option>
                                                     <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201908">August</option>
-                                                            </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" style="max-height: 32px; overflow: auto;"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="[Select items to filter]" id="formYear_input" style="width: 195px;"><label for="formYear_input" style="display:none">Select items to filter</label><span class="multi-arrow" role="presentation"><b role="presentation" style=""></b></span></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                            </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" style="max-height: 32px; overflow: auto;"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="[Select items to filter]" id="formYear_input" style="width: 242px;"><label for="formYear_input" style="display:none">Select items to filter</label><span class="multi-arrow" role="presentation"><b role="presentation"></b></span></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
             </div>
 
 			<div id="formSectionSuspiciousActivity" class="formSection">
@@ -574,7 +608,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 											<option value="11">Officer</option>
 											<option value="12">Owner/Controlling Shareholder</option>
 											<option value="17">Other</option>
-									</select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" style="max-height: 32px; overflow: auto;"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="[Select items to filter]" id="formRelationship_input" style="width: 329px;"><label for="formRelationship_input" style="display:none">Select items to filter</label><span class="multi-arrow" role="presentation"><b role="presentation"></b></span></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+									</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" style="max-height: 32px; overflow: auto;"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="[Select items to filter]" id="formRelationship_input" style="width: 329px;"><label for="formRelationship_input" style="display:none">Select items to filter</label><span class="multi-arrow" role="presentation"><b role="presentation"></b></span></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
 			</div>
 
 			<div id="formSectionRegulator" class="formSection">
@@ -620,8 +654,8 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 		<div id="resultsHtml">
 			<div id="errorDivResult" class="warningBox" style="display: none;"></div>
 			<div id="resultTable_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="resultTable_length"><label>Show <select name="resultTable_length" aria-controls="resultTable" class="form-control input-sm"><option value="15">15</option><option value="25">25</option><option value="50">50</option></select> entries</label></div></div><div class="col-sm-6"><div id="resultTable_filter" class="dataTables_filter"><label>Filter Results: <input type="search" class="form-control input-sm" placeholder="" aria-controls="resultTable"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="resultTable" class="stripe hover compact order-column no-footer dataTable" cellspacing="0" width="100%" role="grid" aria-describedby="resultTable_info" style="width: 100%;"><thead>
-	            <tr role="row"><th class="sorting_desc" tabindex="0" aria-controls="resultTable" rowspan="1" colspan="1" aria-label="Year&amp;amp;Month: activate to sort column ascending" style="width: 314px;" aria-sort="descending">Year&amp;Month</th><th class="sorting" tabindex="0" aria-controls="resultTable" rowspan="1" colspan="1" aria-label="Industry: activate to sort column ascending" style="width: 441px;">Industry</th><th class="highlight2 alignRight sorting" tabindex="0" aria-controls="resultTable" rowspan="1" colspan="1" aria-label="Filing Count: activate to sort column ascending" style="width: 188px;">Filing Count</th></tr>
-	        </thead><tbody><tr role="row" class="odd"><td class="sorting_1">2019 </td><td>Depository Institution</td><td class=" highlight2 alignRight">544,781</td></tr><tr role="row" class="even"><td class="sorting_1">2018 </td><td>Depository Institution</td><td class=" highlight2 alignRight">977,703</td></tr><tr role="row" class="odd"><td class="sorting_1">2017 </td><td>Depository Institution</td><td class=" highlight2 alignRight">916,351</td></tr><tr role="row" class="even"><td class="sorting_1">2016 </td><td>Depository Institution</td><td class=" highlight2 alignRight">958,730</td></tr><tr role="row" class="odd"><td class="sorting_1">2015 </td><td>Depository Institution</td><td class=" highlight2 alignRight">880,145</td></tr><tr role="row" class="even"><td class="sorting_1">2014 </td><td>Depository Institution</td><td class=" highlight2 alignRight">839,613</td></tr><tr role="row" class="odd"><td class="sorting_1">2013 </td><td>Depository Institution</td><td class=" highlight2 alignRight">669,015</td></tr><tr role="row" class="even"><td class="sorting_1">2012 </td><td>Depository Institution</td><td class=" highlight2 alignRight">32,474</td></tr><tr role="row" class="odd"><td class="highlight1 sorting_1">All Years [Total]</td><td>Depository Institution</td><td class=" highlight2 alignRight">5,818,812</td></tr></tbody></table><div id="resultTable_processing" class="dataTables_processing" style="display: none;"><img src="assets/img/220.GIF" alt="processing"></div></div></div><div class="row"><div class="col-sm-6"><div class="dataTables_info" id="resultTable_info" role="status" aria-live="polite">Showing 1 to 9 of 9 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_simple_numbers" id="resultTable_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="resultTable" tabindex="0" id="resultTable_previous"><a href="#">Previous</a></li><li class="paginate_button active" aria-controls="resultTable" tabindex="0"><a href="#">1</a></li><li class="paginate_button next disabled" aria-controls="resultTable" tabindex="0" id="resultTable_next"><a href="#">Next</a></li></ul></div></div></div></div>
+	            <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="resultTable" rowspan="1" colspan="1" aria-label="Year&amp;amp;Month: activate to sort column descending" style="width: 88px;" aria-sort="ascending">Year&amp;Month</th><th class="sorting" tabindex="0" aria-controls="resultTable" rowspan="1" colspan="1" aria-label="State: activate to sort column ascending" style="width: 40px;">State</th><th class="sorting" tabindex="0" aria-controls="resultTable" rowspan="1" colspan="1" aria-label="County: activate to sort column ascending" style="width: 65px;">County</th><th class="sorting" tabindex="0" aria-controls="resultTable" rowspan="1" colspan="1" aria-label="Industry: activate to sort column ascending" style="width: 96px;">Industry</th><th class="sorting" tabindex="0" aria-controls="resultTable" rowspan="1" colspan="1" aria-label="Suspicious Activity: activate to sort column ascending" style="width: 167px;">Suspicious Activity</th><th class="sorting" tabindex="0" aria-controls="resultTable" rowspan="1" colspan="1" aria-label="Regulator: activate to sort column ascending" style="width: 71px;">Regulator</th><th class="sorting" tabindex="0" aria-controls="resultTable" rowspan="1" colspan="1" aria-label="Relationship: activate to sort column ascending" style="width: 90px;">Relationship</th><th class="sorting" tabindex="0" aria-controls="resultTable" rowspan="1" colspan="1" aria-label="Product: activate to sort column ascending" style="width: 75px;">Product</th><th class="sorting" tabindex="0" aria-controls="resultTable" rowspan="1" colspan="1" aria-label="Instrument: activate to sort column ascending" style="width: 81px;">Instrument</th><th class="highlight2 alignRight sorting" tabindex="0" aria-controls="resultTable" rowspan="1" colspan="1" aria-label="Filing Count: activate to sort column ascending" style="width: 44px;">Filing Count</th></tr>
+	        </thead><tbody><tr class="odd"><td valign="top" colspan="10" class="dataTables_empty">&nbsp;</td></tr></tbody></table></div></div><div class="row"><div class="col-sm-6"><div class="dataTables_info" id="resultTable_info" role="status" aria-live="polite">Showing 0 to 0 of 0 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_simple_numbers" id="resultTable_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="resultTable" tabindex="0" id="resultTable_previous"><a href="#">Previous</a></li><li class="paginate_button next disabled" aria-controls="resultTable" tabindex="0" id="resultTable_next"><a href="#">Next</a></li></ul></div></div></div></div>
 	 		<div id="lastUpdated">Data last updated on 6/30/2019</div><div style="clear:both"></div>
 		</div>
 	</div>
@@ -665,8 +699,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 <script type="text/javascript" src="/javascript/federated-analytics.js"></script>
 
 
-</body>
-</div>
+</body></html>
 
 <hr>
 
