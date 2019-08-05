@@ -51,7 +51,7 @@ lang: en
 <div id="formInputsHeader">
 			<span id="nav1" style="left:15px" class="tab selected">Suspicious Activity Report Statistics (SAR Stats)</span>
 			<span id="nav2" style="left:400px" class="tab unselected">FAQ/Glossary</span>
-  
+  <br />
   <div id="formButtonContainer">
   <label style="display:none;" for="formButtonGenerate">Generate</label>
     <form action="https://www.fincen.gov/fcn/Reports/SARStats" method="GET"><button id="formButtonGenerate" class="formButton btn btn-primary"><span class="fa fa-search"></span><span>Generate</span></button>
