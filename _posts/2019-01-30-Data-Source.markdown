@@ -19,7 +19,7 @@ lang: en
     <div class="col-xs-12" style="padding-left: 0; padding-right: 0;">
       <div class="col-xs-12 col-sm-4 col-sm-push-8 text-right" style="padding-right: 1em;"></div>
       <div class="col-xs-12" style="padding-left: 0; padding-right: 0;">
-        <div id="fred-homepage-description" class="hidden-xs col-sm-12 text-center">
+        <div id="fred-homepage-description" class="hidden-xs col-sm-12 text-left">
           <a href="https://fred.stlouisfed.org/tags/series"><strong>528,000</strong> US and international time series</a> from <a href="https://fred.stlouisfed.org/sources"><strong>87</strong> sources</a>
         </div>
       </div>
