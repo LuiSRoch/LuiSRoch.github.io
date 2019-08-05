@@ -47,10 +47,6 @@ lang: en
     <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
   </form>
 </div>
-
-<div id="formInputsHeader">
-			<span id="nav1" style="left:15px" class="tab selected">Suspicious Activity Report Statistics (SAR Stats)</span>
-			<span id="nav2" style="left:400px" class="tab unselected">FAQ/Glossary</span>
   
   <div id="formButtonContainer">
   <div id="formButtons">
@@ -67,7 +63,7 @@ lang: en
       <label style="display:none;" for="downloadpdf">Export PDF</label>
       <div id="downloadpdf" class="formButton formButtonSwf"></div></form>
   </div>
-</div>
+  </div>
 
 <hr>
 
