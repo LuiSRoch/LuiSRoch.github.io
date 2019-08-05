@@ -246,40 +246,6 @@ The following are <b>edits</b> to existing options within the pull down menu:
 Suspicious Activity types that are no longer available on the SAR (as listed below) can still be queried as <b>Expired Options</b> within the Suspicious Activity Category drop down menu and made available for historical filing rates though <b>August 2018</b>.  No data post this period will be available for Expired suspicious activity options which are designated by a <span style="vertical-align:text-top;font-size:65%;font-weight:bold;color:red;">&dagger;</span>
 <br/>
 <br/>
-<table>
-		<tr style="text-align:left;">
-			<th style="text-decoration:underline;padding: 0px 200px 15px 0px;">Category</th>
-			<th style="text-decoration:underline;padding: 0px 200px 15px 0px;">Option</th>
-		</tr>
-		<tr style="text-align:left">
-			<td style="padding: 0px 0px 15px 0px;">Structuring</td>
-			<td style="color:blue;padding: 0px 0px 15px 0px;">Customer Cancels Transaction to Avoid BSA Reporting and Recordkeeping Requirement</td>
-		</tr>
-		<tr style="text-align:left">
-			<td>Gaming Activities</td>
-			<td style="color:blue">Inquiry About of End of Business Day</td>
-		</tr>
-		<tr style="text-align:left;">
-			<td style="padding: 0px 0px 15px 0px;">Gaming Activities</td>
-			<td style="color:blue;padding: 0px 0px 15px 0px;">Suspicious Intra-Casino Funds Transfers</td>
-		</tr>
-		<tr style="text-align:left">
-			<td>Other Suspicious Activities</td>
-			<td style="color:blue">Misuse of “Free-Look”/Cooling-Off/Right of Rescission</td>
-		</tr>
-		<tr style="text-align:left">
-			<td style="padding: 0px 0px 15px 0px;">Other Suspicious Activities</td>
-			<td style="color:blue;padding: 0px 0px 15px 0px;">Unauthorized Electronic Intrusion</td>
-		</tr>
-		<tr style="text-align:left">
-			<td style="padding: 0px 0px 15px 0px;">Securities/Futures/Options</td>
-			<td style="color:blue;padding: 0px 0px 15px 0px;">Market Manipulation/Wash Trading</td>
-		</tr>
-		<tr style="text-align:left">
-			<td>Mortgage Fraud</td>
-			<td style="color:blue">Reverse Mortgage Fraud</td>
-		</tr>
-</table>
 </div>
 <br/>
 <div>
@@ -676,42 +642,6 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 	</div>
 
 </div>
-
-<div id="sessID" style="display:none">6loke0afqg1iuab0tiel4ennv0</div>
-
-<div id="loader">
-	<div id="loaderInner">
-		Please wait while your document is being generated.<br/><br/>
-	</div>
-</div>
-
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jquery-1.7.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/respond.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/datatables/jquery.dataTables.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/datatables/dataTables.bootstrap.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/dropdown-check-list.1.4/doc/jquery-ui-1.8.13.custom.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/fnReloadAjax.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/jspdf.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/deflate.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/FileSaver.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/jspdf.plugin.table.js" type="text/javascript"></script>
-
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/select2.full.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/extendedSelect2.js" type="text/javascript"></script>
-
-<!--[if lt IE 10]>
-<script src="assets/js/jspdf/swfobject.js" type="text/javascript"></script>
-<script src="assets/js/jspdf/downloadify.min.js" type="text/javascript"></script>
-<script src="assets/js/swfButtons.js" type="text/javascript"></script>
-<![endif]-->
-
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/SARStats.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/pdfExport.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/Request.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/spin.min.js" type="text/javascript"></script>
-
-<script language="javascript" type="text/javascript" src="/javascript/main.js"></script>
-<script type="text/javascript" src="/javascript/federated-analytics.js"></script>
 
 </body>
 </html>
