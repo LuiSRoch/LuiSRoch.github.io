@@ -48,7 +48,7 @@ lang: en
   </form>
 </div>
 <br />
-<div id="formButtonContainer">
+
   <label style="display:none;" for="formButtonGenerate">Generate</label>
   <form action="https://www.fincen.gov/fcn/Reports/SARStats" method="GET"><button id="formButtonGenerate" class="formButton btn btn-primary"><span class="fa fa-search"></span><span>Generate</span></button>
     <label style="display:none;" for="formButtonReset">Reset</label>
@@ -61,7 +61,7 @@ lang: en
     <div id="downloadcsv" class="formButton formButtonSwf"></div>
     <label style="display:none;" for="downloadpdf">Export PDF</label>
     <div id="downloadpdf" class="formButton formButtonSwf"></div></form>
-</div>
+
 <hr>
 
 <br /> 
