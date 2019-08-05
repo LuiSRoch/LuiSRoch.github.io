@@ -47,26 +47,20 @@ lang: en
     <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
   </form>
 </div>
-
-<div id="formInputsHeader">
-			<span id="nav1" style="left:15px" class="tab selected">Suspicious Activity Report Statistics (SAR Stats)</span>
-			<span id="nav2" style="left:400px" class="tab unselected">FAQ/Glossary</span>
-  <br />
-  <div id="formButtonContainer">
+<br />
+<div id="formButtonContainer">
   <label style="display:none;" for="formButtonGenerate">Generate</label>
-    <form action="https://www.fincen.gov/fcn/Reports/SARStats" method="GET"><button id="formButtonGenerate" class="formButton btn btn-primary"><span class="fa fa-search"></span><span>Generate</span></button>
-      <label style="display:none;" for="formButtonReset">Reset</label>
-      <button id="formButtonReset" class="formButton btn btn-primary"><span class="fa fa-undo"></span><span>Reset</span></button>
-      <label style="display:none;" for="formButtonCsv">Export CSV</label>
-			<button id="formButtonCsv" class="formButton btn btn-primary"><span class="fa fa-floppy-o"></span><span>Export CSV</span></button
-        <label style="display:none;" for="formButtonPdf">Export PDF</label>
-      <button id="formButtonPdf" class="formButton btn btn-primary"><span class="fa fa-floppy-o"></span><span>Export PDF</span></button
-        <label style="display:none;" for="downloadcsv">Export CSV</label>
-      <div id="downloadcsv" class="formButton formButtonSwf"></div>
-      <label style="display:none;" for="downloadpdf">Export PDF</label>
-      <div id="downloadpdf" class="formButton formButtonSwf"></div></form>
-  </div>
-  
+  <form action="https://www.fincen.gov/fcn/Reports/SARStats" method="GET"><button id="formButtonGenerate" class="formButton btn btn-primary"><span class="fa fa-search"></span><span>Generate</span></button>
+    <label style="display:none;" for="formButtonReset">Reset</label>
+    <button id="formButtonReset" class="formButton btn btn-primary"><span class="fa fa-undo"></span><span>Reset</span></button>
+    <label style="display:none;" for="formButtonCsv">Export CSV</label>
+		<button id="formButtonCsv" class="formButton btn btn-primary"><span class="fa fa-floppy-o"></span><span>Export CSV</span></button
+    <label style="display:none;" for="formButtonPdf">Export PDF</label>
+    <button id="formButtonPdf" class="formButton btn btn-primary"><span class="fa fa-floppy-o"></span><span>Export PDF</span></button
+    <label style="display:none;" for="downloadcsv">Export CSV</label>
+    <div id="downloadcsv" class="formButton formButtonSwf"></div>
+    <label style="display:none;" for="downloadpdf">Export PDF</label>
+    <div id="downloadpdf" class="formButton formButtonSwf"></div></form>
 </div>
 <hr>
 
