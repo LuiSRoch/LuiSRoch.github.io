@@ -646,73 +646,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 			</div>
 		</div>
 
-		<div style="clear:both"></div>
-		<div id="errorDivValidation" class="errorBox">
-			<div></div>
-		</div>
-	</div>
-
-	<div id="results">
-		<div id="resultsHtml">
-			<div id="errorDivResult" class="warningBox"></div>
-			<table id="resultTable" class="stripe hover compact order-column" cellspacing="0" width="100%">
-	        <thead>
-	            <tr>
-	                <th>Year&amp;Month</th>
-	                <th>State</th>
-                    <th>County</th>
-	                <th>Industry</th>
-	                <th>Suspicious Activity</th>
-	                <th>Regulator</th>
-	                <th>Relationship</th>
-	                <th>Product</th>
-	                <th>Instrument</th>
-	                <th>Filing Count</th>
-	            </tr>
-	        </thead>
-	 		</table>
-	 		<div id="lastUpdated">Data last updated on 6/30/2019</div><div style="clear:both"></div>
-		</div>
-	</div>
-
 </div>
-
-<div id="sessID" style="display:block">6loke0afqg1iuab0tiel4ennv0</div>
-
-<div id="loader">
-	<div id="loaderInner">
-		Please wait while your document is being generated.<br/><br/>
-	</div>
-</div>
-
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jquery-1.7.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/respond.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/datatables/jquery.dataTables.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/datatables/dataTables.bootstrap.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/dropdown-check-list.1.4/doc/jquery-ui-1.8.13.custom.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/fnReloadAjax.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/jspdf.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/deflate.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/FileSaver.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/jspdf.plugin.table.js" type="text/javascript"></script>
-
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/select2.full.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/extendedSelect2.js" type="text/javascript"></script>
-
-<!--[if lt IE 10]>
-<script src="assets/js/jspdf/swfobject.js" type="text/javascript"></script>
-<script src="assets/js/jspdf/downloadify.min.js" type="text/javascript"></script>
-<script src="assets/js/swfButtons.js" type="text/javascript"></script>
-<![endif]-->
-
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/SARStats.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/pdfExport.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/Request.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/spin.min.js" type="text/javascript"></script>
-
-<script language="javascript" type="text/javascript" src="/javascript/main.js"></script>
-<script type="text/javascript" src="/javascript/federated-analytics.js"></script>
-
 </body>
 </html>
 
