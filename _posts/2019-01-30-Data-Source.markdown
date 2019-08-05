@@ -5,9 +5,6 @@ ref: Data-Source
 lang: en
 ---
 
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
-
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">
   <span style="font-size: 16px;color: #333333;text-decoration: none;">Real Time Economic Calendar</span>
 </div>    
@@ -38,7 +35,7 @@ lang: en
 
 <br />
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <iframe style="border: 1px solid #333333; overflow: hidden; width: 100%; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="245" width="100%" frameborder="0" scrolling="yes"></iframe>
+  <iframe style="border: 1px solid #333333; overflow: hidden; width: 100%; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="450" width="100%" frameborder="0" scrolling="yes"></iframe>
 <hr>
 <br />
 
@@ -54,6 +51,9 @@ lang: en
 
 <hr>
 
+<iframe src="https://data.worldbank.org/share/widget?end=2013&indicators=EN.ATM.CO2E.KT&locations=1W&start=1960&view=chart" width='100%' height='450' frameBorder='0' ></iframe>
+<hr>
+
 <br />
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a href="https://www.fincen.gov/" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Financial Crimes Enforcement Network</a></span></div>
 <div class="col-xs-12 col-sm-10 col-sm-offset-1">
@@ -64,6 +64,23 @@ lang: en
         </div>
 <iframe target="https://www.fincen.gov/fcn/Reports/SARStats" is="x-frame-bypass" scrolling="yes" src="https://www.fincen.gov/fcn/Reports/SARStats?href=https://www.fincen.gov/reports/sar-stats" width="100%" height="650" frameborder="0" style="border: 1px solid #333333" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span>
 <hr>
+
+
+<p style="margin: -12px -35px 0 -35px;"><iframe onload="onIframeLoad(arguments)" src="/fcn/Reports/SARStats" style="width: 100%;border: 0;" title="SAR Stats"></iframe>
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+header, div.main-container { width: 100% !important; max-width: none !important; } 
+header .navbar-header { float: none !important; } 
+header .navbar-header a { float: none !important; } 
+header img { width: 20000px !important; left: -9580px; position: relative !important; } 
+footer { width: 100% !important; }
+@media (min-width: 768px) { .logo img { left: -9590px; } }
+@media (min-width: 992px) { .logo img { left: -9510px; } }
+@media (min-width: 1200px) { .logo img { left: -9410px; } }
+
+/*--><!]]>*/
+</style></p>
+
 
 <br /> 
 <h1 class="section-front-header-module__title">Supply Chain</h1>
