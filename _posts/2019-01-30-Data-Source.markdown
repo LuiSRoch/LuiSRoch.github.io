@@ -46,8 +46,7 @@ lang: en
     <input type="text" id="search" name="keys" placeholder="Search FINCEN data e.g., SARS, fraud, insurance">
     <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
   </form>
-<br />
-  
+
 <html lang="en">
 <head>
 	<title>SAR Stats</title>
@@ -415,7 +414,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 			<div id="formSectionSuspiciousActivity" class="formSection">
 				<div class="formSectionHeader">Suspicious Activity Category / Type</div>
 				<label style="display:none;" for="formSuspiciousActivityType">Suspicious Activity Category / Type</label>
-				<select id="formSuspiciousActivityType" style="width: 50%;">
+				<select id="formSuspiciousActivityType" style="width: 100%;">
 											<option class="select2-group" value="9000011">Cyber Event</option>
 													<option select2-parent="9000011" class="select2-treeitem "  disabled="disabled" value="1101">Against Financial Institution(s)</option>
 													<option select2-parent="9000011" class="select2-treeitem "  disabled="disabled" value="1102">Against Financial Institution Customer(s)</option>
@@ -530,7 +529,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 			<div id="formSectionState" class="formSection">
 				<div class="formSectionHeader">States / Territories</div>
                 <label style="display:none;" for="formState">States / Territories</label>
-				<select id="formState" style="width: 50%;">
+				<select id="formState" style="width: 100%;">
 					<option style="display:none"></option>
 				</select>
 			</div>
@@ -542,7 +541,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 					<label><input type="radio" name="county-msa-optgroup" value="Metro"/>Metro</label>
 				</div>
 				<label style="display:none;" for="formCounty">County / Metro & Micro Area</label>
-				<select id="formCounty" disabled="true" style="width: 50%">
+				<select id="formCounty" disabled="true" style="width: 100%">
 					<option style="display:none"></option>
 				</select>
 			</div>
@@ -550,7 +549,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 			<div id="formSectionInstrument" class="formSection">
 				<div class="formSectionHeader">Instrument Type(s) / Payment Mechanism(s)</div>
                 <label style="display:none;" for="formInstrument">Instrument Type(s) / Payment Mechanism(s)</label>
-				<select id="formInstrument" style="width: 50%;">
+				<select id="formInstrument" style="width: 100%;">
 											<option value="31">Bank/Cashier&#039;s Check</option>
 											<option value="32">Foreign Currency</option>
 											<option value="33">Funds Transfer</option>
@@ -567,7 +566,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 			<div id="formSectionProducts" class="formSection">
 				<div class="formSectionHeader">Product Type</div>
                 <label style="display:none;" for="formProducts">Product Type</label>
-				<select id="formProducts" style="width: 50%;">
+				<select id="formProducts" style="width: 100%;">
 											<option value="2">Bonds/Notes</option>
 											<option value="3">Commercial Mortgage</option>
 											<option value="4">Commercial Paper</option>
@@ -595,7 +594,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 			<div id="formSectionRelationship" class="formSection">
 				<div class="formSectionHeader">Relationship</div>
                 <label style="display:none;" for="formRelationship">Relationship</label>
-				<select id="formRelationship" style="width: 50%;">
+				<select id="formRelationship" style="width: 100%;">
 											<option value="1">Accountant</option>
 											<option value="2">Agent</option>
 											<option value="3">Appraiser</option>
@@ -614,7 +613,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 			<div id="formSectionRegulator" class="formSection">
 				<div class="formSectionHeader">Regulator</div>
                 <label style="display:none;" for="formRegulator">Regulator</label>
-				<select id="formRegulator" style="width: 50%;">
+				<select id="formRegulator" style="width: 100%;">
 											<option value="9">CFTC</option>
 											<option value="2">FDIC</option>
 											<option value="13">FHFA</option>
