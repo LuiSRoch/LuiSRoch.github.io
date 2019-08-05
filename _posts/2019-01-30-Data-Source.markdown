@@ -48,18 +48,16 @@ lang: en
   </form>
 </div>
 
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en">
 <head>
 	<title>SAR Stats</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <link href="https://www.fincen.gov/fcn/Reports/assets/css/bootstrap.min.css" rel="stylesheet" type='text/css' />
-    <link href="https://www.fincen.gov/fcn/Reports/assets/css/font-awesome.min.css" rel="stylesheet" type='text/css' />
-    <link href="https://www.fincen.gov/fcn/Reports/assets/js/datatables/dataTables.bootstrap.css" rel="stylesheet" type='text/css' />
-    <link href="https://www.fincen.gov/fcn/Reports/assets/js/datatables/jquery.dataTables.css" rel="stylesheet" type='text/css' />
-    <link href="https://www.fincen.gov/fcn/Reports/assets/css/select2.min.css" rel="stylesheet" type="text/css" />
+  <link href="https://www.fincen.gov/fcn/Reports/assets/css/bootstrap.min.css" rel="stylesheet" type='text/css' />
+  <link href="https://www.fincen.gov/fcn/Reports/assets/css/font-awesome.min.css" rel="stylesheet" type='text/css' />
+  <link href="https://www.fincen.gov/fcn/Reports/assets/js/datatables/dataTables.bootstrap.css" rel="stylesheet" type='text/css' />
+  <link href="https://www.fincen.gov/fcn/Reports/assets/js/datatables/jquery.dataTables.css" rel="stylesheet" type='text/css' />
+  <link href="https://www.fincen.gov/fcn/Reports/assets/css/select2.min.css" rel="stylesheet" type="text/css" />
 	<link href="https://www.fincen.gov/fcn/Reports/assets/css/styles.css" rel="stylesheet" type="text/css" >
 	<link href="https://www.fincen.gov/fcn/Reports/assets/css/styles_small.css" rel="stylesheet" media="all and (max-width: 1200px)" >
 
