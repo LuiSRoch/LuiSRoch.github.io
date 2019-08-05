@@ -127,8 +127,8 @@ The following are wholly new options added to the pull down menu within the Susp
 <br/><br/>
 <table>
 	<tr style="text-align:left;">
-		<th style="text-decoration:underline;padding: 0px 100px 10px 0px;">Category</th>
-		<th style="text-decoration:underline;padding: 0px 100px 10px 0px;">Option</th>
+		<th style="text-decoration:underline;padding: 0px 100px 5px 0px;">Category</th>
+		<th style="text-decoration:underline;padding: 0px 100px 5px 0px;">Option</th>
 	</tr>
 	<tr style="text-align:left">
 		<td>Fraud</td>
