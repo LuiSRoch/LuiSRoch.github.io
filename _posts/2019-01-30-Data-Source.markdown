@@ -49,10 +49,12 @@ lang: en
 </div>
 <br />
 <div id="formInputsHeader">
-  <span id="nav1" style="left:15px" class="tab selected">Suspicious Activity Report Statistics (SAR Stats)</span>
-  <span id="nav2" style="left:400px" class="tab unselected">FAQ/Glossary</span>
-
-<div id="formButtonContainer">
+  <div class="w3-padding w3-large w3-orange">
+    <i class="Suspicious Activity Report Statistics (SAR Stats)"></i>
+    <i class="FAQ/Glossary"></i>
+  </div>
+  
+  <div id="formButtonContainer">
   <div id="formButtons">
     <label style="display:none;" for="formButtonGenerate">Generate</label>
     <form action="https://www.fincen.gov/fcn/Reports/SARStats" method="GET"><button id="formButtonGenerate" class="formButton btn btn-primary"><span class="fa fa-search"></span><span>Generate</span></button>
@@ -66,8 +68,7 @@ lang: en
     <div id="downloadcsv" class="formButton formButtonSwf"></div>
     <label style="display:none;" for="downloadpdf">Export PDF</label>
     <div id="downloadpdf" class="formButton formButtonSwf"></div></form>
-	</div>
-</div>
+  </div></div>
 
 </div>
 
