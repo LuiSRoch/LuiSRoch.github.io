@@ -49,7 +49,7 @@ lang: en
 </div>
 <br />
 <div id="formInputsHeader">
-  <div class="w3-padding w3-large w3-orange">
+  
     <i class="Suspicious Activity Report Statistics (SAR Stats)"></i>
     <i class="FAQ/Glossary"></i>
   
@@ -68,7 +68,7 @@ lang: en
     <label style="display:none;" for="downloadpdf">Export PDF</label>
     <div id="downloadpdf" class="formButton formButtonSwf"></div></form>
   </div></div>
-  </div>
+  
 </div>
 
 <hr>
