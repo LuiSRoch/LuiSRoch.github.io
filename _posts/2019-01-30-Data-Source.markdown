@@ -48,7 +48,6 @@ lang: en
   </form>
 </div>
 
-<html>
 <div>
 <body>
 
@@ -668,7 +667,6 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 
 </body>
 </div>
-</html>
 
 <hr>
 
