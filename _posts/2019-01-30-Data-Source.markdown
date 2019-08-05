@@ -246,9 +246,9 @@ The following are <b>edits</b> to existing options within the pull down menu:
 Suspicious Activity types that are no longer available on the SAR (as listed below) can still be queried as <b>Expired Options</b> within the Suspicious Activity Category drop down menu and made available for historical filing rates though <b>August 2018</b>.  No data post this period will be available for Expired suspicious activity options which are designated by a <span style="vertical-align:text-top;font-size:65%;font-weight:bold;color:red;">&dagger;</span>
 <br/>
 <br/>
-<table>
-		<tr style="text-align:left;">
-			<th style="text-decoration:underline;padding: 0px 200px 15px 0px;">Category</th>
+  <table>
+    <tr style="text-align:left;">
+      <th style="text-decoration:underline;padding: 0px 200px 15px 0px;">Category</th>
 			<th style="text-decoration:underline;padding: 0px 200px 15px 0px;">Option</th>
 		</tr>
 		<tr style="text-align:left">
@@ -279,290 +279,290 @@ Suspicious Activity types that are no longer available on the SAR (as listed bel
 			<td>Mortgage Fraud</td>
 			<td style="color:blue">Reverse Mortgage Fraud</td>
 		</tr>
-</table>
+  </table>
 </div>
 <br/>
 <div>
 Modifications made to the <b><u>Product Type</u></b> function include the addition of a new product type (<font color="darkred">Deposit Account</font>) and modification to another (<font color="darkred">Microcap Securities</font>).  Though not available for query as an expired type, filing rates previously captured under the Penny Stocks/Microcap Securities designation will continue uninterrupted and numbers from August 2018 forward illustrated in the most current option of the same
-</div>	</div>
-	<div id="formInputs">
-		<div id="formInputsSections">
-			<div id="formSectionInstitutions" class="formSection">
-				<div class="formSectionHeader">Industry Type</div>
-                <label style="display:none;" for="formInstitution">Industry Type</label>
-				<select id="formInstitution" style="width: 100%;">
-											<option class="select2-group" value="9000001">Casino/Card Club</option>
-													<option select2-parent="9000001" class="select2-treeitem" disabled="disabled" value="103">Card Club</option>
-													<option select2-parent="9000001" class="select2-treeitem" disabled="disabled" value="101">State Licensed Casino</option>
-													<option select2-parent="9000001" class="select2-treeitem" disabled="disabled" value="102">Tribal Authorized Casino</option>
-													<option select2-parent="9000001" class="select2-treeitem" disabled="disabled" value="1999">Other Casino/Card Club</option>
-																	<option  value="9000002">Depository Institution</option>
-																	<option  value="9000033">Housing Government Sponsored Enterprise GSE</option>
-																	<option  value="9000003">Insurance Company</option>
-																	<option  value="9000032">Loan or Finance Company</option>
-																	<option  value="9000004">Money Services Business (MSB)</option>
-																	<option  value="9000005">Securities/Futures</option>
-																	<option  value="999">Other</option>
-															</select>
-			</div>
-
-            <div id="formSectionYear" class="formSection">
-                <div style="display: inline-block;" class="formSectionHeader">Year &amp; Month</div>
-                <div class="form-section-cb checkbox"><label><input id="yearCb" type="checkbox"> Display Months</label></div>
-                <label style="display:none;" for="formYear">Year and Month</label>
-                <select id='formYear' style="width: 100%;">
-                                            <option class="select2-group" value="201200">2012</option>
-                                                    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201203">March</option>
-                                                    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201204">April</option>
-                                                    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201205">May</option>
-                                                    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201206">June</option>
-                                                    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201207">July</option>
-                                                    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201208">August</option>
-                                                    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201209">September</option>
-                                                    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201210">October</option>
-                                                    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201211">November</option>
-                                                    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201212">December</option>
-                                                                    <option class="select2-group" value="201300">2013</option>
-                                                    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201301">January</option>
-                                                    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201302">February</option>
-                                                    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201303">March</option>
-                                                    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201304">April</option>
-                                                    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201305">May</option>
-                                                    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201306">June</option>
-                                                    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201307">July</option>
-                                                    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201308">August</option>
-                                                    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201309">September</option>
-                                                    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201310">October</option>
-                                                    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201311">November</option>
-                                                    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201312">December</option>
-                                                                    <option class="select2-group" value="201400">2014</option>
-                                                    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201401">January</option>
-                                                    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201402">February</option>
-                                                    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201403">March</option>
-                                                    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201404">April</option>
-                                                    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201405">May</option>
-                                                    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201406">June</option>
-                                                    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201407">July</option>
-                                                    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201408">August</option>
-                                                    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201409">September</option>
-                                                    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201410">October</option>
-                                                    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201411">November</option>
-                                                    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201412">December</option>
-                                                                    <option class="select2-group" value="201500">2015</option>
-                                                    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201501">January</option>
-                                                    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201502">February</option>
-                                                    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201503">March</option>
-                                                    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201504">April</option>
-                                                    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201505">May</option>
-                                                    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201506">June</option>
-                                                    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201507">July</option>
-                                                    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201508">August</option>
-                                                    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201509">September</option>
-                                                    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201510">October</option>
-                                                    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201511">November</option>
-                                                    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201512">December</option>
-                                                                    <option class="select2-group" value="201600">2016</option>
-                                                    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201601">January</option>
-                                                    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201602">February</option>
-                                                    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201603">March</option>
-                                                    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201604">April</option>
-                                                    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201605">May</option>
-                                                    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201606">June</option>
-                                                    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201607">July</option>
-                                                    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201608">August</option>
-                                                    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201609">September</option>
-                                                    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201610">October</option>
-                                                    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201611">November</option>
-                                                    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201612">December</option>
-                                                                    <option class="select2-group" value="201700">2017</option>
-                                                    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201701">January</option>
-                                                    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201702">February</option>
-                                                    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201703">March</option>
-                                                    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201704">April</option>
-                                                    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201705">May</option>
-                                                    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201706">June</option>
-                                                    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201707">July</option>
-                                                    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201708">August</option>
-                                                    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201709">September</option>
-                                                    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201710">October</option>
-                                                    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201711">November</option>
-                                                    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201712">December</option>
-                                                                    <option class="select2-group" value="201800">2018</option>
-                                                    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201801">January</option>
-                                                    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201802">February</option>
-                                                    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201803">March</option>
-                                                    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201804">April</option>
-                                                    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201805">May</option>
-                                                    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201806">June</option>
-                                                    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201807">July</option>
-                                                    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201808">August</option>
-                                                    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201809">September</option>
-                                                    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201810">October</option>
-                                                    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201811">November</option>
-                                                    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201812">December</option>
-                                                                    <option class="select2-group" value="201900">2019</option>
-                                                    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201901">January</option>
-                                                    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201902">February</option>
-                                                    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201903">March</option>
-                                                    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201904">April</option>
-                                                    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201905">May</option>
-                                                    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201906">June</option>
-                                                    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201907">July</option>
-                                                    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201908">August</option>
-                                                            </select>
-            </div>
-
-			<div id="formSectionSuspiciousActivity" class="formSection">
-				<div class="formSectionHeader">Suspicious Activity Category / Type</div>
-				<label style="display:none;" for="formSuspiciousActivityType">Suspicious Activity Category / Type</label>
-				<select id="formSuspiciousActivityType" style="width: auto;">
-											<option class="select2-group" value="9000011">Cyber Event</option>
-													<option select2-parent="9000011" class="select2-treeitem "  disabled="disabled" value="1101">Against Financial Institution(s)</option>
-													<option select2-parent="9000011" class="select2-treeitem "  disabled="disabled" value="1102">Against Financial Institution Customer(s)</option>
-													<option select2-parent="9000011" class="select2-treeitem "  disabled="disabled" value="11999">Other</option>
-																	<option class="select2-group" value="9000003">Fraud (Type)</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="320">ACH</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="322">Advance Fee</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="321">Business Loan</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="301">Check</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="304">Consumer Loan (see instructions)</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="305">Credit/Debit Card</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="323_307">Healthcare/Public or Private Health Insurance</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="308">Mail</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="309">Mass-Marketing</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="324">Ponzi Scheme</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="310">Pyramid Scheme</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="325">Securities</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="312">Wire</option>
-													<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="3999">Other Fraud (Type)</option>
-																	<option class="select2-group" value="9000012">Gaming Activities</option>
-													<option select2-parent="9000012" class="select2-treeitem "  disabled="disabled" value="1201">Chip Walking</option>
-													<option select2-parent="9000012" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="204">Inquiry about End of Business Day</option>
-													<option select2-parent="9000012" class="select2-treeitem "  disabled="disabled" value="1202">Minimal Gaming with Large Transactions</option>
-													<option select2-parent="9000012" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="202">Suspicious Intra-Casino Funds Transfers</option>
-													<option select2-parent="9000012" class="select2-treeitem "  disabled="disabled" value="1203">Suspicious Use of Counter Checks or Markers</option>
-													<option select2-parent="9000012" class="select2-treeitem "  disabled="disabled" value="1204">Unknown Source of Chips</option>
-													<option select2-parent="9000012" class="select2-treeitem "  disabled="disabled" value="12999">Other</option>
-																	<option class="select2-group" value="9000004">Identification Documentation</option>
-													<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="401">Changes Spelling or Arrangement of Name</option>
-													<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="402">Multiple Individuals with Same or Similar Identities</option>
-													<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="403">Provided Questionable or False Documentation</option>
-													<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="409">Provided Questionable or False Identification</option>
-													<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="404">Refused or Avoided Request for Documentation</option>
-													<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="405">Single Individual with Multiple Identities</option>
-													<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="4999">Other Identification Documentation</option>
-																	<option class="select2-group" value="9000005">Insurance</option>
-													<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="501">Excessive Insurance</option>
-													<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="502">Excessive or Unusal Cash Borrowing against Policy...</option>
-													<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="504">Proceeds Sent to or Received from Unrelated Third...</option>
-													<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="505">Suspicious Life Settlement Sales Insurance (E.g.&...</option>
-													<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="506">Suspicious Termination of Policy or Contract</option>
-													<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="507">Unclear or No Insurable Interest</option>
-													<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="5999">Other Insurance</option>
-																	<option class="select2-group" value="9000008">Money Laundering</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="801">Exchanges Small Bills for Large Bills or Vice Versa</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="824">Funnel Account</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="820">Suspicion Concerning the Physical Condition of Funds</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="821">Suspicion Concerning the Source of Funds</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="804">Suspicious Designation of Beneficiaries&#44; Assi...</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="805">Suspicious EFT/Wire Transfers</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="822">Suspicious Exchange of Currencies</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="806">Suspicious Receipt of Government Payments/Benefits</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="807">Suspicious Use of Multiple Accounts</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="808">Suspicious Use of Noncash Monetary Instruments</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="809">Suspicious Use of Third-Party Transactors (Straw-...</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="823">Trade Based Money Laundering/Black Market Peso Ex...</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="812">Transaction Out of Pattern for Customer(s)</option>
-													<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="8999">Other Money Laundering</option>
-																	<option class="select2-group" value="9000010">Mortgage Fraud</option>
-													<option select2-parent="9000010" class="select2-treeitem "  disabled="disabled" value="1005">Application Fraud</option>
-													<option select2-parent="9000010" class="select2-treeitem "  disabled="disabled" value="1001">Appraisal Fraud</option>
-													<option select2-parent="9000010" class="select2-treeitem "  disabled="disabled" value="1006_1002">Foreclosure/Short Sale Fraud</option>
-													<option select2-parent="9000010" class="select2-treeitem "  disabled="disabled" value="1003">Loan Modification Fraud</option>
-													<option select2-parent="9000010" class="select2-treeitem "  disabled="disabled" value="1007">Origination Fraud</option>
-													<option select2-parent="9000010" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="1004">Reverse Mortgage Fraud</option>
-													<option select2-parent="9000010" class="select2-treeitem "  disabled="disabled" value="10999">Other Mortgage Fraud</option>
-																	<option class="select2-group" value="9000009">Other Suspicious Activities</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="920">Account Takeover</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="901">Bribery or Gratuity</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="917">Counterfeit Instrument</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="921">Elder Financial Exploitation</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="903">Embezzlement/Theft/Disappearance of Funds</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="904">Forgeries</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="926">Human Smuggling</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="927">Human Trafficking</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="905">Identity Theft</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="922">Little or No Concern for Product Performance Pena...</option>
-													<option select2-parent="9000009" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="923">Misuse of &#34;Free Look&#34;/Cooling-Off/Right o...</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="924">Misuse of Position or Self-Dealing</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="907">Suspected Public/Private Corruption (Domestic)</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="908">Suspected Public/Private Corruption (Foreign)</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="909">Suspicious Use of Informal Value Transfer System</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="910">Suspicious use of multiple transaction locations</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="925">Transaction with No Apparent Economic&#44; Busine...</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="928">Transaction(s) Involving Foreign High Risk Jurisd...</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="911">Two or More Individuals Working Together</option>
-													<option select2-parent="9000009" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="912">Unauthorized Electronic Intrusion</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="913">Unlicensed or Unregistered MSB</option>
-													<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="9999">Other Other Suspicious Activities</option>
-																	<option class="select2-group" value="9000006">Securities/Futures/Options</option>
-													<option select2-parent="9000006" class="select2-treeitem "  disabled="disabled" value="601">Insider Trading</option>
-													<option select2-parent="9000006" class="select2-treeitem "  disabled="disabled" value="608">Market Manipulation</option>
-													<option select2-parent="9000006" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="602">Market Manipulation/Wash Trading</option>
-													<option select2-parent="9000006" class="select2-treeitem "  disabled="disabled" value="603">Misappropriation</option>
-													<option select2-parent="9000006" class="select2-treeitem "  disabled="disabled" value="604">Unauthorized Pooling</option>
-													<option select2-parent="9000006" class="select2-treeitem "  disabled="disabled" value="609">Wash Trading</option>
-													<option select2-parent="9000006" class="select2-treeitem "  disabled="disabled" value="6999">Other Securities/Futures/Options</option>
-																	<option class="select2-group" value="9000001">Structuring</option>
-													<option select2-parent="9000001" class="select2-treeitem "  disabled="disabled" value="111_101">Alters or Cancels Transaction to Avoid BSA Record...</option>
-													<option select2-parent="9000001" class="select2-treeitem "  disabled="disabled" value="112_102">Alters or Cancels Transaction to Avoid CTR Requir...</option>
-													<option select2-parent="9000001" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="103">Customer Cancels Transaction to Avoid Bsa Reporti...</option>
-													<option select2-parent="9000001" class="select2-treeitem "  disabled="disabled" value="106">Suspicious Inquiry by Customer Regarding Bsa Repo...</option>
-													<option select2-parent="9000001" class="select2-treeitem "  disabled="disabled" value="113_104">Transaction(s) Below BSA Recordkeeping Threshold</option>
-													<option select2-parent="9000001" class="select2-treeitem "  disabled="disabled" value="114_105">Transaction(s) Below CTR Threshold</option>
-													<option select2-parent="9000001" class="select2-treeitem "  disabled="disabled" value="1999">Other Structuring</option>
-																	<option class="select2-group" value="9000007">Terrorist Financing</option>
-													<option select2-parent="9000007" class="select2-treeitem "  disabled="disabled" value="701">Known or Suspected Terrorist/Terrorist Organization</option>
-													<option select2-parent="9000007" class="select2-treeitem "  disabled="disabled" value="7999">Other Terrorist</option>
-															</select>
-			</div>
-
-			<div id="formSectionState" class="formSection">
-				<div class="formSectionHeader">States / Territories</div>
-                <label style="display:none;" for="formState">States / Territories</label>
-				<select id="formState" style="width: 100%;">
-					<option style="display:none"></option>
-				</select>
-			</div>
-
-			<div id="formSectionCounty" class="formSection">
-				<div class="formSectionHeader" style="display:inline-block">County / Metro & Micro Area</div>
-				<div class="county-msa-radio">
-					<label><input type="radio" name="county-msa-optgroup" value="County" checked />County</label>
-					<label><input type="radio" name="county-msa-optgroup" value="Metro"/>Metro</label>
-				</div>
-				<label style="display:none;" for="formCounty">County / Metro & Micro Area</label>
-				<select id="formCounty" disabled="true" style="width: 100%">
-					<option style="display:none"></option>
-				</select>
-			</div>
-
-			<div id="formSectionInstrument" class="formSection">
-				<div class="formSectionHeader">Instrument Type(s) / Payment Mechanism(s)</div>
-                <label style="display:none;" for="formInstrument">Instrument Type(s) / Payment Mechanism(s)</label>
-				<select id="formInstrument" style="width: 100%;">
-											<option value="31">Bank/Cashier&#039;s Check</option>
-											<option value="32">Foreign Currency</option>
-											<option value="33">Funds Transfer</option>
-											<option value="34">Gaming Instruments</option>
-											<option value="35">Government Payment</option>
-											<option value="36">Money Orders</option>
-											<option value="37">Personal/Business Check</option>
-											<option value="38">Travelers Checks</option>
-											<option value="39">U.S. Currency</option>
-											<option value="9999999">Other</option>
-									</select>
-			</div>
+</div></div>
+<div id="formInputs">
+  <div id="formInputsSections">
+    <div id="formSectionInstitutions" class="formSection">
+      <div class="formSectionHeader">Industry Type</div>
+      <label style="display:none;" for="formInstitution">Industry Type</label>
+      <select id="formInstitution" style="width: 100%;">
+        <option class="select2-group" value="9000001">Casino/Card Club</option>
+				<option select2-parent="9000001" class="select2-treeitem" disabled="disabled" value="103">Card Club</option>
+				<option select2-parent="9000001" class="select2-treeitem" disabled="disabled" value="101">State Licensed Casino</option>
+        <option select2-parent="9000001" class="select2-treeitem" disabled="disabled" value="102">Tribal Authorized Casino</option>
+        <option select2-parent="9000001" class="select2-treeitem" disabled="disabled" value="1999">Other Casino/Card Club</option>
+				<option  value="9000002">Depository Institution</option>
+				<option  value="9000033">Housing Government Sponsored Enterprise GSE</option>
+				<option  value="9000003">Insurance Company</option>
+				<option  value="9000032">Loan or Finance Company</option>
+				<option  value="9000004">Money Services Business (MSB)</option>
+				<option  value="9000005">Securities/Futures</option>
+				<option  value="999">Other</option>
+      </select>
+    </div>
+    
+    <div id="formSectionYear" class="formSection">
+    <div style="display: inline-block;" class="formSectionHeader">Year &amp; Month</div>
+    <div class="form-section-cb checkbox"><label><input id="yearCb" type="checkbox"> Display Months</label></div>
+    <label style="display:none;" for="formYear">Year and Month</label>
+    <select id='formYear' style="width: 100%;">
+    <option class="select2-group" value="201200">2012</option>
+    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201203">March</option>
+    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201204">April</option>
+    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201205">May</option>
+    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201206">June</option>
+    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201207">July</option>
+    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201208">August</option>
+    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201209">September</option>
+    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201210">October</option>
+    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201211">November</option>
+    <option select2-parent="201200" class="select2-treeitem" disabled="disabled" value="201212">December</option>
+    <option class="select2-group" value="201300">2013</option>
+    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201301">January</option>
+    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201302">February</option>
+    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201303">March</option>
+    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201304">April</option>
+    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201305">May</option>
+    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201306">June</option>
+    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201307">July</option>
+    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201308">August</option>
+    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201309">September</option>
+    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201310">October</option>
+    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201311">November</option>
+    <option select2-parent="201300" class="select2-treeitem" disabled="disabled" value="201312">December</option>
+    <option class="select2-group" value="201400">2014</option>
+    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201401">January</option>
+    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201402">February</option>
+    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201403">March</option>
+    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201404">April</option>
+    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201405">May</option>
+    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201406">June</option>
+    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201407">July</option>
+    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201408">August</option>
+    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201409">September</option>
+    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201410">October</option>
+    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201411">November</option>
+    <option select2-parent="201400" class="select2-treeitem" disabled="disabled" value="201412">December</option>
+    <option class="select2-group" value="201500">2015</option>
+    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201501">January</option>
+    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201502">February</option>
+    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201503">March</option>
+    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201504">April</option>
+    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201505">May</option>
+    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201506">June</option>
+    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201507">July</option>
+    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201508">August</option>
+    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201509">September</option>
+    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201510">October</option>
+    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201511">November</option>
+    <option select2-parent="201500" class="select2-treeitem" disabled="disabled" value="201512">December</option>
+    <option class="select2-group" value="201600">2016</option>
+    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201601">January</option>
+    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201602">February</option>
+    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201603">March</option>
+    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201604">April</option>
+    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201605">May</option>
+    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201606">June</option>
+    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201607">July</option>
+    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201608">August</option>
+    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201609">September</option>
+    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201610">October</option>
+    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201611">November</option>
+    <option select2-parent="201600" class="select2-treeitem" disabled="disabled" value="201612">December</option>
+    <option class="select2-group" value="201700">2017</option>
+    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201701">January</option>
+    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201702">February</option>
+    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201703">March</option>
+    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201704">April</option>
+    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201705">May</option>
+    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201706">June</option>
+    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201707">July</option>
+    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201708">August</option>
+    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201709">September</option>
+    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201710">October</option>
+    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201711">November</option>
+    <option select2-parent="201700" class="select2-treeitem" disabled="disabled" value="201712">December</option>
+    <option class="select2-group" value="201800">2018</option>
+    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201801">January</option>
+    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201802">February</option>
+    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201803">March</option>
+    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201804">April</option>
+    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201805">May</option>
+    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201806">June</option>
+    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201807">July</option>
+    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201808">August</option>
+    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201809">September</option>
+    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201810">October</option>
+    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201811">November</option>
+    <option select2-parent="201800" class="select2-treeitem" disabled="disabled" value="201812">December</option>
+    <option class="select2-group" value="201900">2019</option>
+    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201901">January</option>
+    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201902">February</option>
+    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201903">March</option>
+    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201904">April</option>
+    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201905">May</option>
+    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201906">June</option>
+    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201907">July</option>
+    <option select2-parent="201900" class="select2-treeitem" disabled="disabled" value="201908">August</option>
+    </select>
+    </div>
+    
+    <div id="formSectionSuspiciousActivity" class="formSection">
+    <div class="formSectionHeader">Suspicious Activity Category / Type</div>
+    <label style="display:none;" for="formSuspiciousActivityType">Suspicious Activity Category / Type</label>
+    <select id="formSuspiciousActivityType" style="width: auto;">
+    <option class="select2-group" value="9000011">Cyber Event</option>
+		<option select2-parent="9000011" class="select2-treeitem "  disabled="disabled" value="1101">Against Financial Institution(s)</option>
+		<option select2-parent="9000011" class="select2-treeitem "  disabled="disabled" value="1102">Against Financial Institution Customer(s)</option>
+		<option select2-parent="9000011" class="select2-treeitem "  disabled="disabled" value="11999">Other</option>
+		<option class="select2-group" value="9000003">Fraud (Type)</option>
+    <option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="320">ACH</option>
+		<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="322">Advance Fee</option>
+		<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="321">Business Loan</option>
+		<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="301">Check</option>
+		<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="304">Consumer Loan (see instructions)</option>
+		<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="305">Credit/Debit Card</option>
+		<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="323_307">Healthcare/Public or Private Health Insurance</option>
+		<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="308">Mail</option>
+		<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="309">Mass-Marketing</option>
+		<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="324">Ponzi Scheme</option>
+		<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="310">Pyramid Scheme</option>
+		<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="325">Securities</option>
+		<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="312">Wire</option>
+		<option select2-parent="9000003" class="select2-treeitem "  disabled="disabled" value="3999">Other Fraud (Type)</option>
+		<option class="select2-group" value="9000012">Gaming Activities</option>
+		<option select2-parent="9000012" class="select2-treeitem "  disabled="disabled" value="1201">Chip Walking</option>
+		<option select2-parent="9000012" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="204">Inquiry about End of Business Day</option>
+		<option select2-parent="9000012" class="select2-treeitem "  disabled="disabled" value="1202">Minimal Gaming with Large Transactions</option>
+		<option select2-parent="9000012" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="202">Suspicious Intra-Casino Funds Transfers</option>
+		<option select2-parent="9000012" class="select2-treeitem "  disabled="disabled" value="1203">Suspicious Use of Counter Checks or Markers</option>
+		<option select2-parent="9000012" class="select2-treeitem "  disabled="disabled" value="1204">Unknown Source of Chips</option>
+		<option select2-parent="9000012" class="select2-treeitem "  disabled="disabled" value="12999">Other</option>
+		<option class="select2-group" value="9000004">Identification Documentation</option>
+		<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="401">Changes Spelling or Arrangement of Name</option>
+		<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="402">Multiple Individuals with Same or Similar Identities</option>
+		<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="403">Provided Questionable or False Documentation</option>
+		<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="409">Provided Questionable or False Identification</option>
+		<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="404">Refused or Avoided Request for Documentation</option>
+		<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="405">Single Individual with Multiple Identities</option>
+		<option select2-parent="9000004" class="select2-treeitem "  disabled="disabled" value="4999">Other Identification Documentation</option>
+		<option class="select2-group" value="9000005">Insurance</option>
+		<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="501">Excessive Insurance</option>
+		<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="502">Excessive or Unusal Cash Borrowing against Policy...</option>
+		<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="504">Proceeds Sent to or Received from Unrelated Third...</option>
+		<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="505">Suspicious Life Settlement Sales Insurance (E.g.&...</option>
+		<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="506">Suspicious Termination of Policy or Contract</option>
+		<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="507">Unclear or No Insurable Interest</option>
+		<option select2-parent="9000005" class="select2-treeitem "  disabled="disabled" value="5999">Other Insurance</option>
+		<option class="select2-group" value="9000008">Money Laundering</option>
+		<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="801">Exchanges Small Bills for Large Bills or Vice Versa</option>
+		<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="824">Funnel Account</option>
+		<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="820">Suspicion Concerning the Physical Condition of Funds</option>
+		<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="821">Suspicion Concerning the Source of Funds</option>
+		<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="804">Suspicious Designation of Beneficiaries&#44; Assi...</option>
+		<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="805">Suspicious EFT/Wire Transfers</option>
+		<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="822">Suspicious Exchange of Currencies</option>
+		<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="806">Suspicious Receipt of Government Payments/Benefits</option>
+		<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="807">Suspicious Use of Multiple Accounts</option>
+		<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="808">Suspicious Use of Noncash Monetary Instruments</option>
+		<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="809">Suspicious Use of Third-Party Transactors (Straw-...</option>
+		<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="823">Trade Based Money Laundering/Black Market Peso Ex...</option>
+		\<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="812">Transaction Out of Pattern for Customer(s)</option>
+		<option select2-parent="9000008" class="select2-treeitem "  disabled="disabled" value="8999">Other Money Laundering</option>
+		<option class="select2-group" value="9000010">Mortgage Fraud</option>
+		<option select2-parent="9000010" class="select2-treeitem "  disabled="disabled" value="1005">Application Fraud</option>
+		<option select2-parent="9000010" class="select2-treeitem "  disabled="disabled" value="1001">Appraisal Fraud</option>
+		<option select2-parent="9000010" class="select2-treeitem "  disabled="disabled" value="1006_1002">Foreclosure/Short Sale Fraud</option>
+		<option select2-parent="9000010" class="select2-treeitem "  disabled="disabled" value="1003">Loan Modification Fraud</option>
+		<option select2-parent="9000010" class="select2-treeitem "  disabled="disabled" value="1007">Origination Fraud</option>
+		<option select2-parent="9000010" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="1004">Reverse Mortgage Fraud</option>
+		<option select2-parent="9000010" class="select2-treeitem "  disabled="disabled" value="10999">Other Mortgage Fraud</option>
+		<option class="select2-group" value="9000009">Other Suspicious Activities</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="920">Account Takeover</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="901">Bribery or Gratuity</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="917">Counterfeit Instrument</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="921">Elder Financial Exploitation</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="903">Embezzlement/Theft/Disappearance of Funds</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="904">Forgeries</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="926">Human Smuggling</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="927">Human Trafficking</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="905">Identity Theft</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="922">Little or No Concern for Product Performance Pena...</option>
+		<option select2-parent="9000009" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="923">Misuse of &#34;Free Look&#34;/Cooling-Off/Right o...</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="924">Misuse of Position or Self-Dealing</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="907">Suspected Public/Private Corruption (Domestic)</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="908">Suspected Public/Private Corruption (Foreign)</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="909">Suspicious Use of Informal Value Transfer System</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="910">Suspicious use of multiple transaction locations</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="925">Transaction with No Apparent Economic&#44; Busine...</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="928">Transaction(s) Involving Foreign High Risk Jurisd...</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="911">Two or More Individuals Working Together</option>
+		<option select2-parent="9000009" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="912">Unauthorized Electronic Intrusion</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="913">Unlicensed or Unregistered MSB</option>
+		<option select2-parent="9000009" class="select2-treeitem "  disabled="disabled" value="9999">Other Other Suspicious Activities</option>
+		<option class="select2-group" value="9000006">Securities/Futures/Options</option>
+		<option select2-parent="9000006" class="select2-treeitem "  disabled="disabled" value="601">Insider Trading</option>
+		<option select2-parent="9000006" class="select2-treeitem "  disabled="disabled" value="608">Market Manipulation</option>
+		<option select2-parent="9000006" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="602">Market Manipulation/Wash Trading</option>
+		<option select2-parent="9000006" class="select2-treeitem "  disabled="disabled" value="603">Misappropriation</option>
+		<option select2-parent="9000006" class="select2-treeitem "  disabled="disabled" value="604">Unauthorized Pooling</option>
+		<option select2-parent="9000006" class="select2-treeitem "  disabled="disabled" value="609">Wash Trading</option>
+		<option select2-parent="9000006" class="select2-treeitem "  disabled="disabled" value="6999">Other Securities/Futures/Options</option>
+		<option class="select2-group" value="9000001">Structuring</option>
+		<option select2-parent="9000001" class="select2-treeitem "  disabled="disabled" value="111_101">Alters or Cancels Transaction to Avoid BSA Record...</option>
+		<option select2-parent="9000001" class="select2-treeitem "  disabled="disabled" value="112_102">Alters or Cancels Transaction to Avoid CTR Requir...</option>
+		<option select2-parent="9000001" class="select2-treeitem dagger" data-toggle="tooltip" title="Expired" disabled="disabled" value="103">Customer Cancels Transaction to Avoid Bsa Reporti...</option>
+		<option select2-parent="9000001" class="select2-treeitem "  disabled="disabled" value="106">Suspicious Inquiry by Customer Regarding Bsa Repo...</option>
+		<option select2-parent="9000001" class="select2-treeitem "  disabled="disabled" value="113_104">Transaction(s) Below BSA Recordkeeping Threshold</option>
+		<option select2-parent="9000001" class="select2-treeitem "  disabled="disabled" value="114_105">Transaction(s) Below CTR Threshold</option>
+		<option select2-parent="9000001" class="select2-treeitem "  disabled="disabled" value="1999">Other Structuring</option>
+		<option class="select2-group" value="9000007">Terrorist Financing</option>
+		<option select2-parent="9000007" class="select2-treeitem "  disabled="disabled" value="701">Known or Suspected Terrorist/Terrorist Organization</option>
+		<option select2-parent="9000007" class="select2-treeitem "  disabled="disabled" value="7999">Other Terrorist</option>
+    </select>
+    </div>
+    
+    <div id="formSectionState" class="formSection">
+    <div class="formSectionHeader">States / Territories</div>
+    <label style="display:none;" for="formState">States / Territories</label>
+    <select id="formState" style="width: 100%;">
+    <option style="display:none"></option>
+    </select>
+    </div>
+    
+    <div id="formSectionCounty" class="formSection">
+    <div class="formSectionHeader" style="display:inline-block">County / Metro & Micro Area</div>
+    <div class="county-msa-radio">
+    <label><input type="radio" name="county-msa-optgroup" value="County" checked />County</label>
+    <label><input type="radio" name="county-msa-optgroup" value="Metro"/>Metro</label>
+    </div>
+    <label style="display:none;" for="formCounty">County / Metro & Micro Area</label>
+    <select id="formCounty" disabled="true" style="width: 100%">
+    <option style="display:none"></option>
+    </select>
+    </div>
+    
+    <div id="formSectionInstrument" class="formSection">
+    <div class="formSectionHeader">Instrument Type(s) / Payment Mechanism(s)</div>
+    <label style="display:none;" for="formInstrument">Instrument Type(s) / Payment Mechanism(s)</label>
+		<select id="formInstrument" style="width: 100%;">
+    <option value="31">Bank/Cashier&#039;s Check</option>
+		<option value="32">Foreign Currency</option>
+		<option value="33">Funds Transfer</option>
+		<option value="34">Gaming Instruments</option>
+		<option value="35">Government Payment</option>
+		<option value="36">Money Orders</option>
+		<option value="37">Personal/Business Check</option>
+		<option value="38">Travelers Checks</option>
+		<option value="39">U.S. Currency</option>
+		<option value="9999999">Other</option>
+    </select>
+    </div>
 
 			<div id="formSectionProducts" class="formSection">
 				<div class="formSectionHeader">Product Type</div>
