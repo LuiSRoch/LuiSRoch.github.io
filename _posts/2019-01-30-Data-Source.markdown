@@ -49,8 +49,10 @@ lang: en
 </div>
 <br />
 <div id="formInputsHeader">
-  <span id="nav1" style="left:15px" class="tab selected">Suspicious Activity Report Statistics (SAR Stats)</span>
-  <span id="nav2" style="left:400px" class="tab unselected">FAQ/Glossary</span>
+  <div class="w3-padding w3-large w3-orange">
+    <i class="Suspicious Activity Report Statistics (SAR Stats)"></i>
+    <i class="FAQ/Glossary"></i>
+  </div>
   
   <div id="formButtonContainer">
   <div id="formButtons">
