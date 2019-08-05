@@ -68,7 +68,6 @@ lang: en
       <div id="downloadpdf" class="formButton formButtonSwf"></div></form>
   </div>
 </div>
-</div>
 
 <hr>
 
