@@ -677,7 +677,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 
 </div>
 
-<div id="sessID" style="display:block">6loke0afqg1iuab0tiel4ennv0</div>
+<div id="sessID" style="display:none">6loke0afqg1iuab0tiel4ennv0</div>
 
 <div id="loader">
 	<div id="loaderInner">
