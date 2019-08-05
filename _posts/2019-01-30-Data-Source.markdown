@@ -23,13 +23,14 @@ lang: en
               <a href="https://fred.stlouisfed.org/tags/series"><strong>528,000</strong> US and international time series</a> from <a href="https://fred.stlouisfed.org/sources"><strong>87</strong> sources</a>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-           <form action="https://fred.stlouisfed.org/search?st=&404-search-button=Search" method="GET">
-              <input type="text" id="search" name="st" placeholder="Search FRED data e.g., gdp, inflation, unemployment">
-                <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
-            </form>
-        </div>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <form action="https://fred.stlouisfed.org/search?st=&404-search-button=Search" method="GET">
+          <input type="text" id="search" name="st" placeholder="Search FRED data e.g., gdp, inflation, unemployment">
+          <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
+        </form>
+      </div>
     </div>
+  </div>
 </div>
   <hr>
 
