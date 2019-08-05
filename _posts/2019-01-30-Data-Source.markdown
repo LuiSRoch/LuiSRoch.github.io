@@ -432,7 +432,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 			<div id="formSectionSuspiciousActivity" class="formSection">
 				<div class="formSectionHeader">Suspicious Activity Category / Type</div>
 				<label style="display:none;" for="formSuspiciousActivityType">Suspicious Activity Category / Type</label>
-				<select id="formSuspiciousActivityType" style="width: 100%;">
+				<select id="formSuspiciousActivityType" style="width: auto;">
 											<option class="select2-group" value="9000011">Cyber Event</option>
 													<option select2-parent="9000011" class="select2-treeitem "  disabled="disabled" value="1101">Against Financial Institution(s)</option>
 													<option select2-parent="9000011" class="select2-treeitem "  disabled="disabled" value="1102">Against Financial Institution Customer(s)</option>
