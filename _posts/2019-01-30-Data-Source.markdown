@@ -632,7 +632,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 		<div id="formButtonContainer">
 			<div id="formButtons">
                 <label style="display:none;" for="formButtonGenerate">Generate</label>
-				<form action="https://www.fincen.gov/fcn/Reports/SARStats" method="GET"></form><button type="submit" id="submit" class="formButton btn btn-primary"><span class='fa fa-search'></span><span>Generate</span></button>
+				<form action="https://www.fincen.gov/fcn/Reports/SARStats" method="GET"><button type="submit" id="submit" class="formButton btn btn-primary"><span class='fa fa-search'></span><span>Generate</span></button></form>
                 <label style="display:none;" for="formButtonReset">Reset</label>
 				<button id="formButtonReset" class="formButton btn btn-primary"><span class='fa fa-undo'></span><span>Reset</span></button>
                 <label style="display:none;" for="formButtonCsv">Export CSV</label>
