@@ -58,12 +58,12 @@ lang: en
     <link href="https://www.fincen.gov/fcn/Reports/assets/js/datatables/dataTables.bootstrap.css" rel="stylesheet" type='text/css' />
     <link href="https://www.fincen.gov/fcn/Reports/assets/js/datatables/jquery.dataTables.css" rel="stylesheet" type='text/css' />
     <link href="https://www.fincen.gov/fcn/Reports/assets/css/select2.min.css" rel="stylesheet" type="text/css" />
-	<link href="https://www.fincen.gov/fcn/Reports/assets/css/styles.css" rel="stylesheet" type="text/css" >
-	<link href="https://www.fincen.gov/fcn/Reports/assets/css/styles_small.css" rel="stylesheet" media="all and (max-width: 1200px)" >
+	  <link href="https://www.fincen.gov/fcn/Reports/assets/css/styles.css" rel="stylesheet" type="text/css" >
+	  <link href="https://www.fincen.gov/fcn/Reports/assets/css/styles_small.css" rel="stylesheet" media="all and (max-width: 1200px)" >
 
-	<link href="https://www.fincen.gov/fcn/Reports/assets/css/fincenCSS.css" rel="STYLESHEET" type="text/css"  title="main" />
+	  <link href="https://www.fincen.gov/fcn/Reports/assets/css/fincenCSS.css" rel="STYLESHEET" type="text/css"  title="main" />
 
-	<link href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />
+	  <link href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />
 
 	<!--[if lt IE 10]>
 	<style>     /* IE 8 and below use SWF files, so we will make the background images invisible for them */
@@ -127,8 +127,8 @@ The following are wholly new options added to the pull down menu within the Susp
 <br/><br/>
 <table>
 	<tr style="text-align:left;">
-		<th style="text-decoration:underline;padding: 0px 200px 15px 0px;">Category</th>
-		<th style="text-decoration:underline;padding: 0px 200px 15px 0px;">Option</th>
+		<th style="text-decoration:underline;padding: 0px 100px 10px 0px;">Category</th>
+		<th style="text-decoration:underline;padding: 0px 100px 10px 0px;">Option</th>
 	</tr>
 	<tr style="text-align:left">
 		<td>Fraud</td>
