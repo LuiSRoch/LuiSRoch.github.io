@@ -49,8 +49,9 @@ lang: en
 </div>
 
 <div class="w3-padding w3-xlarge w3-orange">
-    <b >Suspicious Activity Report Statistics (SAR Stats)</b>
-  	<b >FAQ/Glossary</b>
+  <b >Suspicious Activity Report Statistics (SAR Stats)</b>
+  <><b > | </b><>
+  <b >FAQ/Glossary</b>
 
   <div id="formButtonContainer">
   	<div id="formButtons">
