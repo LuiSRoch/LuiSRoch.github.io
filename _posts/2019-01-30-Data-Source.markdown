@@ -46,7 +46,6 @@ lang: en
     <input type="text" id="search" name="keys" placeholder="Search FINCEN data e.g., SARS, fraud, insurance">
     <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
   </form>
-</div>
 
 <html lang="en">
 <head>
@@ -715,6 +714,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 
 </body>
 </html>
+</div>
 
 <hr>
 
