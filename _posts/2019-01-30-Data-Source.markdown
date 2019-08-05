@@ -563,141 +563,140 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 		<option value="9999999">Other</option>
     </select>
     </div>
+    
+    <div id="formSectionProducts" class="formSection">
+    <div class="formSectionHeader">Product Type</div>
+    <label style="display:none;" for="formProducts">Product Type</label>
+    <select id="formProducts" style="width: 100%;">
+    <option value="2">Bonds/Notes</option>
+		<option value="3">Commercial Mortgage</option>
+		<option value="4">Commercial Paper</option>
+		<option value="5">Credit Card</option>
+		<option value="6">Debit Card</option>
+		<option value="7">Forex Transactions</option>
+		<option value="46">Deposit Account</option>
+		<option value="8">Futures/Options on Futures</option>
+		<option value="9">Hedge Fund</option>
+		<option value="11">Home Equity Line of Credit</option>
+		<option value="10">Home Equity Loan</option>
+		<option value="12">Insurance/Annuity Products</option>
+		<option value="47_15">Microcap Securities</option>
+		<option value="13">Mutual Fund</option>
+		<option value="14">Options on Securities</option>
+		<option value="16">Prepaid Access</option>
+		<option value="17">Residential Mortgage</option>
+		<option value="18">Security Futures Products</option>
+		<option value="19">Stocks</option>
+		<option value="20">Swap, Hybrid, or Other Derivative</option>
+		<option value="9999999">Other</option>
+    </select>
+    </div>
+    
+    <div id="formSectionRelationship" class="formSection">
+    <div class="formSectionHeader">Relationship</div>
+    <label style="display:none;" for="formRelationship">Relationship</label>
+    <select id="formRelationship" style="width: 100%;">
+    <option value="1">Accountant</option>
+		<option value="2">Agent</option>
+		<option value="3">Appraiser</option>
+		<option value="4">Attorney</option>
+		<option value="5">Borrower</option>
+		<option value="7">Customer</option>
+		<option value="8">Director</option>
+		<option value="9">Employee</option>
+		<option value="10">No Relationship to Institution</option>
+		<option value="11">Officer</option>
+		<option value="12">Owner/Controlling Shareholder</option>
+		<option value="17">Other</option>
+		</select>
+		div>
 
-			<div id="formSectionProducts" class="formSection">
-				<div class="formSectionHeader">Product Type</div>
-                <label style="display:none;" for="formProducts">Product Type</label>
-				<select id="formProducts" style="width: 100%;">
-											<option value="2">Bonds/Notes</option>
-											<option value="3">Commercial Mortgage</option>
-											<option value="4">Commercial Paper</option>
-											<option value="5">Credit Card</option>
-											<option value="6">Debit Card</option>
-											<option value="7">Forex Transactions</option>
-											<option value="46">Deposit Account</option>
-											<option value="8">Futures/Options on Futures</option>
-											<option value="9">Hedge Fund</option>
-											<option value="11">Home Equity Line of Credit</option>
-											<option value="10">Home Equity Loan</option>
-											<option value="12">Insurance/Annuity Products</option>
-											<option value="47_15">Microcap Securities</option>
-											<option value="13">Mutual Fund</option>
-											<option value="14">Options on Securities</option>
-											<option value="16">Prepaid Access</option>
-											<option value="17">Residential Mortgage</option>
-											<option value="18">Security Futures Products</option>
-											<option value="19">Stocks</option>
-											<option value="20">Swap, Hybrid, or Other Derivative</option>
-											<option value="9999999">Other</option>
-									</select>
-			</div>
-
-			<div id="formSectionRelationship" class="formSection">
-				<div class="formSectionHeader">Relationship</div>
-                <label style="display:none;" for="formRelationship">Relationship</label>
-				<select id="formRelationship" style="width: 100%;">
-											<option value="1">Accountant</option>
-											<option value="2">Agent</option>
-											<option value="3">Appraiser</option>
-											<option value="4">Attorney</option>
-											<option value="5">Borrower</option>
-											<option value="7">Customer</option>
-											<option value="8">Director</option>
-											<option value="9">Employee</option>
-											<option value="10">No Relationship to Institution</option>
-											<option value="11">Officer</option>
-											<option value="12">Owner/Controlling Shareholder</option>
-											<option value="17">Other</option>
-									</select>
-			</div>
-
-			<div id="formSectionRegulator" class="formSection">
-				<div class="formSectionHeader">Regulator</div>
-                <label style="display:none;" for="formRegulator">Regulator</label>
-				<select id="formRegulator" style="width: 100%;">
-											<option value="9">CFTC</option>
-											<option value="2">FDIC</option>
-											<option value="13">FHFA</option>
-											<option value="1">FRB</option>
-											<option value="7">IRS</option>
-											<option value="3">NCUA</option>
-											<option value="4">OCC</option>
-											<option value="6">SEC</option>
-											<option value="99">Not Applicable</option>
-											<option value="9999999">Other</option>
-									</select>
-			</div>
-		</div>
+		<div id="formSectionRegulator" class="formSection">
+		<div class="formSectionHeader">Regulator</div>
+    <label style="display:none;" for="formRegulator">Regulator</label>
+		<select id="formRegulator" style="width: 100%;">
+    <option value="9">CFTC</option>
+		<option value="2">FDIC</option>
+    <option value="13">FHFA</option>
+    <option value="1">FRB</option>
+		<option value="7">IRS</option>
+		<option value="3">NCUA</option>
+		<option value="4">OCC</option>
+		<option value="6">SEC</option>
+		<option value="99">Not Applicable</option>
+		<option value="9999999">Other</option>
+    </select>
+    </div>
+    </div>
 
 		<div id="formButtonContainer">
-			<div id="formButtons">
-                <label style="display:none;" for="formButtonGenerate">Generate</label>
-				<button id="formButtonGenerate" class="formButton btn btn-primary"><span class='fa fa-search'></span><span>Generate</span></button>
-                <label style="display:none;" for="formButtonReset">Reset</label>
-				<button id="formButtonReset" class="formButton btn btn-primary"><span class='fa fa-undo'></span><span>Reset</span></button>
-                <label style="display:none;" for="formButtonCsv">Export CSV</label>
-				<button id="formButtonCsv" class="formButton btn btn-primary"><span class='fa fa-floppy-o'></span><span>Export CSV</span></button>
-                <label style="display:none;" for="formButtonPdf">Export PDF</label>
-				<button id="formButtonPdf" class="formButton btn btn-primary"><span class='fa fa-floppy-o'></span><span>Export PDF</span></button>
-                <label style="display:none;" for="downloadcsv">Export CSV</label>
-                <div id="downloadcsv" class="formButton formButtonSwf"></div>
-                <label style="display:none;" for="downloadpdf">Export PDF</label>
-                <div id="downloadpdf" class="formButton formButtonSwf"></div>
-			</div>
-		</div>
+    <div id="formButtons">
+    <label style="display:none;" for="formButtonGenerate">Generate</label>
+    <button id="formButtonGenerate" class="formButton btn btn-primary"><span class='fa fa-search'></span><span>Generate</span></button>
+    <label style="display:none;" for="formButtonReset">Reset</label>
+		<button id="formButtonReset" class="formButton btn btn-primary"><span class='fa fa-undo'></span><span>Reset</span></button>
+    <label style="display:none;" for="formButtonCsv">Export CSV</label>
+		<button id="formButtonCsv" class="formButton btn btn-primary"><span class='fa fa-floppy-o'></span><span>Export CSV</span></button>
+    <label style="display:none;" for="formButtonPdf">Export PDF</label>
+		<button id="formButtonPdf" class="formButton btn btn-primary"><span class='fa fa-floppy-o'></span><span>Export PDF</span></button>
+    <label style="display:none;" for="downloadcsv">Export CSV</label>
+    <div id="downloadcsv" class="formButton formButtonSwf"></div>
+    <label style="display:none;" for="downloadpdf">Export PDF</label>
+    <div id="downloadpdf" class="formButton formButtonSwf"></div>
+    </div>
+    </div>
 
 		<div style="clear:both"></div>
 		<div id="errorDivValidation" class="errorBox">
-			<div></div>
-		</div>
-	</div>
-
-	<div id="results">
-		<div id="resultsHtml">
-			<div id="errorDivResult" class="warningBox"></div>
-			<table id="resultTable" class="stripe hover compact order-column" cellspacing="0" width="100%">
-	        <thead>
-	            <tr>
-	                <th>Year&amp;Month</th>
-	                <th>State</th>
-                    <th>County</th>
-	                <th>Industry</th>
-	                <th>Suspicious Activity</th>
-	                <th>Regulator</th>
-	                <th>Relationship</th>
-	                <th>Product</th>
-	                <th>Instrument</th>
-	                <th>Filing Count</th>
-	            </tr>
-	        </thead>
-	 		</table>
-	 		<div id="lastUpdated">Data last updated on 6/30/2019</div><div style="clear:both"></div>
-		</div>
-	</div>
-
-</div>
-
-<div id="sessID" style="display:none">6loke0afqg1iuab0tiel4ennv0</div>
-
-<div id="loader">
-	<div id="loaderInner">
+    <div></div>
+    </div>
+    </div>
+    
+    <div id="results">
+    <div id="resultsHtml">
+		<div id="errorDivResult" class="warningBox"></div>
+    <table id="resultTable" class="stripe hover compact order-column" cellspacing="0" width="100%">
+    <thead>
+    <tr>
+    <th>Year&amp;Month</th>
+	  <th>State</th>
+    <th>County</th>
+	  <th>Industry</th>
+	  <th>Suspicious Activity</th>
+	  <th>Regulator</th>
+	  <th>Relationship</th>
+	  <th>Product</th>
+	  <th>Instrument</th>
+	  <th>Filing Count</th>
+	  </tr>
+    </thead>
+    </table>
+    <div id="lastUpdated">Data last updated on 6/30/2019</div><div style="clear:both"></div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="sessID" style="display:none">6loke0afqg1iuab0tiel4ennv0</div>
+    
+    <div id="loader">
+    <div id="loaderInner">
 		Please wait while your document is being generated.<br/><br/>
-	</div>
-</div>
+    </div>
+    </div>
+    
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/jquery-1.7.min.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/respond.min.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/datatables/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/datatables/dataTables.bootstrap.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/dropdown-check-list.1.4/doc/jquery-ui-1.8.13.custom.min.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/fnReloadAjax.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/jspdf.min.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/deflate.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/FileSaver.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/jspdf.plugin.table.js" type="text/javascript"></script>
 
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jquery-1.7.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/respond.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/datatables/jquery.dataTables.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/datatables/dataTables.bootstrap.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/dropdown-check-list.1.4/doc/jquery-ui-1.8.13.custom.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/fnReloadAjax.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/jspdf.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/deflate.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/FileSaver.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/jspdf/jspdf.plugin.table.js" type="text/javascript"></script>
-
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/select2.full.min.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/extendedSelect2.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/select2.full.min.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/extendedSelect2.js" type="text/javascript"></script>
 
 <!--[if lt IE 10]>
 <script src="assets/js/jspdf/swfobject.js" type="text/javascript"></script>
@@ -705,14 +704,14 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 <script src="assets/js/swfButtons.js" type="text/javascript"></script>
 <![endif]-->
 
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/SARStats.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/pdfExport.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/Request.js" type="text/javascript"></script>
-<script src="https://www.fincen.gov/fcn/Reports/assets/js/spin.min.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/SARStats.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/pdfExport.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/Request.js" type="text/javascript"></script>
+    <script src="https://www.fincen.gov/fcn/Reports/assets/js/spin.min.js" type="text/javascript"></script>
 
-<script language="javascript" type="text/javascript" src="/javascript/main.js"></script>
-<script type="text/javascript" src="/javascript/federated-analytics.js"></script>
-
+    <script language="javascript" type="text/javascript" src="/javascript/main.js"></script>
+    <script type="text/javascript" src="/javascript/federated-analytics.js"></script>
+    
 </body>
 </html>
 <hr>
