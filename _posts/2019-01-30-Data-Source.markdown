@@ -46,7 +46,10 @@ lang: en
     <input type="text" id="search" name="keys" placeholder="Search FINCEN data e.g., SARS, fraud, insurance">
     <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
   </form>
+</div>
 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en">
 <head>
 	<title>SAR Stats</title>
@@ -57,12 +60,12 @@ lang: en
     <link href="https://www.fincen.gov/fcn/Reports/assets/js/datatables/dataTables.bootstrap.css" rel="stylesheet" type='text/css' />
     <link href="https://www.fincen.gov/fcn/Reports/assets/js/datatables/jquery.dataTables.css" rel="stylesheet" type='text/css' />
     <link href="https://www.fincen.gov/fcn/Reports/assets/css/select2.min.css" rel="stylesheet" type="text/css" />
-	  <link href="https://www.fincen.gov/fcn/Reports/assets/css/styles.css" rel="stylesheet" type="text/css" >
-	  <link href="https://www.fincen.gov/fcn/Reports/assets/css/styles_small.css" rel="stylesheet" media="all and (max-width: 1200px)" >
+	<link href="https://www.fincen.gov/fcn/Reports/assets/css/styles.css" rel="stylesheet" type="text/css" >
+	<link href="https://www.fincen.gov/fcn/Reports/assets/css/styles_small.css" rel="stylesheet" media="all and (max-width: 1200px)" >
 
-	  <link href="https://www.fincen.gov/fcn/Reports/assets/css/fincenCSS.css" rel="STYLESHEET" type="text/css"  title="main" />
+	<link href="https://www.fincen.gov/fcn/Reports/assets/css/fincenCSS.css" rel="STYLESHEET" type="text/css"  title="main" />
 
-	  <link href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />
+	<link href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />
 
 	<!--[if lt IE 10]>
 	<style>     /* IE 8 and below use SWF files, so we will make the background images invisible for them */
@@ -126,8 +129,8 @@ The following are wholly new options added to the pull down menu within the Susp
 <br/><br/>
 <table>
 	<tr style="text-align:left;">
-		<th style="text-decoration:underline;padding: 0px 100px 5px 0px;">Category</th>
-		<th style="text-decoration:underline;padding: 0px 100px 5px 0px;">Option</th>
+		<th style="text-decoration:underline;padding: 0px 200px 15px 0px;">Category</th>
+		<th style="text-decoration:underline;padding: 0px 200px 15px 0px;">Option</th>
 	</tr>
 	<tr style="text-align:left">
 		<td>Fraud</td>
@@ -714,7 +717,6 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 
 </body>
 </html>
-</div>
 
 <hr>
 
