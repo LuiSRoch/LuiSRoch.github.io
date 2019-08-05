@@ -632,7 +632,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 		<div id="formButtonContainer">
 			<div id="formButtons">
                 <label style="display:none;" for="formButtonGenerate">Generate</label>
-				<button id="formButtonGenerate" action="https://www.fincen.gov/fcn/Reports/SARStats" method="GET"><span class='fa fa-search'></span><span>Generate</span></button>
+				<button id="formButtonGenerate" class="formButton btn btn-primary"><span class='fa fa-search'></span><span>Generate</span></button>
                 <label style="display:none;" for="formButtonReset">Reset</label>
 				<button id="formButtonReset" class="formButton btn btn-primary"><span class='fa fa-undo'></span><span>Reset</span></button>
                 <label style="display:none;" for="formButtonCsv">Export CSV</label>
@@ -677,7 +677,7 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 
 </div>
 
-<div id="sessID" style="display:none">6loke0afqg1iuab0tiel4ennv0</div>
+<div id="sessID" style="display:block">6loke0afqg1iuab0tiel4ennv0</div>
 
 <div id="loader">
 	<div id="loaderInner">
