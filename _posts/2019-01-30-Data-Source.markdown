@@ -28,17 +28,23 @@ lang: en
 <hr>
 <br />
 
-<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">World Bank Open Data</a></span></div>
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">World Bank Open Data</a></span>
+  <br />
+  <form action="https://databank.worldbank.org/data/databases/page/1/orderby/popularity/direction/desc?qterm=&404-search-button=Search" method="GET">
+    <input type="text" id="search" name="qterm" placeholder="Explore, gdp, inflation, unemployment">
+    <button type="submit" id="submit" style="background-color:#687f9f;color:white"> Search </button>
+  </form>
 
+</div>
 <div class="col-xs-15 col-sm-13 col-sm-offset-2">
   <form action="https://databank.worldbank.org/data/databases/page/1/orderby/popularity/direction/desc?qterm=&404-search-button=Search" method="GET">
     <input type="text" id="search" name="qterm" placeholder="Explore, gdp, inflation, unemployment">
     <button type="submit" id="submit" style="background-color:#687f9f;color:white"> Search </button>
   </form>
-  <h5 data-reactid=""><span data-reactid="">Browse by</span><a class="country" href="https://data.worldbank.org/country" data-reactid=""><span data-reactid=""> Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator</span></a></h5>
-</div>
+  <h5 data-reactid=""><span data-reactid="">Browse by</span><a class="country" href="https://data.worldbank.org/country" data-reactid=""
+                                                               <span data-reactid=""> Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator</span></a></h5>
+                                                               </div>
 
-<hr>
 
 <iframe src="https://data.worldbank.org/share/widget?end=2013&indicators=EN.ATM.CO2E.KT&locations=1W&start=1960&view=chart" width='100%' height='450' frameBorder='0' ></iframe>
 <hr>
