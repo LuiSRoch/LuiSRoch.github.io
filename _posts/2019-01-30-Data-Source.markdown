@@ -61,27 +61,7 @@ lang: en
               <input type="text" id="search" name="keys" placeholder="Search FINCEN data e.g., SARS, fraud, insurance">
                 <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
             </form>
-        </div>
-<iframe target="https://www.fincen.gov/fcn/Reports/SARStats" is="x-frame-bypass" scrolling="yes" src="https://www.fincen.gov/fcn/Reports/SARStats?href=https://www.fincen.gov/reports/sar-stats" width="100%" height="650" frameborder="0" style="border: 1px solid #333333" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span>
-<hr>
-
-<br /> 
-<h1 class="section-front-header-module__title">Supply Chain</h1>
-
-    Under Construction
-
-<hr>
-<br />
-<h1 class="section-front-header-module__title">Other Tools & DataSets</h1>
-
-    Under Construction, though the link below provides a couple examples.
-    
-<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;"><a href="https://github.com/LuisFRoch/Excel-Tools/tree/master/_Excel-Files" rel="nofollow" target="_blank" style="font-size: 14px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Excel Macros to help with daily workload...More...</a></span></div>
-
-
-
-
-<br />
+</div>
 <html lang="en">
 <head>
 	<title>SAR Stats</title>
@@ -749,3 +729,17 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
 
 </body>
 </html>
+<hr>
+
+<br /> 
+<h1 class="section-front-header-module__title">Supply Chain</h1>
+
+    Under Construction
+
+<hr>
+<br />
+<h1 class="section-front-header-module__title">Other Tools & DataSets</h1>
+
+    Under Construction, though the link below provides a couple examples.
+    
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;"><a href="https://github.com/LuisFRoch/Excel-Tools/tree/master/_Excel-Files" rel="nofollow" target="_blank" style="font-size: 14px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Excel Macros to help with daily workload...More...</a></span></div>
