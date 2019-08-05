@@ -47,7 +47,7 @@ lang: en
     <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
   </form>
 </div>
-<br />
+
 <div class="w3-padding w3-xlarge w3-orange">
     <b >Suspicious Activity Report Statistics (SAR Stats)</b>
   	<b >FAQ/Glossary</b>
