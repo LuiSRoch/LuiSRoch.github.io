@@ -34,15 +34,8 @@ lang: en
     <input type="text" id="search" name="qterm" placeholder="Explore, gdp, inflation, unemployment">
     <button type="submit" id="submit" style="background-color:#687f9f;color:white"> Search </button>
   </form>
-  <h5 data-reactid=""><span data-reactid="">Browse by</span><a href="https://data.worldbank.org/country" data-reactid=""><span data-reactid=""> Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator </span</a></h5>
-
+  <h5 data-reactid=""><span data-reactid="">Browse by</span><a href="https://data.worldbank.org/country" data-reactid=""><span data-reactid=""> Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator </span></a></h5>
 </div>
-<div class="col-xs-15 col-sm-13 col-sm-offset-2">
-
-  <h5 data-reactid=""><span data-reactid="">Browse by</span><a class="country" href="https://data.worldbank.org/country" data-reactid=""
-                                                               <span data-reactid=""> Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator</span></a></h5>
-                                                               </div>
-
 
 <iframe src="https://data.worldbank.org/share/widget?end=2013&indicators=EN.ATM.CO2E.KT&locations=1W&start=1960&view=chart" width='100%' height='450' frameBorder='0' ></iframe>
 <hr>
