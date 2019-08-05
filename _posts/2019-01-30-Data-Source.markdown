@@ -48,7 +48,6 @@ lang: en
   </form>
 </div>
 <br />
-
 <div id="formInputsHeader">
   <span id="nav1" style="left:15px" class="tab selected">Suspicious Activity Report Statistics (SAR Stats)</span>
   <span id="nav2" style="left:400px" class="tab unselected">FAQ/Glossary</span>
