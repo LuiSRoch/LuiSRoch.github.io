@@ -14,6 +14,11 @@ lang: en
 
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a href="https://fred.stlouisfed.org/" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Federal Reserve Bank of St. Louis</a></span></div>
 
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a href="https://fred.stlouisfed.org/" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Federal Reserve Bank of St. Louis</a></span>
+<br />
+  <a href="https://fred.stlouisfed.org/tags/series"><strong>528,000</strong> US and international time series</a> from <a href="https://fred.stlouisfed.org/sources"><strong>87</strong> sources</a>
+</div>
+
 <div class="proj-box-format">
   <div class="col-xs-12" id="fred-homepage-bluebox" style="padding-left: 0; padding-right: 0;">
     <div class="col-xs-12" style="padding-left: 0; padding-right: 0;">
