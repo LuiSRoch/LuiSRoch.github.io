@@ -61,22 +61,22 @@ lang: en
   <link href="https://www.fincen.gov/fcn/Reports/assets/css/select2.min.css" rel="stylesheet" type="text/css" />
 	<link href="https://www.fincen.gov/fcn/Reports/assets/css/styles.css" rel="stylesheet" type="text/css" >
 	<link href="https://www.fincen.gov/fcn/Reports/assets/css/styles_small.css" rel="stylesheet" media="all and (max-width: 1200px)" >
-
-	<link href="https://www.fincen.gov/fcn/Reports/assets/css/fincenCSS.css" rel="STYLESHEET" type="text/css"  title="main" />
-
-	<link href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />
-
-	<!--[if lt IE 10]>
-	<style>     /* IE 8 and below use SWF files, so we will make the background images invisible for them */
-	#formButtonCsv, #formButtonPdf {
-		display: none !important;
-	}
-    
-    #downloadcsv, #downloadpdf {
-        display: inline-block !important;
-    }
-	</style>
-	<![endif]-->
+  
+  <link href="https://www.fincen.gov/fcn/Reports/assets/css/fincenCSS.css" rel="STYLESHEET" type="text/css"  title="main" />
+  
+  <link href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />
+  
+  <!--[if lt IE 10]>
+<style>     /* IE 8 and below use SWF files, so we will make the background images invisible for them */ #formButtonCsv, #formButtonPdf 
+{
+display: none !important;
+}
+#downloadcsv, #downloadpdf
+{
+display: inline-block !important;
+}
+</style>
+<![endif]-->
 
 	<noscript>This web page can be viewed better with javascript enabled.</noscript>
 </head>
