@@ -611,34 +611,6 @@ Modifications made to the <b><u>Product Type</u></b> function include the additi
                 <div id="downloadpdf" class="formButton formButtonSwf"></div>
 			</div>
 		</div>
-
-		<div style="clear:both"></div>
-		<div id="errorDivValidation" class="errorBox">
-			<div></div>
-		</div>
-	</div>
-
-	<div id="results">
-		<div id="resultsHtml">
-			<div id="errorDivResult" class="warningBox"></div>
-			<table id="resultTable" class="stripe hover compact order-column" cellspacing="0" width="100%">
-	        <thead>
-	            <tr>
-	                <th>Year&amp;Month</th>
-	                <th>State</th>
-                    <th>County</th>
-	                <th>Industry</th>
-	                <th>Suspicious Activity</th>
-	                <th>Regulator</th>
-	                <th>Relationship</th>
-	                <th>Product</th>
-	                <th>Instrument</th>
-	                <th>Filing Count</th>
-	            </tr>
-	        </thead>
-	 		</table>
-	 		<div id="lastUpdated">Data last updated on 6/30/2019</div><div style="clear:both"></div>
-		</div>
 	</div>
 
 </div>
