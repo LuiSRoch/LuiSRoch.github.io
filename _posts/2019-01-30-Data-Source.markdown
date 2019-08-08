@@ -80,8 +80,10 @@ lang: en
     Under Construction
     
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 18px;color: #333333;text-decoration: none;">Data provided by <a href="https://catalog.data.gov/dataset?tags=supply-chain" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">The home of the U.S. Government’s open data</a></span>
-
-<iframe style="border: 1px solid #333333" scrolling="yes" src="https://brunel.figshare.com/browse" width="100%" height="450" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span></div>
+  
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 18px;color: #333333;text-decoration: none;">Data provided by <a href="https://coral.ise.lehigh.edu/sctheory/data-sets/" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Fundamentals of Supply Chain Theory - Lehigh CORAL</a></span>
+  
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 18px;color: #333333;text-decoration: none;">Data provided by <a href="https://brunel.figshare.com/browse" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Brunel University London</a></span>
 
 <hr>
 <br />
