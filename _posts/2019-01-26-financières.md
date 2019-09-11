@@ -5,6 +5,13 @@ ref: financières
 lang: fr
 ---
 
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">
+  <span style="font-size: 16px;color: #333333;text-decoration: none;">Real Time Economic Calendar</span>
+</div>    
+<iframe style="border: 1px solid #333333" scrolling="yes" src="https://global-premium.econoday.com/byweek.asp?cust=global-premium" width="100%" height="450" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;" align="right"><span style="font-size: 10px;color: #333333;text-decoration: none;" align="right"></span></div>
+<hr>
+<br />
+
 <div class="navi-markets-bar">
 	<h1 class="section-front-header-module__title">Quick Links</h1>
 
