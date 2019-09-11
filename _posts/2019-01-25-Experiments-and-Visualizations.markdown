@@ -26,5 +26,10 @@ lang: en
 <br />
 <div>
 <h1 class="section-front-header-module__title">Tableau Visualizations</h1>  
-<h2>Under Development</h2>
+      Under Construction.
+</div>
+
+<div>
+<h1 class="section-front-header-module__title">SQL and DB Manangement</h1>  
+      Under Construction.
 </div>
