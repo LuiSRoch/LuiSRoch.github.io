@@ -30,6 +30,6 @@ lang: en
 </div>
 
 <div>
-<h1 class="section-front-header-module__title">SQL and DB Manangement</h1>  
+<h1 class="section-front-header-module__title">SQL and DB Queries</h1>  
       Under Construction.
 </div>
