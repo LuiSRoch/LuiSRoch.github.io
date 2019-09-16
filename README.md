@@ -12,7 +12,7 @@ ___
 
 Python and SQL
 
-- Python dataset knowledge and management
+- [Python](https://github.com/LuisFRoch/luisfroch.github.io/blob/gh-pages/README.md) dataset knowledge and management
     - Jupyter Lab/Notebooks
     - sql (sqlite3 / MSSQL / Postgres) database
     - read/write (r/w) sql
