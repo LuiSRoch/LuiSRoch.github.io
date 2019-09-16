@@ -7,7 +7,7 @@ Programs and Skills Organization: Skills used in multiple programs will usually 
 ___
 <br>
 
-#### **What this adds to my [Portfolio] (https://luisfroch.github.io/):**
+What this adds to my [Portfolio] (https://luisfroch.github.io/):
 
 Python and SQL
 
