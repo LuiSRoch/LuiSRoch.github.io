@@ -1,54 +1,73 @@
-Table of Contents
-(Luis's portfolio)
-________________________________________
+# **Table of Contents**
+#### (David Smolinski's portfolio)
+___
+<br>
 
+### **Programs and Skills**
+Programs and Skills Organization: Skills used in multiple programs will usually only be listed for one program. To see a program, click on the links denoted in "blue color text". All code can be used in Jupyter Lab/Notebooks, and Excel macros run in all versions of MS Excel.
+___
+<br>
 
-Programs and Code Skills
-Programs and Code Skills Organization: Skills used in multiple programs will usually only be listed for one program. To see a program, click on the links denoted in "blue color text". All code can be used in Jupyter Lab/Notebooks, and Excel macros run in all versions of MS Excel.
-________________________________________
+#### **What this adds to my [Portfolio] (https://luisfroch.github.io/):**
 
-
-What this adds to my portfolio:
 Python and SQL
-    o	common sql 
-    o	csv to pandas 
-    o	pandas to sql 
-    o	dataset knowledge and management
-    o	Jupyter LAB/Notebooks 
-    o	sql (sqlite3 / MSSQL / Postgres) 
-    o	pandas 
-    o	numpy 
-    o	Python 
-    o	data cleaning
-    o	pandas dataframe optimization
-    o	Plotly
-    o	Tableau
+
+-Python dataset knowledge and management
+    - Jupyter Lab/Notebooks
+    - sql (sqlite3 / MSSQL / Postgres) database
+    - read/write (r/w) sql
+    - r/w csv
+    - pandas
+    - numpy
+    - o	common sql
+    - csv to pandas
+    - pandas to sql
+    -	data cleaning
+    -	pandas dataframe optimization
+    -	Plotly
+    -	Tableau
+
 
 Python
- •	Visualizations
-    o	object oriented programming (OOP)
-    o	data visualization
-    o	Plotly / Matplotlib
-    o	machine learning (artificial intelligence)
-    o	k-nearest neighbors
-    o	scikit-learn (sklearn)
-    o	data analysis
-    o data science
-    o	statistics
-    o	pandas
 
-Work:
+- [Visualizations](https://luisfroch.github.io/2019/01/25/Experiments-and-Visualizations.html)
+    - object oriented programming (OOP)
+    - Plotly / Matplotlib
+    - k-nearest neighbors
+    - scikit-learn (sklearn)
+    - statistics
+    - data analysis
+    - data science
+    - data Visualizations
+
+- KNN on breast cancer [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning%20breast%20cancer/machine_learning_bc.ipynb)  [Google](https://colab.research.google.com/drive/16evW7ZgGegf7W-fx_NeSp27EM0BmhZlh)
+    - machine learning (artificial intelligence)
+    - k-nearest neighbors
+    - stratified k-fold cross-validation
+    - scikit-learn (sklearn)
+    - statistics, data analysis, data science
+
+<br>
+
+#### **Work:**
+
 Python
- •	Forecasting S&P close
-    o	searching and sorting for files
-    o	r/w Excel (xlsx, xls)
-    o	openpyxl
-    o	pyinstaller
-    o	data cleaning and sorting
+
+- Forecasting [S&P500 Daily Close](https://nbviewer.jupyter.org/github/LuisFRoch/Explore_iPy_Samples/blob/7fe7a74e886796bc6c449328ea2574631ef94176/SPClose.ipynb)
+    - searching and sorting for files
+    - r/w Excel (xlsx, xls)
+    - openpyxl
+    - xlrd
+    - pyinstaller
+    - data cleaning and sorting
+
 VBA
- •	Everyday BAU macros
-    o	Worksheet_Change subroutine
-    o	Detect a change event in the intersection of cell ranges.
-    o	Text to column macros
-    o	Pivot table creation and refresh
-    o	Automatic data load
+
+- •	Everyday [BAU macros] (https://nbviewer.jupyter.org/github/LuisFRoch/Explore_iPy_Samples/blob/7fe7a74e886796bc6c449328ea2574631ef94176/SPClose.ipynb)
+    - Worksheet_Change subroutine
+    - Detect a change event in the intersection of cell ranges.
+    - Text to columns
+    - Pivot table creation and refresh
+    - Automatic raw-data load
+
+<br>
