@@ -1,5 +1,4 @@
 # **Table of Contents**
-#### (David Smolinski's portfolio)
 ___
 <br>
 
