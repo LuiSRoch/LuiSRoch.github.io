@@ -7,11 +7,12 @@ Programs and Skills Organization: Skills used in multiple programs will usually 
 ___
 <br>
 
-What this adds to my [Portfolio] (https://luisfroch.github.io/):
+#### **What this adds to my [Portfolio] (https://luisfroch.github.io/):**
+
 
 Python and SQL
 
--Python dataset knowledge and management
+- Python dataset knowledge and management
     - Jupyter Lab/Notebooks
     - sql (sqlite3 / MSSQL / Postgres) database
     - read/write (r/w) sql
@@ -27,7 +28,7 @@ Python and SQL
     -	Tableau
 
 
--Python [Visualizations](https://luisfroch.github.io/2019/01/25/Experiments-and-Visualizations.html)
+- Python [Visualizations](https://luisfroch.github.io/2019/01/25/Experiments-and-Visualizations.html)
     - object oriented programming (OOP)
     - Plotly / Matplotlib
     - k-nearest neighbors
