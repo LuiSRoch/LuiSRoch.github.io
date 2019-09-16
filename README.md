@@ -18,7 +18,7 @@ Python and SQL
     - r/w csv
     - pandas
     - numpy
-    - o	common sql
+    - common sql
     - csv to pandas
     - pandas to sql
     -	data cleaning
@@ -27,9 +27,7 @@ Python and SQL
     -	Tableau
 
 
-Python
-
-- [Visualizations](https://luisfroch.github.io/2019/01/25/Experiments-and-Visualizations.html)
+-Python [Visualizations](https://luisfroch.github.io/2019/01/25/Experiments-and-Visualizations.html)
     - object oriented programming (OOP)
     - Plotly / Matplotlib
     - k-nearest neighbors
@@ -55,7 +53,7 @@ Python
 
 VBA
 
-- •	Everyday [BAU macros] (https://nbviewer.jupyter.org/github/LuisFRoch/Explore_iPy_Samples/blob/7fe7a74e886796bc6c449328ea2574631ef94176/SPClose.ipynb)
+- Everyday [BAU macros](https://nbviewer.jupyter.org/github/LuisFRoch/Explore_iPy_Samples/blob/7fe7a74e886796bc6c449328ea2574631ef94176/SPClose.ipynb)
     - Worksheet_Change subroutine
     - Detect a change event in the intersection of cell ranges.
     - Text to columns
