@@ -39,13 +39,6 @@ Python
     - data science
     - data Visualizations
 
-- KNN on breast cancer [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning%20breast%20cancer/machine_learning_bc.ipynb)  [Google](https://colab.research.google.com/drive/16evW7ZgGegf7W-fx_NeSp27EM0BmhZlh)
-    - machine learning (artificial intelligence)
-    - k-nearest neighbors
-    - stratified k-fold cross-validation
-    - scikit-learn (sklearn)
-    - statistics, data analysis, data science
-
 <br>
 
 #### **Work:**
@@ -62,7 +55,7 @@ Python
 
 VBA
 
-- Everyday [BAU macros (https://nbviewer.jupyter.org/github/LuisFRoch/Explore_iPy_Samples/blob/7fe7a74e886796bc6c449328ea2574631ef94176/SPClose.ipynb)
+- •	Everyday [BAU macros] (https://nbviewer.jupyter.org/github/LuisFRoch/Explore_iPy_Samples/blob/7fe7a74e886796bc6c449328ea2574631ef94176/SPClose.ipynb)
     - Worksheet_Change subroutine
     - Detect a change event in the intersection of cell ranges.
     - Text to columns
