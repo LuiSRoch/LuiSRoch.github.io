@@ -63,7 +63,7 @@ Python
 
 VBA
 
-- •	Everyday [BAU macros] (https://nbviewer.jupyter.org/github/LuisFRoch/Explore_iPy_Samples/blob/7fe7a74e886796bc6c449328ea2574631ef94176/SPClose.ipynb)
+- Everyday [BAU macros (https://nbviewer.jupyter.org/github/LuisFRoch/Explore_iPy_Samples/blob/7fe7a74e886796bc6c449328ea2574631ef94176/SPClose.ipynb)
     - Worksheet_Change subroutine
     - Detect a change event in the intersection of cell ranges.
     - Text to columns
