@@ -1,6 +1,6 @@
 ---
-#layout: default.fr
-layout: page
+layout: default
+#layout: page
 #ref: index
 ref: accueil
 permalink: /accueil/
