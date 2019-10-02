@@ -74,3 +74,4 @@ lang: fr
   {%- endif -%}
 
 </div>
+</html>
