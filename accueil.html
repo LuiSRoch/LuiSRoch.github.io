@@ -4,3 +4,26 @@ ref: index
 permalink: /_french/_layouts/home.fr/
 lang: fr
 ---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  
+<meta name="viewport" content="width=device-width">
+  
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
