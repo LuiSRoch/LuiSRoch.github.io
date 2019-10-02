@@ -1,8 +1,8 @@
 ---
 layout: default
 #layout: page
-ref: index
-#ref: accueil
+#ref: index
+ref: accueil
 permalink: /accueil/
 lang: fr
 ---
