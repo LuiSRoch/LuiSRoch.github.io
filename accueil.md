@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default.fr
 #layout: page
 #ref: index
 ref: accueil
