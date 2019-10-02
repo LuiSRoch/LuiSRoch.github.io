@@ -2,7 +2,7 @@
 layout: page
 title: À propos Moi
 ref: a-propos
-#permalink: a-propos
+#permalink: a-propos 
 lang: fr
 ---
 
