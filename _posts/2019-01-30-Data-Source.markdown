@@ -84,7 +84,7 @@ lang: en
 
     Under Construction, though the link below provides a couple examples.
     
-<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;"><a href="https://github.com/LuisFRoch/Excel-Tools/tree/master/_Excel-Files" rel="nofollow" target="_blank" style="font-size: 14px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Excel Macros to help with daily workload...More...</a></span></div>
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;"><a href="https://github.com/LuisFRoch/Excel-Tools/blob/master/_Excel-Files/Read-Me-Excel.md" rel="nofollow" target="_blank" style="font-size: 14px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Excel Macros to help with daily workload...More...</a></span></div>
 <hr>
 
 <br />
