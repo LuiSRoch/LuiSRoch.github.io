@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Experiments and Visualizations"
+title: "Visualizations, SQL-DB Python Connectors, Experiments"
 ref: Experiments-and-Visualizations
 lang: en
 ---
