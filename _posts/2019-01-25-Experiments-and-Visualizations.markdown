@@ -44,7 +44,7 @@ lang: en
 </h4>
 
 <h4 class="sub-header">
-<a href="https://nbviewer.jupyter.org/github.com/LuisFRoch/Explore_iPy_Samples/blob/GreaseMonkeyTech-Mis_Sample/Postgresql_Connection_QuerySample.ipynb" rel="nofollow" target="_blank" style="font-size: 16px;color: #06529D; font-weight: bold;" class="underline_link" align="right" width="100%">PostgreSQL Python Connector and Query. Here.</a>
+<a href="https://nbviewer.jupyter.org/github/LuisFRoch/Explore_iPy_Samples/blob/GreaseMonkeyTech-Mis_Sample/Postgresql_Connection_QuerySample.ipynb" rel="nofollow" target="_blank" style="font-size: 16px;color: #06529D; font-weight: bold;" class="underline_link" align="right" width="100%">PostgreSQL Python Connector and Query. Here.</a>
 </h4>
 
 </div>
