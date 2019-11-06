@@ -23051,7 +23051,7 @@ lang: en
                     "Wisconsin"
                 ],
                 "description": "Filing State :",
-                "index": 0,
+                "index": 31,
                 "layout": "IPY_MODEL_d96e6bfa4f6c4841a551a35ae578a657",
                 "style": "IPY_MODEL_bc27a2ba2df84816b41ce281d32fc7de"
             }
@@ -23075,22 +23075,23 @@ lang: en
                         },
                         "orientation": "v",
                         "x": [
+                            "Credit Card",
                             "Debit Card",
                             "Deposit Account"
                         ],
                         "y": [
-                            223,
-                            493
+                            1045,
+                            13804,
+                            24168
                         ],
                         "type": "bar",
                         "uid": "60e331e9-f82f-417e-befb-6b773fa32208"
                     }
                 ],
-                "_js2py_pointsCallback": {},
                 "_js2py_restyle": {},
                 "_js2py_update": {},
-                "_last_layout_edit_id": 3,
-                "_last_trace_edit_id": 2,
+                "_last_layout_edit_id": 7,
+                "_last_trace_edit_id": 5,
                 "_layout": {
                     "annotations": [
                         {
@@ -23134,12 +23135,14 @@ lang: en
                     "xaxis": {
                         "title": {
                             "text": "SARs Filing Type"
-                        }
+                        },
+                        "showspikes": true
                     },
                     "yaxis": {
                         "title": {
                             "text": "Number of Filings"
-                        }
+                        },
+                        "showspikes": true
                     }
                 },
                 "_model_module_version": "0.9.1",
@@ -23207,6 +23210,7 @@ lang: en
 
 </body>
 </html>
+
 
 
 <hr>
