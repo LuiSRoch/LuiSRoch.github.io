@@ -22478,12 +22478,335 @@ lang: en
                     "Wisconsin"
                 ],
                 "description": "Filing State :",
-                "index": 0,
+                "index": 6,
                 "layout": "IPY_MODEL_e4dfb0e2d4a84b60b6a91fb3de4e446c",
                 "style": "IPY_MODEL_92bd33e977f444f1998075c78033710a"
             }
         },
         "9e0f47d7abf74088824e918a9e9ac939": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [
+                            "Credit Card",
+                            "Debit Card",
+                            "Deposit Account"
+                        ],
+                        "y": [
+                            11352,
+                            676,
+                            3407
+                        ],
+                        "type": "bar",
+                        "uid": "8171ed10-02a8-40fa-92c9-ddc9c13e725a"
+                    }
+                ],
+                "_js2py_restyle": {},
+                "_js2py_update": {},
+                "_last_layout_edit_id": 22,
+                "_last_trace_edit_id": 21,
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {},
+                    "autosize": true,
+                    "xaxis": {
+                        "title": {
+                            "text": "SARs Filing Type"
+                        }
+                    },
+                    "yaxis": {
+                        "title": {
+                            "text": "Number of Filings"
+                        }
+                    }
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_view_count": 0,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "474a1d82ab824b1ab57496947f83a48f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "fb04684418c549ada29ecfe773c13daa": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_f433844b3bd245cf9a38521ec963e0ca",
+                    "IPY_MODEL_6dd2aca5cf1a414b800dc1d19eb03e7a"
+                ],
+                "layout": "IPY_MODEL_474a1d82ab824b1ab57496947f83a48f"
+            }
+        },
+        "839db55304ac487db749819fda7ba093": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0826016a2aac4baea461c7810d21be6f": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_84f8e4dc449545c798f1102228e7eb98",
+                    "IPY_MODEL_fb04684418c549ada29ecfe773c13daa",
+                    "IPY_MODEL_9e0f47d7abf74088824e918a9e9ac939"
+                ],
+                "layout": "IPY_MODEL_839db55304ac487db749819fda7ba093"
+            }
+        },
+        "2c00ef8259e8495aa973b57c9868a1c6": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "374eceec6fbd40f5ba9939a3476b1a2d": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "ddf90483dc744d969ccfbd534a93fdf7": {
+            "model_name": "HTMLMathModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Some HTML",
+                "layout": "IPY_MODEL_2c00ef8259e8495aa973b57c9868a1c6",
+                "placeholder": "Some HTML",
+                "style": "IPY_MODEL_374eceec6fbd40f5ba9939a3476b1a2d",
+                "value": "Some math and <i>HTML</i>: \\(x^2\\) and $$\\frac{x+1}{x-1}$$"
+            }
+        },
+        "c1ee82b160d742d494889607335c442c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "42c25e3b39cf46948fb08e558dde484c": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "85bf7eb50c9d4b13b40d0da732da72de": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2014",
+                    "2019",
+                    "2015",
+                    "2018",
+                    "2017",
+                    "2016",
+                    "2012",
+                    "2013"
+                ],
+                "description": "Date : ",
+                "index": 1,
+                "layout": "IPY_MODEL_c1ee82b160d742d494889607335c442c",
+                "style": "IPY_MODEL_42c25e3b39cf46948fb08e558dde484c"
+            }
+        },
+        "4019e82d59cf46ecb300658abef0a5fc": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "1546d813a0ca4aeb9947298e84a3b430": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_85bf7eb50c9d4b13b40d0da732da72de"
+                ],
+                "layout": "IPY_MODEL_4019e82d59cf46ecb300658abef0a5fc"
+            }
+        },
+        "d0a640f1e6c746edb2a4036ffdc51688": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "4fd21ce6c5cd40d0a0eca2e5512b4584": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "4b940dda65a14a0baafc4bc1b2525c0e": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator :",
+                "index": 0,
+                "layout": "IPY_MODEL_d0a640f1e6c746edb2a4036ffdc51688",
+                "style": "IPY_MODEL_4fd21ce6c5cd40d0a0eca2e5512b4584"
+            }
+        },
+        "4c7f434a32124fd6bc23ba6cabe7c026": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "bfa07baee0b14a35aacf68488b447e53": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "b88f7707beea4321bbdcdaea5e9b4519": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Alabama",
+                    "Arizona",
+                    "Arkansas",
+                    "California",
+                    "Colorado",
+                    "Connecticut",
+                    "Delaware",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Hawaii",
+                    "Idaho",
+                    "Illinois",
+                    "Indiana",
+                    "Iowa",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maine",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Mississippi",
+                    "Missouri",
+                    "Montana",
+                    "Nebraska",
+                    "Nevada",
+                    "New Hampshire",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "North Dakota",
+                    "Ohio",
+                    "Oklahoma",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Puerto Rico",
+                    "Rhode Island",
+                    "South Carolina",
+                    "South Dakota",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Vermont",
+                    "Virginia",
+                    "Washington",
+                    "West Virginia",
+                    "Wisconsin"
+                ],
+                "description": "Filing State :",
+                "index": 0,
+                "layout": "IPY_MODEL_4c7f434a32124fd6bc23ba6cabe7c026",
+                "style": "IPY_MODEL_bfa07baee0b14a35aacf68488b447e53"
+            }
+        },
+        "d60114ddcab441c6ab200d2a81e43a5d": {
             "model_name": "FigureModel",
             "model_module": "plotlywidget",
             "model_module_version": "0.9.1",
@@ -22510,7 +22833,2903 @@ lang: en
                             493
                         ],
                         "type": "bar",
-                        "uid": "8171ed10-02a8-40fa-92c9-ddc9c13e725a"
+                        "uid": "0b5b9ce8-3327-45b8-bcd7-590a8ced3fe5"
+                    }
+                ],
+                "_js2py_pointsCallback": {},
+                "_js2py_restyle": {},
+                "_js2py_update": {},
+                "_last_layout_edit_id": 1,
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {},
+                    "autosize": true
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_py2js_update": {},
+                "_view_count": 0,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "b335a3a60c924788bcb0c68b6544be7e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "49c6421d0f1b4a5880b91595597a4297": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_b88f7707beea4321bbdcdaea5e9b4519",
+                    "IPY_MODEL_4b940dda65a14a0baafc4bc1b2525c0e"
+                ],
+                "layout": "IPY_MODEL_b335a3a60c924788bcb0c68b6544be7e"
+            }
+        },
+        "5fc04836c3274e7ca5541f3f87ebe550": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "bfb2eb1144984f2fa3433ca3c30c8273": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_1546d813a0ca4aeb9947298e84a3b430",
+                    "IPY_MODEL_49c6421d0f1b4a5880b91595597a4297",
+                    "IPY_MODEL_d60114ddcab441c6ab200d2a81e43a5d"
+                ],
+                "layout": "IPY_MODEL_5fc04836c3274e7ca5541f3f87ebe550"
+            }
+        },
+        "68b0363051434da699b5547362589456": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a9f8db97356c4e5784b24ea756b283b7": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "a817cdf16fdf41738ef7cd6c6fff826e": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2014",
+                    "2019",
+                    "2015",
+                    "2018",
+                    "2017",
+                    "2016",
+                    "2012",
+                    "2013"
+                ],
+                "description": "Date : ",
+                "index": 1,
+                "layout": "IPY_MODEL_68b0363051434da699b5547362589456",
+                "style": "IPY_MODEL_a9f8db97356c4e5784b24ea756b283b7"
+            }
+        },
+        "89adce4a04f241edaab28a4b09d0235d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "c09ff27b076e4013835835330465a088": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_a817cdf16fdf41738ef7cd6c6fff826e"
+                ],
+                "layout": "IPY_MODEL_89adce4a04f241edaab28a4b09d0235d"
+            }
+        },
+        "509c0ec1261d46e282bd940245b990cb": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "320a236a31dc4fdcb7307d145037ac37": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "9e76708cf49c445b8cdf13a896389fd7": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator :",
+                "index": 0,
+                "layout": "IPY_MODEL_509c0ec1261d46e282bd940245b990cb",
+                "style": "IPY_MODEL_320a236a31dc4fdcb7307d145037ac37"
+            }
+        },
+        "7c446515c41b417a958faabc12a1a453": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "9637f44ea5034789bab4a92aa6aebf19": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "002f50026f944a3bb0965dfec5b0e5cf": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Alabama",
+                    "Arizona",
+                    "Arkansas",
+                    "California",
+                    "Colorado",
+                    "Connecticut",
+                    "Delaware",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Hawaii",
+                    "Idaho",
+                    "Illinois",
+                    "Indiana",
+                    "Iowa",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maine",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Mississippi",
+                    "Missouri",
+                    "Montana",
+                    "Nebraska",
+                    "Nevada",
+                    "New Hampshire",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "North Dakota",
+                    "Ohio",
+                    "Oklahoma",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Puerto Rico",
+                    "Rhode Island",
+                    "South Carolina",
+                    "South Dakota",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Vermont",
+                    "Virginia",
+                    "Washington",
+                    "West Virginia",
+                    "Wisconsin"
+                ],
+                "description": "Filing State :",
+                "index": 1,
+                "layout": "IPY_MODEL_7c446515c41b417a958faabc12a1a453",
+                "style": "IPY_MODEL_9637f44ea5034789bab4a92aa6aebf19"
+            }
+        },
+        "c608c4f1176343488885aead2030fd3b": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [
+                            "Credit Card",
+                            "Debit Card",
+                            "Deposit Account"
+                        ],
+                        "y": [
+                            191,
+                            2171,
+                            4478
+                        ],
+                        "type": "bar",
+                        "uid": "f853f466-ae57-4275-b974-ed32ed89c3c7"
+                    }
+                ],
+                "_js2py_pointsCallback": {},
+                "_js2py_restyle": {},
+                "_js2py_update": {},
+                "_last_layout_edit_id": 5,
+                "_last_trace_edit_id": 4,
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {},
+                    "autosize": true,
+                    "xaxis": {
+                        "title": {
+                            "text": "SARs Filing Type"
+                        }
+                    },
+                    "yaxis": {
+                        "title": {
+                            "text": "Number of Filings"
+                        }
+                    }
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_view_count": 0,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "90df5e19b30842f8a15076afe7b7270e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "3e69d13a543f48719c7e692e7ed66daa": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_002f50026f944a3bb0965dfec5b0e5cf",
+                    "IPY_MODEL_9e76708cf49c445b8cdf13a896389fd7"
+                ],
+                "layout": "IPY_MODEL_90df5e19b30842f8a15076afe7b7270e"
+            }
+        },
+        "dc2b331af51a4d81a255e9a4654578d4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "aafa76a09438475c9545b993cbf4da77": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_c09ff27b076e4013835835330465a088",
+                    "IPY_MODEL_3e69d13a543f48719c7e692e7ed66daa",
+                    "IPY_MODEL_c608c4f1176343488885aead2030fd3b"
+                ],
+                "layout": "IPY_MODEL_dc2b331af51a4d81a255e9a4654578d4"
+            }
+        },
+        "e4d053be23354aefa7ab946a012cba93": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "78d388f26d78463787050395598cd5a3": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "30368e068eb5418abbc9752fc58c9f26": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019"
+                ],
+                "description": "Date : ",
+                "index": 6,
+                "layout": "IPY_MODEL_e4d053be23354aefa7ab946a012cba93",
+                "style": "IPY_MODEL_78d388f26d78463787050395598cd5a3"
+            }
+        },
+        "976e42917b4d48cd8320315ae1866353": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a6fbb66394aa4ff08068cd022e48254a": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_30368e068eb5418abbc9752fc58c9f26"
+                ],
+                "layout": "IPY_MODEL_976e42917b4d48cd8320315ae1866353"
+            }
+        },
+        "aa27482fe2dd42febc92078662b20f78": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "51532d912fdf4ddaaf3edeafedc423b8": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "e5e578c9ac2840df81c76df7f779ee29": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "CFTC",
+                    "FHFA"
+                ],
+                "description": "Regulator :",
+                "index": 0,
+                "layout": "IPY_MODEL_aa27482fe2dd42febc92078662b20f78",
+                "style": "IPY_MODEL_51532d912fdf4ddaaf3edeafedc423b8"
+            }
+        },
+        "6e4b5da419394b75bac8b77955bb967c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "fa38dfc5039d4338a398ee9872a1e73a": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "d74b1bf6713248179eb2b8f9e46d52ae": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Arizona",
+                    "California",
+                    "Colorado",
+                    "Delaware",
+                    "Missouri",
+                    "Oklahoma",
+                    "South Dakota",
+                    "Arkansas",
+                    "Connecticut",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Illinois",
+                    "Indiana",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Nebraska",
+                    "Nevada",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "Ohio",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Rhode Island",
+                    "South Carolina",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Virginia",
+                    "Washington",
+                    "Wisconsin",
+                    "Alabama",
+                    "Iowa",
+                    "Mississippi",
+                    "New Hampshire",
+                    "Idaho",
+                    "Maine",
+                    "West Virginia",
+                    "Puerto Rico",
+                    "North Dakota",
+                    "Hawaii",
+                    "Montana",
+                    "Vermont"
+                ],
+                "description": "Filing State :",
+                "index": 37,
+                "layout": "IPY_MODEL_6e4b5da419394b75bac8b77955bb967c",
+                "style": "IPY_MODEL_fa38dfc5039d4338a398ee9872a1e73a"
+            }
+        },
+        "4bb4c02e72f544e49a6bc0020f93d8f0": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [
+                            "Credit Card",
+                            "Debit Card",
+                            "Deposit Account"
+                        ],
+                        "y": [
+                            96,
+                            904,
+                            338
+                        ],
+                        "type": "bar",
+                        "uid": "009e5f3f-abac-480a-b736-36c39de8858c"
+                    }
+                ],
+                "_js2py_pointsCallback": {},
+                "_js2py_restyle": {},
+                "_js2py_update": {},
+                "_last_layout_edit_id": 3,
+                "_last_trace_edit_id": 2,
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {},
+                    "autosize": true,
+                    "xaxis": {
+                        "title": {
+                            "text": "SARs Filing Type"
+                        }
+                    },
+                    "yaxis": {
+                        "title": {
+                            "text": "Number of Filings"
+                        }
+                    }
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_view_count": 0,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "7672a8a52815404694c8d787f93893b1": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "7e3f594443a049f799818f87ff82c8b5": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_d74b1bf6713248179eb2b8f9e46d52ae",
+                    "IPY_MODEL_e5e578c9ac2840df81c76df7f779ee29"
+                ],
+                "layout": "IPY_MODEL_7672a8a52815404694c8d787f93893b1"
+            }
+        },
+        "a9da6a320ea74699bceaf8ccd673f631": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "df7677a7826c4ca1b0ea97b91b3fcbb0": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_a6fbb66394aa4ff08068cd022e48254a",
+                    "IPY_MODEL_7e3f594443a049f799818f87ff82c8b5",
+                    "IPY_MODEL_4bb4c02e72f544e49a6bc0020f93d8f0"
+                ],
+                "layout": "IPY_MODEL_a9da6a320ea74699bceaf8ccd673f631"
+            }
+        },
+        "647c11ebbf484b67af5914252029f1f5": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "55df71cd418349cc935814c7c2c7ab43": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "bccc35510783407b88ef725955986f3d": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2014",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019",
+                    "2012",
+                    "2013"
+                ],
+                "description": "Date : ",
+                "index": 5,
+                "layout": "IPY_MODEL_647c11ebbf484b67af5914252029f1f5",
+                "style": "IPY_MODEL_55df71cd418349cc935814c7c2c7ab43"
+            }
+        },
+        "3818856b1528431b92d049c56f131257": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "259e5776bdb24050b5823a84b430b47f": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_bccc35510783407b88ef725955986f3d"
+                ],
+                "layout": "IPY_MODEL_3818856b1528431b92d049c56f131257"
+            }
+        },
+        "75ccaba27914426bbbf0db24d316cec5": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "72e05482b9d24870b40210448eee9681": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "841dad7072ea4932ace27dac7a18df7d": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator :",
+                "index": 0,
+                "layout": "IPY_MODEL_75ccaba27914426bbbf0db24d316cec5",
+                "style": "IPY_MODEL_72e05482b9d24870b40210448eee9681"
+            }
+        },
+        "b394fd3d25a64be58c7b978685d6f441": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a1dbd87c4d434532a0b9b8ea4a1da295": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "6f0989672619472ba405ea93023ab463": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Alabama",
+                    "Arizona",
+                    "Arkansas",
+                    "California",
+                    "Colorado",
+                    "Connecticut",
+                    "Delaware",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Hawaii",
+                    "Idaho",
+                    "Illinois",
+                    "Indiana",
+                    "Iowa",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maine",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Mississippi",
+                    "Missouri",
+                    "Montana",
+                    "Nebraska",
+                    "Nevada",
+                    "New Hampshire",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "North Dakota",
+                    "Ohio",
+                    "Oklahoma",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Puerto Rico",
+                    "Rhode Island",
+                    "South Carolina",
+                    "South Dakota",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Vermont",
+                    "Virginia",
+                    "Washington",
+                    "West Virginia",
+                    "Wisconsin"
+                ],
+                "description": "Filing State :",
+                "index": 1,
+                "layout": "IPY_MODEL_b394fd3d25a64be58c7b978685d6f441",
+                "style": "IPY_MODEL_a1dbd87c4d434532a0b9b8ea4a1da295"
+            }
+        },
+        "8ea899f6b9f44cd1aa15034ef76e254b": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [
+                            "Credit Card",
+                            "Debit Card",
+                            "Deposit Account"
+                        ],
+                        "y": [
+                            191,
+                            2171,
+                            4478
+                        ],
+                        "type": "bar",
+                        "uid": "36d2eb03-0e88-4c84-9c5d-5c499f7af4d1"
+                    }
+                ],
+                "_js2py_restyle": {},
+                "_js2py_update": {},
+                "_last_layout_edit_id": 2,
+                "_last_trace_edit_id": 1,
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {},
+                    "autosize": true,
+                    "xaxis": {
+                        "title": {
+                            "text": "SARs Filing Type"
+                        }
+                    },
+                    "yaxis": {
+                        "title": {
+                            "text": "Number of Filings"
+                        }
+                    }
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_view_count": 0,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "f613892e0a12413ab7ec0bc445d58690": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b70cfeb845c8465b984084cd3fe3d79f": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_6f0989672619472ba405ea93023ab463",
+                    "IPY_MODEL_841dad7072ea4932ace27dac7a18df7d"
+                ],
+                "layout": "IPY_MODEL_f613892e0a12413ab7ec0bc445d58690"
+            }
+        },
+        "8d12aba67b2c44328dd3855ab9e7dee3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "194157956eab4f498504f07652dbb4ed": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_259e5776bdb24050b5823a84b430b47f",
+                    "IPY_MODEL_b70cfeb845c8465b984084cd3fe3d79f",
+                    "IPY_MODEL_8ea899f6b9f44cd1aa15034ef76e254b"
+                ],
+                "layout": "IPY_MODEL_8d12aba67b2c44328dd3855ab9e7dee3"
+            }
+        },
+        "40725afbab224f3f93c994a9fcfbd6d9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a86ebee785c64f45b82f528cdb47116d": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "cabeff521cb844af8a66d70a737226a6": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2014",
+                    "2019",
+                    "2015",
+                    "2018",
+                    "2017",
+                    "2016",
+                    "2012",
+                    "2013"
+                ],
+                "description": "Date : ",
+                "index": 1,
+                "layout": "IPY_MODEL_40725afbab224f3f93c994a9fcfbd6d9",
+                "style": "IPY_MODEL_a86ebee785c64f45b82f528cdb47116d"
+            }
+        },
+        "77155a7f24074208ac2a94e099faa887": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "12292280f07642419991a08a35fd5240": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_cabeff521cb844af8a66d70a737226a6"
+                ],
+                "layout": "IPY_MODEL_77155a7f24074208ac2a94e099faa887"
+            }
+        },
+        "e8d45721d3044413a5bb3f78961a9587": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "33f39077134b4c06abe07df2b9fb5e9c": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "dc2cb932bc2a4e5fbdb10bac6f386ec7": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator :",
+                "index": 0,
+                "layout": "IPY_MODEL_e8d45721d3044413a5bb3f78961a9587",
+                "style": "IPY_MODEL_33f39077134b4c06abe07df2b9fb5e9c"
+            }
+        },
+        "dc1bbfeaf2b0423e95c4ae7d77efa9c4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "05639ef5dd2f4804bcafd3db4e139fb8": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "79ef596c62e84a3281f0960955185080": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Alabama",
+                    "Arizona",
+                    "Arkansas",
+                    "California",
+                    "Colorado",
+                    "Connecticut",
+                    "Delaware",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Hawaii",
+                    "Idaho",
+                    "Illinois",
+                    "Indiana",
+                    "Iowa",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maine",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Mississippi",
+                    "Missouri",
+                    "Montana",
+                    "Nebraska",
+                    "Nevada",
+                    "New Hampshire",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "North Dakota",
+                    "Ohio",
+                    "Oklahoma",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Puerto Rico",
+                    "Rhode Island",
+                    "South Carolina",
+                    "South Dakota",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Vermont",
+                    "Virginia",
+                    "Washington",
+                    "West Virginia",
+                    "Wisconsin"
+                ],
+                "description": "Filing State :",
+                "index": 0,
+                "layout": "IPY_MODEL_dc1bbfeaf2b0423e95c4ae7d77efa9c4",
+                "style": "IPY_MODEL_05639ef5dd2f4804bcafd3db4e139fb8"
+            }
+        },
+        "99b95b0e6cd3488ea1a0b6d0c84b6bba": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [
+                            "Debit Card",
+                            "Deposit Account"
+                        ],
+                        "y": [
+                            223,
+                            493
+                        ],
+                        "type": "bar",
+                        "uid": "31309928-ed24-465e-879c-d26e2207d9f3"
+                    }
+                ],
+                "_js2py_restyle": {},
+                "_js2py_update": {},
+                "_last_layout_edit_id": 1,
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {},
+                    "autosize": true
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_py2js_update": {},
+                "_view_count": 0,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "17e7155b3aef46e289e5252cc7ed9479": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "da8a0de9728346b89a038f8d161400f9": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_79ef596c62e84a3281f0960955185080",
+                    "IPY_MODEL_dc2cb932bc2a4e5fbdb10bac6f386ec7"
+                ],
+                "layout": "IPY_MODEL_17e7155b3aef46e289e5252cc7ed9479"
+            }
+        },
+        "e01ab58282724e22ace9fc8491b95ac3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "54d83ff560cb48839be0e0725c696ae3": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_12292280f07642419991a08a35fd5240",
+                    "IPY_MODEL_da8a0de9728346b89a038f8d161400f9",
+                    "IPY_MODEL_99b95b0e6cd3488ea1a0b6d0c84b6bba"
+                ],
+                "layout": "IPY_MODEL_e01ab58282724e22ace9fc8491b95ac3"
+            }
+        },
+        "e1a991c99cd94118ae28abbe5713307c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f9b74b3882b44667a08f568f3d99d2f3": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "869313ba609b4460ba927e7eb6ded4c1": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2014",
+                    "2019",
+                    "2015",
+                    "2018",
+                    "2017",
+                    "2016",
+                    "2012",
+                    "2013"
+                ],
+                "description": "Date : ",
+                "index": 1,
+                "layout": "IPY_MODEL_e1a991c99cd94118ae28abbe5713307c",
+                "style": "IPY_MODEL_f9b74b3882b44667a08f568f3d99d2f3"
+            }
+        },
+        "6e4272b1c13c47e9abca196f031fdbb7": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d4afc2a459c847af8d1d411d3d9ed4da": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_869313ba609b4460ba927e7eb6ded4c1"
+                ],
+                "layout": "IPY_MODEL_6e4272b1c13c47e9abca196f031fdbb7"
+            }
+        },
+        "2c3b491c8ff2478383c06cf5dc17d6b2": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "width": "auto"
+            }
+        },
+        "55acd8874fc648eea7d8ab4f76c1787f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "align_items": "stretch",
+                "border": "solid",
+                "display": "flex",
+                "flex_flow": "column",
+                "width": "50%"
+            }
+        },
+        "eaa027e05e02410898913c65fc4a14f8": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "ec421c1758a54697b40c619ab40ee725": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "correct",
+                "layout": "IPY_MODEL_2c3b491c8ff2478383c06cf5dc17d6b2",
+                "style": "IPY_MODEL_eaa027e05e02410898913c65fc4a14f8"
+            }
+        },
+        "fcd6ea52651c465ca12447db97a6e686": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "57c5b652c0ae470c90856c99c436d4bc": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "horse",
+                "layout": "IPY_MODEL_2c3b491c8ff2478383c06cf5dc17d6b2",
+                "style": "IPY_MODEL_fcd6ea52651c465ca12447db97a6e686"
+            }
+        },
+        "4a46f2b1785c4fd58d7ce644dd959276": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "8a09ddd2aba8433e96141bcd4563f0cb": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "battery",
+                "layout": "IPY_MODEL_2c3b491c8ff2478383c06cf5dc17d6b2",
+                "style": "IPY_MODEL_4a46f2b1785c4fd58d7ce644dd959276"
+            }
+        },
+        "62e7d4e5b6014e7d89ad9023391a9bed": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "e88354b0ce294124be2738ae1ec70e61": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "staple",
+                "layout": "IPY_MODEL_2c3b491c8ff2478383c06cf5dc17d6b2",
+                "style": "IPY_MODEL_62e7d4e5b6014e7d89ad9023391a9bed"
+            }
+        },
+        "258972e9b5654210ad933f04e3f9afaa": {
+            "model_name": "BoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_ec421c1758a54697b40c619ab40ee725",
+                    "IPY_MODEL_57c5b652c0ae470c90856c99c436d4bc",
+                    "IPY_MODEL_8a09ddd2aba8433e96141bcd4563f0cb",
+                    "IPY_MODEL_e88354b0ce294124be2738ae1ec70e61"
+                ],
+                "layout": "IPY_MODEL_55acd8874fc648eea7d8ab4f76c1787f"
+            }
+        },
+        "8b18326e331e4cb0a5d932097ebffa9f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "width": "auto"
+            }
+        },
+        "b1ce762ed9694c6496b223a45145fde5": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "align_items": "stretch",
+                "border": "solid",
+                "display": "inline-flex",
+                "flex_flow": "column",
+                "width": "50%"
+            }
+        },
+        "6394c8c34b954cdab24d3a60c0a681de": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "165993ddb08649a9a0b94ead30500ff2": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "correct",
+                "layout": "IPY_MODEL_8b18326e331e4cb0a5d932097ebffa9f",
+                "style": "IPY_MODEL_6394c8c34b954cdab24d3a60c0a681de"
+            }
+        },
+        "0066ea4c22f54b4e98b27c9a4b79ef20": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "1ed9bce5fb3347c19c05837df6a21a91": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "horse",
+                "layout": "IPY_MODEL_8b18326e331e4cb0a5d932097ebffa9f",
+                "style": "IPY_MODEL_0066ea4c22f54b4e98b27c9a4b79ef20"
+            }
+        },
+        "7cf3d96ad95e4e1ab3a0c611255ad07b": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "a7f0ff8ac5f84dfabf85b0bf0de732fa": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "battery",
+                "layout": "IPY_MODEL_8b18326e331e4cb0a5d932097ebffa9f",
+                "style": "IPY_MODEL_7cf3d96ad95e4e1ab3a0c611255ad07b"
+            }
+        },
+        "84b65844c46e4541be610ec9a002c694": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "347d128d21f94750ab0ce9c068e656fe": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "staple",
+                "layout": "IPY_MODEL_8b18326e331e4cb0a5d932097ebffa9f",
+                "style": "IPY_MODEL_84b65844c46e4541be610ec9a002c694"
+            }
+        },
+        "cbcac521b4e2463fbf2c1421bd569765": {
+            "model_name": "BoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_165993ddb08649a9a0b94ead30500ff2",
+                    "IPY_MODEL_1ed9bce5fb3347c19c05837df6a21a91",
+                    "IPY_MODEL_a7f0ff8ac5f84dfabf85b0bf0de732fa",
+                    "IPY_MODEL_347d128d21f94750ab0ce9c068e656fe"
+                ],
+                "layout": "IPY_MODEL_b1ce762ed9694c6496b223a45145fde5"
+            }
+        },
+        "8d92e0ec09dc40f080e7cba8c7726407": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "width": "auto"
+            }
+        },
+        "5d63e58b31b340d382a5b3ffef689d82": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "width": "auto"
+            }
+        },
+        "c792abe2e2fa40cfad4c30a633eb44a2": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "align_items": "stretch",
+                "border": "solid",
+                "display": "inline-flex",
+                "flex_flow": "column",
+                "width": "50%"
+            }
+        },
+        "6aac8b904fd14e8dbbf3175d6aa43e15": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "a6a73a673cae4efa9ec76a48f39fc30e": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "correct",
+                "layout": "IPY_MODEL_5d63e58b31b340d382a5b3ffef689d82",
+                "style": "IPY_MODEL_6aac8b904fd14e8dbbf3175d6aa43e15"
+            }
+        },
+        "c217cbd8e8e4418499c0db14c24f7487": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "fee3e5390b3a4b4f927153d1038158e7": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "horse",
+                "layout": "IPY_MODEL_5d63e58b31b340d382a5b3ffef689d82",
+                "style": "IPY_MODEL_c217cbd8e8e4418499c0db14c24f7487"
+            }
+        },
+        "a349d0b42e504b089860d3b61101556a": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "44386445c26b41d1a4452455c64e20e9": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "battery",
+                "layout": "IPY_MODEL_5d63e58b31b340d382a5b3ffef689d82",
+                "style": "IPY_MODEL_a349d0b42e504b089860d3b61101556a"
+            }
+        },
+        "1a58616ea6524abeb41b91a48c0b30fb": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "90f1abdfb019412f8fe24685c1757342": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "staple",
+                "layout": "IPY_MODEL_5d63e58b31b340d382a5b3ffef689d82",
+                "style": "IPY_MODEL_1a58616ea6524abeb41b91a48c0b30fb"
+            }
+        },
+        "9f9316cf532046e68f2c7e431744af67": {
+            "model_name": "BoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_a6a73a673cae4efa9ec76a48f39fc30e",
+                    "IPY_MODEL_fee3e5390b3a4b4f927153d1038158e7",
+                    "IPY_MODEL_44386445c26b41d1a4452455c64e20e9",
+                    "IPY_MODEL_90f1abdfb019412f8fe24685c1757342"
+                ],
+                "layout": "IPY_MODEL_c792abe2e2fa40cfad4c30a633eb44a2"
+            }
+        },
+        "ed5c5c609d98443aa8544f6ed51da5f4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "width": "auto"
+            }
+        },
+        "3137ef44d7bf4230862b6c287eabc1e3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "align_items": "stretch",
+                "border": "solid",
+                "display": "space-between",
+                "flex_flow": "column",
+                "width": "50%"
+            }
+        },
+        "5460747326714d798da72037b855ec9a": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "5e8f980ae8f0426795c419d78a45b003": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "correct",
+                "layout": "IPY_MODEL_ed5c5c609d98443aa8544f6ed51da5f4",
+                "style": "IPY_MODEL_5460747326714d798da72037b855ec9a"
+            }
+        },
+        "87839d2d5b5b46789f910a836e898bfe": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "911a1292340644f9ab9ee5236416e5ea": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "horse",
+                "layout": "IPY_MODEL_ed5c5c609d98443aa8544f6ed51da5f4",
+                "style": "IPY_MODEL_87839d2d5b5b46789f910a836e898bfe"
+            }
+        },
+        "69bb16710c1143d2af0c0e63bd47a9c1": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "5f813462807e40dcae3c8a3d12613fd1": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "battery",
+                "layout": "IPY_MODEL_ed5c5c609d98443aa8544f6ed51da5f4",
+                "style": "IPY_MODEL_69bb16710c1143d2af0c0e63bd47a9c1"
+            }
+        },
+        "526d0fa36ec14e3c8f4019c9dcd3c35f": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "05543d68215a4fca927b16cf325304d5": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "staple",
+                "layout": "IPY_MODEL_ed5c5c609d98443aa8544f6ed51da5f4",
+                "style": "IPY_MODEL_526d0fa36ec14e3c8f4019c9dcd3c35f"
+            }
+        },
+        "89705f5f72274846898477806ca73806": {
+            "model_name": "BoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_5e8f980ae8f0426795c419d78a45b003",
+                    "IPY_MODEL_911a1292340644f9ab9ee5236416e5ea",
+                    "IPY_MODEL_5f813462807e40dcae3c8a3d12613fd1",
+                    "IPY_MODEL_05543d68215a4fca927b16cf325304d5"
+                ],
+                "layout": "IPY_MODEL_3137ef44d7bf4230862b6c287eabc1e3"
+            }
+        },
+        "cb639101ba804cae8929de681f318b26": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "width": "auto"
+            }
+        },
+        "82da6920129b466aa4e2f08ea153b855": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "align_items": "stretch",
+                "border": "solid",
+                "display": "space-between",
+                "flex_flow": "column",
+                "width": "50%"
+            }
+        },
+        "d3869051ac434faf915074de111b96dc": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "ba80f9fa358c4ca0b33f3c91cb40fbf3": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "correct",
+                "layout": "IPY_MODEL_cb639101ba804cae8929de681f318b26",
+                "style": "IPY_MODEL_d3869051ac434faf915074de111b96dc"
+            }
+        },
+        "90c3ad8887694d3ca69b6c3e40ece6be": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "4bd29791377d4578a2921b3a1e85e5c4": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "horse",
+                "layout": "IPY_MODEL_cb639101ba804cae8929de681f318b26",
+                "style": "IPY_MODEL_90c3ad8887694d3ca69b6c3e40ece6be"
+            }
+        },
+        "2fd2b2b7195c457482a4da79cf8e61c6": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "c43c6b9597bf4eafa0857ded0e4fa274": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "battery",
+                "layout": "IPY_MODEL_cb639101ba804cae8929de681f318b26",
+                "style": "IPY_MODEL_2fd2b2b7195c457482a4da79cf8e61c6"
+            }
+        },
+        "5f8b76a56eae438286a546e39067745e": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "d3621d0df1aa47b697414a24936c90d8": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_style": "danger",
+                "description": "staple",
+                "layout": "IPY_MODEL_cb639101ba804cae8929de681f318b26",
+                "style": "IPY_MODEL_5f8b76a56eae438286a546e39067745e"
+            }
+        },
+        "daffe7fae4324cadb1295728de81f4e0": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_ba80f9fa358c4ca0b33f3c91cb40fbf3",
+                    "IPY_MODEL_4bd29791377d4578a2921b3a1e85e5c4",
+                    "IPY_MODEL_c43c6b9597bf4eafa0857ded0e4fa274",
+                    "IPY_MODEL_d3621d0df1aa47b697414a24936c90d8"
+                ],
+                "layout": "IPY_MODEL_82da6920129b466aa4e2f08ea153b855"
+            }
+        },
+        "99f0055936034ef7820f10984054b6a3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "638dfceaf3fe441ba532aba34234630c": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "8b079e76fe4b40e3bbaf5d7a2d1b8605": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2014",
+                    "2019",
+                    "2015",
+                    "2018",
+                    "2017",
+                    "2016",
+                    "2012",
+                    "2013"
+                ],
+                "description": "Date : ",
+                "index": 1,
+                "layout": "IPY_MODEL_99f0055936034ef7820f10984054b6a3",
+                "style": "IPY_MODEL_638dfceaf3fe441ba532aba34234630c"
+            }
+        },
+        "688461b41a614ae5b14253393472de13": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "648bca56237c4a25acebcf631910b9a1": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_8b079e76fe4b40e3bbaf5d7a2d1b8605"
+                ],
+                "layout": "IPY_MODEL_688461b41a614ae5b14253393472de13"
+            }
+        },
+        "e319624f67c541e8b8346b6f0d3e5cbe": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "349136bba0154ce1b72d37a0d4ba4c6b": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "5d76b2edfd7f4374bd993edc8280ad37": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator :",
+                "index": 0,
+                "layout": "IPY_MODEL_e319624f67c541e8b8346b6f0d3e5cbe",
+                "style": "IPY_MODEL_349136bba0154ce1b72d37a0d4ba4c6b"
+            }
+        },
+        "61c2f2ecc4e840b787f0cd5dea9b3198": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "551eca6e18af4985a3fe33c9f5482a50": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "7a6bf9041bcd4177ac965008af1258ae": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Alabama",
+                    "Arizona",
+                    "Arkansas",
+                    "California",
+                    "Colorado",
+                    "Connecticut",
+                    "Delaware",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Hawaii",
+                    "Idaho",
+                    "Illinois",
+                    "Indiana",
+                    "Iowa",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maine",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Mississippi",
+                    "Missouri",
+                    "Montana",
+                    "Nebraska",
+                    "Nevada",
+                    "New Hampshire",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "North Dakota",
+                    "Ohio",
+                    "Oklahoma",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Puerto Rico",
+                    "Rhode Island",
+                    "South Carolina",
+                    "South Dakota",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Vermont",
+                    "Virginia",
+                    "Washington",
+                    "West Virginia",
+                    "Wisconsin"
+                ],
+                "description": "Filing State :",
+                "index": 0,
+                "layout": "IPY_MODEL_61c2f2ecc4e840b787f0cd5dea9b3198",
+                "style": "IPY_MODEL_551eca6e18af4985a3fe33c9f5482a50"
+            }
+        },
+        "4139f106f2d14150bfeafca660b2af94": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [
+                            "Debit Card",
+                            "Deposit Account"
+                        ],
+                        "y": [
+                            223,
+                            493
+                        ],
+                        "type": "bar",
+                        "uid": "0f7826f8-f44c-4595-b5aa-ea805a18730e"
+                    }
+                ],
+                "_js2py_pointsCallback": {},
+                "_js2py_restyle": {},
+                "_js2py_update": {},
+                "_last_layout_edit_id": 7,
+                "_last_trace_edit_id": 6,
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {},
+                    "autosize": true,
+                    "xaxis": {
+                        "title": {
+                            "text": "SARs Filing Type"
+                        }
+                    },
+                    "yaxis": {
+                        "title": {
+                            "text": "Number of Filings"
+                        }
+                    }
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_view_count": 0,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "3764ec8e5fb045a5b67e51f55b01617c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f377d5a50b0d497badce909fccfe5f55": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_7a6bf9041bcd4177ac965008af1258ae",
+                    "IPY_MODEL_5d76b2edfd7f4374bd993edc8280ad37"
+                ],
+                "layout": "IPY_MODEL_3764ec8e5fb045a5b67e51f55b01617c"
+            }
+        },
+        "71529021e0a24996a26d34e79d1b8ccc": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "3b7ca16b70604a8aba598582247cc3a2": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_648bca56237c4a25acebcf631910b9a1",
+                    "IPY_MODEL_f377d5a50b0d497badce909fccfe5f55",
+                    "IPY_MODEL_4139f106f2d14150bfeafca660b2af94"
+                ],
+                "layout": "IPY_MODEL_71529021e0a24996a26d34e79d1b8ccc"
+            }
+        },
+        "e7f835e29ad14f85a0dd6d92bf391461": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f1cc74a7e6f6474785daf67c66b8a72e": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "b49cfcc11395477cb55f0e4eb7f4c725": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2014",
+                    "2019",
+                    "2015",
+                    "2018",
+                    "2017",
+                    "2016",
+                    "2012",
+                    "2013"
+                ],
+                "description": "Date : ",
+                "index": 1,
+                "layout": "IPY_MODEL_e7f835e29ad14f85a0dd6d92bf391461",
+                "style": "IPY_MODEL_f1cc74a7e6f6474785daf67c66b8a72e"
+            }
+        },
+        "4dbe9be6bac241c8b38d79325d4898c9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f89969462fea41e58838dc978523ac55": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_b49cfcc11395477cb55f0e4eb7f4c725"
+                ],
+                "layout": "IPY_MODEL_4dbe9be6bac241c8b38d79325d4898c9"
+            }
+        },
+        "b2bd349acae242a2a9c1146717081ade": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "1a1c0c7b58da464dbcfe15932fad5302": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "aacb1d0eda4148b682706a3b0d8d2e5e": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator :",
+                "index": 0,
+                "layout": "IPY_MODEL_b2bd349acae242a2a9c1146717081ade",
+                "style": "IPY_MODEL_1a1c0c7b58da464dbcfe15932fad5302"
+            }
+        },
+        "bd92e43d8d5144cc8da20ad55d270e4a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "daf73d6414894ba39855a4739ba071c5": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "7eae30cd61204723843c300c186d8885": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Alabama",
+                    "Arizona",
+                    "Arkansas",
+                    "California",
+                    "Colorado",
+                    "Connecticut",
+                    "Delaware",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Hawaii",
+                    "Idaho",
+                    "Illinois",
+                    "Indiana",
+                    "Iowa",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maine",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Mississippi",
+                    "Missouri",
+                    "Montana",
+                    "Nebraska",
+                    "Nevada",
+                    "New Hampshire",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "North Dakota",
+                    "Ohio",
+                    "Oklahoma",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Puerto Rico",
+                    "Rhode Island",
+                    "South Carolina",
+                    "South Dakota",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Vermont",
+                    "Virginia",
+                    "Washington",
+                    "West Virginia",
+                    "Wisconsin"
+                ],
+                "description": "Filing State :",
+                "index": 0,
+                "layout": "IPY_MODEL_bd92e43d8d5144cc8da20ad55d270e4a",
+                "style": "IPY_MODEL_daf73d6414894ba39855a4739ba071c5"
+            }
+        },
+        "6e42efa2360a4754848745c00b55abc4": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [
+                            "Debit Card",
+                            "Deposit Account"
+                        ],
+                        "y": [
+                            223,
+                            493
+                        ],
+                        "type": "bar",
+                        "uid": "ef0b592b-c615-4a3b-a474-4af554e1a4b7"
+                    }
+                ],
+                "_js2py_pointsCallback": {},
+                "_js2py_restyle": {},
+                "_js2py_update": {},
+                "_last_layout_edit_id": 1,
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {},
+                    "autosize": true
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_py2js_update": {},
+                "_view_count": 0,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "139e7514ded24c949ca3dbe2768a9391": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "c321de84c61d42f9b5d11210e9a59d0b": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_7eae30cd61204723843c300c186d8885",
+                    "IPY_MODEL_aacb1d0eda4148b682706a3b0d8d2e5e"
+                ],
+                "layout": "IPY_MODEL_139e7514ded24c949ca3dbe2768a9391"
+            }
+        },
+        "96b83a61318045e297dc195809ea6eaf": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "1c33264fe2114d9d8619f7876ff27a27": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_f89969462fea41e58838dc978523ac55",
+                    "IPY_MODEL_c321de84c61d42f9b5d11210e9a59d0b",
+                    "IPY_MODEL_6e42efa2360a4754848745c00b55abc4"
+                ],
+                "layout": "IPY_MODEL_96b83a61318045e297dc195809ea6eaf"
+            }
+        },
+        "29617a92790d4e02be11a988bc836e2c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "ca126d7de2da482ba92b06e72c8d4a2b": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "da054087e37d4bb0a24db2415c87ed1c": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2014",
+                    "2019",
+                    "2015",
+                    "2018",
+                    "2017",
+                    "2016",
+                    "2012",
+                    "2013"
+                ],
+                "description": "Date : ",
+                "index": 1,
+                "layout": "IPY_MODEL_29617a92790d4e02be11a988bc836e2c",
+                "style": "IPY_MODEL_ca126d7de2da482ba92b06e72c8d4a2b"
+            }
+        },
+        "b6db1319dba344998cd53dbf5adad1b6": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "ed65b0dee1384fe69719aacba1b8d3ee": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_da054087e37d4bb0a24db2415c87ed1c"
+                ],
+                "layout": "IPY_MODEL_b6db1319dba344998cd53dbf5adad1b6"
+            }
+        },
+        "3e01ee31443a404db91c9f923338a90c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "24a2226f327447ea96bd0839d52d1221": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "e1e4bbf5fa814d7a94a05eeed73ff7e3": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator :",
+                "index": 0,
+                "layout": "IPY_MODEL_3e01ee31443a404db91c9f923338a90c",
+                "style": "IPY_MODEL_24a2226f327447ea96bd0839d52d1221"
+            }
+        },
+        "b53d3fffdb9e49088be81aabf48e02c1": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "64e26f71897948a8aefff57422401589": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "a7bbf630a0fd47a0b08b176ceca63bf4": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Alabama",
+                    "Arizona",
+                    "Arkansas",
+                    "California",
+                    "Colorado",
+                    "Connecticut",
+                    "Delaware",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Hawaii",
+                    "Idaho",
+                    "Illinois",
+                    "Indiana",
+                    "Iowa",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maine",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Mississippi",
+                    "Missouri",
+                    "Montana",
+                    "Nebraska",
+                    "Nevada",
+                    "New Hampshire",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "North Dakota",
+                    "Ohio",
+                    "Oklahoma",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Puerto Rico",
+                    "Rhode Island",
+                    "South Carolina",
+                    "South Dakota",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Vermont",
+                    "Virginia",
+                    "Washington",
+                    "West Virginia",
+                    "Wisconsin"
+                ],
+                "description": "Filing State :",
+                "index": 0,
+                "layout": "IPY_MODEL_b53d3fffdb9e49088be81aabf48e02c1",
+                "style": "IPY_MODEL_64e26f71897948a8aefff57422401589"
+            }
+        },
+        "4c117d72e9234aacbdf79402fac3c8b7": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [],
+                        "y": [],
+                        "type": "bar",
+                        "uid": "bb575981-b1df-49ec-b5ae-03eb0d2879a3"
+                    }
+                ],
+                "_js2py_pointsCallback": {},
+                "_js2py_restyle": {},
+                "_js2py_update": {},
+                "_last_layout_edit_id": 1,
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {},
+                    "autosize": true
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_py2js_update": {},
+                "_view_count": 0,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "e1f998b2c519482990ff008d308237a1": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "fcbf2ab7b14948859c2f0ba21f22e48d": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_a7bbf630a0fd47a0b08b176ceca63bf4",
+                    "IPY_MODEL_e1e4bbf5fa814d7a94a05eeed73ff7e3"
+                ],
+                "layout": "IPY_MODEL_e1f998b2c519482990ff008d308237a1"
+            }
+        },
+        "5e8db8441e0c4bd4bd599d064d2b7c59": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e45062787f9f4e238d32e205cb75626e": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_ed65b0dee1384fe69719aacba1b8d3ee",
+                    "IPY_MODEL_fcbf2ab7b14948859c2f0ba21f22e48d",
+                    "IPY_MODEL_4c117d72e9234aacbdf79402fac3c8b7"
+                ],
+                "layout": "IPY_MODEL_5e8db8441e0c4bd4bd599d064d2b7c59"
+            }
+        },
+        "1b1afece8e714363a79f55430841572f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "91db8d08cdb64dbe9b8c8bc6336c73d2": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "5429ba2f3bd84d78a19453268c9c15d1": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019"
+                ],
+                "description": "Date : ",
+                "index": 7,
+                "layout": "IPY_MODEL_1b1afece8e714363a79f55430841572f",
+                "style": "IPY_MODEL_91db8d08cdb64dbe9b8c8bc6336c73d2"
+            }
+        },
+        "295f787803cb4e00a427b0396bc26494": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "5421a6727cc146a0b477731f02e3e05a": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_5429ba2f3bd84d78a19453268c9c15d1"
+                ],
+                "layout": "IPY_MODEL_295f787803cb4e00a427b0396bc26494"
+            }
+        },
+        "bd7801268a0248df82657b170a49b7d9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "ad82e3ebe7c747388a25212f4634b266": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "c29592af67cd430b81107dd5a6876678": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator :",
+                "index": 0,
+                "layout": "IPY_MODEL_bd7801268a0248df82657b170a49b7d9",
+                "style": "IPY_MODEL_ad82e3ebe7c747388a25212f4634b266"
+            }
+        },
+        "367276f0d9354cbea88149704c880ba8": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "697c73a6d92541bc9c6eb6b372d31630": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "32c4cc7097fb465f823e17def8a4ba0c": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Alabama",
+                    "Arizona",
+                    "Arkansas",
+                    "California",
+                    "Colorado",
+                    "Connecticut",
+                    "Delaware",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Hawaii",
+                    "Idaho",
+                    "Illinois",
+                    "Indiana",
+                    "Iowa",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maine",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Mississippi",
+                    "Missouri",
+                    "Montana",
+                    "Nebraska",
+                    "Nevada",
+                    "New Hampshire",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "North Dakota",
+                    "Ohio",
+                    "Oklahoma",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Puerto Rico",
+                    "Rhode Island",
+                    "South Carolina",
+                    "South Dakota",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Vermont",
+                    "Virginia",
+                    "Washington",
+                    "West Virginia",
+                    "Wisconsin"
+                ],
+                "description": "Filing State :",
+                "index": 0,
+                "layout": "IPY_MODEL_367276f0d9354cbea88149704c880ba8",
+                "style": "IPY_MODEL_697c73a6d92541bc9c6eb6b372d31630"
+            }
+        },
+        "c4766aae77ce461aa5781f0845db715a": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [
+                            "Debit Card",
+                            "Deposit Account"
+                        ],
+                        "y": [
+                            223,
+                            493
+                        ],
+                        "type": "bar",
+                        "uid": "145b010e-40d1-4fef-9c7d-01642a6b8461"
                     }
                 ],
                 "_js2py_pointsCallback": {},
@@ -22571,41 +25790,41 @@ lang: en
                 "_view_module_version": "0.9.1"
             }
         },
-        "474a1d82ab824b1ab57496947f83a48f": {
+        "f000ae43d9a245e0bde90120e0c96793": {
             "model_name": "LayoutModel",
             "model_module": "@jupyter-widgets/base",
             "model_module_version": "1.2.0",
             "state": {}
         },
-        "fb04684418c549ada29ecfe773c13daa": {
+        "297558f8678147e7a0ced276b5f74846": {
             "model_name": "HBoxModel",
             "model_module": "@jupyter-widgets/controls",
             "model_module_version": "1.5.0",
             "state": {
                 "children": [
-                    "IPY_MODEL_f433844b3bd245cf9a38521ec963e0ca",
-                    "IPY_MODEL_6dd2aca5cf1a414b800dc1d19eb03e7a"
+                    "IPY_MODEL_32c4cc7097fb465f823e17def8a4ba0c",
+                    "IPY_MODEL_c29592af67cd430b81107dd5a6876678"
                 ],
-                "layout": "IPY_MODEL_474a1d82ab824b1ab57496947f83a48f"
+                "layout": "IPY_MODEL_f000ae43d9a245e0bde90120e0c96793"
             }
         },
-        "839db55304ac487db749819fda7ba093": {
+        "2d7da663a5ea4e13bb7686ae98eebe2c": {
             "model_name": "LayoutModel",
             "model_module": "@jupyter-widgets/base",
             "model_module_version": "1.2.0",
             "state": {}
         },
-        "0826016a2aac4baea461c7810d21be6f": {
+        "3b4ff9157e284fb2a1cfa6939af4d780": {
             "model_name": "VBoxModel",
             "model_module": "@jupyter-widgets/controls",
             "model_module_version": "1.5.0",
             "state": {
                 "children": [
-                    "IPY_MODEL_84f8e4dc449545c798f1102228e7eb98",
-                    "IPY_MODEL_fb04684418c549ada29ecfe773c13daa",
-                    "IPY_MODEL_9e0f47d7abf74088824e918a9e9ac939"
+                    "IPY_MODEL_5421a6727cc146a0b477731f02e3e05a",
+                    "IPY_MODEL_297558f8678147e7a0ced276b5f74846",
+                    "IPY_MODEL_c4766aae77ce461aa5781f0845db715a"
                 ],
-                "layout": "IPY_MODEL_839db55304ac487db749819fda7ba093"
+                "layout": "IPY_MODEL_2d7da663a5ea4e13bb7686ae98eebe2c"
             }
         }
     }
@@ -22618,7 +25837,7 @@ lang: en
 {
     "version_major": 2,
     "version_minor": 0,
-    "model_id": "0826016a2aac4baea461c7810d21be6f"
+    "model_id": "3b4ff9157e284fb2a1cfa6939af4d780"
 }
 </script>
 
