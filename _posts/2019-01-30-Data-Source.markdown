@@ -25732,6 +25732,6101 @@ lang: en
                         "uid": "145b010e-40d1-4fef-9c7d-01642a6b8461"
                     }
                 ],
+                "_js2py_restyle": {},
+                "_js2py_update": {},
+                "_last_layout_edit_id": 1,
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {},
+                    "autosize": true
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_py2js_update": {},
+                "_view_count": 0,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "f000ae43d9a245e0bde90120e0c96793": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "297558f8678147e7a0ced276b5f74846": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_32c4cc7097fb465f823e17def8a4ba0c",
+                    "IPY_MODEL_c29592af67cd430b81107dd5a6876678"
+                ],
+                "layout": "IPY_MODEL_f000ae43d9a245e0bde90120e0c96793"
+            }
+        },
+        "2d7da663a5ea4e13bb7686ae98eebe2c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "3b4ff9157e284fb2a1cfa6939af4d780": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_5421a6727cc146a0b477731f02e3e05a",
+                    "IPY_MODEL_297558f8678147e7a0ced276b5f74846",
+                    "IPY_MODEL_c4766aae77ce461aa5781f0845db715a"
+                ],
+                "layout": "IPY_MODEL_2d7da663a5ea4e13bb7686ae98eebe2c"
+            }
+        },
+        "399b478d83eb4f629f106e5c8cfd07f2": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e324176a2e07454f90f8732cf4c6bf19": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "7315e0f8a8354819acbbaa2aab45029c": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019"
+                ],
+                "description": "Date : ",
+                "index": 7,
+                "layout": "IPY_MODEL_399b478d83eb4f629f106e5c8cfd07f2",
+                "style": "IPY_MODEL_e324176a2e07454f90f8732cf4c6bf19"
+            }
+        },
+        "bf87d8572725488d998c68cf85abda66": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "c66fc3f6337046b8b9d370090eadd903": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_7315e0f8a8354819acbbaa2aab45029c"
+                ],
+                "layout": "IPY_MODEL_bf87d8572725488d998c68cf85abda66"
+            }
+        },
+        "6245a95f808a402eb2674da01772e7df": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "11f46bfa0e504ac4b6bbb3ef99ac0550": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "74b8801842e94053a4842a1215bef3d7": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator :",
+                "index": 0,
+                "layout": "IPY_MODEL_6245a95f808a402eb2674da01772e7df",
+                "style": "IPY_MODEL_11f46bfa0e504ac4b6bbb3ef99ac0550"
+            }
+        },
+        "e1bf459271fc46be8dc999b03ee30c6b": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b526ddf32a444f9c945e2d0f9c03dffb": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "ff504f1eeff545c69060ce5d4c53416c": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Alabama",
+                    "Arizona",
+                    "Arkansas",
+                    "California",
+                    "Colorado",
+                    "Connecticut",
+                    "Delaware",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Hawaii",
+                    "Idaho",
+                    "Illinois",
+                    "Indiana",
+                    "Iowa",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maine",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Mississippi",
+                    "Missouri",
+                    "Montana",
+                    "Nebraska",
+                    "Nevada",
+                    "New Hampshire",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "North Dakota",
+                    "Ohio",
+                    "Oklahoma",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Puerto Rico",
+                    "Rhode Island",
+                    "South Carolina",
+                    "South Dakota",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Vermont",
+                    "Virginia",
+                    "Washington",
+                    "West Virginia",
+                    "Wisconsin"
+                ],
+                "description": "Filing State :",
+                "index": 0,
+                "layout": "IPY_MODEL_e1bf459271fc46be8dc999b03ee30c6b",
+                "style": "IPY_MODEL_b526ddf32a444f9c945e2d0f9c03dffb"
+            }
+        },
+        "06d20739825746649529aa013ddfe5af": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [
+                            "Debit Card",
+                            "Deposit Account"
+                        ],
+                        "y": [
+                            223,
+                            493
+                        ],
+                        "type": "bar",
+                        "uid": "2ddd7963-68ba-464f-a24e-9f4916b77c53"
+                    }
+                ],
+                "_js2py_restyle": {},
+                "_js2py_update": {},
+                "_last_layout_edit_id": 3,
+                "_last_trace_edit_id": 2,
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {},
+                    "autosize": true,
+                    "xaxis": {
+                        "title": {
+                            "text": "SARs Filing Type"
+                        }
+                    },
+                    "yaxis": {
+                        "title": {
+                            "text": "Number of Filings"
+                        }
+                    }
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_view_count": 0,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "34cac20219c8444285f3739f576d7efc": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "02c89c7eaed44059ac146c53a28f78cd": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_ff504f1eeff545c69060ce5d4c53416c",
+                    "IPY_MODEL_74b8801842e94053a4842a1215bef3d7"
+                ],
+                "layout": "IPY_MODEL_34cac20219c8444285f3739f576d7efc"
+            }
+        },
+        "d2289c1416b54605a2674df2ac09540d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "75918a77bd004fd5b0156a6ec733df73": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_c66fc3f6337046b8b9d370090eadd903",
+                    "IPY_MODEL_02c89c7eaed44059ac146c53a28f78cd",
+                    "IPY_MODEL_06d20739825746649529aa013ddfe5af"
+                ],
+                "layout": "IPY_MODEL_d2289c1416b54605a2674df2ac09540d"
+            }
+        },
+        "e73c49ca882144b89ec4d77ce6710f50": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f66860ab3f6d49f39c22cbb7c611946e": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "72980737b1d041108ad987cf96f9ed6e": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019"
+                ],
+                "description": "Date : ",
+                "index": 0,
+                "layout": "IPY_MODEL_e73c49ca882144b89ec4d77ce6710f50",
+                "style": "IPY_MODEL_f66860ab3f6d49f39c22cbb7c611946e"
+            }
+        },
+        "cc092e05a5e643b890bc660155e3afbb": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "4bd38b43917e4b46b6832dea6d602014": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_72980737b1d041108ad987cf96f9ed6e"
+                ],
+                "layout": "IPY_MODEL_cc092e05a5e643b890bc660155e3afbb"
+            }
+        },
+        "59bb84f40a2e467b80689b141efc56d5": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8af813fdb0a1449e8ec4120ea14ea760": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "3e523029751a46cea23146c869a790f2": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator :",
+                "index": 1,
+                "layout": "IPY_MODEL_59bb84f40a2e467b80689b141efc56d5",
+                "style": "IPY_MODEL_8af813fdb0a1449e8ec4120ea14ea760"
+            }
+        },
+        "5b093f4fa2dc4289b1682a6c52b79bbf": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "af8508574ab64801801ec516df75f9d3": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "3ed45440d94640d0a746d59c1a4f23c2": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Alabama",
+                    "Arizona",
+                    "Arkansas",
+                    "California",
+                    "Colorado",
+                    "Connecticut",
+                    "Delaware",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Hawaii",
+                    "Idaho",
+                    "Illinois",
+                    "Indiana",
+                    "Iowa",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maine",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Mississippi",
+                    "Missouri",
+                    "Montana",
+                    "Nebraska",
+                    "Nevada",
+                    "New Hampshire",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "North Dakota",
+                    "Ohio",
+                    "Oklahoma",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Puerto Rico",
+                    "Rhode Island",
+                    "South Carolina",
+                    "South Dakota",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Vermont",
+                    "Virginia",
+                    "Washington",
+                    "West Virginia",
+                    "Wisconsin"
+                ],
+                "description": "Filing State :",
+                "index": 0,
+                "layout": "IPY_MODEL_5b093f4fa2dc4289b1682a6c52b79bbf",
+                "style": "IPY_MODEL_af8508574ab64801801ec516df75f9d3"
+            }
+        },
+        "55dce802becb4a4a8c935a6fda04d319": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [],
+                        "y": [],
+                        "type": "bar",
+                        "uid": "70e02234-3b18-4cbe-accb-e617f1831841"
+                    }
+                ],
+                "_js2py_restyle": {},
+                "_js2py_update": {},
+                "_last_layout_edit_id": 2,
+                "_last_trace_edit_id": 1,
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {},
+                    "autosize": true,
+                    "xaxis": {
+                        "title": {
+                            "text": "SARs Filing Type"
+                        }
+                    },
+                    "yaxis": {
+                        "title": {
+                            "text": "Number of Filings"
+                        }
+                    }
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_view_count": 0,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "3e01a976b3a64d229f71273d6a323e8a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "3e0491a378dc434a8b3af0579a737c4c": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_3ed45440d94640d0a746d59c1a4f23c2",
+                    "IPY_MODEL_3e523029751a46cea23146c869a790f2"
+                ],
+                "layout": "IPY_MODEL_3e01a976b3a64d229f71273d6a323e8a"
+            }
+        },
+        "2a17987b009041cc86ad7b4fa72a310d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "06cbe94fedbc44f58b5e1106e5e278a0": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_4bd38b43917e4b46b6832dea6d602014",
+                    "IPY_MODEL_3e0491a378dc434a8b3af0579a737c4c",
+                    "IPY_MODEL_55dce802becb4a4a8c935a6fda04d319"
+                ],
+                "layout": "IPY_MODEL_2a17987b009041cc86ad7b4fa72a310d"
+            }
+        },
+        "0b7ae65af60b43db92bc3f993b64d767": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "b4fd2d5c86e74ff1b744f27f1d874178": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "36810a2f89e64f1cbaa36ca986aa1b18": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "scale": "IPY_MODEL_0b7ae65af60b43db92bc3f993b64d767",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "c879187b10ff4503b6f3e4efa0b23fec": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_b4fd2d5c86e74ff1b744f27f1d874178",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "6f1aa9d9690c42b282ce8425a79e18e2": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "08844c5afabb48edaf74bd1e7e460a03": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "0bd2cef2176946c29d591965749205bc": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "6e66609ad0584aa993e1a8385f1fedcd": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "axes": [
+                    "IPY_MODEL_36810a2f89e64f1cbaa36ca986aa1b18",
+                    "IPY_MODEL_c879187b10ff4503b6f3e4efa0b23fec"
+                ],
+                "layout": "IPY_MODEL_6f1aa9d9690c42b282ce8425a79e18e2",
+                "marks": [
+                    "IPY_MODEL_1d8da4c5613a49818cb2d01475ee4d9b"
+                ],
+                "max_aspect_ratio": 6,
+                "scale_x": "IPY_MODEL_08844c5afabb48edaf74bd1e7e460a03",
+                "scale_y": "IPY_MODEL_0bd2cef2176946c29d591965749205bc",
+                "theme": "classic"
+            }
+        },
+        "1d8da4c5613a49818cb2d01475ee4d9b": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_0b7ae65af60b43db92bc3f993b64d767",
+                    "y": "IPY_MODEL_b4fd2d5c86e74ff1b744f27f1d874178"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        8
+                    ],
+                    "type": null
+                },
+                "y": [
+                    {
+                        "dtype": "int32",
+                        "shape": [
+                            2
+                        ],
+                        "type": null
+                    }
+                ]
+            },
+            "buffers": [
+                {
+                    "data": "3AcAAN0HAADeBwAA3wcAAOAHAADhBwAA4gcAAOMHAAA=",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "3wAAAO0BAAA=",
+                    "path": [
+                        "y",
+                        0,
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "c562463640c14b4288640d4e769aa1c8": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "78ad7781a6d648f6a3fb10ccc8b62abb": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_d2b3f0999354403aaa39258b818a8eb9"
+                ],
+                "layout": "IPY_MODEL_c562463640c14b4288640d4e769aa1c8"
+            }
+        },
+        "5dafe056fd6e4d1896c489cdb0fdf9c9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d2b3f0999354403aaa39258b818a8eb9": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_5dafe056fd6e4d1896c489cdb0fdf9c9"
+            }
+        },
+        "e72279ae68674a3bb50abf3aa2e2c8da": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0d500a7a32574865b0383e09a60fe416": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_78ad7781a6d648f6a3fb10ccc8b62abb",
+                    "IPY_MODEL_6e66609ad0584aa993e1a8385f1fedcd"
+                ],
+                "layout": "IPY_MODEL_e72279ae68674a3bb50abf3aa2e2c8da"
+            }
+        },
+        "9a4c51945dd544628e142dde4655ddcc": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "b0b562bc7c7a4dcf872cfd8556406c28": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "88b0fe5b729b407b83973a2bd07b6236": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "scale": "IPY_MODEL_9a4c51945dd544628e142dde4655ddcc",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "3dba3eeaeb1540c593da4f926191aa9c": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_b0b562bc7c7a4dcf872cfd8556406c28",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "a6f871b5995e4f5b908e17e976e72eed": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "320b58c6e9cb4ed296d634fc0a14fba9": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "00dd322360c6499386ebef3c9e2882be": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "c1a99598c9b5450bbb59ed63e5b2d794": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "axes": [
+                    "IPY_MODEL_88b0fe5b729b407b83973a2bd07b6236",
+                    "IPY_MODEL_3dba3eeaeb1540c593da4f926191aa9c"
+                ],
+                "layout": "IPY_MODEL_a6f871b5995e4f5b908e17e976e72eed",
+                "marks": [
+                    "IPY_MODEL_b7146a3c4e0d4d9b8c58e352e0cd08ce"
+                ],
+                "max_aspect_ratio": 6,
+                "scale_x": "IPY_MODEL_320b58c6e9cb4ed296d634fc0a14fba9",
+                "scale_y": "IPY_MODEL_00dd322360c6499386ebef3c9e2882be",
+                "theme": "classic"
+            }
+        },
+        "b7146a3c4e0d4d9b8c58e352e0cd08ce": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_9a4c51945dd544628e142dde4655ddcc",
+                    "y": "IPY_MODEL_b0b562bc7c7a4dcf872cfd8556406c28"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        8
+                    ],
+                    "type": null
+                },
+                "y": [
+                    {
+                        "dtype": "int32",
+                        "shape": [
+                            2
+                        ],
+                        "type": null
+                    }
+                ]
+            },
+            "buffers": [
+                {
+                    "data": "3AcAAN0HAADeBwAA3wcAAOAHAADhBwAA4gcAAOMHAAA=",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "3wAAAO0BAAA=",
+                    "path": [
+                        "y",
+                        0,
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "17c45f5fecf44b6b88e62fae3371546f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "c86cd85b93d642c7a0ace50e0fe5bed4": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_b9ff9b27c29d4833b32ce645fbe4d1a8"
+                ],
+                "layout": "IPY_MODEL_17c45f5fecf44b6b88e62fae3371546f"
+            }
+        },
+        "5209e5c4441b4ec080555878542b2bc9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b9ff9b27c29d4833b32ce645fbe4d1a8": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_5209e5c4441b4ec080555878542b2bc9"
+            }
+        },
+        "9c7bd40fc4914dc0adafd6042e368ee6": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "fd17f3d84ecc42838dd20e85b3a46840": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_c86cd85b93d642c7a0ace50e0fe5bed4",
+                    "IPY_MODEL_c1a99598c9b5450bbb59ed63e5b2d794"
+                ],
+                "layout": "IPY_MODEL_9c7bd40fc4914dc0adafd6042e368ee6"
+            }
+        },
+        "a550ba50d8ee4b04970c5677b78f6d8b": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "aecab2e82dbc4296a02afc3e65065274": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "344ab12508ac4a92a5eaa3b0e51e8215": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "scale": "IPY_MODEL_a550ba50d8ee4b04970c5677b78f6d8b",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "236be09ff2794008b278122a71562d3e": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_aecab2e82dbc4296a02afc3e65065274",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "2bb35931613b4b19aa7d7d4cd63a4bd3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "0eb7d2ec1b7b4dc081f1d0b7a8dbd51f": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "69e096862cc44eaea9fd924db95dcc7d": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "19cf4b14e10e44298e6046f725e0c0f7": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "axes": [
+                    "IPY_MODEL_344ab12508ac4a92a5eaa3b0e51e8215",
+                    "IPY_MODEL_236be09ff2794008b278122a71562d3e"
+                ],
+                "layout": "IPY_MODEL_2bb35931613b4b19aa7d7d4cd63a4bd3",
+                "marks": [
+                    "IPY_MODEL_4b0d14a2f7114aed8a2c4e20b372a8d9"
+                ],
+                "max_aspect_ratio": 6,
+                "scale_x": "IPY_MODEL_0eb7d2ec1b7b4dc081f1d0b7a8dbd51f",
+                "scale_y": "IPY_MODEL_69e096862cc44eaea9fd924db95dcc7d",
+                "theme": "classic"
+            }
+        },
+        "4b0d14a2f7114aed8a2c4e20b372a8d9": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_a550ba50d8ee4b04970c5677b78f6d8b",
+                    "y": "IPY_MODEL_aecab2e82dbc4296a02afc3e65065274"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAA==",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "c6d57e13376f4d20ae104b770d0bd3ff": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b344616462a34d3e8fd4606a0ba23945": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_d5b38acd2b3c480da31f57f8651d3a6d"
+                ],
+                "layout": "IPY_MODEL_c6d57e13376f4d20ae104b770d0bd3ff"
+            }
+        },
+        "ee8f2f608fef41eb9f058f17c438ff64": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d5b38acd2b3c480da31f57f8651d3a6d": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_ee8f2f608fef41eb9f058f17c438ff64",
+                "outputs": [
+                    {
+                        "output_type": "error",
+                        "ename": "ValueError",
+                        "evalue": "The following args are missing for the function product: ['n'].",
+                        "traceback": [
+                            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+                            "\u001b[0;31mValueError\u001b[0m                                Traceback (most recent call last)",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/ipywidgets/widgets/interaction.py\u001b[0m in \u001b[0;36mupdate\u001b[0;34m(self, *args)\u001b[0m\n\u001b[1;32m    254\u001b[0m                     \u001b[0mvalue\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mget_interact_value\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    255\u001b[0m                     \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_kwarg\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 256\u001b[0;31m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mf\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    257\u001b[0m                 \u001b[0mshow_inline_matplotlib_plots\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    258\u001b[0m                 \u001b[0;32mif\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mauto_display\u001b[0m \u001b[0;32mand\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/plotting.py\u001b[0m in \u001b[0;36mwrapped\u001b[0;34m(**interact_params)\u001b[0m\n\u001b[1;32m    295\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    296\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0mwrapped\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0minteract_params\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 297\u001b[0;31m         \u001b[0mx_data\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mutil\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mmaybe_call\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mx_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0minteract_params\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m'x'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    298\u001b[0m         \u001b[0mbar\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mx\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mx_data\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    299\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mmaybe_call\u001b[0;34m(maybe_fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     30\u001b[0m         \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     31\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 32\u001b[0;31m     \u001b[0margs\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mget_fn_args\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmaybe_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mkwargs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mprefix\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     33\u001b[0m     \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0margs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     34\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mget_fn_args\u001b[0;34m(fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     83\u001b[0m         raise ValueError(\n\u001b[1;32m     84\u001b[0m             \u001b[0;34m'The following args are missing for the function '\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 85\u001b[0;31m             \u001b[0;34m'{}: {}.'\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mformat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfn\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m__name__\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmissing_args\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     86\u001b[0m         )\n\u001b[1;32m     87\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;31mValueError\u001b[0m: The following args are missing for the function product: ['n']."
+                        ]
+                    }
+                ]
+            }
+        },
+        "c5cb92f881d8498e9b02da7994375075": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "3c643ab6e619448096fccfe7413423b9": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_b344616462a34d3e8fd4606a0ba23945",
+                    "IPY_MODEL_19cf4b14e10e44298e6046f725e0c0f7"
+                ],
+                "layout": "IPY_MODEL_c5cb92f881d8498e9b02da7994375075"
+            }
+        },
+        "9312f0fe8b8346a5a6c148f71ba08cd7": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "c822d1e7c9454eb89c437b0bcf04f3cc": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "19006cd45c3340d3b9b82a6f46d50fa2": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "scale": "IPY_MODEL_9312f0fe8b8346a5a6c148f71ba08cd7",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "b2d38ce3777243ec8539c240a27325fb": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_c822d1e7c9454eb89c437b0bcf04f3cc",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "2d46bacbf66745918175a5013fd0ea06": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "73c5d307a85c41f5ad6d2e27ac9e039d": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "2da452b7812345bb8173a0c84f611325": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "7ffe8d9966914903b75745983c3d4027": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "axes": [
+                    "IPY_MODEL_19006cd45c3340d3b9b82a6f46d50fa2",
+                    "IPY_MODEL_b2d38ce3777243ec8539c240a27325fb"
+                ],
+                "layout": "IPY_MODEL_2d46bacbf66745918175a5013fd0ea06",
+                "marks": [
+                    "IPY_MODEL_3ea3ca29584b4dd2abb68d2f2170e688"
+                ],
+                "max_aspect_ratio": 6,
+                "scale_x": "IPY_MODEL_73c5d307a85c41f5ad6d2e27ac9e039d",
+                "scale_y": "IPY_MODEL_2da452b7812345bb8173a0c84f611325",
+                "theme": "classic"
+            }
+        },
+        "3ea3ca29584b4dd2abb68d2f2170e688": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_9312f0fe8b8346a5a6c148f71ba08cd7",
+                    "y": "IPY_MODEL_c822d1e7c9454eb89c437b0bcf04f3cc"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAA==",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "17e6908ec0cf4720b9bdc9147a9dc908": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "22d7b521e90e48579da68fe31581b9d1": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_7e550b160f214e35949a2cf96fa2e19d",
+                    "IPY_MODEL_ecb24dd932404a8fb2d142a93b4138aa",
+                    "IPY_MODEL_49cae08ea7b84872b7f26edfa19715c6"
+                ],
+                "layout": "IPY_MODEL_17e6908ec0cf4720b9bdc9147a9dc908"
+            }
+        },
+        "c46e2d9ffaa74a07a9d78b19fe398bd9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "2b7c342df63c4063b504250c797efae6": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "7e550b160f214e35949a2cf96fa2e19d": {
+            "model_name": "TextModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "n",
+                "layout": "IPY_MODEL_c46e2d9ffaa74a07a9d78b19fe398bd9",
+                "style": "IPY_MODEL_2b7c342df63c4063b504250c797efae6",
+                "value": "Count"
+            }
+        },
+        "72a6caed49124d0f8a62ad677288f676": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "26cb1eb90f814ec7b1ad624ca4f69c18": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "ecb24dd932404a8fb2d142a93b4138aa": {
+            "model_name": "IntSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "offset",
+                "layout": "IPY_MODEL_72a6caed49124d0f8a62ad677288f676",
+                "max": 10,
+                "style": "IPY_MODEL_26cb1eb90f814ec7b1ad624ca4f69c18",
+                "value": 1
+            }
+        },
+        "a5d8627d5b9944ff9c66bef02867390a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "49cae08ea7b84872b7f26edfa19715c6": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_a5d8627d5b9944ff9c66bef02867390a",
+                "outputs": [
+                    {
+                        "output_type": "error",
+                        "ename": "TypeError",
+                        "evalue": "slice indices must be integers or None or have an __index__ method",
+                        "traceback": [
+                            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+                            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/ipywidgets/widgets/interaction.py\u001b[0m in \u001b[0;36mupdate\u001b[0;34m(self, *args)\u001b[0m\n\u001b[1;32m    254\u001b[0m                     \u001b[0mvalue\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mget_interact_value\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    255\u001b[0m                     \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_kwarg\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 256\u001b[0;31m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mf\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    257\u001b[0m                 \u001b[0mshow_inline_matplotlib_plots\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    258\u001b[0m                 \u001b[0;32mif\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mauto_display\u001b[0m \u001b[0;32mand\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/plotting.py\u001b[0m in \u001b[0;36mwrapped\u001b[0;34m(**interact_params)\u001b[0m\n\u001b[1;32m    295\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    296\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0mwrapped\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0minteract_params\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 297\u001b[0;31m         \u001b[0mx_data\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mutil\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mmaybe_call\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mx_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0minteract_params\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m'x'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    298\u001b[0m         \u001b[0mbar\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mx\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mx_data\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    299\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mmaybe_call\u001b[0;34m(maybe_fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     31\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     32\u001b[0m     \u001b[0margs\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mget_fn_args\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmaybe_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mkwargs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mprefix\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 33\u001b[0;31m     \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0margs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     34\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     35\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m<ipython-input-54-874f47f12542>\u001b[0m in \u001b[0;36mproduct\u001b[0;34m(n)\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mproduct\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mn\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m     \u001b[0;32mreturn\u001b[0m \u001b[0mlist\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mtest_2\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'Product'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munique\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0mn\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      3\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0moffset_y\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mxs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0moffset\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m     \u001b[0mnum_categories\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mlen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mxs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;31mTypeError\u001b[0m: slice indices must be integers or None or have an __index__ method"
+                        ]
+                    }
+                ]
+            }
+        },
+        "c1e39fa7c18f4c5a9d2866c15c974405": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "2c575c26d6434284a0068273bcb0f5a0": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_22d7b521e90e48579da68fe31581b9d1",
+                    "IPY_MODEL_7ffe8d9966914903b75745983c3d4027"
+                ],
+                "layout": "IPY_MODEL_c1e39fa7c18f4c5a9d2866c15c974405"
+            }
+        },
+        "bc2fe23e403143428ad6520436618878": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "3715441f1bb04281853e8bc96aa8b72e": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "e221014ae0ef48579e436f777181bba5": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "scale": "IPY_MODEL_bc2fe23e403143428ad6520436618878",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "c1b17f67255d4b7f847c5de61551738b": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_3715441f1bb04281853e8bc96aa8b72e",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "b29ed1f6192e4e88bb3d199962d85572": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "0950182243804f30b946b205a9e5daf0": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "b48d53d86824405c8246b27b2f5a5305": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "c92cbf9104164a8c848f0596db3c9392": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "axes": [
+                    "IPY_MODEL_e221014ae0ef48579e436f777181bba5",
+                    "IPY_MODEL_c1b17f67255d4b7f847c5de61551738b"
+                ],
+                "layout": "IPY_MODEL_b29ed1f6192e4e88bb3d199962d85572",
+                "marks": [
+                    "IPY_MODEL_cb5bf6d4a3334ceaa238231027f99625"
+                ],
+                "max_aspect_ratio": 6,
+                "scale_x": "IPY_MODEL_0950182243804f30b946b205a9e5daf0",
+                "scale_y": "IPY_MODEL_b48d53d86824405c8246b27b2f5a5305",
+                "theme": "classic"
+            }
+        },
+        "cb5bf6d4a3334ceaa238231027f99625": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_bc2fe23e403143428ad6520436618878",
+                    "y": "IPY_MODEL_3715441f1bb04281853e8bc96aa8b72e"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAA==",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "38bcd0d44c2c4b50b0b7d12a7c6ebd0c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "1cba6e4cf13d49ab830c23b9e41bc57e": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_82aeecc067f245f0a4fd293eda81eadb",
+                    "IPY_MODEL_e01f8b2658de4b95b3eff083c0c6629d",
+                    "IPY_MODEL_76f241a5921c4973b01977adebab1f59"
+                ],
+                "layout": "IPY_MODEL_38bcd0d44c2c4b50b0b7d12a7c6ebd0c"
+            }
+        },
+        "d894cbe962574196a0123840673ae5c5": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "89d27de37ed148fca685596e5e65c3c9": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "82aeecc067f245f0a4fd293eda81eadb": {
+            "model_name": "TextModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "n",
+                "layout": "IPY_MODEL_d894cbe962574196a0123840673ae5c5",
+                "style": "IPY_MODEL_89d27de37ed148fca685596e5e65c3c9",
+                "value": "Count"
+            }
+        },
+        "ad1d277719f3483ba8a5c88358ce34be": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "ffd3d845010644db9ff5d9f60bd5eb9d": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "e01f8b2658de4b95b3eff083c0c6629d": {
+            "model_name": "TextModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "offset",
+                "layout": "IPY_MODEL_ad1d277719f3483ba8a5c88358ce34be",
+                "style": "IPY_MODEL_ffd3d845010644db9ff5d9f60bd5eb9d"
+            }
+        },
+        "ad4144fab6a74c348297d68eef6999b4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "76f241a5921c4973b01977adebab1f59": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_ad4144fab6a74c348297d68eef6999b4",
+                "outputs": [
+                    {
+                        "output_type": "error",
+                        "ename": "TypeError",
+                        "evalue": "slice indices must be integers or None or have an __index__ method",
+                        "traceback": [
+                            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+                            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/ipywidgets/widgets/interaction.py\u001b[0m in \u001b[0;36mupdate\u001b[0;34m(self, *args)\u001b[0m\n\u001b[1;32m    254\u001b[0m                     \u001b[0mvalue\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mget_interact_value\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    255\u001b[0m                     \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_kwarg\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 256\u001b[0;31m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mf\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    257\u001b[0m                 \u001b[0mshow_inline_matplotlib_plots\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    258\u001b[0m                 \u001b[0;32mif\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mauto_display\u001b[0m \u001b[0;32mand\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/plotting.py\u001b[0m in \u001b[0;36mwrapped\u001b[0;34m(**interact_params)\u001b[0m\n\u001b[1;32m    295\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    296\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0mwrapped\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0minteract_params\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 297\u001b[0;31m         \u001b[0mx_data\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mutil\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mmaybe_call\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mx_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0minteract_params\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m'x'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    298\u001b[0m         \u001b[0mbar\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mx\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mx_data\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    299\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mmaybe_call\u001b[0;34m(maybe_fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     31\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     32\u001b[0m     \u001b[0margs\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mget_fn_args\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmaybe_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mkwargs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mprefix\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 33\u001b[0;31m     \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0margs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     34\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     35\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m<ipython-input-56-3555b4bc020e>\u001b[0m in \u001b[0;36mproduct\u001b[0;34m(n)\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mproduct\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mn\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m     \u001b[0;32mreturn\u001b[0m \u001b[0mlist\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mtest_2\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'Product'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munique\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0mn\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      3\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0moffset_y\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mxs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0moffset\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m     \u001b[0mnum_categories\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mlen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mxs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;31mTypeError\u001b[0m: slice indices must be integers or None or have an __index__ method"
+                        ]
+                    }
+                ]
+            }
+        },
+        "e93b0c9bab1a429a8b8ba676d586b8eb": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b76ba68b6a9a4f40b71a7554c6eae314": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_1cba6e4cf13d49ab830c23b9e41bc57e",
+                    "IPY_MODEL_c92cbf9104164a8c848f0596db3c9392"
+                ],
+                "layout": "IPY_MODEL_e93b0c9bab1a429a8b8ba676d586b8eb"
+            }
+        },
+        "28003730f9dc4b9da5d8a5b0dbd84d5b": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "e6e7b8813e894f41ab95c7eff32706f0": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "c3c4d0924ab54da08a2523f9e1f1fb68": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "scale": "IPY_MODEL_28003730f9dc4b9da5d8a5b0dbd84d5b",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "ae271d15ebb343dea5713aae5e2d9dcf": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_e6e7b8813e894f41ab95c7eff32706f0",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "118bcd81eed74ebd949f5663850bc71c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "abebb749e5da4bd3ae817ee0f9e22753": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "7809e2b59c0f4a22809d26ed33dc89fc": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "2f60ca9dccd240f58b6172a570abbdae": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "axes": [
+                    "IPY_MODEL_c3c4d0924ab54da08a2523f9e1f1fb68",
+                    "IPY_MODEL_ae271d15ebb343dea5713aae5e2d9dcf"
+                ],
+                "layout": "IPY_MODEL_118bcd81eed74ebd949f5663850bc71c",
+                "marks": [
+                    "IPY_MODEL_9cc7a28c60a541f68c3e6d6482f55ccc"
+                ],
+                "max_aspect_ratio": 6,
+                "scale_x": "IPY_MODEL_abebb749e5da4bd3ae817ee0f9e22753",
+                "scale_y": "IPY_MODEL_7809e2b59c0f4a22809d26ed33dc89fc",
+                "theme": "classic"
+            }
+        },
+        "9cc7a28c60a541f68c3e6d6482f55ccc": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_28003730f9dc4b9da5d8a5b0dbd84d5b",
+                    "y": "IPY_MODEL_e6e7b8813e894f41ab95c7eff32706f0"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAA==",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "ff2667f4cc1e4b30873998807cd447e7": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "63cf5c1262a7403d92af509bb7043b04": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_eb84b6c0e0384e06b1c565b42cdec175",
+                    "IPY_MODEL_6b997910e8cb4ffda1d3e26d7a422e4b",
+                    "IPY_MODEL_3ada9d158a684fbfa3a53ccf0fc41023"
+                ],
+                "layout": "IPY_MODEL_ff2667f4cc1e4b30873998807cd447e7"
+            }
+        },
+        "348618821fa449c39ca03ff68f9fe3c3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "80a7ea5fb2584feea494c6d718caa6f7": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "eb84b6c0e0384e06b1c565b42cdec175": {
+            "model_name": "TextModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "n",
+                "layout": "IPY_MODEL_348618821fa449c39ca03ff68f9fe3c3",
+                "style": "IPY_MODEL_80a7ea5fb2584feea494c6d718caa6f7",
+                "value": "Count"
+            }
+        },
+        "a21318c3219b4376b857aad3ad7f6731": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0beaa8951e9f41b2a7ca2a4be5c94f67": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "6b997910e8cb4ffda1d3e26d7a422e4b": {
+            "model_name": "TextModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "offset",
+                "layout": "IPY_MODEL_a21318c3219b4376b857aad3ad7f6731",
+                "style": "IPY_MODEL_0beaa8951e9f41b2a7ca2a4be5c94f67",
+                "value": "Count"
+            }
+        },
+        "0414cbef31794802b9c2a9524f7768a4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "3ada9d158a684fbfa3a53ccf0fc41023": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_0414cbef31794802b9c2a9524f7768a4",
+                "outputs": [
+                    {
+                        "output_type": "error",
+                        "ename": "TypeError",
+                        "evalue": "slice indices must be integers or None or have an __index__ method",
+                        "traceback": [
+                            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+                            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/ipywidgets/widgets/interaction.py\u001b[0m in \u001b[0;36mupdate\u001b[0;34m(self, *args)\u001b[0m\n\u001b[1;32m    254\u001b[0m                     \u001b[0mvalue\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mget_interact_value\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    255\u001b[0m                     \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_kwarg\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 256\u001b[0;31m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mf\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    257\u001b[0m                 \u001b[0mshow_inline_matplotlib_plots\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    258\u001b[0m                 \u001b[0;32mif\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mauto_display\u001b[0m \u001b[0;32mand\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/plotting.py\u001b[0m in \u001b[0;36mwrapped\u001b[0;34m(**interact_params)\u001b[0m\n\u001b[1;32m    295\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    296\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0mwrapped\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0minteract_params\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 297\u001b[0;31m         \u001b[0mx_data\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mutil\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mmaybe_call\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mx_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0minteract_params\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m'x'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    298\u001b[0m         \u001b[0mbar\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mx\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mx_data\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    299\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mmaybe_call\u001b[0;34m(maybe_fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     31\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     32\u001b[0m     \u001b[0margs\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mget_fn_args\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmaybe_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mkwargs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mprefix\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 33\u001b[0;31m     \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0margs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     34\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     35\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m<ipython-input-57-ccbb85a97b1f>\u001b[0m in \u001b[0;36mproduct\u001b[0;34m(n)\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mproduct\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mn\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m     \u001b[0;32mreturn\u001b[0m \u001b[0mlist\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mtest_2\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'Count'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munique\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0mn\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      3\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0moffset_y\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mxs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0moffset\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m     \u001b[0mnum_categories\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mlen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mxs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;31mTypeError\u001b[0m: slice indices must be integers or None or have an __index__ method"
+                        ]
+                    }
+                ]
+            }
+        },
+        "1f1aa77702044b6187a3bb89c197cd7a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d46a77b344a9430cbbb10918304c4e36": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_63cf5c1262a7403d92af509bb7043b04",
+                    "IPY_MODEL_2f60ca9dccd240f58b6172a570abbdae"
+                ],
+                "layout": "IPY_MODEL_1f1aa77702044b6187a3bb89c197cd7a"
+            }
+        },
+        "4f00454b9b01449ba05e810a502afaa2": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "4b791ec9a8624067a7d76557f11176b2": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "85392d3fb30e4e138bdc4a697b764e62": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Date Trending",
+                "scale": "IPY_MODEL_4f00454b9b01449ba05e810a502afaa2",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "cae4fa277d984fb9b7ec250e80acdc42": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Views",
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_4b791ec9a8624067a7d76557f11176b2",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "887b529d8fde46d78569d660e36185cc": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "e6f172b438db49769bd6445c29fa7993": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "14aab52d2c05406e9e99c2d4fe53e081": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "343318dcea7e49d8a9a632ff589355d1": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "animation_duration": 500,
+                "axes": [
+                    "IPY_MODEL_85392d3fb30e4e138bdc4a697b764e62",
+                    "IPY_MODEL_cae4fa277d984fb9b7ec250e80acdc42"
+                ],
+                "layout": "IPY_MODEL_887b529d8fde46d78569d660e36185cc",
+                "marks": [
+                    "IPY_MODEL_0762c496563b4580a9fa066b68ebdab4"
+                ],
+                "max_aspect_ratio": 1,
+                "scale_x": "IPY_MODEL_e6f172b438db49769bd6445c29fa7993",
+                "scale_y": "IPY_MODEL_14aab52d2c05406e9e99c2d4fe53e081",
+                "theme": "classic",
+                "title": "Views for Trending Videos"
+            }
+        },
+        "0762c496563b4580a9fa066b68ebdab4": {
+            "model_name": "ScatterModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "default_opacities": {
+                    "dtype": "float64",
+                    "shape": [
+                        1
+                    ],
+                    "type": null
+                },
+                "display_legend": false,
+                "names": null,
+                "scales": {
+                    "x": "IPY_MODEL_4f00454b9b01449ba05e810a502afaa2",
+                    "y": "IPY_MODEL_4b791ec9a8624067a7d76557f11176b2"
+                },
+                "scales_metadata": {
+                    "x": {
+                        "orientation": "horizontal",
+                        "dimension": "x"
+                    },
+                    "y": {
+                        "orientation": "vertical",
+                        "dimension": "y"
+                    },
+                    "color": {
+                        "dimension": "color"
+                    },
+                    "size": {
+                        "dimension": "size"
+                    },
+                    "opacity": {
+                        "dimension": "opacity"
+                    },
+                    "rotation": {
+                        "dimension": "rotation"
+                    },
+                    "skew": {
+                        "dimension": "skew"
+                    }
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "AAAAAAAA8D8=",
+                    "path": [
+                        "default_opacities",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "f07c25de584941379a8c093e562b576a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "3705790637a04fec94b8da94aa27e376": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_06536c694de048d08b2f3a77f99b2351",
+                    "IPY_MODEL_16b5d8d949eb483eaeeba43667d08251"
+                ],
+                "layout": "IPY_MODEL_f07c25de584941379a8c093e562b576a"
+            }
+        },
+        "e9030b82bcad4458b754e8ed696da6db": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0eb8ac9fa47843f8970695ff18202a36": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "06536c694de048d08b2f3a77f99b2351": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Options on Securities",
+                    "Bonds/Notes",
+                    "Commercial Paper"
+                ],
+                "description": "channel",
+                "index": 0,
+                "layout": "IPY_MODEL_e9030b82bcad4458b754e8ed696da6db",
+                "style": "IPY_MODEL_0eb8ac9fa47843f8970695ff18202a36"
+            }
+        },
+        "9eb5b322abb24106ac35a7706765a79a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "16b5d8d949eb483eaeeba43667d08251": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_9eb5b322abb24106ac35a7706765a79a",
+                "outputs": [
+                    {
+                        "output_type": "error",
+                        "ename": "NameError",
+                        "evalue": "name 'videos' is not defined",
+                        "traceback": [
+                            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+                            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/ipywidgets/widgets/interaction.py\u001b[0m in \u001b[0;36mupdate\u001b[0;34m(self, *args)\u001b[0m\n\u001b[1;32m    254\u001b[0m                     \u001b[0mvalue\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mget_interact_value\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    255\u001b[0m                     \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_kwarg\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 256\u001b[0;31m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mf\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    257\u001b[0m                 \u001b[0mshow_inline_matplotlib_plots\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    258\u001b[0m                 \u001b[0;32mif\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mauto_display\u001b[0m \u001b[0;32mand\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/plotting.py\u001b[0m in \u001b[0;36mwrapped\u001b[0;34m(**interact_params)\u001b[0m\n\u001b[1;32m    434\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    435\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0mwrapped\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0minteract_params\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 436\u001b[0;31m         \u001b[0mx_data\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mutil\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mmaybe_call\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mx_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0minteract_params\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m'x'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    437\u001b[0m         \u001b[0mscat\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mx\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mx_data\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    438\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mmaybe_call\u001b[0;34m(maybe_fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     31\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     32\u001b[0m     \u001b[0margs\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mget_fn_args\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmaybe_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mkwargs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mprefix\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 33\u001b[0;31m     \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0margs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     34\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     35\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m<ipython-input-58-a3905fbf839c>\u001b[0m in \u001b[0;36mxs\u001b[0;34m(channel)\u001b[0m\n\u001b[1;32m      8\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      9\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mxs\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mchannel\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 10\u001b[0;31m     \u001b[0;32mreturn\u001b[0m \u001b[0mvideos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mloc\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mtest_2\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'Product'\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0mproduct\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mindex\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     11\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     12\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mys\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mxs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;31mNameError\u001b[0m: name 'videos' is not defined"
+                        ]
+                    }
+                ]
+            }
+        },
+        "d2c29ca70a9e4ffead920050667517f3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "012c2fa837784b03ab58ca32253d6c69": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_3705790637a04fec94b8da94aa27e376",
+                    "IPY_MODEL_343318dcea7e49d8a9a632ff589355d1"
+                ],
+                "layout": "IPY_MODEL_d2c29ca70a9e4ffead920050667517f3"
+            }
+        },
+        "efdc0be7b43e488dabe65733e3e07abc": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "363e54c4cab94b85924bc6b87f7dbecb": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "cef25f86112c4db0bbceaf3b7b054bc5": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Date Trending",
+                "scale": "IPY_MODEL_efdc0be7b43e488dabe65733e3e07abc",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "b8312a1151ba4a82890f94e2545b91a6": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Views",
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_363e54c4cab94b85924bc6b87f7dbecb",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "4545d2e8ebe7499e81968ad58ded3b7d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "ab01962fc22147afb3a1a4f70deba2fb": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "4d208fa910b84948a1a76664a719950e": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "04f6a3c249684a5fb09ac4cc3cd16228": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "animation_duration": 500,
+                "axes": [
+                    "IPY_MODEL_cef25f86112c4db0bbceaf3b7b054bc5",
+                    "IPY_MODEL_b8312a1151ba4a82890f94e2545b91a6"
+                ],
+                "layout": "IPY_MODEL_4545d2e8ebe7499e81968ad58ded3b7d",
+                "marks": [
+                    "IPY_MODEL_f429f4e31f8d47bbb7636451b52ac0e5"
+                ],
+                "max_aspect_ratio": 1,
+                "scale_x": "IPY_MODEL_ab01962fc22147afb3a1a4f70deba2fb",
+                "scale_y": "IPY_MODEL_4d208fa910b84948a1a76664a719950e",
+                "theme": "classic",
+                "title": "Views for Trending Videos"
+            }
+        },
+        "f429f4e31f8d47bbb7636451b52ac0e5": {
+            "model_name": "ScatterModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "default_opacities": {
+                    "dtype": "float64",
+                    "shape": [
+                        1
+                    ],
+                    "type": null
+                },
+                "display_legend": false,
+                "names": null,
+                "scales": {
+                    "x": "IPY_MODEL_efdc0be7b43e488dabe65733e3e07abc",
+                    "y": "IPY_MODEL_363e54c4cab94b85924bc6b87f7dbecb"
+                },
+                "scales_metadata": {
+                    "x": {
+                        "orientation": "horizontal",
+                        "dimension": "x"
+                    },
+                    "y": {
+                        "orientation": "vertical",
+                        "dimension": "y"
+                    },
+                    "color": {
+                        "dimension": "color"
+                    },
+                    "size": {
+                        "dimension": "size"
+                    },
+                    "opacity": {
+                        "dimension": "opacity"
+                    },
+                    "rotation": {
+                        "dimension": "rotation"
+                    },
+                    "skew": {
+                        "dimension": "skew"
+                    }
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "AAAAAAAA8D8=",
+                    "path": [
+                        "default_opacities",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "2f360417b0ec4905885c325e2c048d16": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "951d5ebd829e4cef8d4892a868fd59ec": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_5e6a5128d18b4369912001880a84274b",
+                    "IPY_MODEL_aaaf2318db3f4d13b74df35ed3134a6e"
+                ],
+                "layout": "IPY_MODEL_2f360417b0ec4905885c325e2c048d16"
+            }
+        },
+        "7048819458cb47ddb01d4a45538afac0": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "be13318c0d2746e198fb5d34b3809f34": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "5e6a5128d18b4369912001880a84274b": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Options on Securities",
+                    "Bonds/Notes",
+                    "Commercial Paper"
+                ],
+                "description": "product",
+                "index": 0,
+                "layout": "IPY_MODEL_7048819458cb47ddb01d4a45538afac0",
+                "style": "IPY_MODEL_be13318c0d2746e198fb5d34b3809f34"
+            }
+        },
+        "969616c991b64d4eacffa56cc0ef59a6": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "aaaf2318db3f4d13b74df35ed3134a6e": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_969616c991b64d4eacffa56cc0ef59a6",
+                "outputs": [
+                    {
+                        "output_type": "error",
+                        "ename": "ValueError",
+                        "evalue": "The following args are missing for the function xs: ['channel'].",
+                        "traceback": [
+                            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+                            "\u001b[0;31mValueError\u001b[0m                                Traceback (most recent call last)",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/ipywidgets/widgets/interaction.py\u001b[0m in \u001b[0;36mupdate\u001b[0;34m(self, *args)\u001b[0m\n\u001b[1;32m    254\u001b[0m                     \u001b[0mvalue\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mget_interact_value\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    255\u001b[0m                     \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_kwarg\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 256\u001b[0;31m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mf\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    257\u001b[0m                 \u001b[0mshow_inline_matplotlib_plots\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    258\u001b[0m                 \u001b[0;32mif\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mauto_display\u001b[0m \u001b[0;32mand\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/plotting.py\u001b[0m in \u001b[0;36mwrapped\u001b[0;34m(**interact_params)\u001b[0m\n\u001b[1;32m    434\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    435\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0mwrapped\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0minteract_params\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 436\u001b[0;31m         \u001b[0mx_data\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mutil\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mmaybe_call\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mx_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0minteract_params\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m'x'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    437\u001b[0m         \u001b[0mscat\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mx\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mx_data\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    438\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mmaybe_call\u001b[0;34m(maybe_fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     30\u001b[0m         \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     31\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 32\u001b[0;31m     \u001b[0margs\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mget_fn_args\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmaybe_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mkwargs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mprefix\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     33\u001b[0m     \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0margs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     34\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mget_fn_args\u001b[0;34m(fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     83\u001b[0m         raise ValueError(\n\u001b[1;32m     84\u001b[0m             \u001b[0;34m'The following args are missing for the function '\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 85\u001b[0;31m             \u001b[0;34m'{}: {}.'\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mformat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfn\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m__name__\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmissing_args\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     86\u001b[0m         )\n\u001b[1;32m     87\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;31mValueError\u001b[0m: The following args are missing for the function xs: ['channel']."
+                        ]
+                    }
+                ]
+            }
+        },
+        "35cf19589f71408c8786c06e441612dd": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "99b3061a27ec4699bd9243cc6c352c94": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_951d5ebd829e4cef8d4892a868fd59ec",
+                    "IPY_MODEL_04f6a3c249684a5fb09ac4cc3cd16228"
+                ],
+                "layout": "IPY_MODEL_35cf19589f71408c8786c06e441612dd"
+            }
+        },
+        "f8a16c95d89e437188998fb113954e2a": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "15e0ce67e6e84faa94355651853770d4": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "af5c4b2424dd4193b5a094da43354eef": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Date Trending",
+                "scale": "IPY_MODEL_f8a16c95d89e437188998fb113954e2a",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "dc07b3e989364db6a30237cf43b3792a": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Views",
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_15e0ce67e6e84faa94355651853770d4",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "b8e506e42a1d49b287e1906f0c7c8654": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "0237f3002e17483195aff2a158de86bd": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "792e9413de9d4473b00d7329079e5b71": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "52bf05b8a1c04f4185d2c1adc9d17e2c": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "animation_duration": 500,
+                "axes": [
+                    "IPY_MODEL_af5c4b2424dd4193b5a094da43354eef",
+                    "IPY_MODEL_dc07b3e989364db6a30237cf43b3792a"
+                ],
+                "layout": "IPY_MODEL_b8e506e42a1d49b287e1906f0c7c8654",
+                "marks": [
+                    "IPY_MODEL_f2d437e59b5a4773b4214a136d79256e"
+                ],
+                "max_aspect_ratio": 1,
+                "scale_x": "IPY_MODEL_0237f3002e17483195aff2a158de86bd",
+                "scale_y": "IPY_MODEL_792e9413de9d4473b00d7329079e5b71",
+                "theme": "classic",
+                "title": "Views for Trending Videos"
+            }
+        },
+        "f2d437e59b5a4773b4214a136d79256e": {
+            "model_name": "ScatterModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "default_opacities": {
+                    "dtype": "float64",
+                    "shape": [
+                        1
+                    ],
+                    "type": null
+                },
+                "display_legend": false,
+                "names": null,
+                "scales": {
+                    "x": "IPY_MODEL_f8a16c95d89e437188998fb113954e2a",
+                    "y": "IPY_MODEL_15e0ce67e6e84faa94355651853770d4"
+                },
+                "scales_metadata": {
+                    "x": {
+                        "orientation": "horizontal",
+                        "dimension": "x"
+                    },
+                    "y": {
+                        "orientation": "vertical",
+                        "dimension": "y"
+                    },
+                    "color": {
+                        "dimension": "color"
+                    },
+                    "size": {
+                        "dimension": "size"
+                    },
+                    "opacity": {
+                        "dimension": "opacity"
+                    },
+                    "rotation": {
+                        "dimension": "rotation"
+                    },
+                    "skew": {
+                        "dimension": "skew"
+                    }
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "AAAAAAAA8D8=",
+                    "path": [
+                        "default_opacities",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "4d653e7f5ffa490ca87c85f4877eb51f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d9b30106dfc446c3b0ceb5ae28ab2c38": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_e80febde021e4efabb390521eeb48c14",
+                    "IPY_MODEL_b91d00c5ce3b4a2ca3a0c78dbf8c2d84"
+                ],
+                "layout": "IPY_MODEL_4d653e7f5ffa490ca87c85f4877eb51f"
+            }
+        },
+        "bd36a18d5d0f450db2e60fd2c8d25f83": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "6090f8f31d8e4c67a8d500d4e443d15b": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "e80febde021e4efabb390521eeb48c14": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Options on Securities",
+                    "Bonds/Notes",
+                    "Commercial Paper"
+                ],
+                "description": "product",
+                "index": 0,
+                "layout": "IPY_MODEL_bd36a18d5d0f450db2e60fd2c8d25f83",
+                "style": "IPY_MODEL_6090f8f31d8e4c67a8d500d4e443d15b"
+            }
+        },
+        "79e4ebe922c144949cda17f3616c858f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b91d00c5ce3b4a2ca3a0c78dbf8c2d84": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_79e4ebe922c144949cda17f3616c858f",
+                "outputs": [
+                    {
+                        "output_type": "error",
+                        "ename": "ValueError",
+                        "evalue": "The following args are missing for the function xs: ['channel'].",
+                        "traceback": [
+                            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+                            "\u001b[0;31mValueError\u001b[0m                                Traceback (most recent call last)",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/ipywidgets/widgets/interaction.py\u001b[0m in \u001b[0;36mupdate\u001b[0;34m(self, *args)\u001b[0m\n\u001b[1;32m    254\u001b[0m                     \u001b[0mvalue\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mget_interact_value\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    255\u001b[0m                     \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_kwarg\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 256\u001b[0;31m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mf\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    257\u001b[0m                 \u001b[0mshow_inline_matplotlib_plots\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    258\u001b[0m                 \u001b[0;32mif\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mauto_display\u001b[0m \u001b[0;32mand\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/plotting.py\u001b[0m in \u001b[0;36mwrapped\u001b[0;34m(**interact_params)\u001b[0m\n\u001b[1;32m    434\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    435\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0mwrapped\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0minteract_params\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 436\u001b[0;31m         \u001b[0mx_data\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mutil\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mmaybe_call\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mx_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0minteract_params\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m'x'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    437\u001b[0m         \u001b[0mscat\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mx\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mx_data\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    438\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mmaybe_call\u001b[0;34m(maybe_fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     30\u001b[0m         \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     31\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 32\u001b[0;31m     \u001b[0margs\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mget_fn_args\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmaybe_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mkwargs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mprefix\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     33\u001b[0m     \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0margs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     34\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mget_fn_args\u001b[0;34m(fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     83\u001b[0m         raise ValueError(\n\u001b[1;32m     84\u001b[0m             \u001b[0;34m'The following args are missing for the function '\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 85\u001b[0;31m             \u001b[0;34m'{}: {}.'\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mformat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfn\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m__name__\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmissing_args\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     86\u001b[0m         )\n\u001b[1;32m     87\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;31mValueError\u001b[0m: The following args are missing for the function xs: ['channel']."
+                        ]
+                    }
+                ]
+            }
+        },
+        "6987eac5a3cf4ee9a985edd6274f3244": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d69d64eb3a974a7999f214b2b0d6c262": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_d9b30106dfc446c3b0ceb5ae28ab2c38",
+                    "IPY_MODEL_52bf05b8a1c04f4185d2c1adc9d17e2c"
+                ],
+                "layout": "IPY_MODEL_6987eac5a3cf4ee9a985edd6274f3244"
+            }
+        },
+        "03c1d5b4aa8048158b9b83231a2bf702": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "b636bb95ad4a4284ae7d91a9fccc9127": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "1b65e3018f0443739cce98c3f1bf706d": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Date Trending",
+                "scale": "IPY_MODEL_03c1d5b4aa8048158b9b83231a2bf702",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "54b83782daf54e5aa4a37e1292f5b339": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Views",
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_b636bb95ad4a4284ae7d91a9fccc9127",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "1e40c0fa00b54b9484b0aca8bd15e1c8": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "5004d630aadc44d39d47f846438940af": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "b5c37078261c4b438b589b697b82ec2a": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "6610a3e08f8d4aca92865e8d5297bc1a": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "animation_duration": 500,
+                "axes": [
+                    "IPY_MODEL_1b65e3018f0443739cce98c3f1bf706d",
+                    "IPY_MODEL_54b83782daf54e5aa4a37e1292f5b339"
+                ],
+                "layout": "IPY_MODEL_1e40c0fa00b54b9484b0aca8bd15e1c8",
+                "marks": [
+                    "IPY_MODEL_5662ae14841847aa968fdf390bb11dde"
+                ],
+                "max_aspect_ratio": 1,
+                "scale_x": "IPY_MODEL_5004d630aadc44d39d47f846438940af",
+                "scale_y": "IPY_MODEL_b5c37078261c4b438b589b697b82ec2a",
+                "theme": "classic",
+                "title": "Views for Trending Videos"
+            }
+        },
+        "5662ae14841847aa968fdf390bb11dde": {
+            "model_name": "ScatterModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "default_opacities": {
+                    "dtype": "float64",
+                    "shape": [
+                        1
+                    ],
+                    "type": null
+                },
+                "display_legend": false,
+                "names": null,
+                "scales": {
+                    "x": "IPY_MODEL_03c1d5b4aa8048158b9b83231a2bf702",
+                    "y": "IPY_MODEL_b636bb95ad4a4284ae7d91a9fccc9127"
+                },
+                "scales_metadata": {
+                    "x": {
+                        "orientation": "horizontal",
+                        "dimension": "x"
+                    },
+                    "y": {
+                        "orientation": "vertical",
+                        "dimension": "y"
+                    },
+                    "color": {
+                        "dimension": "color"
+                    },
+                    "size": {
+                        "dimension": "size"
+                    },
+                    "opacity": {
+                        "dimension": "opacity"
+                    },
+                    "rotation": {
+                        "dimension": "rotation"
+                    },
+                    "skew": {
+                        "dimension": "skew"
+                    }
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        1
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "int32",
+                    "shape": [
+                        1
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "AAAAAAAA8D8=",
+                    "path": [
+                        "default_opacities",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "sQ4AAA==",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "ZwAAAA==",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "dc5ab2722b3c454b8554a559af884b08": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "301f52454d134655a328f3b645184243": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_30ac7fd0717041e8a97dbc0d18b97c6a",
+                    "IPY_MODEL_df634a5dd0154c5dbcfccd343fef49eb"
+                ],
+                "layout": "IPY_MODEL_dc5ab2722b3c454b8554a559af884b08"
+            }
+        },
+        "8ff52193cdf844979849b6fdbabb7333": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b4d2316791c84b5b9fe39ec60385dbf2": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "30ac7fd0717041e8a97dbc0d18b97c6a": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Options on Securities",
+                    "Bonds/Notes",
+                    "Commercial Paper"
+                ],
+                "description": "product",
+                "index": 1,
+                "layout": "IPY_MODEL_8ff52193cdf844979849b6fdbabb7333",
+                "style": "IPY_MODEL_b4d2316791c84b5b9fe39ec60385dbf2"
+            }
+        },
+        "599b3201c41c4c64aa971381645f1d17": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "df634a5dd0154c5dbcfccd343fef49eb": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_599b3201c41c4c64aa971381645f1d17"
+            }
+        },
+        "517ff5f70ec14cf98f87575eb0255f2e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "20c600c9429e466bb695821ce74b7ca2": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_301f52454d134655a328f3b645184243",
+                    "IPY_MODEL_6610a3e08f8d4aca92865e8d5297bc1a"
+                ],
+                "layout": "IPY_MODEL_517ff5f70ec14cf98f87575eb0255f2e"
+            }
+        },
+        "d346f4a1e4e84846b67698145ece271d": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "978cee68ae444c54a6911d55334c8197": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "24d437ed388042eab22dc8b13dae4287": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Date Trending",
+                "scale": "IPY_MODEL_d346f4a1e4e84846b67698145ece271d",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "1cd4a82a68574144b19ef256b95cee5d": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Views",
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_978cee68ae444c54a6911d55334c8197",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "3974db732d2b4ee7bef3b15667506c32": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "7561a80085f447de8948c202fbeb15ac": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "dae90ede94e54280a734f2fbd022b3b1": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "4d6bcc4744574df0bd2770b6e2382a49": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "animation_duration": 500,
+                "axes": [
+                    "IPY_MODEL_24d437ed388042eab22dc8b13dae4287",
+                    "IPY_MODEL_1cd4a82a68574144b19ef256b95cee5d"
+                ],
+                "layout": "IPY_MODEL_3974db732d2b4ee7bef3b15667506c32",
+                "marks": [
+                    "IPY_MODEL_f3d20b06866a4188b02c7c0c61e39fdb"
+                ],
+                "max_aspect_ratio": 1,
+                "scale_x": "IPY_MODEL_7561a80085f447de8948c202fbeb15ac",
+                "scale_y": "IPY_MODEL_dae90ede94e54280a734f2fbd022b3b1",
+                "theme": "classic",
+                "title": "Views for Trending Videos"
+            }
+        },
+        "f3d20b06866a4188b02c7c0c61e39fdb": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_d346f4a1e4e84846b67698145ece271d",
+                    "y": "IPY_MODEL_978cee68ae444c54a6911d55334c8197"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        3
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "int32",
+                    "shape": [
+                        3
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "MhwAAFcXAABTGQAA",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "cwAAAHoAAABUAAAA",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "4fc47a1cab844658914029a6da499b33": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a62da23f0fa2483091cc1ba9d16fd3d7": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_d6419917ec5e4b199e9ce2bea58705bb",
+                    "IPY_MODEL_4d343343ae7944c895ee2018449c6fc8"
+                ],
+                "layout": "IPY_MODEL_4fc47a1cab844658914029a6da499b33"
+            }
+        },
+        "0d80a32d50434af3b2790218136ad0d1": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "123cb51fe228426b92968a436fd7edc8": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "d6419917ec5e4b199e9ce2bea58705bb": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Options on Securities",
+                    "Bonds/Notes",
+                    "Commercial Paper"
+                ],
+                "description": "product",
+                "index": 0,
+                "layout": "IPY_MODEL_0d80a32d50434af3b2790218136ad0d1",
+                "style": "IPY_MODEL_123cb51fe228426b92968a436fd7edc8"
+            }
+        },
+        "784349be83144d678d9d165cbf6eb831": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "4d343343ae7944c895ee2018449c6fc8": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_784349be83144d678d9d165cbf6eb831"
+            }
+        },
+        "1805b5a6e0884ae8bdb40dec91473b5e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0e9e7256985d4c418031802979e50393": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_a62da23f0fa2483091cc1ba9d16fd3d7",
+                    "IPY_MODEL_4d6bcc4744574df0bd2770b6e2382a49"
+                ],
+                "layout": "IPY_MODEL_1805b5a6e0884ae8bdb40dec91473b5e"
+            }
+        },
+        "9c8b8314e0bc41a781989e0fb396bc1d": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "47a98be5206d42a9b1cc65206ad80013": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "b2b9805e0bc24593a54b6e23594094de": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Date Trending",
+                "scale": "IPY_MODEL_9c8b8314e0bc41a781989e0fb396bc1d",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "c64fca443bf546b3b108e75e996de3a8": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Views",
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_47a98be5206d42a9b1cc65206ad80013",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "252f6b257aca48fcac410f5c986bf808": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "bd95902d6f6c43aab12fe703e902d045": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "8483611ddbd54362b1fd1168d0ab9476": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "60e3e56e1d8143e69a458a63395a99d2": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "animation_duration": 500,
+                "axes": [
+                    "IPY_MODEL_b2b9805e0bc24593a54b6e23594094de",
+                    "IPY_MODEL_c64fca443bf546b3b108e75e996de3a8"
+                ],
+                "layout": "IPY_MODEL_252f6b257aca48fcac410f5c986bf808",
+                "marks": [
+                    "IPY_MODEL_a05930e95bbe45e8a3bf2501683caa1c"
+                ],
+                "max_aspect_ratio": 1,
+                "scale_x": "IPY_MODEL_bd95902d6f6c43aab12fe703e902d045",
+                "scale_y": "IPY_MODEL_8483611ddbd54362b1fd1168d0ab9476",
+                "theme": "classic",
+                "title": "Views for Trending Videos"
+            }
+        },
+        "a05930e95bbe45e8a3bf2501683caa1c": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_9c8b8314e0bc41a781989e0fb396bc1d",
+                    "y": "IPY_MODEL_47a98be5206d42a9b1cc65206ad80013"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAA==",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "76c1d27333c14eb4882459978ed19d38": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0bce91fe9d4249d786876b91a51b5d85": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_b6660f2e85934a9ab3076403a81c619d",
+                    "IPY_MODEL_9a16ce3d9edf45968dc2a6978a1edbaa"
+                ],
+                "layout": "IPY_MODEL_76c1d27333c14eb4882459978ed19d38"
+            }
+        },
+        "e402e8b625384fc6bd08dc2b73d5226a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "4a84aa95274649e99a515b30be399402": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "b6660f2e85934a9ab3076403a81c619d": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Options on Securities",
+                    "Bonds/Notes",
+                    "Commercial Paper"
+                ],
+                "description": "product",
+                "index": 0,
+                "layout": "IPY_MODEL_e402e8b625384fc6bd08dc2b73d5226a",
+                "style": "IPY_MODEL_4a84aa95274649e99a515b30be399402"
+            }
+        },
+        "c2bfbccc792943ad9d920bbb86d96014": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "9a16ce3d9edf45968dc2a6978a1edbaa": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_c2bfbccc792943ad9d920bbb86d96014",
+                "outputs": [
+                    {
+                        "output_type": "error",
+                        "ename": "ValueError",
+                        "evalue": "The following args are missing for the function xs: ['Product'].",
+                        "traceback": [
+                            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+                            "\u001b[0;31mValueError\u001b[0m                                Traceback (most recent call last)",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/ipywidgets/widgets/interaction.py\u001b[0m in \u001b[0;36mupdate\u001b[0;34m(self, *args)\u001b[0m\n\u001b[1;32m    254\u001b[0m                     \u001b[0mvalue\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mget_interact_value\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    255\u001b[0m                     \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_kwarg\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 256\u001b[0;31m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mf\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    257\u001b[0m                 \u001b[0mshow_inline_matplotlib_plots\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    258\u001b[0m                 \u001b[0;32mif\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mauto_display\u001b[0m \u001b[0;32mand\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/plotting.py\u001b[0m in \u001b[0;36mwrapped\u001b[0;34m(**interact_params)\u001b[0m\n\u001b[1;32m    295\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    296\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0mwrapped\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0minteract_params\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 297\u001b[0;31m         \u001b[0mx_data\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mutil\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mmaybe_call\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mx_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0minteract_params\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m'x'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    298\u001b[0m         \u001b[0mbar\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mx\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mx_data\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    299\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mmaybe_call\u001b[0;34m(maybe_fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     30\u001b[0m         \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     31\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 32\u001b[0;31m     \u001b[0margs\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mget_fn_args\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmaybe_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mkwargs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mprefix\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     33\u001b[0m     \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0margs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     34\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mget_fn_args\u001b[0;34m(fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     83\u001b[0m         raise ValueError(\n\u001b[1;32m     84\u001b[0m             \u001b[0;34m'The following args are missing for the function '\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 85\u001b[0;31m             \u001b[0;34m'{}: {}.'\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mformat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfn\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m__name__\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmissing_args\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     86\u001b[0m         )\n\u001b[1;32m     87\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;31mValueError\u001b[0m: The following args are missing for the function xs: ['Product']."
+                        ]
+                    }
+                ]
+            }
+        },
+        "d3e91bf807c34e46b3941d9a522155b5": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "27ec4bcfda0a421ead9ccaf985ad4591": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_0bce91fe9d4249d786876b91a51b5d85",
+                    "IPY_MODEL_60e3e56e1d8143e69a458a63395a99d2"
+                ],
+                "layout": "IPY_MODEL_d3e91bf807c34e46b3941d9a522155b5"
+            }
+        },
+        "3c0f5c74b4354f29bb7b85bc6359f30a": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "e29c2fe95c664819b4ea1ac9af6970c4": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "81721bb072894f52aa003f7660f34710": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Date Trending",
+                "scale": "IPY_MODEL_3c0f5c74b4354f29bb7b85bc6359f30a",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "b0028393bba844cba25bf0e20d28244e": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Views",
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_e29c2fe95c664819b4ea1ac9af6970c4",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "4602c40bbde344de8fda72debf165ab9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "826462b794c14c9eb1cfb86a24c1bd72": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "07586e8211b04b4e9c711abec47c0a1c": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "40fc291f16fe461ca1017f2e19287c23": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "animation_duration": 500,
+                "axes": [
+                    "IPY_MODEL_81721bb072894f52aa003f7660f34710",
+                    "IPY_MODEL_b0028393bba844cba25bf0e20d28244e"
+                ],
+                "layout": "IPY_MODEL_4602c40bbde344de8fda72debf165ab9",
+                "marks": [
+                    "IPY_MODEL_41cfc544702240319fd9ec1035b91397"
+                ],
+                "max_aspect_ratio": 1,
+                "scale_x": "IPY_MODEL_826462b794c14c9eb1cfb86a24c1bd72",
+                "scale_y": "IPY_MODEL_07586e8211b04b4e9c711abec47c0a1c",
+                "theme": "classic",
+                "title": "Views for Trending Videos"
+            }
+        },
+        "41cfc544702240319fd9ec1035b91397": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_3c0f5c74b4354f29bb7b85bc6359f30a",
+                    "y": "IPY_MODEL_e29c2fe95c664819b4ea1ac9af6970c4"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        3
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "int32",
+                    "shape": [
+                        3
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "MhwAAFcXAABTGQAA",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "cwAAAHoAAABUAAAA",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "914ade515fc04318a30adc8acbf095ce": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e166031030b24a09927aceba6091f2f0": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_1420d84b89554e81abfcbef5e979dab7",
+                    "IPY_MODEL_f19c8e4b17b7404092ba7b450aad229a"
+                ],
+                "layout": "IPY_MODEL_914ade515fc04318a30adc8acbf095ce"
+            }
+        },
+        "c868a8db29b8489895a5cce22f248920": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "bb064e8de3b04f019a9c5c800086ac4c": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "1420d84b89554e81abfcbef5e979dab7": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Options on Securities",
+                    "Bonds/Notes",
+                    "Commercial Paper"
+                ],
+                "description": "Product",
+                "index": 0,
+                "layout": "IPY_MODEL_c868a8db29b8489895a5cce22f248920",
+                "style": "IPY_MODEL_bb064e8de3b04f019a9c5c800086ac4c"
+            }
+        },
+        "664b845e7e5b4ff99a675662003a050f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f19c8e4b17b7404092ba7b450aad229a": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_664b845e7e5b4ff99a675662003a050f"
+            }
+        },
+        "1ef83773a0c94be992836950bf3ca37c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "72228dab09464a5ba7e3c84734868f5d": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_e166031030b24a09927aceba6091f2f0",
+                    "IPY_MODEL_40fc291f16fe461ca1017f2e19287c23"
+                ],
+                "layout": "IPY_MODEL_1ef83773a0c94be992836950bf3ca37c"
+            }
+        },
+        "510e642711fa480faf9c179c1b3d13fe": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0dd6b6ae000145d08113cb6fd43bb89a": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_303445c098664a218fa117c31466b10e"
+                ],
+                "layout": "IPY_MODEL_510e642711fa480faf9c179c1b3d13fe"
+            }
+        },
+        "b3adb96e61d94fa0adf857835f18bcfc": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "303445c098664a218fa117c31466b10e": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_b3adb96e61d94fa0adf857835f18bcfc",
+                "outputs": [
+                    {
+                        "output_type": "error",
+                        "ename": "TypeError",
+                        "evalue": "'DataFrame' object is not callable",
+                        "traceback": [
+                            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+                            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/ipywidgets/widgets/interaction.py\u001b[0m in \u001b[0;36mupdate\u001b[0;34m(self, *args)\u001b[0m\n\u001b[1;32m    254\u001b[0m                     \u001b[0mvalue\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mget_interact_value\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    255\u001b[0m                     \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_kwarg\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 256\u001b[0;31m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mf\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    257\u001b[0m                 \u001b[0mshow_inline_matplotlib_plots\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    258\u001b[0m                 \u001b[0;32mif\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mauto_display\u001b[0m \u001b[0;32mand\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;31mTypeError\u001b[0m: 'DataFrame' object is not callable"
+                        ]
+                    }
+                ]
+            }
+        },
+        "589851da2b8248b0a459c607af8a9079": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "9594847ef84d4266b1bbf55b3f42d5d3": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "8c73529d6c714ebe9691b77fb6e5b812": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Date Trending",
+                "scale": "IPY_MODEL_589851da2b8248b0a459c607af8a9079",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "28fa481b46f04ecba15ae6b5b1adc57a": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Views",
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_9594847ef84d4266b1bbf55b3f42d5d3",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "cbcc7705c43a456b9943cc3a591ed679": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "9424bd778e6f423dbe8b4705477321ed": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "9c19e9614aed46b5872fb86b24096777": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "69ed331eff224e8fbeafd0ab85d7e6b9": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "animation_duration": 500,
+                "axes": [
+                    "IPY_MODEL_8c73529d6c714ebe9691b77fb6e5b812",
+                    "IPY_MODEL_28fa481b46f04ecba15ae6b5b1adc57a"
+                ],
+                "layout": "IPY_MODEL_cbcc7705c43a456b9943cc3a591ed679",
+                "marks": [
+                    "IPY_MODEL_7719f92213304d139747e7463666c16c"
+                ],
+                "max_aspect_ratio": 1,
+                "scale_x": "IPY_MODEL_9424bd778e6f423dbe8b4705477321ed",
+                "scale_y": "IPY_MODEL_9c19e9614aed46b5872fb86b24096777",
+                "theme": "classic",
+                "title": "Views for Trending Videos"
+            }
+        },
+        "7719f92213304d139747e7463666c16c": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_589851da2b8248b0a459c607af8a9079",
+                    "y": "IPY_MODEL_9594847ef84d4266b1bbf55b3f42d5d3"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        3
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "int32",
+                    "shape": [
+                        3
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "MhwAAFcXAABTGQAA",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "cwAAAHoAAABUAAAA",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "f82a9f0ff46a44f99477e292e567e600": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "659be9c9a94b446a9f982ea036888306": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_216afc52d5ba47f59e680114eabfb08f",
+                    "IPY_MODEL_2ead6c003445417c80b06f7723ee1c7e"
+                ],
+                "layout": "IPY_MODEL_f82a9f0ff46a44f99477e292e567e600"
+            }
+        },
+        "47afdcb1a22d420f8ac37a97e86120e6": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "6f170222e8a4489ea9c5f7708e42fb3c": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "216afc52d5ba47f59e680114eabfb08f": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Options on Securities",
+                    "Bonds/Notes",
+                    "Commercial Paper"
+                ],
+                "description": "Product",
+                "index": 0,
+                "layout": "IPY_MODEL_47afdcb1a22d420f8ac37a97e86120e6",
+                "style": "IPY_MODEL_6f170222e8a4489ea9c5f7708e42fb3c"
+            }
+        },
+        "245f2990e4814556bf40d782dc68a230": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "2ead6c003445417c80b06f7723ee1c7e": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_245f2990e4814556bf40d782dc68a230"
+            }
+        },
+        "b487a4a84c3e41ceb97df7994b9d0e2b": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8f7ba9cc999d4149a713c4210894fbea": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_659be9c9a94b446a9f982ea036888306",
+                    "IPY_MODEL_69ed331eff224e8fbeafd0ab85d7e6b9"
+                ],
+                "layout": "IPY_MODEL_b487a4a84c3e41ceb97df7994b9d0e2b"
+            }
+        },
+        "f335da7f597f4c98837fa07d72bd4f7a": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "98df23e21a7446989ef277447b47e66d": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "9c70b082ab624f1485f61bee322d9d5a": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Date Trending",
+                "scale": "IPY_MODEL_f335da7f597f4c98837fa07d72bd4f7a",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "3d4eee3c41744c21bf3b8943b5168d94": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "label": "Views",
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_98df23e21a7446989ef277447b47e66d",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "3e7792898cac47eb80d6d520b3b84cae": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "8a4cd9f862c846d28546df2f26e53e06": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "9a48ca6ca8a841c8bf8b606fffb62a47": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "3f1a837bb6dc4c08918f855da2487565": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "animation_duration": 500,
+                "axes": [
+                    "IPY_MODEL_9c70b082ab624f1485f61bee322d9d5a",
+                    "IPY_MODEL_3d4eee3c41744c21bf3b8943b5168d94"
+                ],
+                "layout": "IPY_MODEL_3e7792898cac47eb80d6d520b3b84cae",
+                "marks": [
+                    "IPY_MODEL_94e28f2e2354407dbd433cd33510efa4"
+                ],
+                "max_aspect_ratio": 1,
+                "scale_x": "IPY_MODEL_8a4cd9f862c846d28546df2f26e53e06",
+                "scale_y": "IPY_MODEL_9a48ca6ca8a841c8bf8b606fffb62a47",
+                "theme": "classic",
+                "title": "Views for Trending Videos"
+            }
+        },
+        "94e28f2e2354407dbd433cd33510efa4": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_f335da7f597f4c98837fa07d72bd4f7a",
+                    "y": "IPY_MODEL_98df23e21a7446989ef277447b47e66d"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        1
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "int32",
+                    "shape": [
+                        1
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "sQ4AAA==",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "ZwAAAA==",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "231d444e595c45aeab72ecf2ae8b65fe": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "5a89823b5c24458bbe289d93422b73aa": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_e5aef081666b4f5db646632c4a2f45ce",
+                    "IPY_MODEL_bfad2427a99345fb9fe9a8f1cb680bee"
+                ],
+                "layout": "IPY_MODEL_231d444e595c45aeab72ecf2ae8b65fe"
+            }
+        },
+        "8248bf3c6fb642fbb8f9b2b26baee02a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "48a57aff37b54c02bfa62538ff72ff50": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "e5aef081666b4f5db646632c4a2f45ce": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Options on Securities",
+                    "Bonds/Notes",
+                    "Commercial Paper"
+                ],
+                "description": "Product",
+                "index": 1,
+                "layout": "IPY_MODEL_8248bf3c6fb642fbb8f9b2b26baee02a",
+                "style": "IPY_MODEL_48a57aff37b54c02bfa62538ff72ff50"
+            }
+        },
+        "7616ab3d797e4f62ae79829022ceec9f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "bfad2427a99345fb9fe9a8f1cb680bee": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_7616ab3d797e4f62ae79829022ceec9f"
+            }
+        },
+        "67c8c3e86db84234b05403588e36c258": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "be9ecdadd65b48a1af22d70d97dd5c36": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_5a89823b5c24458bbe289d93422b73aa",
+                    "IPY_MODEL_3f1a837bb6dc4c08918f855da2487565"
+                ],
+                "layout": "IPY_MODEL_67c8c3e86db84234b05403588e36c258"
+            }
+        },
+        "5cd6329c062c40a79672e3cc64c6c5ed": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "422f1440def14cf1a6a3a6b3dd2f8dc4": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "16c1f20f0d234864b8f0c456501eebfa": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "scale": "IPY_MODEL_5cd6329c062c40a79672e3cc64c6c5ed",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "2a0296165068449c881db46ea4f52030": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_422f1440def14cf1a6a3a6b3dd2f8dc4",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "125aab30bafc4b63a7413efc9b40e83e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "dbd4810befdf41c6a62188be437db25c": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "6eedac6892e449b39481544f9a922169": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "eee4eb4c251a4903969c9490e7b7a8d9": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "axes": [
+                    "IPY_MODEL_16c1f20f0d234864b8f0c456501eebfa",
+                    "IPY_MODEL_2a0296165068449c881db46ea4f52030"
+                ],
+                "layout": "IPY_MODEL_125aab30bafc4b63a7413efc9b40e83e",
+                "marks": [
+                    "IPY_MODEL_85a42d14e78e4d138231a8da514c4a22"
+                ],
+                "max_aspect_ratio": 6,
+                "scale_x": "IPY_MODEL_dbd4810befdf41c6a62188be437db25c",
+                "scale_y": "IPY_MODEL_6eedac6892e449b39481544f9a922169",
+                "theme": "classic"
+            }
+        },
+        "85a42d14e78e4d138231a8da514c4a22": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_5cd6329c062c40a79672e3cc64c6c5ed",
+                    "y": "IPY_MODEL_422f1440def14cf1a6a3a6b3dd2f8dc4"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        1
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "int32",
+                    "shape": [
+                        1
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "sQ4AAA==",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "ZwAAAA==",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "fbe613c38bc64633bc3d74cb9f27b866": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "4812de26d760417da2f8913add7c04ed": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_f00986c4115d4225bb808c62db82a444",
+                    "IPY_MODEL_a6bddba450d74db3a35f48faf57a1317"
+                ],
+                "layout": "IPY_MODEL_fbe613c38bc64633bc3d74cb9f27b866"
+            }
+        },
+        "d9e9cda9ae0642698ee870cb95c6e71b": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8872d9cb4ad44c10b7c2d34f5a7e5eb9": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "f00986c4115d4225bb808c62db82a444": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Options on Securities",
+                    "Bonds/Notes",
+                    "Commercial Paper"
+                ],
+                "description": "Product",
+                "index": 1,
+                "layout": "IPY_MODEL_d9e9cda9ae0642698ee870cb95c6e71b",
+                "style": "IPY_MODEL_8872d9cb4ad44c10b7c2d34f5a7e5eb9"
+            }
+        },
+        "1bc2d6815c49404c9e7b688faf96ef27": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a6bddba450d74db3a35f48faf57a1317": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_1bc2d6815c49404c9e7b688faf96ef27"
+            }
+        },
+        "6377e50435c4483da000083f05f796d8": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "08c2c950f3b94450b11305dcdff67046": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_4812de26d760417da2f8913add7c04ed",
+                    "IPY_MODEL_eee4eb4c251a4903969c9490e7b7a8d9"
+                ],
+                "layout": "IPY_MODEL_6377e50435c4483da000083f05f796d8"
+            }
+        },
+        "312fcbb5a7814094ac609526d0ff735e": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "7a3c7ebd8061475bb85fa39824800979": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "3fec372f06f947ca97150925961433d0": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "scale": "IPY_MODEL_312fcbb5a7814094ac609526d0ff735e",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "2deca17065c24249b51c7a774911a78f": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_7a3c7ebd8061475bb85fa39824800979",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "44482f1b0ef245e9a473e37b7381d280": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "579eb04c3bf644adab14600dedd17613": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "08e4a902e90947d2b8d31936d5afd6bf": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "3a6b99ad8f03455f986fd266c020c197": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "axes": [
+                    "IPY_MODEL_3fec372f06f947ca97150925961433d0",
+                    "IPY_MODEL_2deca17065c24249b51c7a774911a78f"
+                ],
+                "layout": "IPY_MODEL_44482f1b0ef245e9a473e37b7381d280",
+                "marks": [
+                    "IPY_MODEL_9a0dbfc2847e4129898e72692c31e52d"
+                ],
+                "max_aspect_ratio": 6,
+                "scale_x": "IPY_MODEL_579eb04c3bf644adab14600dedd17613",
+                "scale_y": "IPY_MODEL_08e4a902e90947d2b8d31936d5afd6bf",
+                "theme": "classic"
+            }
+        },
+        "9a0dbfc2847e4129898e72692c31e52d": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_312fcbb5a7814094ac609526d0ff735e",
+                    "y": "IPY_MODEL_7a3c7ebd8061475bb85fa39824800979"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        1
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "int32",
+                    "shape": [
+                        1
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "sQ4AAA==",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "ZwAAAA==",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "0dbf81848653430193079bc6294c7bd0": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "9fcddaee4a9f415aa02598804fa7cd29": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_eb31b08bb95a4ff2af7653450b3c7f6a",
+                    "IPY_MODEL_3ccf59f70f7f4b3cbf81f27e653e6bb3"
+                ],
+                "layout": "IPY_MODEL_0dbf81848653430193079bc6294c7bd0"
+            }
+        },
+        "3ae0a7c10ad245e6b6606c4370518aa5": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "722644b050b4405d916e0cca6af03fe7": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "eb31b08bb95a4ff2af7653450b3c7f6a": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Options on Securities",
+                    "Bonds/Notes",
+                    "Commercial Paper"
+                ],
+                "description": "Product",
+                "index": 1,
+                "layout": "IPY_MODEL_3ae0a7c10ad245e6b6606c4370518aa5",
+                "style": "IPY_MODEL_722644b050b4405d916e0cca6af03fe7"
+            }
+        },
+        "2882960a2b05488f9aa1d34df456f94f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "3ccf59f70f7f4b3cbf81f27e653e6bb3": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_2882960a2b05488f9aa1d34df456f94f"
+            }
+        },
+        "f8cfd382e7d142eb974237964d495dd3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f56f2e07b1d54870b95aee22a3c0b846": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_9fcddaee4a9f415aa02598804fa7cd29",
+                    "IPY_MODEL_3a6b99ad8f03455f986fd266c020c197"
+                ],
+                "layout": "IPY_MODEL_f8cfd382e7d142eb974237964d495dd3"
+            }
+        },
+        "1c8bc3364f524afa8f735d20702547b0": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "dc7bb6f9e05e4994b386a0d4291db1f8": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "1d3ee2248a904dcaab74b5528b151f58": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "scale": "IPY_MODEL_1c8bc3364f524afa8f735d20702547b0",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "651c93dfae2e4592bf2af37ae6ca9ed1": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_dc7bb6f9e05e4994b386a0d4291db1f8",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "9b10563f4b484c7abb045870e9e1e939": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "c1750c5cb10542a386158171677542e6": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "97c216d03f834b38af629647313a3916": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "19bac2f35382415ea010de9f5b0e5f89": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "axes": [
+                    "IPY_MODEL_1d3ee2248a904dcaab74b5528b151f58",
+                    "IPY_MODEL_651c93dfae2e4592bf2af37ae6ca9ed1"
+                ],
+                "layout": "IPY_MODEL_9b10563f4b484c7abb045870e9e1e939",
+                "marks": [
+                    "IPY_MODEL_bb6ae96d365342b99a632463021c7217"
+                ],
+                "max_aspect_ratio": 6,
+                "scale_x": "IPY_MODEL_c1750c5cb10542a386158171677542e6",
+                "scale_y": "IPY_MODEL_97c216d03f834b38af629647313a3916",
+                "theme": "classic"
+            }
+        },
+        "bb6ae96d365342b99a632463021c7217": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_1c8bc3364f524afa8f735d20702547b0",
+                    "y": "IPY_MODEL_dc7bb6f9e05e4994b386a0d4291db1f8"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAA==",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "e660786873524c4fbc5bce8b479e7925": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "686d851dbdfd493f89f78f2c92cec9b7": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_c17c03baf1c84b8498ad88f92277a6d0",
+                    "IPY_MODEL_56defb25070c46e386947f06883a91c6"
+                ],
+                "layout": "IPY_MODEL_e660786873524c4fbc5bce8b479e7925"
+            }
+        },
+        "a0b69b37eb2949b2a3ace92c337cb89f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "362c88dc4d904b60a55e651cf8f377ec": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "c17c03baf1c84b8498ad88f92277a6d0": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Regulator",
+                "index": null,
+                "layout": "IPY_MODEL_a0b69b37eb2949b2a3ace92c337cb89f",
+                "style": "IPY_MODEL_362c88dc4d904b60a55e651cf8f377ec"
+            }
+        },
+        "58816c1ce94046a98bea6209775521c2": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "56defb25070c46e386947f06883a91c6": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_58816c1ce94046a98bea6209775521c2",
+                "outputs": [
+                    {
+                        "output_type": "error",
+                        "ename": "ValueError",
+                        "evalue": "The following args are missing for the function xs: ['Reg'].",
+                        "traceback": [
+                            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+                            "\u001b[0;31mValueError\u001b[0m                                Traceback (most recent call last)",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/ipywidgets/widgets/interaction.py\u001b[0m in \u001b[0;36mupdate\u001b[0;34m(self, *args)\u001b[0m\n\u001b[1;32m    254\u001b[0m                     \u001b[0mvalue\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mget_interact_value\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    255\u001b[0m                     \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mwidget\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_kwarg\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 256\u001b[0;31m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mf\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    257\u001b[0m                 \u001b[0mshow_inline_matplotlib_plots\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    258\u001b[0m                 \u001b[0;32mif\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mauto_display\u001b[0m \u001b[0;32mand\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresult\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/plotting.py\u001b[0m in \u001b[0;36mwrapped\u001b[0;34m(**interact_params)\u001b[0m\n\u001b[1;32m    295\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    296\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0mwrapped\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0minteract_params\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 297\u001b[0;31m         \u001b[0mx_data\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mutil\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mmaybe_call\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mx_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0minteract_params\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m'x'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    298\u001b[0m         \u001b[0mbar\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mx\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mx_data\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    299\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mmaybe_call\u001b[0;34m(maybe_fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     30\u001b[0m         \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     31\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 32\u001b[0;31m     \u001b[0margs\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mget_fn_args\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmaybe_fn\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mkwargs\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mprefix\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mprefix\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     33\u001b[0m     \u001b[0;32mreturn\u001b[0m \u001b[0mmaybe_fn\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0margs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     34\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/miniconda3/lib/python3.7/site-packages/nbinteract/util.py\u001b[0m in \u001b[0;36mget_fn_args\u001b[0;34m(fn, kwargs, prefix)\u001b[0m\n\u001b[1;32m     83\u001b[0m         raise ValueError(\n\u001b[1;32m     84\u001b[0m             \u001b[0;34m'The following args are missing for the function '\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 85\u001b[0;31m             \u001b[0;34m'{}: {}.'\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mformat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfn\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m__name__\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmissing_args\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     86\u001b[0m         )\n\u001b[1;32m     87\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;31mValueError\u001b[0m: The following args are missing for the function xs: ['Reg']."
+                        ]
+                    }
+                ]
+            }
+        },
+        "79e425fdb486415e94838534c3ece057": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "702f2079281943df9a75882898847de7": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_686d851dbdfd493f89f78f2c92cec9b7",
+                    "IPY_MODEL_19bac2f35382415ea010de9f5b0e5f89"
+                ],
+                "layout": "IPY_MODEL_79e425fdb486415e94838534c3ece057"
+            }
+        },
+        "133f8444fdbc4a158df13feccc57c14b": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "f2e0fd636ffb43c79457b39510582fb9": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "7fbdab22122849bea5fd04bcfcafe115": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "scale": "IPY_MODEL_133f8444fdbc4a158df13feccc57c14b",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "f10c2023274a448b91274fd2dfe9d626": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_f2e0fd636ffb43c79457b39510582fb9",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "b8691ffb14714e3798ee8ac5ec433a12": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "d697f2e807e042398940020106f1f54f": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "aecf553a786c482f96e00feab27e5758": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "7169a72957c84bc28ba31b0a316d4e16": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "axes": [
+                    "IPY_MODEL_7fbdab22122849bea5fd04bcfcafe115",
+                    "IPY_MODEL_f10c2023274a448b91274fd2dfe9d626"
+                ],
+                "layout": "IPY_MODEL_b8691ffb14714e3798ee8ac5ec433a12",
+                "marks": [
+                    "IPY_MODEL_5efd2e1e934a48adb6d1abbea3fb778e"
+                ],
+                "max_aspect_ratio": 6,
+                "scale_x": "IPY_MODEL_d697f2e807e042398940020106f1f54f",
+                "scale_y": "IPY_MODEL_aecf553a786c482f96e00feab27e5758",
+                "theme": "classic"
+            }
+        },
+        "5efd2e1e934a48adb6d1abbea3fb778e": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_133f8444fdbc4a158df13feccc57c14b",
+                    "y": "IPY_MODEL_f2e0fd636ffb43c79457b39510582fb9"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        0
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "int32",
+                    "shape": [
+                        0
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "246543b0f5194b7588d35c8ff7af4693": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8d9c46099b154d00859a645b02e21d03": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_bdb8ff92110c4af0b75c2368bc17570a",
+                    "IPY_MODEL_7a568b934b4b4010863640489beec883"
+                ],
+                "layout": "IPY_MODEL_246543b0f5194b7588d35c8ff7af4693"
+            }
+        },
+        "5ec430af54ef46ddaad063577820531e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "eff91cc30f7a47d4b40c189853749963": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "bdb8ff92110c4af0b75c2368bc17570a": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Regulator",
+                "index": null,
+                "layout": "IPY_MODEL_5ec430af54ef46ddaad063577820531e",
+                "style": "IPY_MODEL_eff91cc30f7a47d4b40c189853749963"
+            }
+        },
+        "2462b0f78f5946d3a0cae086211bbb83": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "7a568b934b4b4010863640489beec883": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_2462b0f78f5946d3a0cae086211bbb83"
+            }
+        },
+        "f4c99be3fc4f404f8042355a997b0dc9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "6ad6ed68a5be4236ab3b2a2961df6eb9": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_8d9c46099b154d00859a645b02e21d03",
+                    "IPY_MODEL_7169a72957c84bc28ba31b0a316d4e16"
+                ],
+                "layout": "IPY_MODEL_f4c99be3fc4f404f8042355a997b0dc9"
+            }
+        },
+        "a05c5cc144ec45d58ab04125b4a3ae89": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "d737c81375174042bded079b8691389f": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "986da7fdcfd34d40aa28bad3e3d514ab": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "scale": "IPY_MODEL_a05c5cc144ec45d58ab04125b4a3ae89",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "2b3e7609a4f1474fb0a147f16f0868d5": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_d737c81375174042bded079b8691389f",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "38389449bc9c4ce6a81a3f07623890a7": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "154b8966bd614562bc8db818bc62c176": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "4c9b678425904b2880cf320ddbaa942b": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "d29f07646a7e4d22879e32da8d77e1fd": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "axes": [
+                    "IPY_MODEL_986da7fdcfd34d40aa28bad3e3d514ab",
+                    "IPY_MODEL_2b3e7609a4f1474fb0a147f16f0868d5"
+                ],
+                "layout": "IPY_MODEL_38389449bc9c4ce6a81a3f07623890a7",
+                "marks": [
+                    "IPY_MODEL_7e2cae700fba42b09320bf513d5b14d2"
+                ],
+                "max_aspect_ratio": 6,
+                "scale_x": "IPY_MODEL_154b8966bd614562bc8db818bc62c176",
+                "scale_y": "IPY_MODEL_4c9b678425904b2880cf320ddbaa942b",
+                "theme": "classic"
+            }
+        },
+        "7e2cae700fba42b09320bf513d5b14d2": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_a05c5cc144ec45d58ab04125b4a3ae89",
+                    "y": "IPY_MODEL_d737c81375174042bded079b8691389f"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        157
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "int32",
+                    "shape": [
+                        157
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "nAUAACcOAAB0EgAAGBcAAKESAAAiCgAA9xsAABkXAAD4GwAApBIAAF8OAAD/GwAAqRIAANcFAAApCgAAHxcAAOkBAAA9CgAAOBcAALoSAAD5AQAA8AUAAPsBAADyBQAAMhwAAFcXAABWCgAAjA4AANkSAABYFwAAMxwAABUTAADQDgAAQgYAAI8KAABmHAAAHhMAAGscAACeFwAAMQMAAMQPAAAfFAAAbx0AAJULAABHBwAAxxgAAHAdAACYCwAASgcAAMcPAABzHQAAIxQAAMwYAAA4AwAATAcAAJsLAAB2HQAAyQ8AAM4YAAAnFAAApRQAAFAQAAAQDAAATRkAAPAdAABTGQAAtQMAANUHAAAYDAAAVxAAAKwUAAD2HQAAVBkAAJcZAABXDAAAmBAAAOYUAABCHgAA7RQAAKAQAACfGQAA7wMAABgIAABdDAAA0hAAAE8IAAAiFQAA1BkAAIsMAABuHgAA1xAAANsZAAAnFQAAIwQAAFkIAACUDAAAdx4AANsQAAArFQAA3xkAAAQfAACZBAAAEw0AANsIAABhEQAAgBoAALcVAACCGgAAsQQAAHYRAADVFQAAIR8AADINAAD2CAAAoBoAACIfAAAlHwAA2BUAAKQaAAC2BAAA+wgAADYNAAAnHwAAexEAANsVAACmGgAAfB8AAEwJAAB/HwAAiQ0AADQWAADOEQAABxsAADYWAACLDQAAgR8AAAkbAADhEQAAHxsAABwFAACfDQAAYgkAAEMbAABvFgAARRsAAAYSAACECQAAvg0AAHEWAABLBQAAGhIAANMNAACZCQAAHBIAAE0FAADVDQAAmwkAAA==",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "ZgAAAIcAAACIAAAA3wAAAFQAAABmAAAAdgAAANYAAACUAAAAVwAAAJgAAAClAAAAswAAAGMBAACaAQAA7AEAAP8BAABZAAAAdQAAAHgAAAA/AQAAoAEAABsBAACAAQAAcwAAAHoAAABpAAAA4AAAAFEBAAA8AgAAagIAAFQAAABYAAAAbgAAAIYAAAC8AAAAXQAAAHEAAACAAAAAowAAAP8AAAARAQAAJgEAAC0BAAA+AQAAfAEAAOABAABcAAAAXAAAAGMAAABqAAAAoQAAAKgAAAD6AAAAPwEAAFgBAACUAQAAoAEAAD8CAABJAgAAVQAAAFgAAABhAAAAqQAAAMUAAABUAAAAagAAANEAAADhAAAALgEAAGYBAABpAQAAJQIAAGAAAAB2AAAAfAAAAH0AAABdAAAAeQAAAKgAAACtAAAAxgAAANoAAADlAAAAbAAAAHMAAAB5AAAAegAAALQAAACKAAAAVwAAAFgAAABbAAAArAEAAEQCAACfAgAAqgIAAL8CAAAmAwAAUQMAAKgAAACoAAAASQEAAKkBAAARAgAATQIAANMCAACQAAAAmQAAAPUAAAAOAQAAIwEAACYBAAAyAQAAdgEAAOEBAABRAAAAcAAAAHgAAADiAAAALQEAAEEBAACJAQAAjgEAACsCAAArAgAAgAAAAG4AAAB1AAAAigAAAKsAAADAAAAAxQAAAFIAAABVAAAAZwAAAGkAAAB4AAAArwAAAMsGAAAXBwAAahAAAGIAAAB8AAAAmAAAAK0AAACtAAAA7QAAADgBAABfAAAAYgAAAHEAAAB5AAAAagAAAG8AAACVAAAArQAAAA==",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "e7e5aa03fb9844538324e37f3ce7bf41": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f02c68f3fdba4337a387694eef6b87ab": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_7d07e19a306a4a859a088befbf606aac",
+                    "IPY_MODEL_b165b3f11e9648a5abdbe608326f7676"
+                ],
+                "layout": "IPY_MODEL_e7e5aa03fb9844538324e37f3ce7bf41"
+            }
+        },
+        "4e452e2d997141d285faeaef23b344ef": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b359f68abe6548299c85d7d7c5a7edb2": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "7d07e19a306a4a859a088befbf606aac": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator",
+                "index": 2,
+                "layout": "IPY_MODEL_4e452e2d997141d285faeaef23b344ef",
+                "style": "IPY_MODEL_b359f68abe6548299c85d7d7c5a7edb2"
+            }
+        },
+        "207e3b3af22544e8a713ccc3c5a1e8d1": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b165b3f11e9648a5abdbe608326f7676": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_207e3b3af22544e8a713ccc3c5a1e8d1"
+            }
+        },
+        "6b38142757c94fa880b71b0ea9f07c3e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "4e806ea7fc2b40548a41021fa3571ca5": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_f02c68f3fdba4337a387694eef6b87ab",
+                    "IPY_MODEL_d29f07646a7e4d22879e32da8d77e1fd"
+                ],
+                "layout": "IPY_MODEL_6b38142757c94fa880b71b0ea9f07c3e"
+            }
+        },
+        "8588139ea8784cf2991412a6edd68152": {
+            "model_name": "OrdinalScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "domain": []
+            }
+        },
+        "d0de7e9180de44c68c60488408575f0c": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "stabilized": false
+            }
+        },
+        "20248a94f50b4c5d8593a14b78905137": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "scale": "IPY_MODEL_8588139ea8784cf2991412a6edd68152",
+                "side": "bottom",
+                "tick_values": null
+            }
+        },
+        "1544a72ae5ed4ab397353e93f1be4e4d": {
+            "model_name": "AxisModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "orientation": "vertical",
+                "scale": "IPY_MODEL_d0de7e9180de44c68c60488408575f0c",
+                "side": "left",
+                "tick_values": null
+            }
+        },
+        "9f819ab5bf1c417ca21e06d9d335a645": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "min_width": "125px"
+            }
+        },
+        "9ff63f67538245e79540ef252aeeaa67": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "fb5d1f05c0864741a327637bc85efc9d": {
+            "model_name": "LinearScaleModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "allow_padding": false,
+                "max": 1,
+                "min": 0,
+                "stabilized": false
+            }
+        },
+        "f1006a252ad944cf9ca1e016ccf68634": {
+            "model_name": "FigureModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "_dom_classes": [],
+                "axes": [
+                    "IPY_MODEL_20248a94f50b4c5d8593a14b78905137",
+                    "IPY_MODEL_1544a72ae5ed4ab397353e93f1be4e4d"
+                ],
+                "layout": "IPY_MODEL_9f819ab5bf1c417ca21e06d9d335a645",
+                "marks": [
+                    "IPY_MODEL_fe6af14c12f44b8eae4abf8073c5f395"
+                ],
+                "max_aspect_ratio": 6,
+                "scale_x": "IPY_MODEL_9ff63f67538245e79540ef252aeeaa67",
+                "scale_y": "IPY_MODEL_fb5d1f05c0864741a327637bc85efc9d",
+                "theme": "classic"
+            }
+        },
+        "fe6af14c12f44b8eae4abf8073c5f395": {
+            "model_name": "BarsModel",
+            "model_module": "bqplot",
+            "model_module_version": "^0.5.0-alpha.2",
+            "state": {
+                "colors": [
+                    "#475A77"
+                ],
+                "display_legend": false,
+                "scales": {
+                    "x": "IPY_MODEL_8588139ea8784cf2991412a6edd68152",
+                    "y": "IPY_MODEL_d0de7e9180de44c68c60488408575f0c"
+                },
+                "stroke": "#475A77",
+                "x": {
+                    "dtype": "int32",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                },
+                "y": {
+                    "dtype": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "type": null
+                }
+            },
+            "buffers": [
+                {
+                    "data": "AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAA==",
+                    "path": [
+                        "x",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                },
+                {
+                    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "path": [
+                        "y",
+                        "value"
+                    ],
+                    "encoding": "base64"
+                }
+            ]
+        },
+        "3b55b0a3134d4588b47a493a4b4d9079": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "6b318e29c65a4a26b48fe8703892b217": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_6873f6fafd9d47388b5a662ecc2e7c19",
+                    "IPY_MODEL_80a8f2732a8a442abdf7b65284004944"
+                ],
+                "layout": "IPY_MODEL_3b55b0a3134d4588b47a493a4b4d9079"
+            }
+        },
+        "320bcfc0325244a08bf3a7a3905978db": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "716a771325444dea878d675f532fcbed": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "6873f6fafd9d47388b5a662ecc2e7c19": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator",
+                "index": 0,
+                "layout": "IPY_MODEL_320bcfc0325244a08bf3a7a3905978db",
+                "style": "IPY_MODEL_716a771325444dea878d675f532fcbed"
+            }
+        },
+        "c22938d243c74caaa17907c38d76c1e7": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "80a8f2732a8a442abdf7b65284004944": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_c22938d243c74caaa17907c38d76c1e7"
+            }
+        },
+        "76df39ef02eb4b6e9921d023054c0ef3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "105cfec0ddc1404ca9644f3fa408d64a": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_6b318e29c65a4a26b48fe8703892b217",
+                    "IPY_MODEL_f1006a252ad944cf9ca1e016ccf68634"
+                ],
+                "layout": "IPY_MODEL_76df39ef02eb4b6e9921d023054c0ef3"
+            }
+        },
+        "9454cec119714912bac85d93da4971cb": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "73a5b5f660a1453eb366dbec6dd7cdb2": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "2a1a2e60b2754ccfadb53147bf3e0341": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019"
+                ],
+                "description": "Date : ",
+                "index": 7,
+                "layout": "IPY_MODEL_9454cec119714912bac85d93da4971cb",
+                "style": "IPY_MODEL_73a5b5f660a1453eb366dbec6dd7cdb2"
+            }
+        },
+        "b847de524ff6417fb59340aca6d112e3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8df32bbb87d545fe9c3778a3fc1d7446": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_2a1a2e60b2754ccfadb53147bf3e0341"
+                ],
+                "layout": "IPY_MODEL_b847de524ff6417fb59340aca6d112e3"
+            }
+        },
+        "740cf09917d449acb0aae8457dd0dd9d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "bf3341abe0cd4c8ebd1ca7ee41e67be4": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "149493e2853a4894b3c5fa258ed5c3e9": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator :",
+                "index": 0,
+                "layout": "IPY_MODEL_740cf09917d449acb0aae8457dd0dd9d",
+                "style": "IPY_MODEL_bf3341abe0cd4c8ebd1ca7ee41e67be4"
+            }
+        },
+        "017562c570644538b371e9655852fd72": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a1998de2d0314adc9868ac1db9d7ee68": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "d9b6c59ca79a4c1ea5c7a53cfd1e394a": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Alabama",
+                    "Arizona",
+                    "Arkansas",
+                    "California",
+                    "Colorado",
+                    "Connecticut",
+                    "Delaware",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Hawaii",
+                    "Idaho",
+                    "Illinois",
+                    "Indiana",
+                    "Iowa",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maine",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Mississippi",
+                    "Missouri",
+                    "Montana",
+                    "Nebraska",
+                    "Nevada",
+                    "New Hampshire",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "North Dakota",
+                    "Ohio",
+                    "Oklahoma",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Puerto Rico",
+                    "Rhode Island",
+                    "South Carolina",
+                    "South Dakota",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Vermont",
+                    "Virginia",
+                    "Washington",
+                    "West Virginia",
+                    "Wisconsin"
+                ],
+                "description": "Filing State :",
+                "index": 0,
+                "layout": "IPY_MODEL_017562c570644538b371e9655852fd72",
+                "style": "IPY_MODEL_a1998de2d0314adc9868ac1db9d7ee68"
+            }
+        },
+        "29e1946b5ab5495b840dcebe9cc84e4c": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [
+                            "Debit Card",
+                            "Deposit Account"
+                        ],
+                        "y": [
+                            223,
+                            493
+                        ],
+                        "type": "bar",
+                        "uid": "d90abc53-1816-469d-9d28-cc20a3716434"
+                    }
+                ],
+                "_js2py_layoutDelta": {},
+                "_js2py_pointsCallback": {},
+                "_js2py_relayout": {},
+                "_js2py_restyle": {},
+                "_js2py_traceDeltas": {},
+                "_js2py_update": {},
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {}
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_py2js_update": {},
+                "_view_count": 0,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "54d57c43e84f465d98f9ee0dece23e08": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "13d40712249242878d48fd3637ed6aa8": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_d9b6c59ca79a4c1ea5c7a53cfd1e394a",
+                    "IPY_MODEL_149493e2853a4894b3c5fa258ed5c3e9"
+                ],
+                "layout": "IPY_MODEL_54d57c43e84f465d98f9ee0dece23e08"
+            }
+        },
+        "430e575344764ed2a85c60dc83500c84": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e9aed8adf7414b79b623bbf3433da74a": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_8df32bbb87d545fe9c3778a3fc1d7446",
+                    "IPY_MODEL_13d40712249242878d48fd3637ed6aa8",
+                    "IPY_MODEL_29e1946b5ab5495b840dcebe9cc84e4c"
+                ],
+                "layout": "IPY_MODEL_430e575344764ed2a85c60dc83500c84"
+            }
+        },
+        "6aae84a051634df59e871a6c75e06112": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8671e67b235b438f8f35aaacc8ffb609": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "ca0bc2ff2ee94d4281ce58a5c29e1108": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019"
+                ],
+                "description": "Date : ",
+                "index": 7,
+                "layout": "IPY_MODEL_6aae84a051634df59e871a6c75e06112",
+                "style": "IPY_MODEL_8671e67b235b438f8f35aaacc8ffb609"
+            }
+        },
+        "6e35d2f4f776407aaf8b7da8b6f3a6e9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "da18aa59c3cc4e359a62e83041b585e5": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_ca0bc2ff2ee94d4281ce58a5c29e1108"
+                ],
+                "layout": "IPY_MODEL_6e35d2f4f776407aaf8b7da8b6f3a6e9"
+            }
+        },
+        "28dcc493f4f248b4b18cd1baa360d760": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "270d67949f034390bb83ae4e22235636": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "58ed6c70cfba420980e1510fcce8f095": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator :",
+                "index": 0,
+                "layout": "IPY_MODEL_28dcc493f4f248b4b18cd1baa360d760",
+                "style": "IPY_MODEL_270d67949f034390bb83ae4e22235636"
+            }
+        },
+        "803726ef79b845bf9a70818a246a3093": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "7e50277fa7dd453b95fdacf2b5f7527f": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "387846e79c46490abcd2757e66a50477": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Alabama",
+                    "Arizona",
+                    "Arkansas",
+                    "California",
+                    "Colorado",
+                    "Connecticut",
+                    "Delaware",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Hawaii",
+                    "Idaho",
+                    "Illinois",
+                    "Indiana",
+                    "Iowa",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maine",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Mississippi",
+                    "Missouri",
+                    "Montana",
+                    "Nebraska",
+                    "Nevada",
+                    "New Hampshire",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "North Dakota",
+                    "Ohio",
+                    "Oklahoma",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Puerto Rico",
+                    "Rhode Island",
+                    "South Carolina",
+                    "South Dakota",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Vermont",
+                    "Virginia",
+                    "Washington",
+                    "West Virginia",
+                    "Wisconsin"
+                ],
+                "description": "Filing State :",
+                "index": 0,
+                "layout": "IPY_MODEL_803726ef79b845bf9a70818a246a3093",
+                "style": "IPY_MODEL_7e50277fa7dd453b95fdacf2b5f7527f"
+            }
+        },
+        "9c98454fec444f24807d72f4e4eff6e8": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [
+                            "Debit Card",
+                            "Deposit Account"
+                        ],
+                        "y": [
+                            223,
+                            493
+                        ],
+                        "type": "bar",
+                        "uid": "bb8a2f06-be8b-477c-9136-7ab6af0f2436"
+                    }
+                ],
                 "_js2py_pointsCallback": {},
                 "_js2py_restyle": {},
                 "_js2py_update": {},
@@ -25786,45 +31881,396 @@ lang: en
                 "_py2js_removeTraceProps": {},
                 "_py2js_restyle": {},
                 "_py2js_update": {},
-                "_view_count": 1,
+                "_view_count": 0,
                 "_view_module_version": "0.9.1"
             }
         },
-        "f000ae43d9a245e0bde90120e0c96793": {
+        "51156d8a0896414486dde7fadecd4f8c": {
             "model_name": "LayoutModel",
             "model_module": "@jupyter-widgets/base",
             "model_module_version": "1.2.0",
             "state": {}
         },
-        "297558f8678147e7a0ced276b5f74846": {
+        "ccc191cf49e941aabfa0cd5daee593ef": {
             "model_name": "HBoxModel",
             "model_module": "@jupyter-widgets/controls",
             "model_module_version": "1.5.0",
             "state": {
                 "children": [
-                    "IPY_MODEL_32c4cc7097fb465f823e17def8a4ba0c",
-                    "IPY_MODEL_c29592af67cd430b81107dd5a6876678"
+                    "IPY_MODEL_387846e79c46490abcd2757e66a50477",
+                    "IPY_MODEL_58ed6c70cfba420980e1510fcce8f095"
                 ],
-                "layout": "IPY_MODEL_f000ae43d9a245e0bde90120e0c96793"
+                "layout": "IPY_MODEL_51156d8a0896414486dde7fadecd4f8c"
             }
         },
-        "2d7da663a5ea4e13bb7686ae98eebe2c": {
+        "478bd7e528264042a2dd8d6b6ae00ace": {
             "model_name": "LayoutModel",
             "model_module": "@jupyter-widgets/base",
             "model_module_version": "1.2.0",
             "state": {}
         },
-        "3b4ff9157e284fb2a1cfa6939af4d780": {
+        "d0d240e150f64ee599ed91b00564f8e8": {
             "model_name": "VBoxModel",
             "model_module": "@jupyter-widgets/controls",
             "model_module_version": "1.5.0",
             "state": {
                 "children": [
-                    "IPY_MODEL_5421a6727cc146a0b477731f02e3e05a",
-                    "IPY_MODEL_297558f8678147e7a0ced276b5f74846",
-                    "IPY_MODEL_c4766aae77ce461aa5781f0845db715a"
+                    "IPY_MODEL_da18aa59c3cc4e359a62e83041b585e5",
+                    "IPY_MODEL_ccc191cf49e941aabfa0cd5daee593ef",
+                    "IPY_MODEL_9c98454fec444f24807d72f4e4eff6e8"
                 ],
-                "layout": "IPY_MODEL_2d7da663a5ea4e13bb7686ae98eebe2c"
+                "layout": "IPY_MODEL_478bd7e528264042a2dd8d6b6ae00ace"
+            }
+        },
+        "cab23da38f5b4b71b98eace444e36e24": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d81cf2ea560d42ff85c1f41349b283e6": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "71534f39173744028e945d30ae947b9c": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019"
+                ],
+                "description": "Date : ",
+                "index": 7,
+                "layout": "IPY_MODEL_cab23da38f5b4b71b98eace444e36e24",
+                "style": "IPY_MODEL_d81cf2ea560d42ff85c1f41349b283e6"
+            }
+        },
+        "1f6ba649b8264604a4708a0f71972690": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "7f4778fd835e4d52829bb4cbd8c0d65c": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_71534f39173744028e945d30ae947b9c"
+                ],
+                "layout": "IPY_MODEL_1f6ba649b8264604a4708a0f71972690"
+            }
+        },
+        "c77e206a96314797af4ac62a3130d177": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "042741509fb64c22a43dc805c8564ec3": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "31cdfb0be2e145e099e243eb8d3e20db": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019"
+                ],
+                "description": "Date : ",
+                "index": 7,
+                "layout": "IPY_MODEL_c77e206a96314797af4ac62a3130d177",
+                "style": "IPY_MODEL_042741509fb64c22a43dc805c8564ec3"
+            }
+        },
+        "9190c289f0364299af87f7b843831732": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "85d0a30d983c44d4aa11fb3297733953": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_31cdfb0be2e145e099e243eb8d3e20db"
+                ],
+                "layout": "IPY_MODEL_9190c289f0364299af87f7b843831732"
+            }
+        },
+        "bb63b75a52494183b8b1bd441e71c5f2": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "65fe3e5c9eff43b598bc88c39c979e40": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "fa9833b4ee3f4eb4a18130d4b15b4a8e": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "OCC",
+                    "FDIC",
+                    "SEC",
+                    "FHFA",
+                    "CFTC"
+                ],
+                "description": "Regulator :",
+                "index": 0,
+                "layout": "IPY_MODEL_bb63b75a52494183b8b1bd441e71c5f2",
+                "style": "IPY_MODEL_65fe3e5c9eff43b598bc88c39c979e40"
+            }
+        },
+        "bcd72b9671f5467c80ebec4a8a90e8e1": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "6121fc19c2684935ba3b65ff822a60ae": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "0b6987d6379a40488a649b108e8a0117": {
+            "model_name": "DropdownModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Alabama",
+                    "Arizona",
+                    "Arkansas",
+                    "California",
+                    "Colorado",
+                    "Connecticut",
+                    "Delaware",
+                    "District of Columbia",
+                    "Florida",
+                    "Georgia",
+                    "Hawaii",
+                    "Idaho",
+                    "Illinois",
+                    "Indiana",
+                    "Iowa",
+                    "Kansas",
+                    "Kentucky",
+                    "Louisiana",
+                    "Maine",
+                    "Maryland",
+                    "Massachusetts",
+                    "Michigan",
+                    "Minnesota",
+                    "Mississippi",
+                    "Missouri",
+                    "Montana",
+                    "Nebraska",
+                    "Nevada",
+                    "New Hampshire",
+                    "New Jersey",
+                    "New Mexico",
+                    "New York",
+                    "North Carolina",
+                    "North Dakota",
+                    "Ohio",
+                    "Oklahoma",
+                    "Oregon",
+                    "Pennsylvania",
+                    "Puerto Rico",
+                    "Rhode Island",
+                    "South Carolina",
+                    "South Dakota",
+                    "Tennessee",
+                    "Texas",
+                    "Utah",
+                    "Vermont",
+                    "Virginia",
+                    "Washington",
+                    "West Virginia",
+                    "Wisconsin"
+                ],
+                "description": "Filing State :",
+                "index": 31,
+                "layout": "IPY_MODEL_bcd72b9671f5467c80ebec4a8a90e8e1",
+                "style": "IPY_MODEL_6121fc19c2684935ba3b65ff822a60ae"
+            }
+        },
+        "6321e71577ca449daf13cd6329845f27": {
+            "model_name": "FigureModel",
+            "model_module": "plotlywidget",
+            "model_module_version": "0.9.1",
+            "state": {
+                "_config": {
+                    "plotlyServerURL": "https://plot.ly"
+                },
+                "_data": [
+                    {
+                        "marker": {
+                            "color": "rgb(26, 118, 255)",
+                            "line": {
+                                "color": "rgba(100, 10, 205, 1.0)",
+                                "width": 2
+                            }
+                        },
+                        "orientation": "v",
+                        "x": [
+                            "Credit Card",
+                            "Debit Card",
+                            "Deposit Account"
+                        ],
+                        "y": [
+                            1045,
+                            13804,
+                            24168
+                        ],
+                        "type": "bar",
+                        "uid": "eb3e45f6-c22e-4eaf-a8ec-4fc350cfd331"
+                    }
+                ],
+                "_js2py_restyle": {},
+                "_js2py_update": {},
+                "_last_layout_edit_id": 16,
+                "_last_trace_edit_id": 14,
+                "_layout": {
+                    "annotations": [
+                        {
+                            "font": {
+                                "color": "red",
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Source: FINCEN.gov",
+                            "x": 1,
+                            "xanchor": "right",
+                            "xref": "paper",
+                            "xshift": 0,
+                            "y": -0.15,
+                            "yanchor": "auto",
+                            "yref": "paper",
+                            "yshift": 0
+                        }
+                    ],
+                    "barmode": "group",
+                    "hovermode": "closest",
+                    "paper_bgcolor": "whitesmoke",
+                    "plot_bgcolor": "whitesmoke",
+                    "shapes": [
+                        {
+                            "line": {
+                                "color": "RoyalBlue"
+                            },
+                            "type": "rect",
+                            "x0": 0,
+                            "x1": 0,
+                            "y0": 0,
+                            "y1": 0
+                        }
+                    ],
+                    "title": {
+                        "text": "Number SAR Filings by State and Product"
+                    },
+                    "template": {},
+                    "autosize": true,
+                    "xaxis": {
+                        "title": {
+                            "text": "SARs Filing Type"
+                        },
+                        "showspikes": true
+                    },
+                    "yaxis": {
+                        "title": {
+                            "text": "Number of Filings"
+                        },
+                        "showspikes": true
+                    }
+                },
+                "_model_module_version": "0.9.1",
+                "_py2js_addTraces": {},
+                "_py2js_animate": {},
+                "_py2js_deleteTraces": {},
+                "_py2js_moveTraces": {},
+                "_py2js_removeLayoutProps": {},
+                "_py2js_removeTraceProps": {},
+                "_py2js_restyle": {},
+                "_view_count": 1,
+                "_view_module_version": "0.9.1"
+            }
+        },
+        "7a7fa9752b9b4f4cbdfa521124de062c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "10decd2f171642d7b61ed00317c4a305": {
+            "model_name": "HBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_0b6987d6379a40488a649b108e8a0117",
+                    "IPY_MODEL_fa9833b4ee3f4eb4a18130d4b15b4a8e"
+                ],
+                "layout": "IPY_MODEL_7a7fa9752b9b4f4cbdfa521124de062c"
+            }
+        },
+        "435849f2c63d44ff899ef82fe427aeba": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a91be5a3207f49c2889ccddf2ea2708e": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_85d0a30d983c44d4aa11fb3297733953",
+                    "IPY_MODEL_10decd2f171642d7b61ed00317c4a305",
+                    "IPY_MODEL_6321e71577ca449daf13cd6329845f27"
+                ],
+                "layout": "IPY_MODEL_435849f2c63d44ff899ef82fe427aeba"
             }
         }
     }
@@ -25837,13 +32283,12 @@ lang: en
 {
     "version_major": 2,
     "version_minor": 0,
-    "model_id": "3b4ff9157e284fb2a1cfa6939af4d780"
+    "model_id": "a91be5a3207f49c2889ccddf2ea2708e"
 }
 </script>
 
 </body>
 </html>
-
 
 
 <hr>
