@@ -34,6 +34,14 @@ lang: en
 <br />
 
 <div>
+<h1 class="section-front-header-module__title">PowerBi Visualizations</h1>  
+      Under Construction.
+</div>
+
+<hr>
+<br />
+
+<div>
   
 <h1 class="section-front-header-module__title">SQL and DB Queries</h1>
       Under Construction.
