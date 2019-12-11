@@ -10,7 +10,7 @@ show_description: true # set to true to show excerpts on the homepage
 #exclude_from_localizations: ["javascript", "images", "css"]
 index:
   en:
-  fr: accueil.html
+  fr: /_french/accueil.html
 feed:
   en: /feed.xml
   fr: /flux.xml
