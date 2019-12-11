@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Expériences et visualisations"
-permalink: /_french/_posts/Expériences et visualisations/
+permalink: /_french/_posts/Expériences et visualisations.fr.md/
 lang: fr
 ---
 
