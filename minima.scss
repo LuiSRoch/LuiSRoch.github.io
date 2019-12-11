@@ -20,11 +20,11 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $orange-color:     #f66a0a !default;
 $table-text-align: left !default;
 
-// Width of the content area
+// Width of the content area previous size 880
 $content-width:    1100px !default;
 
 $on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-laptop:        1100px !default;
 
 $on-medium:        $on-palm !default;
 $on-large:         $on-laptop !default;
