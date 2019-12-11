@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Contactez Moi"
-#ref: /contact/
+ref: /contact/
 permalink: /_french/Collaboration.fr.md/
 lang: fr
 ---
