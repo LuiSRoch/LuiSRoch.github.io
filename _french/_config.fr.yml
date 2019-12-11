@@ -2,7 +2,7 @@
 title:
   en: Data Wrangling and Analytics
   fr: Data Wrangling et Analytics
-email: your-email@domain.com
+#email: your-email@domain.com
 description:
   en: Data feeds - News - Tools for Tech - Finance & Business> # this means to ignore newlines until "twitter_username:"
   fr: Flux de données - Actualités - Outils pour les technologies - Finance et Business 
