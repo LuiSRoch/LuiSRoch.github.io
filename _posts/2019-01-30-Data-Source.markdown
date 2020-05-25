@@ -23212,6 +23212,14 @@ lang: en
 <iframe src="https://data.worldbank.org/share/widget?end=2013&indicators=EN.ATM.CO2E.KT&locations=1W&start=1960&view=chart" width='100%' height='450' frameBorder='0' ></iframe>
 
 <hr>
+<br/>
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a href="https://data.nber.org/data/" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">National Bureau of Economic Research - NBER</a></span>
+<br />
+  <form action="https://www.nber.org/login.pl?post_login_url=https://data.nber.org/data/?st=&404-search-button=Search" method="GET">
+    <input type="text" id="search" name="st" placeholder="Search">
+    <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
+  </form>
+</div>
 
 <br /><br />
 <h1 class="section-front-header-module__title">Supply Chain</h1>
