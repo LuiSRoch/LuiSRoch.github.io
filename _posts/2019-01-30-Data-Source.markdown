@@ -23215,8 +23215,8 @@ lang: en
 <br/>
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a href="https://data.nber.org/data/" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">National Bureau of Economic Research - NBER</a></span>
 <br />
-  <form action="https://admin.nber.org/xsearch?st=&404-search-button=Search" method="GET">
-    <input type="text" id="search" name="st" placeholder="Search the NBER site">
+  <form action="https://admin.nber.org/xsearch?q=&whichsearch=ftpub-search-button=Search" method="GET">
+    <input type="text" id="search" name="q" placeholder="Search the NBER site">
     <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
   </form>
 </div>
