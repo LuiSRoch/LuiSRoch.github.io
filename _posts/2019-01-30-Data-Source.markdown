@@ -19,19 +19,6 @@ lang: en
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <iframe style="border: 1px solid #333333; overflow: hidden; width: 100%; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="450" width="100%" frameborder="0" scrolling="yes"></iframe>
 <hr>
-<br />
-
-<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">World Bank Open Data</a></span>
-  <br />
-  <form action="https://databank.worldbank.org/data/databases/page/1/orderby/popularity/direction/desc?qterm=&404-search-button=Search" method="GET">
-    <input type="text" id="search" name="qterm" placeholder="Explore, gdp, inflation, unemployment">
-    <button type="submit" id="submit" style="background-color:#687f9f;color:white"> Search </button>
-  </form>
-  <h5 data-reactid=""><span data-reactid="">Browse by</span><a href="https://data.worldbank.org/country" data-reactid=""><span data-reactid=""> Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator </span></a></h5>
-</div>
-
-<iframe src="https://data.worldbank.org/share/widget?end=2013&indicators=EN.ATM.CO2E.KT&locations=1W&start=1960&view=chart" width='100%' height='450' frameBorder='0' ></iframe>
-<hr>
 
 <br />
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;"> Data provided by <a href="https://www.fincen.gov/" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Financial Crimes Enforcement Network</a></span>
@@ -23211,6 +23198,19 @@ lang: en
 </body>
 </html>
 
+<hr>
+<br />
+
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">World Bank Open Data</a></span>
+  <br />
+  <form action="https://databank.worldbank.org/data/databases/page/1/orderby/popularity/direction/desc?qterm=&404-search-button=Search" method="GET">
+    <input type="text" id="search" name="qterm" placeholder="Explore, gdp, inflation, unemployment">
+    <button type="submit" id="submit" style="background-color:#687f9f;color:white"> Search </button>
+  </form>
+  <h5 data-reactid=""><span data-reactid="">Browse by</span><a href="https://data.worldbank.org/country" data-reactid=""><span data-reactid=""> Country </span></a><span data-reactid="">or</span><a href="https://data.worldbank.org/indicator" data-reactid=""><span data-reactid=""> Indicator </span></a></h5>
+</div>
+
+<iframe src="https://data.worldbank.org/share/widget?end=2013&indicators=EN.ATM.CO2E.KT&locations=1W&start=1960&view=chart" width='100%' height='450' frameBorder='0' ></iframe>
 
 <hr>
 
