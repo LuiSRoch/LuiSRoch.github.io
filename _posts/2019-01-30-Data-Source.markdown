@@ -4,19 +4,18 @@ title:  "Data"
 ref: Data-Source
 lang: en
 ---
-
-
-<form id="search-block-form" class="navbar-form navbar-right" role="search" action="https://search.bea.gov/search" method="get" accept-charset="UTF-8" data-drupal-form-fields="edit-keys">
-  <input id="affiliate" name="affiliate" type="hidden" value="u.s.bureauofeconomicanalysis"/>
-  <div class="form-group form-group-sm js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
-    <input id="edit-keys" class="form-search form-control usagov-search-autocomplete" title="" data-drupal-selector="edit-keys" placeholder="Search" name="query" value="" type="search" aria-labelledby="btnSearch">
-  </div>
-  <button id="btnSearch" class="btn btn-default js-form-submit button" type="submit" aria-label="Search">
-    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-  </button>
-  <div id="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions"></div>
-</form>
-
+<div>
+  <form id="search-block-form" class="navbar-form navbar-right" role="search" action="https://search.bea.gov/search" method="get" accept-charset="UTF-8" data-drupal-form-fields="edit-keys">
+    <input id="affiliate" name="affiliate" type="hidden" value="u.s.bureauofeconomicanalysis"/>
+    <div class="form-group form-group-sm js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <input id="edit-keys" class="form-search form-control usagov-search-autocomplete" title="" data-drupal-selector="edit-keys" placeholder="Search" name="query" value="" type="search" aria-labelledby="btnSearch">
+    </div>
+    <button id="btnSearch" class="btn btn-default js-form-submit button" type="submit" aria-label="Search">
+      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+    </button>
+    <div id="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions"></div>
+  </form>
+</div>
 
 
 
