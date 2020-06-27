@@ -20,6 +20,18 @@ lang: en
   <iframe style="border: 1px solid #333333; overflow: hidden; width: 100%; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="450" width="100%" frameborder="0" scrolling="yes"></iframe>
 <hr>
 <br />
+
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a href="https://www.bea.gov" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Bureau of Economic Analysis</a></span>
+<br />
+  <form action="https://search.bea.gov/search?st=&404-search-button=Search" method="GET">
+    <input type="text" id="search" name="st" placeholder="Search BEA data e.g., GDP, Personal Income, International Trade...">
+    <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
+  </form>
+</div>
+
+<hr>
+
+<br />
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;"> Data provided by <a href="https://www.fincen.gov/" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Financial Crimes Enforcement Network</a></span>
   <form action="https://www.fincen.gov/search/node?keys=&404-search-button=Search" method="GET">
     <input type="text" id="search" name="keys" placeholder="Search FINCEN data e.g., SARS, fraud, insurance">
