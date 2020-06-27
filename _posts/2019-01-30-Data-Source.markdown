@@ -25,7 +25,7 @@ lang: en
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a href="https://www.bea.gov" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Bureau of Economic Analysis</a></span>
 <br />
   <form id="search-block-form" class="navbar-form navbar-right" role="search" action="https://search.bea.gov/search" method="get" accept-charset="UTF-8" data-drupal-form-fields="edit-keys">
-  <input id="affiliate" name="affiliate" type="hidden" value="u.s.bureauofeconomicanalysis" placeholder="Search BEA data e.g., GDP, Personal Income, International Trade...">
+  <input id="affiliate" name="affiliate" type="hidden" value="u.s.bureauofeconomicanalysis" placeholder="Search BEA data e.g., GDP, Personal Income, International Trade..."/>
   <input id="edit-keys" class="form-search form-control usagov-search-autocomplete" title="" data-drupal-selector="edit-keys" placeholder="Search BEA data e.g. GDP, Personal Income, International Trade" name="query" value="" type="search" aria-labelledby="btnSearch">
   <button id="btnSearch" class="btn btn-default js-form-submit button" type="submit" aria-label="Search" style="background color:#687f9f;color:white">Search</button>
   </form>
