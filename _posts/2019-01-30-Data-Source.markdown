@@ -10,7 +10,7 @@ lang: en
   <a href="https://fred.stlouisfed.org/tags/series"><strong>528,000</strong> US and international time series</a> from <a href="https://fred.stlouisfed.org/sources"><strong>87</strong> sources</a>
   <br />
   <form action="https://fred.stlouisfed.org/search?st=&404-search-button=Search" method="GET">
-    <input type="text" id="search" name="st" placeholder="Search FRED data e.g., gdp, inflation, unemployment">
+    <input type="text" id="search" name="st" placeholder="Search FRED data e.g., GDP, Inflation, Unemployment">
     <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
   </form>
 </div>
@@ -19,6 +19,19 @@ lang: en
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <iframe style="border: 1px solid #333333; overflow: hidden; width: 100%; height: 245px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="450" width="100%" frameborder="0" scrolling="yes"></iframe>
 <hr>
+<br />
+
+
+<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a href="https://www.bea.gov" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Bureau of Economic Analysis</a></span>
+<br />
+  <form action="https://search.bea.gov/search?st=&404-search-button=Search" method="GET">
+    <input type="text" id="search" name="st" placeholder="Search BEA data e.g., GDP, Personal Income, International Trade...">
+    <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
+  </form>
+</div>
+
+<hr>
+
 
 <br />
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;"> Data provided by <a href="https://www.fincen.gov/" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Financial Crimes Enforcement Network</a></span>
