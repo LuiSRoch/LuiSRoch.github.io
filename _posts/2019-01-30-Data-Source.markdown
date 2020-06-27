@@ -27,7 +27,7 @@ lang: en
 <div>
   <form id="search-block-form" class="navbar-form navbar-right" role="search" action="https://search.bea.gov/search" method="get" accept-charset="UTF-8" data-drupal-form-fields="edit-keys">
     <input id="affiliate" name="affiliate" type="hidden" value="u.s.bureauofeconomicanalysis" placeholder="Search BEA data e.g., GDP, Personal Income, International Trade..."/>
-    <input id="edit-keys" class="form-search form-control usagov-search-autocomplete" title="" data-drupal-selector="edit-keys" placeholder="Search BEA data e.g. GDP, Personal Income, International Trade" name="query" value="" type="search" aria-labelledby="btnSearch" style="background-color:#687f9f;color:white">
+    <input id="edit-keys" class="form-search form-control usagov-search-autocomplete" title="" data-drupal-selector="edit-keys" placeholder="Search BEA data e.g. GDP, Personal Income, International Trade" name="query" value="" type="search" aria-labelledby="btnSearch">
     <button id="btnSearch" class="btn btn-default js-form-submit button" type="submit" aria-label="Search" style="background-color:#687f9f;color:white">Search</button>
   </form>
 </div>
