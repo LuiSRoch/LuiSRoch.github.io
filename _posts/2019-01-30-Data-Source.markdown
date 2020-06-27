@@ -44,7 +44,7 @@ lang: en
   
   <form id="search-block-form" class="navbar-form navbar-right" role="search" action="https://search.bea.gov/search" method="get" accept-charset="UTF-8" data-drupal-form-fields="edit-keys">
     <input id="affiliate" name="affiliate" type="hidden" value="u.s.bureauofeconomicanalysis" placeholder="Search BEA data e.g., GDP, Personal Income, International Trade...">
-    <button type="submit" id="search-button" style="background-color:#687f9f;color:white">Search</button>
+    <button id="btnSearch" class="btn btn-default js-form-submit button" type="submit" aria-label="Search" style="background-color:#687f9f;color:white">Search</button>
   </form>
 </div>
 <br />
