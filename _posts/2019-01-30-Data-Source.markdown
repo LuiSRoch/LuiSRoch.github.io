@@ -9,7 +9,7 @@ lang: en
 <br />
   <a href="https://fred.stlouisfed.org/tags/series"><strong>528,000</strong> US and international time series</a> from <a href="https://fred.stlouisfed.org/sources"><strong>87</strong> sources</a>
   <br />
-  <form action="https://fred.stlouisfed.org/search?st=&404-search-button=Search" method="GET">
+  <form action="https://fred.stlouisfed.org/search?st=&404-search-button=Search" method="get">
     <input type="text" id="search" name="st" placeholder="Search FRED data e.g., gdp, inflation, unemployment">
     <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
   </form>
