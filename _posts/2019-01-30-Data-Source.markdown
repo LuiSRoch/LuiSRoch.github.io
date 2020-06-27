@@ -29,6 +29,7 @@ lang: en
     <input id="affiliate" name="affiliate" type="hidden" value="u.s.bureauofeconomicanalysis" placeholder="Search BEA data e.g., GDP, Personal Income, International Trade..."/>
     <input id="edit-keys" class="form-search form-control usagov-search-autocomplete" title="" data-drupal-selector="edit-keys" placeholder="Search BEA data e.g. GDP, Personal Income, International Trade" name="query" value="" type="search" aria-labelledby="btnSearch" style="background-color:#687f9f;color:white">
     <button id="btnSearch" class="btn btn-default js-form-submit button" type="submit" aria-label="Search" style="background-color:#687f9f;color:white">Search</button>
+    <button id="btnSearch" class="btn btn-default js-form-submit button" type="submit" aria-label="Search" style="background-color:#687f9f;color:white">Search</button>
   </form>
 </div>
 <br />
