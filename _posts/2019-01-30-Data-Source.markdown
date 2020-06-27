@@ -38,8 +38,26 @@ lang: en
 
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a href="https://www.bea.gov" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Bureau of Economic Analysis</a></span>
 <br />
-  <form action="https://www.bea.gov/data/search" method="get">
-    <input type="Search" id="edit-keys" name="commit" placeholder="Search BEA data e.g., GDP, Personal Income, International Trade...">
+
+
+<div>
+  <form id="search-block-form" class="navbar-form navbar-right" role="search" action="https://search.bea.gov/search" method="get" accept-charset="UTF-8" data-drupal-form-fields="edit-keys">
+    <input id="affiliate" name="affiliate" type="hidden" value="u.s.bureauofeconomicanalysis"/>
+    <div class="form-group form-group-sm js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <input id="edit-keys" class="form-search form-control usagov-search-autocomplete" title="" data-drupal-selector="edit-keys" placeholder="Search" name="query" value="" type="search" aria-labelledby="btnSearch">
+    </div>
+    <button id="btnSearch" class="btn btn-default js-form-submit button" type="submit" aria-label="Search">
+      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+    </button>
+    <div id="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions"></div>
+  </form>
+</div>
+  
+  
+  
+  
+  <form id="search-block-form" class="navbar-form navbar-right" role="search" action="https://search.bea.gov/search" method="get" accept-charset="UTF-8" data-drupal-form-fields="edit-keys">
+    <input id="affiliate" name="affiliate" type="hidden" value="u.s.bureauofeconomicanalysis" placeholder="Search BEA data e.g., GDP, Personal Income, International Trade...">
     <button type="submit" id="search-button" style="background-color:#687f9f;color:white">Search</button>
   </form>
 </div>
