@@ -23,7 +23,7 @@ lang: en
 
 <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15px;color: #333333;text-decoration: none;">Data provided by <a href="https://www.bea.gov" rel="nofollow" target="_blank" style="font-size: 15px;color: #06529D; font-weight: bold;" class="underline_link" align="right">Bureau of Economic Analysis</a></span>
 <br />
-  <form action="https://search.bea.gov/search?affiliate=u.s.bureauofeconomicanalysis&query=Search" method="GET">
+  <form action="https://search.bea.gov/search?utf8=u.s.bureauofeconomicanalysis&query=+&commit=Search" method="GET">
     <input type="text" id="search" name="st" placeholder="Search BEA data e.g., GDP, Personal Income, International Trade...">
     <button type="submit" id="submit" style="background-color:#687f9f;color:white">Search</button>
   </form>
